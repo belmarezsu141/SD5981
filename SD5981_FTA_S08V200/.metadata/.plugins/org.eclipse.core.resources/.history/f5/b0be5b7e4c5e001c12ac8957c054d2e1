@@ -1,0 +1,23 @@
+/*
+ * HiLink_Common_Func.cpp
+ *
+ *  Created on: Apr 12, 2017
+ *      Author: yanfen.fang
+ */
+
+#include "TestClass.h"
+#include <UserAPI.h>
+#include <iostream>
+#include <string>
+#include <map>
+#include <synchapi.h>
+
+#define I2C_DELAY 		5
+
+using namespace std;
+using namespace std;
+using namespace PhxAPI;
+
+
+
+

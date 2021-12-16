@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\000930_HEFAN\Application\SD5981\SD5981_FTA_S08V200_20211209\SD5981_FTA_S08V200\usercode"/>
+			<item value="D:\S08V200\SD5981\输出\输出-program\SD5981_FTA_S08V200\Hilink30LRV101_tml"/>
+			<item value="D:\S08V200\SD5981\输出\输出-program\SD5981_FTA_S08V200\HiLink16LRV100_tml"/>
+			<item value="C:\Users\Administrator\Desktop\TestProgram-0731\UserCode"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

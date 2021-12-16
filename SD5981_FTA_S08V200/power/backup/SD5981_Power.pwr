@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<powers>
+    <powerblock name="DVS_1P8" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="1.44*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.44*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.44*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="2.16*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef075/VIHLR/VOHLR" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*0.75*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*0.75*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*0.75*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*0.75*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*0.75*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.75*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.75*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*0.75*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.75*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*0.75*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.75*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.75*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.75*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.75*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.75*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.75*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef094/VIHLR/VOHLR" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*0.94*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*0.94*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*0.94*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*0.94*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*0.94*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.94*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.94*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*0.94*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.94*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*0.94*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.94*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.94*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.94*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.94*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.94*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.94*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef095/PLL/TSENSOR" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef105/VIHLR/VOHLR_IDDQ" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef100/VIHLR/VOHLR_IDDQ" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef110/VIHLR/VOHLR" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*1.1*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*1.1*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*1.1*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*1.1*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*1.1*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.1*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.1*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*1.1*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.1*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*1.1*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.1*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.1*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.1*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.1*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.1*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.1*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef093/VIHLR/VOHLR" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*0.93*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*0.93*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*0.93*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*0.93*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*0.93*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.93*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.93*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*0.93*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.93*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*0.93*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.93*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.93*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.93*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.93*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.93*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.93*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef092/VIHLR/VOHLR" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*0.92*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*0.92*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*0.92*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*0.92*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*0.92*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.92*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.92*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*0.92*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.92*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*0.92*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.92*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.92*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.92*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.92*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.92*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.92*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef091/VIHLR/VOHLR" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*0.91*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*0.91*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*0.91*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*0.91*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*0.91*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.91*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.91*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*0.91*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.91*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*0.91*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.91*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.91*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.91*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.91*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.91*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.91*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef90/VIHLR/VOHLR" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*0.90*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*0.90*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*0.90*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*0.90*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*0.90*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.90*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.90*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*0.90*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.90*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*0.90*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.90*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.90*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.90*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.90*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.90*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.90*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef089/VIHLR/VOHLR" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*0.89*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*0.89*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*0.89*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*0.89*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*0.89*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.89*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.89*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*0.89*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.89*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*0.89*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.89*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.89*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.89*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.89*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.89*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.89*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef088/VIHLR/VOHLR" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*0.88*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*0.88*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*0.88*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*0.88*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*0.88*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.88*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.88*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*0.88*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.88*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*0.88*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.88*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.88*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.88*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.88*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.88*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.88*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef085/VIHLR/VOHLR" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*0.85*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*0.85*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*0.85*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*0.85*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*0.85*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.85*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.85*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*0.85*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.85*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*0.85*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.85*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.85*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.85*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.85*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.85*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.85*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef120/VIHLR/VOHLR" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.2*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="EFUSE0/MREPAIR/Vcoef085LVLF" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.85*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="H16LR_VDDL" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.72  *Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2    *Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8    *Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8    *Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2    *Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8    *Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8    *Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0       * Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8    *Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.728*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.776*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.776*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8    *Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8    *Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8    *Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8    *Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="H16LR_VDDN" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0   *Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="H16LR_VDDH" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.88*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2  *Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8  *Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8  *Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2  *Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8  *Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8  *Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0      *Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8  *Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.87*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.82*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.82*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8  *Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8  *Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8  *Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8  *Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Pow_HiLink_STD_VDDL" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.72*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.164*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.776*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Pow_HiLink_STD_VDDN" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0 *Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Pow_HiLink_STD_VDDH" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.88*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.236*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.824*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0 *Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="HinlinkPWRUP_H16LR" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="HinlinkPWRUP_H30LR" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="0*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef100/DDR2V5/VIHLR/VOHLR" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef105/PLL/TSENSOR" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef105//IOZHLS/VIHLR/VOHLR" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef100/IOZHLS/VIHLR/VOHLR" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef095/IOZHLS/VIHLR/VOHLR" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef105/IOZHLS/VIHLR/VOHLS" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef100/IOZHLS/VIHLR/VOHLS" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef095/IOZHLS/VIHLR/VOHLS" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef105/VIHLS/VOHLR" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef100/VIHLS/VOHLR" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef095/VIHLS/VOHLR" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef105/VIHLR/VOHLS" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef100/VIHLR/VOHLS" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef095/VIHLR/VOHLS" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef105/VIHLR/VOHLR" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*1.05*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef100/VIHLR/VOHLR" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="Vcoef095/VIHLR/VOHLR" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.2*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="1.8*0.95*Vcoef" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="OS_PS" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="OS_PPMU" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="PowerDown" comment="">
+        <power pin="DVDD08" order="0" state="Off" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="Off" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="Off" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="Off" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="Off" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="Off" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="Off" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="Off" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="Off" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="Off" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="Off" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="Off" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="Off" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="Off" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="Off" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="Off" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.1" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="H30_General_Power_Powerup_step1" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0s" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="H30_General_Power_Powerup_step2" comment="">
+        <power pin="DVDD08" order="1" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="2" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0s" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="H30_General_Power_Powerup_step3" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="1" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="1.2" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0.8" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0s" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="H16_General_Power_Powerup_step1" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0s" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="H16_General_Power_Powerup_step2" comment="">
+        <power pin="DVDD08" order="1" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="2" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="2" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0s" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+    <powerblock name="H16_General_Power_Powerup_step3" comment="">
+        <power pin="DVDD08" order="0" state="On" clamplow="-90A" clamphigh="90A" clampdelay="0ms" range="1A" force="0.8" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD12_HSS" order="0" state="On" clamplow="-80A" clamphigh="80A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_HSS" order="0" state="On" clamplow="-5A" clamphigh="5A" clampdelay="0ms" range="1A" force="0" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDD08_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="VDDIO12_DDR" order="0" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PLL_DDR" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_IO" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD18_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="DVDD08_EFUSE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_PCIE" order="1" state="On" clamplow="-2A" clamphigh="2A" clampdelay="0ms" range="1A" force="1.8" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_PCIE" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_CPPI" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0.8" vbump="" delay="5ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD08_SCPLL" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_0" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0ms" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+        <power pin="AVDD18_TS_1" order="0" state="On" clamplow="-1A" clamphigh="1A" clampdelay="0ms" range="1A" force="0" vbump="" delay="0s" compensation="0nF" resistance="0Ohm" mode="DFV" trise="200us" />
+    </powerblock>
+</powers>

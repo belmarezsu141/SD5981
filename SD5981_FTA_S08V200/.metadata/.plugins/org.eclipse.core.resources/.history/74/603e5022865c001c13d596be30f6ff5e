@@ -1,0 +1,293 @@
+
+//for test method API interfaces
+//#include "mapi.hpp"
+//using namespace std;
+//using namespace V93kLimits;
+#include <stdio.h>
+#include <string.h>
+#include <iostream>
+#include <string>
+#include <unistd.h>
+#include "TestClass.h"
+//#include "CCTimer.h"
+#include <UserAPI.h>
+#include "type.h"
+#include "HILINK_DRIVE/HiLink_Types.h"
+#include <cmath>
+#include <HILINK_PUG/HiLink16_PUG.h>
+/**
+ * Test method class.
+ *
+ * For each testsuite using this test method, one object of this
+ * class is created.
+ */
+
+using namespace std;
+using namespace PhxAPI;
+
+PinArrayDouble MAX_MIN_PWR_DC(string Pins)
+{
+111
+ 	string powerBlockName = "Pow_Hilink16_STD_Vcoef105";
+	string levelBlcokName = "Lev_Hilink16_STD_Vcoef100";
+
+	if(isDPS128) {TheInst.DCVI().Power().Apply();}
+	else {	TheInst.DCVS().Power().Apply();}
+
+	TheInst.Digital().Level().Apply();
+	if(PrintDebugEn) cout<<"apply/level  power H"<<endl;
+
+	double irange = 1.1 ;//1A
+//	double vExpect = 1;//1V
+	int sampleSize = 6;
+	double waittime =10e-3; //10ms
+	PinArrayDouble result;
+
+	if(isDPS128){
+		TheInst.DCVI().Pins(Pins).SetIClampL(-0.05);
+		TheInst.DCVI().Pins(Pins).SetIClampH(irange*0.98);
+		TheInst.DCVI().Pins(Pins).SetMeasureMode(E_DC_MODE_MI);
+		TheInst.DCVI().Pins(Pins).SetMeasureMethod(E_DC_METHOD_STATIC);
+		TheInst.DCVI().Pins(Pins).SetMeasureOrder(E_DC_ORDER_GROUP);
+		TheInst.DCVI().Pins(Pins).SetReadMode(E_DC_MODE_MEASURE);
+		TheInst.DCVI().Pins(Pins).SetIRange(E_POWER_R1A); //E_POWER_R500MA   R1A
+		TheInst.DCVI().Pins(Pins).SetVForceMode(E_POWER_FV);
+		TheInst.DCVI().Pins(Pins).SetVForceState(E_PW_ON);
+		TheInst.DCVI().Pins(Pins).Connect();
+		TheInst.DCVI().Pins(Pins).SetSampleSize(sampleSize);
+		TheInst.DCVI().Pins(Pins).SetWaitTime(waittime);
+		TheInst.DCVI().Pins(Pins).Measure();
+
+		result = TheInst.DCVI().Pins(Pins).GetMeasureResults();
+	}
+	else{
+		TheInst.DCVS().Pins(Pins).SetIClampL(-0.05);
+		TheInst.DCVS().Pins(Pins).SetIClampH(irange*0.98);
+		TheInst.DCVS().Pins(Pins).SetMeasureMode(E_DC_MODE_MI);
+		TheInst.DCVS().Pins(Pins).SetMeasureMethod(E_DC_METHOD_STATIC);
+		TheInst.DCVS().Pins(Pins).SetMeasureOrder(E_DC_ORDER_GROUP);
+		TheInst.DCVS().Pins(Pins).SetReadMode(E_DC_MODE_MEASURE);
+		TheInst.DCVS().Pins(Pins).SetIRange(E_POWER_R1A); //E_POWER_R500MA
+		TheInst.DCVS().Pins(Pins).SetVForceMode(E_POWER_FV);
+		TheInst.DCVS().Pins(Pins).SetVForceState(E_PW_ON);
+	//	TheInst.DCVS().Pins("VDD08").SetVForce(vforceLVCC08);
+	//	TheInst.DCVS().Pins("LVCC08").SetVForce(vforceLVCC08);
+	//	TheInst.DCVS().Pins("HVCC12").SetVForce(vforceHVCC12);
+		TheInst.DCVS().Pins(Pins).Connect();
+		TheInst.DCVS().Pins(Pins).SetSampleSize(sampleSize);
+		TheInst.DCVS().Pins(Pins).SetWaitTime(waittime);
+		TheInst.DCVS().Pins(Pins).Measure();
+
+		result = TheInst.DCVS().Pins(Pins).GetMeasureResults();
+		}
+
+//	result.ShowPinArrayData();
+	return result;
+}
+
+class MIN_MAX_PWR: public TestClass {
+
+public:
+	/**
+	 *Initialize the parameter interface to the testflow.
+	 *This method is called just once after a testsuite is created.
+	 */
+	STRING              sTestMode;
+	STRING 				sHVCC;
+	STRING 				sHVCCSPEC;
+	STRING 				sLVCC;
+	STRING 				sLVCCSPEC;
+	STRING 				mHiLink16_MacroList;
+	STRING 				mPinList;
+	STRING				mLoopbackMode;
+	INT					iPrintLvl;
+
+	void init()
+	{
+		add_param("Power_Mode","string",&sTestMode)
+					 //.set_options("MIN_PWR:MAX_PWR")
+					 .set_default("MIN_PWR");
+		add_param("HVCC_PinName","PinString",&sHVCC);
+		add_param("HVCC_SpecName","string",&sHVCCSPEC)
+					 .set_comment("Each Spec is one-to-one correspondence to each HVCC_Pin, support ARRAY");
+		add_param("LVCC_PinName","PinString",&sLVCC);
+		add_param("LVCC_SpecName","string",&sLVCCSPEC)
+					 .set_comment("Each Spec is one-to-one correspondence to each LVCC_Pin, support ARRAY");
+		add_param("H16LR_MacroList","string",&mHiLink16_MacroList)
+					 .set_comment("HiLink16 Macro List for test")
+					 //.set_options("0,1:FromPinList")
+					 .set_default("0,1");
+		add_param("PinList","PinString",&mPinList);
+		add_param("Loopback_Mode","string",&mLoopbackMode)
+					 //.set_options("Bump:PreDriver:External")
+					 .set_default("Bump");
+		add_param("PrintLvl[0~15]","int",&iPrintLvl)
+					 .set_comment("Enable this flag when FlowVariable DebugLevel = 10000(16)"
+							     "0000 = RELEASE; 0001 = GENERAL; 0010 = DETAIL; 0100 = EYE_PLOT; 1000 = REG_ACCESS; Can be Assembled")
+					 //.set_options("0:1:3:4:7:9")
+					 .set_default("3");
+	}
+
+	void execute()
+	{
+		m_TestName = TheSoft.Flow().Test().GetCurrentTestName();
+		m_TestNumber  = TheSoft.Flow().GetCurrentFlowTestTestNumber();
+		m_HardBin  = TheSoft.Flow().GetCurrentFlowTestHardFailBin();
+		m_SoftBin  = TheSoft.Flow().GetCurrentFlowTestSoftFailBin();
+
+		static	STRING          	sTestsuiteName;
+		static	INT					iOffline;
+		static  MACRO_LANE_SEL 		MacroLane_Sel;
+
+		static	SITE_DOUBLE 		Power_Total;
+
+		//=============================================
+		// Variables and MacroLane initialization
+		//=============================================
+		GET_SYSTEM_FLAG	("offline",iOffline);	 iOffline = 0;
+		GET_TESTSUITE_NAME(sTestsuiteName);
+		hout.setLevel(iPrintLvl);
+		hout.printsuitename(sTestsuiteName);
+		Select_Macro_Lane(MacroLane_Sel,mHiLink16_MacroList,mPinList);
+
+		SITE_DOUBLE					Power_HVCC;
+		SITE_DOUBLE					Power_LVCC;
+
+		Power_Total.init(0);
+		Power_HVCC.init(0);
+		Power_LVCC.init(0);
+
+		//=============================================
+		// Measurement
+		//=============================================
+		if (sTestMode == "MIN_PWR") {
+			HiLinkPowerUpCtrl(DEFAULT_HILINK_POWERUPCTRL_VECTOR);
+//				FUNCTIONAL_TEST();
+		} else if (sTestMode == "MAX_PWR") {
+			if (CP_FT_Program == "FT") {
+//					FLEX_RELAY frelay;
+//					frelay.pin("pHilink16_TX,pHilink16_RX").set("IDLE","OFF");
+//					frelay.execute();
+				string disconnecPatBurstName = "Disconnect_TX_RX_DZ";
+				TheInst.Digital().Pattern().Start(disconnecPatBurstName);
+				TheInst.Wait(30 *ms);
+			}
+
+			//=============================================
+			// Device Setup
+			//=============================================
+//				D2S_FRAMEWORK;
+			d2s::d2s_LABEL_BEGIN("H16LRTV100_MPB_MAX_Power_SETUP",Global_D2S_Mode);
+
+				selectMacro_MB(MacroLane_Sel);
+				DS.Broadcast();
+
+				DS.rxRegs.setdfepwrdb(0x1)
+						 .setdfemvtappwrdb(0x1)
+						 .setdfefxtapen(0x1f)
+						 .Write2DUT(4);
+				DS.rxRegs.setdfefxtap1(0x0)
+						 .setdfefxtap2(0x0)
+						 .Write2DUT(5);
+				DS.rxRegs.setdfefxtap3(0x0)
+						 .setdfefxtap4(0x0)
+						 .setdfefxtap5(0x0)
+						 .Write2DUT(6);
+				DS.rxRegs.setdfemvtapsel(0x1)
+						 .Write2DUT(7);
+				DS.rxRegs.setdfemvtap1(0x0)
+						 .setdfemvtap2(0x0)
+						 .setdfemvtap3(0x0)
+						 .Write2DUT(8);
+				DS.rxRegs.setdfemvtap4(0x0)
+						 .setdfemvtap5(0x0)
+						 .setdfemvtap6(0x0)
+						 .Write2DUT(9);
+
+				if (mLoopbackMode == "External" ) {
+					DisableTxToRxSerLpbk();
+				} else {
+					EnableTxToRxSerLpbk(mLoopbackMode);
+				}
+
+				EnableTxPrbsGen(PRBS15);
+
+				EnableRxPrbsCheck(PRBS15);
+
+			d2s::d2s_LABEL_END();
+		} else {
+			hout(GENERAL) << "!!!!!!!Please Select MIN_PWR or MAX_PWR in Para!!!!!!!!" << endl;
+			_exit(0);
+		}
+
+		/* the spec name in level must be same as the pin name, so this method could get the corrrect voltage value*/
+
+		STRING_VECTOR 			vDPSPins_HVCC;
+		STRING_VECTOR 			vDPSPins_LVCC;
+		STRING_VECTOR 			vDPSSpec_HVCC;
+		STRING_VECTOR 			vDPSSpec_LVCC;
+
+		parseListOfString(sHVCC,vDPSPins_HVCC,',');
+		parseListOfString(sLVCC,vDPSPins_LVCC,',');
+		parseListOfString(sHVCCSPEC,vDPSSpec_HVCC,',');
+		parseListOfString(sLVCCSPEC,vDPSSpec_LVCC,',');
+
+		ARRAY_D					Meas_HVCC;
+		ARRAY_D					Meas_LVCC;
+		Meas_HVCC.resize(vDPSPins_HVCC.size());
+		Meas_LVCC.resize(vDPSPins_LVCC.size());
+
+
+
+		if (vDPSPins_HVCC.size() > 0) {
+
+			PinArrayDouble MINMAXPWR_Measure_resul_vDPSPins_HVCC = MAX_MIN_PWR_DC(sHVCC);
+//				dps_task.pin(sHVCC).measurementMode(TM::MEASURE_CURRENT).min(0 uA).max(1000 mA);
+//				dps_task.execMode(TM::PVAL).execute();
+
+			DOUBLE 	HVCCtmpVoltage = TheSoft.Specs().GetValue("DCspec.spec", "Vcoef");
+			FOREACH_ACTIVESITE_BEGIN(SiteID, bInterrupt)
+//					DOUBLE 	HVCCtmpVoltage = 0.0;
+				for (UINT i = 0; i < vDPSPins_HVCC.size(); i ++) {
+					Meas_HVCC[i] = MINMAXPWR_Measure_resul_vDPSPins_HVCC.GetData(vDPSPins_HVCC[i],SiteID);
+//						HVCCtmpVoltage = Primary.getLevelSpec().getSpecValue(vDPSSpec_HVCC[i]);
+					Power_HVCC[SiteID] = Power_HVCC[SiteID] + Meas_HVCC[i] * HVCCtmpVoltage ;
+				};
+			FOREACH_ACTIVESITE_END
+		}
+
+		if (vDPSPins_LVCC.size() > 0) {
+//				dps_task.pin(sLVCC).measurementMode(TM::MEASURE_CURRENT).min(0 uA).max(1000 mA);
+//				dps_task.execMode(TM::PVAL).execute();
+			PinArrayDouble MINMAXPWR_Measure_resul_vDPSPins_LVCC = MAX_MIN_PWR_DC(sLVCC);
+			DOUBLE 	LVCCtmpVoltage = TheSoft.Specs().GetValue("DCspec.spec", "Vcoef");
+			FOREACH_ACTIVESITE_BEGIN(SiteID, bInterrupt)
+//					DOUBLE 	LVCCtmpVoltage = 0.0;
+				for (UINT i = 0; i < vDPSPins_LVCC.size(); i ++) {
+					Meas_LVCC[i] = MINMAXPWR_Measure_resul_vDPSPins_LVCC.GetData(vDPSPins_LVCC[i],SiteID) / (1*mA);
+//						LVCCtmpVoltage = Primary.getLevelSpec().getSpecValue(vDPSSpec_LVCC[i]);
+					Power_LVCC[SiteID] = Power_LVCC[SiteID] + Meas_LVCC[i] * LVCCtmpVoltage ;
+				}
+			FOREACH_ACTIVESITE_END
+		}
+
+
+		FOREACH_ACTIVESITE_BEGIN(SiteID, bInterrupt)
+			Power_Total[SiteID] = Power_HVCC[SiteID] + Power_LVCC[SiteID];
+			hout(GENERAL) << "Power_Total = " << Power_Total[SiteID] << " mW !!\n";
+			if (iOffline) {
+				if (sTestMode == "MIN_PWR") {
+					Power_Total[SiteID] = 50;
+				} else {
+					Power_Total[SiteID] = 1000;
+				}
+			}
+		FOREACH_ACTIVESITE_END
+
+		//=============================================
+		// Datalog
+		//=============================================
+		HiLink_PerSite_Judge(MacroLane_Sel, sTestMode, Power_Total);
+	}
+};
+REGISTER_TESTCLASS("MIN_MAX_PWR", MIN_MAX_PWR)

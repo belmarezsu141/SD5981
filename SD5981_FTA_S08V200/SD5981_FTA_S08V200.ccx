@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<program name="SD5981_FTA_S08V200">
+    <items>
+        <pin>SD5981_PinMap.pin</pin>
+        <specs>
+            <spec>SD5981_AC_SPEC.spec</spec>
+            <spec>SD5981_DC_SPEC.spec</spec>
+        </specs>
+        <setting />
+        <global />
+        <channelmap>SD5981_FTC_Channel.pm</channelmap>
+        <power>SD5981_Power.pwr</power>
+        <level>SD5981_Level.lvl</level>
+        <timing>SD5981_Timing.tmg</timing>
+        <patternburst>5981.bst</patternburst>
+        <tests>
+            <test>SD5981_Testflow_H30_Hilink.tst</test>
+            <test>SD5981_Testflow_H16_Hilink.tst</test>
+            <test>SD5981_DFT.tst</test>
+        </tests>
+        <flows>
+            <flow>Hi598_H16_flw_V200.fl</flow>
+            <flow>Hi5981_H30_flwV200.fl</flow>
+            <flow>SubFlow_OS.fl</flow>
+            <flow>POWER_OFF.fl</flow>
+            <flow>dubug.fl</flow>
+        </flows>
+        <proberhandler />
+    </items>
+    <tdrinfos>
+        <path></path>
+    </tdrinfos>
+</program>

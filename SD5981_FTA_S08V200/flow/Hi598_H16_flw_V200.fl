@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flow name="Hi598_H16_flw_V200">
+    <flowtable>
+        <row enabled="TRUE" opcode="Test" operand="RLY_On_PCM_1_2" test="RLY_On_PCM_1_2" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16_PCM_OUTPUT_156M25" test="H16_PCM_OUTPUT_156M25" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_DUT_Reset_Init" test="H16LRV100_DUT_Reset_Init" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_RxSigResBefCal_AC_VDDN" test="H16LRV100_RxSigResBefCal_AC_VDDN" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_RxdiffResBefCal_AC_VDDN" test="H16LRV100_RxdiffResBefCal_AC_VDDN" testnumber="70010000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7001" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_Ext2kRes_VDDN" test="H16LRV100_Ext2kRes_VDDN" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_DUT_Reset_Init_HT" test="H16LRV100_DUT_Reset_Init_HT" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_IO_N_M3_Vtl_HT" test="H16LRV100_IO_N_M3_Vtl_HT" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_156M25_10G3125_F_16_11_21_1010_81_Tx2Load_RxAC_VDDN_HT" test="H16LRV100_FWCAL_CS0L_Refclk0_156M25_10G3125_F_16_11_21_1010_81_Tx2Load_RxAC_VDDN_HT" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_DUT_Reset_Init_1" test="H16LRV100_DUT_Reset_Init_1" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_156M25_10G3125_F_16_11_21_1010_81_Tx2Load_RxAC_VDDN" test="H16LRV100_FWCAL_CS0L_Refclk0_156M25_10G3125_F_16_11_21_1010_81_Tx2Load_RxAC_VDDN" testnumber="70020000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7002" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_RxSigResAftCal_AC_VDDN" test="H16LRV100_RxSigResAftCal_AC_VDDN" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_RxDiffResAftCal_AC_VDDN_1" test="H16LRV100_RxDiffResAftCal_AC_VDDN_1" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_RxTermVoltToGnd_DC_VDDN" test="H16LRV100_RxTermVoltToGnd_DC_VDDN" testnumber="70040000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7004" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_RxTermVoltToGnd_AC_VDDN" test="H16LRV100_RxTermVoltToGnd_AC_VDDN" testnumber="70050000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7005" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_TxSigResAftCal_All0_VDDN" test="H16LRV100_TxSigResAftCal_All0_VDDN" testnumber="70060000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7006" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_TxSigResAftCal_All1_VDDN" test="H16LRV100_TxSigResAftCal_All1_VDDN" testnumber="70070000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7007" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100TxFIR_DC_MAIN_All0_VDDN" test="H16LRV100TxFIR_DC_MAIN_All0_VDDN" testnumber="70080000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7008" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100TxFIR_DC_MAIN_All1_VDDN" test="H16LRV100TxFIR_DC_MAIN_All1_VDDN" testnumber="70090000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7009" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100TxFIR_DC_PRE1_All0_VDDN" test="H16LRV100TxFIR_DC_PRE1_All0_VDDN" testnumber="70100000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7010" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100TxFIR_DC_PRE1_All1_VDDN" test="H16LRV100TxFIR_DC_PRE1_All1_VDDN" testnumber="70110000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7011" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100TxFIR_DC_PRE2_All0_VDDN" test="H16LRV100TxFIR_DC_PRE2_All0_VDDN" testnumber="70120000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7012" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100TxFIR_DC_PRE2_All1_VDDN" test="H16LRV100TxFIR_DC_PRE2_All1_VDDN" testnumber="70130000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7013" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100TxFIR_DC_POST1_All0_VDDN" test="H16LRV100TxFIR_DC_POST1_All0_VDDN" testnumber="70140000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7014" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100TxFIR_DC_POST1_All1_VDDN" test="H16LRV100TxFIR_DC_POST1_All1_VDDN" testnumber="70150000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7015" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100TxFIR_DC_POST2_All0_VDDN" test="H16LRV100TxFIR_DC_POST2_All0_VDDN" testnumber="70160000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7016" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100TxFIR_DC_POST2_All1_VDDN" test="H16LRV100TxFIR_DC_POST2_All1_VDDN" testnumber="70170000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7017" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_156M25_10G3125_F_16_11_21_1010_81_Tx2Load_RxAC_VDDN_1" test="H16LRV100_FWCAL_CS0L_Refclk0_156M25_10G3125_F_16_11_21_1010_81_Tx2Load_RxAC_VDDN_1" testnumber="70180000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7018" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_TxTermVolt_All0_Amp0_VDDN" test="H16LRV100_TxTermVolt_All0_Amp0_VDDN" testnumber="70190000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7019" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_TxTermVolt_All1_Amp0_VDDN" test="H16LRV100_TxTermVolt_All1_Amp0_VDDN" testnumber="70200000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7020" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_156M25_10G3125_F_16_11_21_1010_81_Tx2Load_RxAC_VDDN_2" test="H16LRV100_FWCAL_CS0L_Refclk0_156M25_10G3125_F_16_11_21_1010_81_Tx2Load_RxAC_VDDN_2" testnumber="70210000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7021" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_TxTermVolt_All0_Amp7_VDDN" test="H16LRV100_TxTermVolt_All0_Amp7_VDDN" testnumber="70220000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7022" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_TxTermVolt_All1_Amp7_VDDN" test="H16LRV100_TxTermVolt_All1_Amp7_VDDN" testnumber="70230000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7023" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="PCM_Bypass_H16" test="PCM_Bypass_H16" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_RefclkLockRange_CS0L_Refclk0_VDDN" test="H16LRV100_RefclkLockRange_CS0L_Refclk0_VDDN" testnumber="70240000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7024" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="RLY_On_PCM_1_2_1" test="RLY_On_PCM_1_2_1" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16_PCM_OUTPUT_156M25_1" test="H16_PCM_OUTPUT_156M25_1" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_DUT_Reset_Init_2" test="H16LRV100_DUT_Reset_Init_2" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_ILOLockMargin_VDDN" test="H16LRV100_ILOLockMargin_VDDN" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_DUT_Reset_Init_3" test="H16LRV100_DUT_Reset_Init_3" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0H_Refclk0_156M25_10G3125_F_20_11_21_1010_101_Tx2Term_RxDC_VDDN_1" test="H16LRV100_FWCAL_CS0H_Refclk0_156M25_10G3125_F_20_11_21_1010_101_Tx2Term_RxDC_VDDN_1" testnumber="70270000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7027" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_ILOFreqStability_VDDN" test="H16LRV100_ILOFreqStability_VDDN" testnumber="70280000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7028" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_PTATCurrentStability_VDDN" test="H16LRV100_PTATCurrentStability_VDDN" testnumber="70290000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7029" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16_PCM_OUTPUT_156M25_1_1" test="H16_PCM_OUTPUT_156M25_1_1" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_DUT_Reset_Init_4" test="H16LRV100_DUT_Reset_Init_4" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_156M25_5G_F_20_11_22_109_201_Tx2Term_RxDC_VDDN" test="H16LRV100_FWCAL_CS0L_Refclk0_156M25_5G_F_20_11_22_109_201_Tx2Term_RxDC_VDDN" testnumber="70300000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7030" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H15_ClkPurityFmin_5G_CSL_ABIST_VDDN" test="H15_ClkPurityFmin_5G_CSL_ABIST_VDDN" testnumber="70310000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7031" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_156M25_10G3125_F_16_11_21_1010_81_Tx2Term_RxDC_VDDN" test="H16LRV100_FWCAL_CS0L_Refclk0_156M25_10G3125_F_16_11_21_1010_81_Tx2Term_RxDC_VDDN" testnumber="70320000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7032" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H15_ClkPurityFmax_10G3125_CSL_ABIST_VDDN" test="H15_ClkPurityFmax_10G3125_CSL_ABIST_VDDN" testnumber="70330000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7033" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16_PCM_OUTPUT_156M25_3" test="H16_PCM_OUTPUT_156M25_3" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_DUT_Reset_Init_2_1" test="H16LRV100_DUT_Reset_Init_2_1" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0H_Refclk0_156M25_10G3125_F_20_11_21_1010_101_Tx2Term_RxDC_VDDN_2" test="H16LRV100_FWCAL_CS0H_Refclk0_156M25_10G3125_F_20_11_21_1010_101_Tx2Term_RxDC_VDDN_2" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_RxSquelchEye_10G3125_ABIST_VDDN" test="H16LRV100_RxSquelchEye_10G3125_ABIST_VDDN" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_DUT_Reset_Init_5" test="H16LRV100_DUT_Reset_Init_5" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_156M25_10G3125_F_16_11_21_1010_81_Tx2Term_RxDC_VDDN_1" test="H16LRV100_FWCAL_CS0L_Refclk0_156M25_10G3125_F_16_11_21_1010_81_Tx2Term_RxDC_VDDN_1" testnumber="70340000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7034" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_TxEScopePrbs15_10G3125_ABIST_VDDN" test="H16LRV100_TxEScopePrbs15_10G3125_ABIST_VDDN" testnumber="70350000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7035" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_TxIjEScopePrbs15_10G3125_ABIST_VDDN" test="H16LRV100_TxIjEScopePrbs15_10G3125_ABIST_VDDN" testnumber="70360000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7036" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_RxSensitivity_10G3125_ABIST_VDDN" test="H16LRV100_RxSensitivity_10G3125_ABIST_VDDN" testnumber="70370000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7037" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_RxCTELTol_10G3125_ABIST_VDDN" test="H16LRV100_RxCTELTol_10G3125_ABIST_VDDN" testnumber="70380000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7038" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_RxJitterTol_10G3125_ABIST_VDDN" test="H16LRV100_RxJitterTol_10G3125_ABIST_VDDN" testnumber="70390000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7039" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_RxFreqOffsetTol_10G3125_ABIST_VDDN" test="H16LRV100_RxFreqOffsetTol_10G3125_ABIST_VDDN" testnumber="70400000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7040" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H15_AVS_Verify_10G3125_ABIST_VDDN" test="H15_AVS_Verify_10G3125_ABIST_VDDN" testnumber="70410000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7041" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16_PCM_OUTPUT_100MHz_8" test="H16_PCM_OUTPUT_100MHz_8" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_DUT_Reset_Init_4_1" test="H16LRV100_DUT_Reset_Init_4_1" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_100M_5G_F_20_11_22_1615_201_Tx2Term_RxDC_VDDN_1" test="H16LRV100_FWCAL_CS0L_Refclk0_100M_5G_F_20_11_22_1615_201_Tx2Term_RxDC_VDDN_1" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_RxALOS_TH_5G_ABIST_VDDN" test="H16LRV100_RxALOS_TH_5G_ABIST_VDDN" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_DUT_Reset_Init_4_1_1" test="H16LRV100_DUT_Reset_Init_4_1_1" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_100M_2G5_H_40_11_22_1615_201_Tx2Term_RxDC_VDDN" test="H16LRV100_FWCAL_CS0L_Refclk0_100M_2G5_H_40_11_22_1615_201_Tx2Term_RxDC_VDDN" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_TxIDLE_PCIE_2G5_DC" test="H16LRV100_TxIDLE_PCIE_2G5_DC" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_DUT_Reset_Init_4_1_1_1" test="H16LRV100_DUT_Reset_Init_4_1_1_1" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_100M_2G5_H_40_11_22_1615_201_Tx2Term_RxDC_VDDN_1" test="H16LRV100_FWCAL_CS0L_Refclk0_100M_2G5_H_40_11_22_1615_201_Tx2Term_RxDC_VDDN_1" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_TxRxDET_PCIE_2G5_ABIST_VDDN" test="H16LRV100_TxRxDET_PCIE_2G5_ABIST_VDDN" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_DUT_Reset_Init_4_1_1_1_1" test="H16LRV100_DUT_Reset_Init_4_1_1_1_1" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_100M_2G5_H_40_11_22_1615_201_Tx2Term_RxDC_VDDN_2" test="H16LRV100_FWCAL_CS0L_Refclk0_100M_2G5_H_40_11_22_1615_201_Tx2Term_RxDC_VDDN_2" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_TxRxNonDET_PCIE_2G5_ABIST_VDDN" test="H16LRV100_TxRxNonDET_PCIE_2G5_ABIST_VDDN" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_DUT_Reset_Init_4_1_1_1_1_1" test="H16LRV100_DUT_Reset_Init_4_1_1_1_1_1" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_100M_2G5_H_40_11_22_1615_201_Tx2Term_RxDC_VDDN_3" test="H16LRV100_FWCAL_CS0L_Refclk0_100M_2G5_H_40_11_22_1615_201_Tx2Term_RxDC_VDDN_3" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_ALOS_TH_PCIE_2G5_ABIST_VDDN" test="H16LRV100_ALOS_TH_PCIE_2G5_ABIST_VDDN" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16_PCM_OUTPUT_156M25_1_2" test="H16_PCM_OUTPUT_156M25_1_2" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_DUT_Reset_Init_10" test="H16LRV100_DUT_Reset_Init_10" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_VCOILOLockRange_Ka2_Kb1_Refclk0_CS0L_VDDL" test="H16LRV100_VCOILOLockRange_Ka2_Kb1_Refclk0_CS0L_VDDL" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_VCOILOLockRange_Ka3_Kb1_Refclk0_CS0L_VDDL" test="H16LRV100_VCOILOLockRange_Ka3_Kb1_Refclk0_CS0L_VDDL" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_VCOILOLockRange_Ka2_Kb2_Refclk0_CS0L_VDDL" test="H16LRV100_VCOILOLockRange_Ka2_Kb2_Refclk0_CS0L_VDDL" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_DUT_Reset_Init_11" test="H16LRV100_DUT_Reset_Init_11" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0H_Refclk0_156M25_10G3125_F_20_11_21_1010_101_Tx2Term_RxDC_VDDL" test="H16LRV100_FWCAL_CS0H_Refclk0_156M25_10G3125_F_20_11_21_1010_101_Tx2Term_RxDC_VDDL" testnumber="70530000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7053" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_VCOFreqcalCurve_CS0H_VDDL" test="H16LRV100_VCOFreqcalCurve_CS0H_VDDL" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16_PCM_OUTPUT_100MHz_6_1" test="H16_PCM_OUTPUT_100MHz_6_1" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_DUT_Reset_Init_13" test="H16LRV100_DUT_Reset_Init_13" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_100M_2G5_H_40_11_22_1615_201_Tx2Term_RxDC_VDDL" test="H16LRV100_FWCAL_CS0L_Refclk0_100M_2G5_H_40_11_22_1615_201_Tx2Term_RxDC_VDDL" testnumber="70550000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7055" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_TxRxBertPrbs15_CS0L_Refclk0_100M_2G5_H_40_11_22_1615_201" test="H16LRV100_TxRxBertPrbs15_CS0L_Refclk0_100M_2G5_H_40_11_22_1615_201" testnumber="70560000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7056" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_100M_5G_F_20_11_22_1615_201_Tx2Term_RxDC_VDDL" test="H16LRV100_FWCAL_CS0L_Refclk0_100M_5G_F_20_11_22_1615_201_Tx2Term_RxDC_VDDL" testnumber="70570000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7057" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_TxRxBertPrbs15_CS0L_Refclk0_100M_5G_F_20_11_22_1615_201" test="H16LRV100_TxRxBertPrbs15_CS0L_Refclk0_100M_5G_F_20_11_22_1615_201" testnumber="70580000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7058" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16_PCM_OUTPUT_156M25_2" test="H16_PCM_OUTPUT_156M25_2" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_DUT_Reset_Init_14" test="H16LRV100_DUT_Reset_Init_14" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_156M25_1G25_Q_40_11_22_109_201_Tx2Term_RxDC_VDDL" test="H16LRV100_FWCAL_CS0L_Refclk0_156M25_1G25_Q_40_11_22_109_201_Tx2Term_RxDC_VDDL" testnumber="70590000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7059" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_TxRxBertPrbs15_CS0L_Refclk0_156M25_1G25_Q_40_11_22_109_201" test="H16LRV100_TxRxBertPrbs15_CS0L_Refclk0_156M25_1G25_Q_40_11_22_109_201" testnumber="70600000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7060" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_156M25_2G5_H_40_11_22_109_201_Tx2Term_RxDC_VDDL" test="H16LRV100_FWCAL_CS0L_Refclk0_156M25_2G5_H_40_11_22_109_201_Tx2Term_RxDC_VDDL" testnumber="70610000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7061" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_TxRxBertPrbs15_CS0L_Refclk0_156M25_2G5_H_40_11_22_109_201" test="H16LRV100_TxRxBertPrbs15_CS0L_Refclk0_156M25_2G5_H_40_11_22_109_201" testnumber="70620000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7062" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_156M25_3G125_Q_40_11_21_1311_101_Tx2Term_RxDC_VDDL" test="H16LRV100_FWCAL_CS0L_Refclk0_156M25_3G125_Q_40_11_21_1311_101_Tx2Term_RxDC_VDDL" testnumber="70630000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7063" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_TxRxBertPrbs15_CS0L_Refclk0_156M25_3G125_Q_40_11_21_1311_101" test="H16LRV100_TxRxBertPrbs15_CS0L_Refclk0_156M25_3G125_Q_40_11_21_1311_101" testnumber="70640000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7064" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_156M25_5G_F_20_11_22_109_201_Tx2Term_RxDC_VDDL" test="H16LRV100_FWCAL_CS0L_Refclk0_156M25_5G_F_20_11_22_109_201_Tx2Term_RxDC_VDDL" testnumber="70650000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7065" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_TxRxBertPrbs15_CS0L_Refclk0_156M25_5G_F_20_11_22_109_201" test="H16LRV100_TxRxBertPrbs15_CS0L_Refclk0_156M25_5G_F_20_11_22_109_201" testnumber="70660000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7066" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_156M25_10G3125_F_16_11_21_1010_81_Tx2Term_RxDC_VDDL" test="H16LRV100_FWCAL_CS0L_Refclk0_156M25_10G3125_F_16_11_21_1010_81_Tx2Term_RxDC_VDDL" testnumber="70670000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7067" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_TxRxBertPrbs15_CS0L_Refclk0_156M25_10G3125_F_16_11_21_1010_81" test="H16LRV100_TxRxBertPrbs15_CS0L_Refclk0_156M25_10G3125_F_16_11_21_1010_81" testnumber="70680000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7068" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_DISABLE_KEEP_ALIVE_14" test="H16LRV100_DISABLE_KEEP_ALIVE_14" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_DUT_Reset_Init_15" test="H16LRV100_DUT_Reset_Init_15" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_156M25_10G3125_F_16_11_21_1010_81_Tx2Term_RxDC_VDDL_1" test="H16LRV100_FWCAL_CS0L_Refclk0_156M25_10G3125_F_16_11_21_1010_81_Tx2Term_RxDC_VDDL_1" testnumber="70690000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7069" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H15_AVS_Verify_10G3125_ABIST_VDDL_VDDL" test="H15_AVS_Verify_10G3125_ABIST_VDDL_VDDL" testnumber="70700000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7070" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_DUT_Reset_Init_17" test="H16LRV100_DUT_Reset_Init_17" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_100M_1G6_O_20_11_21_2315_101_Tx2Term_RxDC_VDDL" test="H16LRV100_FWCAL_CS0L_Refclk0_100M_1G6_O_20_11_21_2315_101_Tx2Term_RxDC_VDDL" testnumber="70740000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7074" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FFE_BERT_10G3125_Post1st_ABIST_VDDL" test="H16LRV100_FFE_BERT_10G3125_Post1st_ABIST_VDDL" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FFE_BERT_10G3125_Pre1st_ABIST_VDDL" test="H16LRV100_FFE_BERT_10G3125_Pre1st_ABIST_VDDL" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16_PCM_OUTPUT_100MHz_5" test="H16_PCM_OUTPUT_100MHz_5" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_DUT_Reset_Init_16" test="H16LRV100_DUT_Reset_Init_16" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_100M_1G6_O_20_11_21_2315_101_Tx2Term_RxDC_VDDL_1" test="H16LRV100_FWCAL_CS0L_Refclk0_100M_1G6_O_20_11_21_2315_101_Tx2Term_RxDC_VDDL_1" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FFE_BERT_1G6_Post1st_ABIST_VDDL" test="H16LRV100_FFE_BERT_1G6_Post1st_ABIST_VDDL" testnumber="70750000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7075" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FFE_BERT_1G6_Pre1st_ABIST_VDDL" test="H16LRV100_FFE_BERT_1G6_Pre1st_ABIST_VDDL" testnumber="70760000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7076" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16_PCM_OUTPUT_156M25_1_2_1" test="H16_PCM_OUTPUT_156M25_1_2_1" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_DUT_Reset_Init_17_1" test="H16LRV100_DUT_Reset_Init_17_1" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_156M25_2G578125_Qtr_16_11_21_1010_81_Tx2Term_RxDC_VDDL" test="H16LRV100_FWCAL_CS0L_Refclk0_156M25_2G578125_Qtr_16_11_21_1010_81_Tx2Term_RxDC_VDDL" testnumber="70770000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7077" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_RxStrsAll_2G578125_Qtr_ABIST_VDDL" test="H16LRV100_RxStrsAll_2G578125_Qtr_ABIST_VDDL" testnumber="70780000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7078" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_MIN_PWR_VDDH" test="H16LRV100_MIN_PWR_VDDH" testnumber="70810000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7081" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_DUT_Reset_Init_20" test="H16LRV100_DUT_Reset_Init_20" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_156M25_10G3125_F_16_11_21_1010_81_Tx2Load_RxAC_VDDH" test="H16LRV100_FWCAL_CS0L_Refclk0_156M25_10G3125_F_16_11_21_1010_81_Tx2Load_RxAC_VDDH" testnumber="70820000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7082" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_MAX_PWR_VDDH" test="H16LRV100_MAX_PWR_VDDH" testnumber="70830000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7083" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_DUT_Reset_Init_21" test="H16LRV100_DUT_Reset_Init_21" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_DUT_Reset_Init_17_2" test="H16LRV100_DUT_Reset_Init_17_2" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_DUT_Reset_Init_22" test="H16LRV100_DUT_Reset_Init_22" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0H_Refclk0_156M25_10G3125_F_20_11_21_1010_101_Tx2Term_RxDC_VDDH" test="H16LRV100_FWCAL_CS0H_Refclk0_156M25_10G3125_F_20_11_21_1010_101_Tx2Term_RxDC_VDDH" testnumber="70840000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7084" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_VCOFreqcalCurve_CS0L_VDDH" test="H16LRV100_VCOFreqcalCurve_CS0L_VDDH" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16_PCM_OUTPUT_100MHz_6" test="H16_PCM_OUTPUT_100MHz_6" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_DUT_Reset_Init_24" test="H16LRV100_DUT_Reset_Init_24" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_100M_2G5_H_40_11_22_1615_201_Tx2Term_RxDC_VDDH" test="H16LRV100_FWCAL_CS0L_Refclk0_100M_2G5_H_40_11_22_1615_201_Tx2Term_RxDC_VDDH" testnumber="70860000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7086" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_TxRxBertPrbs15_CS0L_Refclk0_100M_2G5_H_40_11_22_1615_201_1" test="H16LRV100_TxRxBertPrbs15_CS0L_Refclk0_100M_2G5_H_40_11_22_1615_201_1" testnumber="70870000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7087" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_100M_5G_F_20_11_22_1615_201_Tx2Term_RxDC_VDDH" test="H16LRV100_FWCAL_CS0L_Refclk0_100M_5G_F_20_11_22_1615_201_Tx2Term_RxDC_VDDH" testnumber="70880000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7088" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_TxRxBertPrbs15_CS0L_Refclk0_100M_5G_F_20_11_22_1615_201_1" test="H16LRV100_TxRxBertPrbs15_CS0L_Refclk0_100M_5G_F_20_11_22_1615_201_1" testnumber="70890000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7089" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16_PCM_OUTPUT_156M25_2_1" test="H16_PCM_OUTPUT_156M25_2_1" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_DUT_Reset_Init_25" test="H16LRV100_DUT_Reset_Init_25" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_156M25_1G25_Q_40_11_22_109_201_Tx2Term_RxDC_VDDH" test="H16LRV100_FWCAL_CS0L_Refclk0_156M25_1G25_Q_40_11_22_109_201_Tx2Term_RxDC_VDDH" testnumber="70900000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7090" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_TxRxBertPrbs15_CS0L_Refclk0_156M25_1G25_Q_40_11_22_109_201_1" test="H16LRV100_TxRxBertPrbs15_CS0L_Refclk0_156M25_1G25_Q_40_11_22_109_201_1" testnumber="70910000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7091" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_156M25_2G5_H_40_11_22_109_201_Tx2Term_RxDC_VDDH" test="H16LRV100_FWCAL_CS0L_Refclk0_156M25_2G5_H_40_11_22_109_201_Tx2Term_RxDC_VDDH" testnumber="70920000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7092" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_TxRxBertPrbs15_CS0L_Refclk0_156M25_2G5_H_40_11_22_109_201_1" test="H16LRV100_TxRxBertPrbs15_CS0L_Refclk0_156M25_2G5_H_40_11_22_109_201_1" testnumber="70930000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7093" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_156M25_3G125_Q_40_11_21_1311_101_Tx2Term_RxDC_VDDH" test="H16LRV100_FWCAL_CS0L_Refclk0_156M25_3G125_Q_40_11_21_1311_101_Tx2Term_RxDC_VDDH" testnumber="70940000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7094" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_TxRxBertPrbs15_CS0L_Refclk0_156M25_3G125_Q_40_11_21_1311_101_1" test="H16LRV100_TxRxBertPrbs15_CS0L_Refclk0_156M25_3G125_Q_40_11_21_1311_101_1" testnumber="70950000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7095" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_156M25_5G_F_20_11_22_109_201_Tx2Term_RxDC_VDDH" test="H16LRV100_FWCAL_CS0L_Refclk0_156M25_5G_F_20_11_22_109_201_Tx2Term_RxDC_VDDH" testnumber="70960000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7096" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_TxRxBertPrbs15_CS0L_Refclk0_156M25_5G_F_20_11_22_109_201_1" test="H16LRV100_TxRxBertPrbs15_CS0L_Refclk0_156M25_5G_F_20_11_22_109_201_1" testnumber="70970000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7097" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_156M25_10G3125_F_16_11_21_1010_81_Tx2Term_RxDC_VDDH" test="H16LRV100_FWCAL_CS0L_Refclk0_156M25_10G3125_F_16_11_21_1010_81_Tx2Term_RxDC_VDDH" testnumber="70980000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7098" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_TxRxBertPrbs15_CS0L_Refclk0_156M25_10G3125_F_16_11_21_1010_81_1" test="H16LRV100_TxRxBertPrbs15_CS0L_Refclk0_156M25_10G3125_F_16_11_21_1010_81_1" testnumber="70990000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7099" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_DUT_Reset_Init_26" test="H16LRV100_DUT_Reset_Init_26" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_156M25_10G3125_F_16_11_21_1010_81_Tx2Term_RxDC_VDDH_1" test="H16LRV100_FWCAL_CS0L_Refclk0_156M25_10G3125_F_16_11_21_1010_81_Tx2Term_RxDC_VDDH_1" testnumber="71000000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7100" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H15_AVS_Verify_10G3125_ABIST_VDDH_VDDH" test="H15_AVS_Verify_10G3125_ABIST_VDDH_VDDH" testnumber="71010000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7101" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_FWCAL_CS0L_Refclk0_156M25_2G578125_Qtr_16_11_21_1010_81_Tx2Term_RxDC_VDDH" test="H16LRV100_FWCAL_CS0L_Refclk0_156M25_2G578125_Qtr_16_11_21_1010_81_Tx2Term_RxDC_VDDH" testnumber="71020000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7102" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="H16LRV100_RxStrsAll_2G578125_Qtr_ABIST_VDDH" test="H16LRV100_RxStrsAll_2G578125_Qtr_ABIST_VDDH" testnumber="71030000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="1" hfailbin="6" spassbin="1" sfailbin="7103" result="Fail" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+    </flowtable>
+    <hardbintable>
+        <hardbin bin="6" comment="H15BP_Failed" />
+        <hardbin bin="9" comment="notH15BP_Failed" />
+    </hardbintable>
+</flow>

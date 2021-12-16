@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flow name="INIT">
+    <flowtable>
+        <row opcode="Test" operand="HwInit" test="" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="" hfailbin="" spassbin="" sfailbin="" result="" />
+        </row>
+        <row opcode="Test" operand="InitPinMap" test="" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="" hfailbin="" spassbin="" sfailbin="" result="" />
+        </row>
+        <row opcode="Test" operand="LoadPower" test="" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="" hfailbin="" spassbin="" sfailbin="" result="" />
+        </row>
+        <row opcode="Test" operand="LoadLevel" test="" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="" hfailbin="" spassbin="" sfailbin="" result="" />
+        </row>
+        <row opcode="Test" operand="LoadTiming" test="" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="" hfailbin="" spassbin="" sfailbin="" result="" />
+        </row>
+        <row opcode="Test" operand="LoadPattern" test="" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="" hfailbin="" spassbin="" sfailbin="" result="" />
+        </row>
+    </flowtable>
+    <hardbintable />
+</flow>

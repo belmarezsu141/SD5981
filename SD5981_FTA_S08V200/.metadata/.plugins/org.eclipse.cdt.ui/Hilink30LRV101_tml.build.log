@@ -1,0 +1,186 @@
+17:34:43 **** Incremental Build of configuration Debug for project Hilink30LRV101_tml ****
+Info: Internal Builder is used for build
+g++ -std=c++17 "-IC:\\PhoenixSys\\bin\\include" "-ID:\\SD5981\\SD5981_FTA_S08V200\\Hilink30LRV101_tml\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HILINK_ABIST\\FWABIST_ATB.o" "..\\src\\HILINK_ABIST\\FWABIST_ATB.cpp" 
+In file included from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/UserConfig.h:7,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/d2s_IP_JTAG.h:12,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/d2s_JTAG.h:11,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HiLink_Regs_Base.h:8,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HILINK_Data_Container.h:17,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HiLink_Types.h:12,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/Common_Func/System_Common_Func.h:26,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HiLink_Drive.h:11,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/FWABIST_REGISTER_Base.h:11,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_ABIST/FWABIST_ATB.h:12,
+                 from ..\src\HILINK_ABIST\FWABIST_ATB.cpp:3:
+D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/UserConfig.h: In member function 'virtual void This_HILINK_INFO::get_info(uint, uint&, T_HILINK_INFO&, std::__cxx11::string&, std::__cxx11::string&, std::vector<T_LANE_INFO>&) const':
+D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HiLink_Common_Types.h:413:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+    printf("Error: Count of HILINK_INFO = %d\n",sizeof(_HILINK_INFO)/sizeof(_HILINK_INFO[0])); \
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HiLink_Common_Types.h:413:11: note: in definition of macro 'HILINK_INFO_END'
+    printf("Error: Count of HILINK_INFO = %d\n",sizeof(_HILINK_INFO)/sizeof(_HILINK_INFO[0])); \
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/d2s_JTAG.h:11,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HiLink_Regs_Base.h:8,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HILINK_Data_Container.h:17,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HiLink_Types.h:12,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/Common_Func/System_Common_Func.h:26,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HiLink_Drive.h:11,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/FWABIST_REGISTER_Base.h:11,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_ABIST/FWABIST_ATB.h:12,
+                 from ..\src\HILINK_ABIST\FWABIST_ATB.cpp:3:
+D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/d2s_IP_JTAG.h: In member function 'virtual bool d2s_IP_JTAG::isCreatedByFW()':
+D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/d2s_IP_JTAG.h:135:34: warning: no return statement in function returning non-void [-Wreturn-type]
+     virtual bool isCreatedByFW(){};
+                                  ^
+In file included from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HiLink_Types.h:12,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/Common_Func/System_Common_Func.h:26,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HiLink_Drive.h:11,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/FWABIST_REGISTER_Base.h:11,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_ABIST/FWABIST_ATB.h:12,
+                 from ..\src\HILINK_ABIST\FWABIST_ATB.cpp:3:
+D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HILINK_Data_Container.h: In member function 'std::__cxx11::string HILINK_SITE_LANE_DATA_CONTAINER<T>::toString(const MACRO_LANE_SEL&)':
+D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HILINK_Data_Container.h:439:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+..\src\HILINK_ABIST\FWABIST_ATB.cpp: In member function 'virtual void FWABIST_ATB::execute()':
+..\src\HILINK_ABIST\FWABIST_ATB.cpp:51:14: warning: unused variable 'iCSR_check' [-Wunused-variable]
+   static INT iCSR_check;
+              ^~~~~~~~~~
+g++ -std=c++17 "-IC:\\PhoenixSys\\bin\\include" "-ID:\\SD5981\\SD5981_FTA_S08V200\\Hilink30LRV101_tml\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HILINK_ABIST\\AVS_Verify_ABIST.o" "..\\src\\HILINK_ABIST\\AVS_Verify_ABIST.cpp" 
+In file included from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/UserConfig.h:7,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/d2s_IP_JTAG.h:12,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/d2s_JTAG.h:11,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HiLink_Regs_Base.h:8,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HILINK_Data_Container.h:17,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HiLink_Types.h:12,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/Common_Func/System_Common_Func.h:26,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/Common_Func/HiLink30_Common_Func.h:10,
+                 from ..\src\HILINK_ABIST\AVS_Verify_ABIST.cpp:2:
+D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/UserConfig.h: In member function 'virtual void This_HILINK_INFO::get_info(uint, uint&, T_HILINK_INFO&, std::__cxx11::string&, std::__cxx11::string&, std::vector<T_LANE_INFO>&) const':
+D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HiLink_Common_Types.h:413:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+    printf("Error: Count of HILINK_INFO = %d\n",sizeof(_HILINK_INFO)/sizeof(_HILINK_INFO[0])); \
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HiLink_Common_Types.h:413:11: note: in definition of macro 'HILINK_INFO_END'
+    printf("Error: Count of HILINK_INFO = %d\n",sizeof(_HILINK_INFO)/sizeof(_HILINK_INFO[0])); \
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/d2s_JTAG.h:11,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HiLink_Regs_Base.h:8,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HILINK_Data_Container.h:17,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HiLink_Types.h:12,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/Common_Func/System_Common_Func.h:26,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/Common_Func/HiLink30_Common_Func.h:10,
+                 from ..\src\HILINK_ABIST\AVS_Verify_ABIST.cpp:2:
+D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/d2s_IP_JTAG.h: In member function 'virtual bool d2s_IP_JTAG::isCreatedByFW()':
+D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/d2s_IP_JTAG.h:135:34: warning: no return statement in function returning non-void [-Wreturn-type]
+     virtual bool isCreatedByFW(){};
+                                  ^
+In file included from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HiLink_Types.h:12,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/Common_Func/System_Common_Func.h:26,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/Common_Func/HiLink30_Common_Func.h:10,
+                 from ..\src\HILINK_ABIST\AVS_Verify_ABIST.cpp:2:
+D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HILINK_Data_Container.h: In member function 'std::__cxx11::string HILINK_SITE_LANE_DATA_CONTAINER<T>::toString(const MACRO_LANE_SEL&)':
+D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HILINK_Data_Container.h:439:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+..\src\HILINK_ABIST\AVS_Verify_ABIST.cpp: In member function 'virtual void AVS_Verify_ABIST::execute()':
+..\src\HILINK_ABIST\AVS_Verify_ABIST.cpp:194:14: warning: unused variable 'iCSR_check' [-Wunused-variable]
+   static INT iCSR_check;
+              ^~~~~~~~~~
+..\src\HILINK_ABIST\AVS_Verify_ABIST.cpp:195:15: warning: unused variable 'CSRVerifyResult' [-Wunused-variable]
+   static bool CSRVerifyResult;
+               ^~~~~~~~~~~~~~~
+..\src\HILINK_ABIST\AVS_Verify_ABIST.cpp: In function 'void AVS_Verify_Search(MACRO_LANE_SEL&, LANE_DOUBLE&, STRING, STRING, DOUBLE, DOUBLE)':
+..\src\HILINK_ABIST\AVS_Verify_ABIST.cpp:30:12: warning: 'dVcore' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  dChangeVal=dVcore;
+  ~~~~~~~~~~^~~~~~~
+..\src\HILINK_ABIST\AVS_Verify_ABIST.cpp: In member function 'virtual void AVS_Verify_ABIST::execute()':
+..\src\HILINK_ABIST\AVS_Verify_ABIST.cpp:257:39: warning: 'iCTLEACTGN1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    DS.rxRegs.setctleactgn1(iCTLEACTGN1).Write2DUT(1);
+                                       ^
+..\src\HILINK_ABIST\AVS_Verify_ABIST.cpp:258:39: warning: 'iCTLEACTGN2' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    DS.rxRegs.setctleactgn2(iCTLEACTGN2).Write2DUT(2);
+                                       ^
+..\src\HILINK_ABIST\AVS_Verify_ABIST.cpp:259:39: warning: 'iCTLEACTGN3' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    DS.rxRegs.setctleactgn3(iCTLEACTGN3).Write2DUT(3);
+                                       ^
+..\src\HILINK_ABIST\AVS_Verify_ABIST.cpp:260:38: warning: 'iCTLEBST1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    DS.rxRegs.setctleboostc1(iCTLEBST1).Write2DUT(1);
+                                      ^
+..\src\HILINK_ABIST\AVS_Verify_ABIST.cpp:261:38: warning: 'iCTLEBST2' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    DS.rxRegs.setctleboostc2(iCTLEBST2).Write2DUT(2);
+                                      ^
+..\src\HILINK_ABIST\AVS_Verify_ABIST.cpp:262:38: warning: 'iCTLEBST3' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    DS.rxRegs.setctleboostc3(iCTLEBST3).Write2DUT(3);
+                                      ^
+g++ -std=c++17 "-IC:\\PhoenixSys\\bin\\include" "-ID:\\SD5981\\SD5981_FTA_S08V200\\Hilink30LRV101_tml\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Common_Func\\DEMO_CLASS_H30.o" "..\\src\\Common_Func\\DEMO_CLASS_H30.cpp" 
+g++ -std=c++17 "-IC:\\PhoenixSys\\bin\\include" "-ID:\\SD5981\\SD5981_FTA_S08V200\\Hilink30LRV101_tml\\include" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HILINK_ABIST\\EyeMonitorCheckPrbs31_ABIST.o" "..\\src\\HILINK_ABIST\\EyeMonitorCheckPrbs31_ABIST.cpp" 
+In file included from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/UserConfig.h:7,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/d2s_IP_JTAG.h:12,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/d2s_JTAG.h:11,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HiLink_Regs_Base.h:8,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HILINK_Data_Container.h:17,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HiLink_Types.h:12,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/Common_Func/System_Common_Func.h:26,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/Common_Func/HiLink30_Common_Func.h:10,
+                 from ..\src\HILINK_ABIST\EyeMonitorCheckPrbs31_ABIST.cpp:3:
+D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/UserConfig.h: In member function 'virtual void This_HILINK_INFO::get_info(uint, uint&, T_HILINK_INFO&, std::__cxx11::string&, std::__cxx11::string&, std::vector<T_LANE_INFO>&) const':
+D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HiLink_Common_Types.h:413:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+    printf("Error: Count of HILINK_INFO = %d\n",sizeof(_HILINK_INFO)/sizeof(_HILINK_INFO[0])); \
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HiLink_Common_Types.h:413:11: note: in definition of macro 'HILINK_INFO_END'
+    printf("Error: Count of HILINK_INFO = %d\n",sizeof(_HILINK_INFO)/sizeof(_HILINK_INFO[0])); \
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/d2s_JTAG.h:11,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HiLink_Regs_Base.h:8,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HILINK_Data_Container.h:17,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HiLink_Types.h:12,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/Common_Func/System_Common_Func.h:26,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/Common_Func/HiLink30_Common_Func.h:10,
+                 from ..\src\HILINK_ABIST\EyeMonitorCheckPrbs31_ABIST.cpp:3:
+D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/d2s_IP_JTAG.h: In member function 'virtual bool d2s_IP_JTAG::isCreatedByFW()':
+D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/d2s_IP_JTAG.h:135:34: warning: no return statement in function returning non-void [-Wreturn-type]
+     virtual bool isCreatedByFW(){};
+                                  ^
+In file included from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HiLink_Types.h:12,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/Common_Func/System_Common_Func.h:26,
+                 from D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/Common_Func/HiLink30_Common_Func.h:10,
+                 from ..\src\HILINK_ABIST\EyeMonitorCheckPrbs31_ABIST.cpp:3:
+D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HILINK_Data_Container.h: In member function 'std::__cxx11::string HILINK_SITE_LANE_DATA_CONTAINER<T>::toString(const MACRO_LANE_SEL&)':
+D:\SD5981\SD5981_FTA_S08V200\Hilink30LRV101_tml\include/HILINK_DRIVE/HILINK_Data_Container.h:439:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+..\src\HILINK_ABIST\EyeMonitorCheckPrbs31_ABIST.cpp: In member function 'virtual void EyeMonitorCheckPrbs31_ABIST::execute()':
+..\src\HILINK_ABIST\EyeMonitorCheckPrbs31_ABIST.cpp:95:7: warning: unused variable 'iDebugAnalog' [-Wunused-variable]
+   INT iDebugAnalog;
+       ^~~~~~~~~~~~
+..\src\HILINK_ABIST\EyeMonitorCheckPrbs31_ABIST.cpp:96:14: warning: unused variable 'iCSR_check' [-Wunused-variable]
+   static INT iCSR_check;
+              ^~~~~~~~~~
+..\src\HILINK_ABIST\EyeMonitorCheckPrbs31_ABIST.cpp:114:15: warning: unused variable 'CSRVerifyResult' [-Wunused-variable]
+   static bool CSRVerifyResult;
+               ^~~~~~~~~~~~~~~
+..\src\HILINK_ABIST\EyeMonitorCheckPrbs31_ABIST.cpp:173:39: warning: 'iCTLEACTGN1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    DS.rxRegs.setctleactgn1(iCTLEACTGN1).Write2DUT(1);
+                                       ^
+..\src\HILINK_ABIST\EyeMonitorCheckPrbs31_ABIST.cpp:174:39: warning: 'iCTLEACTGN2' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    DS.rxRegs.setctleactgn2(iCTLEACTGN2).Write2DUT(2);
+                                       ^
+..\src\HILINK_ABIST\EyeMonitorCheckPrbs31_ABIST.cpp:175:39: warning: 'iCTLEACTGN3' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    DS.rxRegs.setctleactgn3(iCTLEACTGN3).Write2DUT(3);
+                                       ^
+..\src\HILINK_ABIST\EyeMonitorCheckPrbs31_ABIST.cpp:176:38: warning: 'iCTLEBST1' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    DS.rxRegs.setctleboostc1(iCTLEBST1).Write2DUT(1);
+                                      ^
+..\src\HILINK_ABIST\EyeMonitorCheckPrbs31_ABIST.cpp:177:38: warning: 'iCTLEBST2' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    DS.rxRegs.setctleboostc2(iCTLEBST2).Write2DUT(2);
+                                      ^
+..\src\HILINK_ABIST\EyeMonitorCheckPrbs31_ABIST.cpp:178:38: warning: 'iCTLEBST3' may be used uninitialized in this function [-Wmaybe-uninitialized]
+    DS.rxRegs.setctleboostc3(iCTLEBST3).Write2DUT(3);
+                                      ^
+g++ "-L..\\lib" "-LC:\\PhoenixSys\\bin" -shared -o libHilink30LRV101_tml.dll "src\\Common_Func\\DEMO_CLASS_H30.o" "src\\Common_Func\\HILINK_Register_Write_byIndex.o" "src\\Common_Func\\HiLink30_Common_Func.o" "src\\Common_Func\\System_Common_Func.o" "src\\Common_Func\\md5_pack.o" "src\\H30LR_TestSuite_Para.o" "src\\HILINK_ABIST\\AVS_Verify_ABIST.o" "src\\HILINK_ABIST\\Alphagen.o" "src\\HILINK_ABIST\\CTLE.o" "src\\HILINK_ABIST\\ClkPurity_ABIST.o" "src\\HILINK_ABIST\\DcGain.o" "src\\HILINK_ABIST\\DumpSramData.o" "src\\HILINK_ABIST\\EyeMonitorCheckPrbs31_ABIST.o" "src\\HILINK_ABIST\\FWABIST_ATB.o" "src\\HILINK_ABIST\\FWABIST_AdcStability.o" "src\\HILINK_ABIST\\FWABIST_Comparator.o" "src\\HILINK_ABIST\\FWABIST_DFEIDAC.o" "src\\HILINK_ABIST\\FWABIST_DLOS.o" "src\\HILINK_ABIST\\FWABIST_VCOTuningRange.o" "src\\HILINK_ABIST\\FW_LatchOffset.o" "src\\HILINK_ABIST\\FuncBertPrbs15_ABIST.o" "src\\HILINK_ABIST\\RefclkLockRange.o" "src\\HILINK_ABIST\\Regulator.o" "src\\HILINK_ABIST\\RxALOS_ABIST.o" "src\\HILINK_ABIST\\RxFreqOffsetTol_ABIST.o" "src\\HILINK_ABIST\\RxJitterTol_ABIST.o" "src\\HILINK_ABIST\\RxSensitivity_ABIST.o" "src\\HILINK_ABIST\\RxStressAll_ABIST.o" "src\\HILINK_ABIST\\TxEScopePrbs15_ABIST.o" "src\\HILINK_ABIST\\TxRxBertPrbs15_ABIST.o" "src\\HILINK_ABIST\\VcoLockRange.o" "src\\HILINK_CAL\\HILINK_Download_FW.o" "src\\HILINK_CAL\\HILINK_FW_ADAPTATION.o" "src\\HILINK_CAL\\HILINK_FW_CAL.o" "src\\HILINK_CAL\\HiLink30_PowerUp_Reset.o" "src\\HILINK_DC\\CBB_Function.o" "src\\HILINK_DC\\DPM_TEST_BY_FW.o" "src\\HILINK_DC\\Execute_functions.o" "src\\HILINK_DC\\Ext_2K_Resistor_Check.o" "src\\HILINK_DC\\MAX_PWR.o" "src\\HILINK_DC\\MIN_PWR.o" "src\\HILINK_DC\\RxDiffResBefCal.o" "src\\HILINK_DC\\RxResAftCal.o" "src\\HILINK_DC\\RxSigResBefCal.o" "src\\HILINK_DC\\RxTermVoltToGnd_AC.o" "src\\HILINK_DC\\SSBandGap.o" "src\\HILINK_DC\\TxFIR_DC.o" "src\\HILINK_DC\\TxResAftCal.o" "src\\HILINK_DC\\TxTermVolt.o" "src\\HILINK_DRIVE\\FWABIST_REGISTER_Base.o" "src\\HILINK_DRIVE\\HiLinkPatternHelper.o" "src\\HILINK_DRIVE\\HiLink_ABIST_apiRegs.o" "src\\HILINK_DRIVE\\HiLink_CP_apiRegs.o" "src\\HILINK_DRIVE\\HiLink_CSDBG_clkRegs.o" "src\\HILINK_DRIVE\\HiLink_CS_apiRegs.o" "src\\HILINK_DRIVE\\HiLink_CS_clkRegs.o" "src\\HILINK_DRIVE\\HiLink_DS_apiRegs.o" "src\\HILINK_DRIVE\\HiLink_DS_clkRegs.o" "src\\HILINK_DRIVE\\HiLink_DS_rxRegs.o" "src\\HILINK_DRIVE\\HiLink_DS_rxextRegs.o" "src\\HILINK_DRIVE\\HiLink_DS_txRegs.o" "src\\HILINK_DRIVE\\HiLink_Drive.o" "src\\HILINK_DRIVE\\HiLink_Regs_Base.o" "src\\HILINK_DRIVE\\HiLink_TOP_apiRegs.o" "src\\HILINK_DRIVE\\MacroLaneCtrl.o" "src\\HILINK_DRIVE\\d2s_IP_JTAG.o" "src\\PCM_Setup\\PCM_Function.o" "src\\SRC_d2s\\DeviceRegisterTransactionPort.o" "src\\SRC_d2s\\Event.o" "src\\SRC_d2s\\MD5.o" "src\\SRC_d2s\\PatternCreate.o" "src\\SRC_d2s\\PatternManager.o" "src\\SRC_d2s\\PortChecker.o" "src\\SRC_d2s\\TransactionPort.o" "src\\SRC_d2s\\d2s.o" "src\\SRC_d2s\\d2sFramework.o" "src\\SRC_d2s\\d2s_Generic.o" "src\\SRC_d2s\\d2s_Serial.o" "src\\SRC_d2s\\d2s_status.o" -lTestClass -lAPIDLL 
+xcopy libHilink30LRV101_tml.dll "D:\\SD5981\\SD5981_FTA_S08V200\\lib" /y 
+D:libHilink30LRV101_tml.dll
+复制了 1 个文件
+
+17:34:58 Build Finished. 0 errors, 28 warnings. (took 14s.929ms)
+

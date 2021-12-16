@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pinmap>
+    <pins>
+        <pin name="DVDD08" type="Supply" diff="0" />
+        <pin name="AVDD12_HSS" type="Supply" diff="0" />
+        <pin name="AVDD08_HSS" type="Supply" diff="0" />
+        <pin name="VDD08_DDR" type="Supply" diff="0" />
+        <pin name="VDDIO12_DDR" type="Supply" diff="0" />
+        <pin name="AVDD18_PLL_DDR" type="Supply" diff="0" />
+        <pin name="DVDD18_IO" type="Supply" diff="0" />
+        <pin name="DVDD18_EFUSE" type="Supply" diff="0" />
+        <pin name="DVDD08_EFUSE" type="Supply" diff="0" />
+        <pin name="AVDD18_PCIE" type="Supply" diff="0" />
+        <pin name="AVDD08_PCIE" type="Supply" diff="0" />
+        <pin name="AVDD08_CPPI" type="Supply" diff="0" />
+        <pin name="AVDD18_SCPLL" type="Supply" diff="0" />
+        <pin name="AVDD08_SCPLL" type="Supply" diff="0" />
+        <pin name="AVDD18_TS_0" type="Supply" diff="0" />
+        <pin name="AVDD18_TS_1" type="Supply" diff="0" />
+        <pin name="LMAG_RX_N0" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P0" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N1" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P1" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N2" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P2" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N3" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P3" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N4" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P4" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N5" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P5" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N6" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P6" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N7" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P7" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N8" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P8" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N9" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P9" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N10" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P10" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N11" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P11" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N12" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P12" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N13" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P13" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N14" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P14" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N15" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P15" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N32" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P32" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N33" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P33" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N34" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P34" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N35" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P35" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N36" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P36" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N37" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P37" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N38" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P38" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N39" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P39" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N24" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P24" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N25" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P25" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N26" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P26" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N27" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P27" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N28" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P28" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N29" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P29" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N30" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P30" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N31" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P31" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N16" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P16" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N17" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P17" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N18" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P18" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N19" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P19" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N20" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P20" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N21" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P21" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N22" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P22" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N23" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P23" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N40" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P40" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N41" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P41" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N42" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P42" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N43" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P43" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N44" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P44" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N45" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P45" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N46" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P46" type="InOut" diff="0" />
+        <pin name="LMAG_RX_N47" type="InOut" diff="0" />
+        <pin name="LMAG_RX_P47" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N0" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P0" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N1" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P1" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N2" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P2" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N3" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P3" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N4" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P4" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N5" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P5" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N6" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P6" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N7" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P7" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N8" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P8" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N9" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P9" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N10" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P10" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N11" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P11" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N20" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P20" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N21" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P21" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N22" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P22" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N23" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P23" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N32" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P32" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N33" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P33" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N34" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P34" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N35" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P35" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N36" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P36" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N37" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P37" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N38" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P38" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N39" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P39" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N19" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P19" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N18" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P18" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N17" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P17" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N16" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P16" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N15" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P15" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N14" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P14" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N13" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P13" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N12" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P12" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N24" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P24" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N25" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P25" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N26" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P26" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N27" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P27" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N28" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P28" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N29" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P29" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N30" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P30" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N31" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P31" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N40" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P40" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N41" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P41" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N42" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P42" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N43" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P43" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N44" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P44" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N45" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P45" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N46" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P46" type="InOut" diff="0" />
+        <pin name="FMAG_RX_N47" type="InOut" diff="0" />
+        <pin name="FMAG_RX_P47" type="InOut" diff="0" />
+        <pin name="ILA_RX_N0" type="InOut" diff="0" />
+        <pin name="ILA_RX_P0" type="InOut" diff="0" />
+        <pin name="ILA_RX_N1" type="InOut" diff="0" />
+        <pin name="ILA_RX_P1" type="InOut" diff="0" />
+        <pin name="ILA_RX_N2" type="InOut" diff="0" />
+        <pin name="ILA_RX_P2" type="InOut" diff="0" />
+        <pin name="ILA_RX_N3" type="InOut" diff="0" />
+        <pin name="ILA_RX_P3" type="InOut" diff="0" />
+        <pin name="ILA_RX_N4" type="InOut" diff="0" />
+        <pin name="ILA_RX_P4" type="InOut" diff="0" />
+        <pin name="ILA_RX_N5" type="InOut" diff="0" />
+        <pin name="ILA_RX_P5" type="InOut" diff="0" />
+        <pin name="ILA_RX_N6" type="InOut" diff="0" />
+        <pin name="ILA_RX_P6" type="InOut" diff="0" />
+        <pin name="ILA_RX_N7" type="InOut" diff="0" />
+        <pin name="ILA_RX_P7" type="InOut" diff="0" />
+        <pin name="PIE_RX_N0" type="InOut" diff="0" />
+        <pin name="PIE_RX_P0" type="InOut" diff="0" />
+        <pin name="PCIE_RX_N0" type="InOut" diff="0" />
+        <pin name="PCIE_RX_P0" type="InOut" diff="0" />
+        <pin name="PCIE_RX_N1" type="InOut" diff="0" />
+        <pin name="PCIE_RX_P1" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N0" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P0" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N1" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P1" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N2" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P2" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N3" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P3" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N4" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P4" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N5" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P5" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N6" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P6" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N7" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P7" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N8" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P8" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N9" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P9" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N10" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P10" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N11" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P11" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N12" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P12" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N13" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P13" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N14" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P14" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N15" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P15" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N32" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P32" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N33" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P33" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N34" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P34" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N35" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P35" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N36" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P36" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N37" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P37" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N38" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P38" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N39" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P39" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N24" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P24" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N25" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P25" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N26" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P26" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N27" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P27" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N28" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P28" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N29" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P29" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N30" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P30" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N31" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P31" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N16" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P16" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N17" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P17" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N18" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P18" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N19" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P19" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N20" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P20" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N21" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P21" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N22" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P22" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N23" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P23" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N40" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P40" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N41" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P41" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N42" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P42" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N43" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P43" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N44" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P44" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N45" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P45" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N46" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P46" type="InOut" diff="0" />
+        <pin name="LMAG_TX_N47" type="InOut" diff="0" />
+        <pin name="LMAG_TX_P47" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N0" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P0" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N1" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P1" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N2" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P2" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N3" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P3" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N4" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P4" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N5" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P5" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N6" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P6" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N7" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P7" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N8" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P8" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N9" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P9" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N10" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P10" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N11" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P11" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N20" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P20" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N21" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P21" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N22" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P22" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N23" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P23" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N32" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P32" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N33" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P33" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N34" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P34" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N35" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P35" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N36" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P36" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N37" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P37" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N38" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P38" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N39" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P39" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N19" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P19" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N18" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P18" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N17" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P17" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N16" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P16" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N15" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P15" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N14" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P14" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N13" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P13" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N12" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P12" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N24" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P24" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N25" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P25" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N26" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P26" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N27" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P27" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N28" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P28" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N29" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P29" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N30" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P30" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N31" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P31" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N40" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P40" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N41" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P41" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N42" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P42" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N43" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P43" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N44" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P44" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N45" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P45" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N46" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P46" type="InOut" diff="0" />
+        <pin name="FMAG_TX_N47" type="InOut" diff="0" />
+        <pin name="FMAG_TX_P47" type="InOut" diff="0" />
+        <pin name="ILA_TX_N0" type="InOut" diff="0" />
+        <pin name="ILA_TX_P0" type="InOut" diff="0" />
+        <pin name="ILA_TX_N1" type="InOut" diff="0" />
+        <pin name="ILA_TX_P1" type="InOut" diff="0" />
+        <pin name="ILA_TX_N2" type="InOut" diff="0" />
+        <pin name="ILA_TX_P2" type="InOut" diff="0" />
+        <pin name="ILA_TX_N3" type="InOut" diff="0" />
+        <pin name="ILA_TX_P3" type="InOut" diff="0" />
+        <pin name="ILA_TX_N4" type="InOut" diff="0" />
+        <pin name="ILA_TX_P4" type="InOut" diff="0" />
+        <pin name="ILA_TX_N5" type="InOut" diff="0" />
+        <pin name="ILA_TX_P5" type="InOut" diff="0" />
+        <pin name="ILA_TX_N6" type="InOut" diff="0" />
+        <pin name="ILA_TX_P6" type="InOut" diff="0" />
+        <pin name="ILA_TX_N7" type="InOut" diff="0" />
+        <pin name="ILA_TX_P7" type="InOut" diff="0" />
+        <pin name="PIE_TX_N0" type="InOut" diff="0" />
+        <pin name="PIE_TX_P0" type="InOut" diff="0" />
+        <pin name="PCIE_TX_N0" type="InOut" diff="0" />
+        <pin name="PCIE_TX_P0" type="InOut" diff="0" />
+        <pin name="PCIE_TX_N1" type="InOut" diff="0" />
+        <pin name="PCIE_TX_P1" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_A0" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_A1" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_A2" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_A3" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_A4" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_A5" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_A6" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_A7" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_A8" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_A9" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_A10" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_A11" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_A12" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_A13" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_A14" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_A15" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_ALERT_AC_N0" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_ALERT_AC_N1" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_BA0" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_BA1" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_BA2" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_BG1" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_CAS_N" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_CK_N0" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_CK_N1" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_CK_P0" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_CK_P1" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_CKE" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_CS_N0" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_CS_N1" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_DBI_N0" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_DBI_N1" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_DQ0" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_DQ1" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_DQ2" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_DQ3" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_DQ4" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_DQ5" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_DQ6" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_DQ7" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_DQ8" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_DQ9" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_DQ10" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_DQ11" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_DQ12" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_DQ13" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_DQ14" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_DQ15" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_DQS_N0" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_DQS_N1" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_DQS_P0" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_DQS_P1" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_ODT0" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_ODT1" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_RAS_N" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_RST_N" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_WE_N" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_DBG_DTO0" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_DBG_DTO1" type="InOut" diff="0" />
+        <pin name="EMEM_DDR_ZCOMP" type="InOut" diff="0" />
+        <pin name="JTAG_TCK" type="InOut" diff="0" />
+        <pin name="JTAG_TDO" type="InOut" diff="0" />
+        <pin name="JTAG_TMS" type="InOut" diff="0" />
+        <pin name="JTAG_TRSTN" type="InOut" diff="0" />
+        <pin name="JTAG_TDI" type="InOut" diff="0" />
+        <pin name="JTAG_CE_N" type="InOut" diff="0" />
+        <pin name="JTAG_CE_OUT" type="InOut" diff="0" />
+        <pin name="TEST_IO31" type="InOut" diff="0" />
+        <pin name="TEST_IO34" type="InOut" diff="0" />
+        <pin name="TEST_IO40" type="InOut" diff="0" />
+        <pin name="TEST_IO47" type="InOut" diff="0" />
+        <pin name="TEST_IO5" type="InOut" diff="0" />
+        <pin name="TEST_IO4" type="InOut" diff="0" />
+        <pin name="TEST_IO6" type="InOut" diff="0" />
+        <pin name="TEST_IO9" type="InOut" diff="0" />
+        <pin name="TEST_IO8" type="InOut" diff="0" />
+        <pin name="TEST_IO7" type="InOut" diff="0" />
+        <pin name="TEST_IO12" type="InOut" diff="0" />
+        <pin name="TEST_IO11" type="InOut" diff="0" />
+        <pin name="TEST_IO10" type="InOut" diff="0" />
+        <pin name="TEST_IO15" type="InOut" diff="0" />
+        <pin name="TEST_IO14" type="InOut" diff="0" />
+        <pin name="TEST_IO13" type="InOut" diff="0" />
+        <pin name="TEST_IO18" type="InOut" diff="0" />
+        <pin name="TEST_IO17" type="InOut" diff="0" />
+        <pin name="TEST_IO16" type="InOut" diff="0" />
+        <pin name="TEST_IO21" type="InOut" diff="0" />
+        <pin name="TEST_IO20" type="InOut" diff="0" />
+        <pin name="TEST_IO19" type="InOut" diff="0" />
+        <pin name="TEST_IO24" type="InOut" diff="0" />
+        <pin name="TEST_IO23" type="InOut" diff="0" />
+        <pin name="TEST_IO22" type="InOut" diff="0" />
+        <pin name="TEST_IO27" type="InOut" diff="0" />
+        <pin name="TEST_IO26" type="InOut" diff="0" />
+        <pin name="TEST_IO25" type="InOut" diff="0" />
+        <pin name="TEST_IO30" type="InOut" diff="0" />
+        <pin name="TEST_IO29" type="InOut" diff="0" />
+        <pin name="TEST_IO28" type="InOut" diff="0" />
+        <pin name="TEST_IO33" type="InOut" diff="0" />
+        <pin name="TEST_IO32" type="InOut" diff="0" />
+        <pin name="TEST_IO36" type="InOut" diff="0" />
+        <pin name="TEST_IO35" type="InOut" diff="0" />
+        <pin name="TEST_IO39" type="InOut" diff="0" />
+        <pin name="TEST_IO38" type="InOut" diff="0" />
+        <pin name="TEST_IO37" type="InOut" diff="0" />
+        <pin name="TEST_IO42" type="InOut" diff="0" />
+        <pin name="TEST_IO41" type="InOut" diff="0" />
+        <pin name="TEST_IO46" type="InOut" diff="0" />
+        <pin name="TEST_IO45" type="InOut" diff="0" />
+        <pin name="TEST_IO44" type="InOut" diff="0" />
+        <pin name="TEST_IO43" type="InOut" diff="0" />
+        <pin name="TEST_IO49" type="InOut" diff="0" />
+        <pin name="TEST_IO48" type="InOut" diff="0" />
+        <pin name="TEST_IO50" type="InOut" diff="0" />
+        <pin name="CLOCK_OUT_A" type="InOut" diff="0" />
+        <pin name="CLOCK_OUT_B" type="InOut" diff="0" />
+        <pin name="CLOCK_OUT_C" type="InOut" diff="0" />
+        <pin name="CORNER_TL" type="InOut" diff="0" />
+        <pin name="CORNER_BL" type="InOut" diff="0" />
+        <pin name="CORNER_TR" type="InOut" diff="0" />
+        <pin name="CORNER_BR" type="InOut" diff="0" />
+        <pin name="LED_DATA" type="InOut" diff="0" />
+        <pin name="LED_CLOCK" type="InOut" diff="0" />
+        <pin name="OVER_TEMP" type="InOut" diff="0" />
+        <pin name="FMAG_SYN_CLK0" type="InOut" diff="0" />
+        <pin name="FMAG_SYN_CLK1" type="InOut" diff="0" />
+        <pin name="FMAG_SYN_CLK2" type="InOut" diff="0" />
+        <pin name="FMAG_NG_TSYNC_FRAME" type="InOut" diff="0" />
+        <pin name="TVS0_CAL_TEST0" type="InOut" diff="0" />
+        <pin name="TVS0_CAL_TEST1" type="InOut" diff="0" />
+        <pin name="TVS0_CAL_TEST2" type="InOut" diff="0" />
+        <pin name="TVS1_CAL_TEST0" type="InOut" diff="0" />
+        <pin name="TVS1_CAL_TEST1" type="InOut" diff="0" />
+        <pin name="TVS1_CAL_TEST2" type="InOut" diff="0" />
+        <pin name="TEST_IO0" type="InOut" diff="0" />
+        <pin name="TEST_IO3" type="InOut" diff="0" />
+        <pin name="TEST_IO2" type="InOut" diff="0" />
+        <pin name="TEST_IO1" type="InOut" diff="0" />
+        <pin name="ICP_I2C_ADDR0" type="InOut" diff="0" />
+        <pin name="ICP_I2C_ADDR1" type="InOut" diff="0" />
+        <pin name="ICP_I2C_ADDR2" type="InOut" diff="0" />
+        <pin name="ICP_I2C_ADDR3" type="InOut" diff="0" />
+        <pin name="ICP_I2C_SCL" type="InOut" diff="0" />
+        <pin name="ICP_I2C_SDA" type="InOut" diff="0" />
+        <pin name="PTP_I2C_SCL" type="InOut" diff="0" />
+        <pin name="PTP_I2C_SDA" type="InOut" diff="0" />
+        <pin name="PTP_I2C_SEC" type="InOut" diff="0" />
+        <pin name="H16_CTLE_SEL0" type="InOut" diff="0" />
+        <pin name="H16_CTLE_SEL1" type="InOut" diff="0" />
+        <pin name="H16_CTLE_SEL2" type="InOut" diff="0" />
+        <pin name="VID0" type="InOut" diff="0" />
+        <pin name="VID1" type="InOut" diff="0" />
+        <pin name="VID2" type="InOut" diff="0" />
+        <pin name="VID3" type="InOut" diff="0" />
+        <pin name="VID4" type="InOut" diff="0" />
+        <pin name="VID5" type="InOut" diff="0" />
+        <pin name="VID6" type="InOut" diff="0" />
+        <pin name="VID7" type="InOut" diff="0" />
+        <pin name="AVS_PMB_SDA" type="InOut" diff="0" />
+        <pin name="AVS_PMB_SCL" type="InOut" diff="0" />
+        <pin name="AVS_PMB_ALERT_N" type="InOut" diff="0" />
+        <pin name="SYS_RST_N" type="InOut" diff="0" />
+        <pin name="PCIE_INT_N" type="InOut" diff="0" />
+        <pin name="SYS_REF_CLK_SEL" type="InOut" diff="0" />
+        <pin name="SYS_REF_CLK_BAK" type="InOut" diff="0" />
+        <pin name="SYS_REF_CLK_P" type="InOut" diff="0" />
+        <pin name="SYS_REF_CLK_N" type="InOut" diff="0" />
+        <pin name="FMAG_REF_CLK0_P" type="InOut" diff="0" />
+        <pin name="FMAG_REF_CLK0_N" type="InOut" diff="0" />
+        <pin name="FMAG_REF_CLK1_P" type="InOut" diff="0" />
+        <pin name="FMAG_REF_CLK1_N" type="InOut" diff="0" />
+        <pin name="LMAG_REF_CLK_P" type="InOut" diff="0" />
+        <pin name="LMAG_REF_CLK_N" type="InOut" diff="0" />
+        <pin name="REL_CTRL1" type="Ubit" diff="0" />
+        <pin name="REL_CTRL2" type="Ubit" diff="0" />
+        <pin name="REL_CTRL3" type="Ubit" diff="0" />
+        <pin name="REL_CTRL4" type="Ubit" diff="0" />
+        <pin name="REL_CTRL5" type="Ubit" diff="0" />
+        <pin name="REL_CTRL6" type="Ubit" diff="0" />
+        <pin name="LJC1_UDB0" type="Ubit" diff="0" />
+        <pin name="LJC1_UDB1" type="Ubit" diff="0" />
+        <pin name="CLK_SEL_CBIT1" type="Ubit" diff="0" />
+        <pin name="UDB_K1" type="Ubit" diff="0" />
+        <pin name="UDB_K2" type="Ubit" diff="0" />
+        <pin name="UDB_K3" type="Ubit" diff="0" />
+        <pin name="VSS_DVDD12_TEST" type="InOut" diff="0" />
+        <pin name="HVCC_H30_TEST" type="InOut" diff="0" />
+        <pin name="VSS_HVCC_H30_TEST" type="InOut" diff="0" />
+        <pin name="LVCC_H30_TEST" type="InOut" diff="0" />
+        <pin name="VSS_LVCC_H30_TEST" type="InOut" diff="0" />
+        <pin name="VDDIO12_DDR_TEST" type="InOut" diff="0" />
+        <pin name="VSS_VDDIO_DDR_TEST" type="InOut" diff="0" />
+        <pin name="DVDD_TEST" type="InOut" diff="0" />
+        <pin name="PCM1_CLKIN1" type="InOut" diff="0" />
+        <pin name="PCM1_CS" type="InOut" diff="0" />
+        <pin name="PCM1_SCK" type="InOut" diff="0" />
+        <pin name="PCM1_SDAIO" type="InOut" diff="0" />
+        <pin name="PCM1_SDO" type="InOut" diff="0" />
+        <pin name="PCM1_NC_Status_LD1" type="InOut" diff="0" />
+        <pin name="PCM1_NC_Status_LD2" type="InOut" diff="0" />
+        <pin name="PCM1_CLKIN1N" type="InOut" diff="0" />
+        <pin name="PCM1_CLKIN1P" type="InOut" diff="0" />
+    </pins>
+    <pingroups>
+        <pingroup name="PWR_12" list="AVDD12_HSS" />
+        <pingroup name="OS_VDD_CP" list="EMEM_DDR_A0+EMEM_DDR_A1+EMEM_DDR_A2+EMEM_DDR_A3+EMEM_DDR_A4+EMEM_DDR_A5+EMEM_DDR_A6+EMEM_DDR_A7+EMEM_DDR_A8+EMEM_DDR_A9+EMEM_DDR_A10+EMEM_DDR_A11+EMEM_DDR_A12+EMEM_DDR_A13+EMEM_DDR_A14+EMEM_DDR_A15+EMEM_DDR_ALERT_AC_N0+EMEM_DDR_ALERT_AC_N1+EMEM_DDR_BA0+EMEM_DDR_BA1+EMEM_DDR_BA2+EMEM_DDR_BG1+EMEM_DDR_CAS_N+EMEM_DDR_CK_N0+EMEM_DDR_CK_N1+EMEM_DDR_CK_P0+EMEM_DDR_CK_P1+EMEM_DDR_CKE+EMEM_DDR_CS_N0+EMEM_DDR_CS_N1+EMEM_DDR_DBI_N0+EMEM_DDR_DBI_N1+EMEM_DDR_DQ0+EMEM_DDR_DQ1+EMEM_DDR_DQ2+EMEM_DDR_DQ3+EMEM_DDR_DQ4+EMEM_DDR_DQ5+EMEM_DDR_DQ6+EMEM_DDR_DQ7+EMEM_DDR_DQ8+EMEM_DDR_DQ9+EMEM_DDR_DQ10+EMEM_DDR_DQ11+EMEM_DDR_DQ12+EMEM_DDR_DQ13+EMEM_DDR_DQ14+EMEM_DDR_DQ15+EMEM_DDR_DQS_N0+EMEM_DDR_DQS_N1+EMEM_DDR_DQS_P0+EMEM_DDR_DQS_P1+EMEM_DDR_ODT0+EMEM_DDR_ODT1+EMEM_DDR_RAS_N+EMEM_DDR_RST_N+EMEM_DDR_WE_N+EMEM_DDR_DBG_DTO0+EMEM_DDR_DBG_DTO1" />
+        <pingroup name="OS_VSS_CP" list="EMEM_DDR_A0+EMEM_DDR_A1+EMEM_DDR_A2+EMEM_DDR_A3+EMEM_DDR_A4+EMEM_DDR_A5+EMEM_DDR_A6+EMEM_DDR_A7+EMEM_DDR_A8+EMEM_DDR_A9+EMEM_DDR_A10+EMEM_DDR_A11+EMEM_DDR_A12+EMEM_DDR_A13+EMEM_DDR_A14+EMEM_DDR_A15+EMEM_DDR_ALERT_AC_N0+EMEM_DDR_ALERT_AC_N1+EMEM_DDR_BA0+EMEM_DDR_BA1+EMEM_DDR_BA2+EMEM_DDR_BG1+EMEM_DDR_CAS_N+EMEM_DDR_CK_N0+EMEM_DDR_CK_N1+EMEM_DDR_CK_P0+EMEM_DDR_CK_P1+EMEM_DDR_CKE+EMEM_DDR_CS_N0+EMEM_DDR_CS_N1+EMEM_DDR_DBI_N0+EMEM_DDR_DBI_N1+EMEM_DDR_DQ0+EMEM_DDR_DQ1+EMEM_DDR_DQ2+EMEM_DDR_DQ3+EMEM_DDR_DQ4+EMEM_DDR_DQ5+EMEM_DDR_DQ6+EMEM_DDR_DQ7+EMEM_DDR_DQ8+EMEM_DDR_DQ9+EMEM_DDR_DQ10+EMEM_DDR_DQ11+EMEM_DDR_DQ12+EMEM_DDR_DQ13+EMEM_DDR_DQ14+EMEM_DDR_DQ15+EMEM_DDR_DQS_N0+EMEM_DDR_DQS_N1+EMEM_DDR_DQS_P0+EMEM_DDR_DQS_P1+EMEM_DDR_ODT0+EMEM_DDR_ODT1+EMEM_DDR_RAS_N+EMEM_DDR_RST_N+EMEM_DDR_WE_N+EMEM_DDR_DBG_DTO0+EMEM_DDR_DBG_DTO1+SYS_REF_CLK_SEL+SYS_REF_CLK_BAK+JTAG_TCK+JTAG_TDO+JTAG_TMS+JTAG_TRSTN+JTAG_TDI+JTAG_CE_N+JTAG_CE_OUT+SYS_RST_N+TEST_IO31+TEST_IO34+TEST_IO40+TEST_IO47+TEST_IO5+TEST_IO4+TEST_IO6+TEST_IO9+TEST_IO8+TEST_IO7+TEST_IO12+TEST_IO11+TEST_IO10+TEST_IO15+TEST_IO14+TEST_IO13+TEST_IO18+TEST_IO17+TEST_IO16+TEST_IO21+TEST_IO20+TEST_IO19+TEST_IO24+TEST_IO23+TEST_IO22+TEST_IO27+TEST_IO26+TEST_IO25+TEST_IO30+TEST_IO29+TEST_IO28+TEST_IO33+TEST_IO32+TEST_IO36+TEST_IO35+TEST_IO39+TEST_IO38+TEST_IO37+TEST_IO42+TEST_IO41+TEST_IO46+TEST_IO45+TEST_IO44+TEST_IO43+TEST_IO49+TEST_IO48+TEST_IO50+CLOCK_OUT_A+CLOCK_OUT_B+CLOCK_OUT_C+CORNER_TL+CORNER_BL+CORNER_TR+CORNER_BR+LED_DATA+LED_CLOCK+OVER_TEMP+FMAG_SYN_CLK0+FMAG_SYN_CLK1+FMAG_SYN_CLK2+FMAG_NG_TSYNC_FRAME+TVS0_CAL_TEST0+TVS0_CAL_TEST1+TVS0_CAL_TEST2+TVS1_CAL_TEST0+TVS1_CAL_TEST1+TVS1_CAL_TEST2+TEST_IO0+TEST_IO3+TEST_IO2+TEST_IO1+ICP_I2C_ADDR0+ICP_I2C_ADDR1+ICP_I2C_ADDR2+ICP_I2C_ADDR3+ICP_I2C_SCL+ICP_I2C_SDA+PTP_I2C_SCL+PTP_I2C_SDA+PTP_I2C_SEC+PCIE_INT_N+H16_CTLE_SEL0+H16_CTLE_SEL1+H16_CTLE_SEL2+VID0+VID1+VID2+VID3+VID4+VID5+VID6+VID7+AVS_PMB_SDA+AVS_PMB_SCL+AVS_PMB_ALERT_N" />
+        <pingroup name="OS_VDD_FTA" list="EMEM_DDR_DBG_DTO0+EMEM_DDR_DBG_DTO1" />
+        <pingroup name="OS_VSS_FTA" list="JTAG_TCK+JTAG_TRSTN+JTAG_TMS+JTAG_TDI+JTAG_TDO+JTAG_CE_N+JTAG_CE_OUT+ICP_I2C_SDA+ICP_I2C_SCL+ICP_I2C_ADDR0+ICP_I2C_ADDR1+ICP_I2C_ADDR2+ICP_I2C_ADDR3+PTP_I2C_SDA+PTP_I2C_SCL+PTP_I2C_SEC+SYS_REF_CLK_BAK+SYS_REF_CLK_SEL+SYS_RST_N+PCIE_INT_N+LED_CLOCK+LED_DATA+OVER_TEMP+CLOCK_OUT_A+CLOCK_OUT_B+CLOCK_OUT_C+FMAG_SYN_CLK0+FMAG_SYN_CLK1+FMAG_SYN_CLK2+FMAG_NG_TSYNC_FRAME+CORNER_BR+CORNER_BL+CORNER_TR+CORNER_TL+H16_CTLE_SEL0+H16_CTLE_SEL1+H16_CTLE_SEL2+VID0+VID1+VID2+VID3+VID4+VID5+VID6+VID7+AVS_PMB_SDA+AVS_PMB_SCL+AVS_PMB_ALERT_N+TVS0_CAL_TEST0+TVS0_CAL_TEST1+TVS0_CAL_TEST2+TVS1_CAL_TEST0+TVS1_CAL_TEST1+TVS1_CAL_TEST2+TEST_IO0+TEST_IO1+TEST_IO2+TEST_IO3+TEST_IO4+TEST_IO5+TEST_IO6+TEST_IO7+TEST_IO8+TEST_IO9+TEST_IO10+TEST_IO11+TEST_IO12+TEST_IO13+TEST_IO14+TEST_IO15+TEST_IO16+TEST_IO17+TEST_IO18+TEST_IO19+TEST_IO20+TEST_IO21+TEST_IO22+TEST_IO23+TEST_IO24+TEST_IO25+TEST_IO26+TEST_IO27+TEST_IO28+TEST_IO29+TEST_IO30+TEST_IO31+TEST_IO32+TEST_IO33+TEST_IO34+TEST_IO35+TEST_IO36+TEST_IO37+TEST_IO38+TEST_IO39+TEST_IO40+TEST_IO41+TEST_IO42+TEST_IO43+TEST_IO44+TEST_IO45+TEST_IO46+TEST_IO47+TEST_IO48+TEST_IO49+TEST_IO50+EMEM_DDR_DBG_DTO0+EMEM_DDR_DBG_DTO1" />
+        <pingroup name="OS_VDD_FTC" list="EMEM_DDR_A0+EMEM_DDR_A1+EMEM_DDR_A2+EMEM_DDR_A3+EMEM_DDR_A4+EMEM_DDR_A5+EMEM_DDR_A6+EMEM_DDR_A7+EMEM_DDR_A8+EMEM_DDR_A9+EMEM_DDR_DBG_DTO0+EMEM_DDR_DBG_DTO1+EMEM_DDR_A10+EMEM_DDR_A11+EMEM_DDR_A12+EMEM_DDR_A13+EMEM_DDR_A14+EMEM_DDR_A15+EMEM_DDR_ALERT_AC_N0+EMEM_DDR_ALERT_AC_N1+EMEM_DDR_BA0+EMEM_DDR_BA1+EMEM_DDR_BA2+EMEM_DDR_BG1+EMEM_DDR_CAS_N+EMEM_DDR_CK_N0+EMEM_DDR_CK_N1+EMEM_DDR_CK_P0+EMEM_DDR_CK_P1+EMEM_DDR_CKE+EMEM_DDR_CS_N0+EMEM_DDR_CS_N1+EMEM_DDR_DBI_N0+EMEM_DDR_DBI_N1+EMEM_DDR_DQ0+EMEM_DDR_DQ1+EMEM_DDR_DQ2+EMEM_DDR_DQ3+EMEM_DDR_DQ4+EMEM_DDR_DQ5+EMEM_DDR_DQ6+EMEM_DDR_DQ7+EMEM_DDR_DQ8+EMEM_DDR_DQ9+EMEM_DDR_DQ10+EMEM_DDR_DQ11+EMEM_DDR_DQ12+EMEM_DDR_DQ13+EMEM_DDR_DQ14+EMEM_DDR_DQ15+EMEM_DDR_DQS_N0+EMEM_DDR_DQS_N1+EMEM_DDR_DQS_P0+EMEM_DDR_DQS_P1+EMEM_DDR_ODT0+EMEM_DDR_ODT1+EMEM_DDR_RAS_N+EMEM_DDR_RST_N+EMEM_DDR_WE_N" />
+        <pingroup name="OS_VSS_FTC" list="EMEM_DDR_A0+EMEM_DDR_A1+EMEM_DDR_A2+EMEM_DDR_A3+EMEM_DDR_A4+EMEM_DDR_A5+EMEM_DDR_A6+EMEM_DDR_A7+EMEM_DDR_A8+EMEM_DDR_A9+EMEM_DDR_A10+EMEM_DDR_A11+EMEM_DDR_A12+EMEM_DDR_A13+EMEM_DDR_A14+EMEM_DDR_A15+EMEM_DDR_DBG_DTO0+EMEM_DDR_DBG_DTO1+EMEM_DDR_ALERT_AC_N0+EMEM_DDR_ALERT_AC_N1+EMEM_DDR_BA0+EMEM_DDR_BA1+EMEM_DDR_BA2+EMEM_DDR_BG1+EMEM_DDR_CAS_N+EMEM_DDR_CK_N0+EMEM_DDR_CK_N1+EMEM_DDR_CK_P0+EMEM_DDR_CK_P1+EMEM_DDR_CKE+EMEM_DDR_CS_N0+EMEM_DDR_CS_N1+EMEM_DDR_DBI_N0+EMEM_DDR_DBI_N1+EMEM_DDR_DQ0+EMEM_DDR_DQ1+EMEM_DDR_DQ2+EMEM_DDR_DQ3+EMEM_DDR_DQ4+EMEM_DDR_DQ5+EMEM_DDR_DQ6+EMEM_DDR_DQ7+EMEM_DDR_DQ8+EMEM_DDR_DQ9+EMEM_DDR_DQ10+EMEM_DDR_DQ11+EMEM_DDR_DQ12+EMEM_DDR_DQ13+EMEM_DDR_DQ14+EMEM_DDR_DQ15+EMEM_DDR_DQS_N0+EMEM_DDR_DQS_N1+EMEM_DDR_DQS_P0+EMEM_DDR_DQS_P1+EMEM_DDR_ODT0+EMEM_DDR_ODT1+EMEM_DDR_RAS_N+EMEM_DDR_RST_N+EMEM_DDR_WE_N+SYS_REF_CLK_SEL+SYS_REF_CLK_BAK+JTAG_TCK+JTAG_TDO+JTAG_TMS+JTAG_TRSTN+JTAG_TDI+JTAG_CE_N+JTAG_CE_OUT+SYS_RST_N+TEST_IO31+TEST_IO34+TEST_IO40+TEST_IO47+TEST_IO5+TEST_IO4+TEST_IO6+TEST_IO9+TEST_IO8+TEST_IO7+TEST_IO12+TEST_IO11+TEST_IO10+TEST_IO15+TEST_IO14+TEST_IO13+TEST_IO18+TEST_IO17+TEST_IO16+TEST_IO21+TEST_IO20+TEST_IO19+TEST_IO24+TEST_IO23+TEST_IO22+TEST_IO27+TEST_IO26+TEST_IO25+TEST_IO30+TEST_IO29+TEST_IO28+TEST_IO33+TEST_IO32+TEST_IO36+TEST_IO35+TEST_IO39+TEST_IO38+TEST_IO37+TEST_IO42+TEST_IO41+TEST_IO46+TEST_IO45+TEST_IO44+TEST_IO43+TEST_IO49+TEST_IO48+TEST_IO50+CLOCK_OUT_A+CLOCK_OUT_B+CLOCK_OUT_C+CORNER_TL+CORNER_BL+CORNER_TR+CORNER_BR+LED_DATA+LED_CLOCK+OVER_TEMP+FMAG_SYN_CLK0+FMAG_SYN_CLK1+FMAG_SYN_CLK2+FMAG_NG_TSYNC_FRAME+TVS0_CAL_TEST0+TVS0_CAL_TEST1+TVS0_CAL_TEST2+TVS1_CAL_TEST0+TVS1_CAL_TEST1+TVS1_CAL_TEST2+TEST_IO0+TEST_IO3+TEST_IO2+TEST_IO1+ICP_I2C_ADDR0+ICP_I2C_ADDR1+ICP_I2C_ADDR2+ICP_I2C_ADDR3+ICP_I2C_SCL+ICP_I2C_SDA+PTP_I2C_SCL+PTP_I2C_SDA+PTP_I2C_SEC+PCIE_INT_N+H16_CTLE_SEL0+H16_CTLE_SEL1+H16_CTLE_SEL2+VID0+VID1+VID2+VID3+VID4+VID5+VID6+VID7+AVS_PMB_SDA+AVS_PMB_SCL+AVS_PMB_ALERT_N" />
+        <pingroup name="I2C_ICP" list="ICP_I2C_ADDR0+ICP_I2C_ADDR1+ICP_I2C_ADDR2+ICP_I2C_ADDR3+ICP_I2C_SCL+ICP_I2C_SDA" />
+        <pingroup name="I2C_PTP" list="PTP_I2C_SCL+PTP_I2C_SDA+PTP_I2C_SEC" />
+        <pingroup name="JTAG_PINS" list="JTAG_TCK+JTAG_TDO+JTAG_TMS+JTAG_TRSTN+JTAG_TDI" />
+        <pingroup name="OS_SDS_RX" list="LMAG_RX_N0+LMAG_RX_P0+LMAG_RX_N1+LMAG_RX_P1+LMAG_RX_N2+LMAG_RX_P2+LMAG_RX_N3+LMAG_RX_P3+LMAG_RX_N4+LMAG_RX_P4+LMAG_RX_N5+LMAG_RX_P5+LMAG_RX_N6+LMAG_RX_P6+LMAG_RX_N7+LMAG_RX_P7+LMAG_RX_N8+LMAG_RX_P8+LMAG_RX_N9+LMAG_RX_P9+LMAG_RX_N10+LMAG_RX_P10+LMAG_RX_N11+LMAG_RX_P11+LMAG_RX_N12+LMAG_RX_P12+LMAG_RX_N13+LMAG_RX_P13+LMAG_RX_N14+LMAG_RX_P14+LMAG_RX_N15+LMAG_RX_P15+LMAG_RX_N32+LMAG_RX_P32+LMAG_RX_N33+LMAG_RX_P33+LMAG_RX_N34+LMAG_RX_P34+LMAG_RX_N35+LMAG_RX_P35+LMAG_RX_N36+LMAG_RX_P36+LMAG_RX_N37+LMAG_RX_P37+LMAG_RX_N38+LMAG_RX_P38+LMAG_RX_N39+LMAG_RX_P39+LMAG_RX_N24+LMAG_RX_P24+LMAG_RX_N25+LMAG_RX_P25+LMAG_RX_N26+LMAG_RX_P26+LMAG_RX_N27+LMAG_RX_P27+LMAG_RX_N28+LMAG_RX_P28+LMAG_RX_N29+LMAG_RX_P29+LMAG_RX_N30+LMAG_RX_P30+LMAG_RX_N31+LMAG_RX_P31+LMAG_RX_N16+LMAG_RX_P16+LMAG_RX_N17+LMAG_RX_P17+LMAG_RX_N18+LMAG_RX_P18+LMAG_RX_N19+LMAG_RX_P19+LMAG_RX_N20+LMAG_RX_P20+LMAG_RX_N21+LMAG_RX_P21+LMAG_RX_N22+LMAG_RX_P22+LMAG_RX_N23+LMAG_RX_P23+LMAG_RX_N40+LMAG_RX_P40+LMAG_RX_N41+LMAG_RX_P41+LMAG_RX_N42+LMAG_RX_P42+LMAG_RX_N43+LMAG_RX_P43+LMAG_RX_N44+LMAG_RX_P44+LMAG_RX_N45+LMAG_RX_P45+LMAG_RX_N46+LMAG_RX_P46+LMAG_RX_N47+LMAG_RX_P47+FMAG_RX_N0+FMAG_RX_P0+FMAG_RX_N1+FMAG_RX_P1+FMAG_RX_N2+FMAG_RX_P2+FMAG_RX_N3+FMAG_RX_P3+FMAG_RX_N4+FMAG_RX_P4+FMAG_RX_N5+FMAG_RX_P5+FMAG_RX_N6+FMAG_RX_P6+FMAG_RX_N7+FMAG_RX_P7+FMAG_RX_N8+FMAG_RX_P8+FMAG_RX_N9+FMAG_RX_P9+FMAG_RX_N10+FMAG_RX_P10+FMAG_RX_N11+FMAG_RX_P11+FMAG_RX_N20+FMAG_RX_P20+FMAG_RX_N21+FMAG_RX_P21+FMAG_RX_N22+FMAG_RX_P22+FMAG_RX_N23+FMAG_RX_P23+FMAG_RX_N32+FMAG_RX_P32+FMAG_RX_N33+FMAG_RX_P33+FMAG_RX_N34+FMAG_RX_P34+FMAG_RX_N35+FMAG_RX_P35+FMAG_RX_N36+FMAG_RX_P36+FMAG_RX_N37+FMAG_RX_P37+FMAG_RX_N38+FMAG_RX_P38+FMAG_RX_N39+FMAG_RX_P39+FMAG_RX_N19+FMAG_RX_P19+FMAG_RX_N18+FMAG_RX_P18+FMAG_RX_N17+FMAG_RX_P17+FMAG_RX_N16+FMAG_RX_P16+FMAG_RX_N15+FMAG_RX_P15+FMAG_RX_N14+FMAG_RX_P14+FMAG_RX_N13+FMAG_RX_P13+FMAG_RX_N12+FMAG_RX_P12+FMAG_RX_N24+FMAG_RX_P24+FMAG_RX_N25+FMAG_RX_P25+FMAG_RX_N26+FMAG_RX_P26+FMAG_RX_N27+FMAG_RX_P27+FMAG_RX_N28+FMAG_RX_P28+FMAG_RX_N29+FMAG_RX_P29+FMAG_RX_N30+FMAG_RX_P30+FMAG_RX_N31+FMAG_RX_P31+FMAG_RX_N40+FMAG_RX_P40+FMAG_RX_N41+FMAG_RX_P41+FMAG_RX_N42+FMAG_RX_P42+FMAG_RX_N43+FMAG_RX_P43+FMAG_RX_N44+FMAG_RX_P44+FMAG_RX_N45+FMAG_RX_P45+FMAG_RX_N46+FMAG_RX_P46+FMAG_RX_N47+FMAG_RX_P47+ILA_RX_N0+ILA_RX_P0+ILA_RX_N1+ILA_RX_P1+ILA_RX_N2+ILA_RX_P2+ILA_RX_N3+ILA_RX_P3+ILA_RX_N4+ILA_RX_P4+ILA_RX_N5+ILA_RX_P5+ILA_RX_N6+ILA_RX_P6+ILA_RX_N7+ILA_RX_P7+PIE_RX_N0+PIE_RX_P0+PCIE_RX_N0+PCIE_RX_P0+PCIE_RX_N1+PCIE_RX_P1" />
+        <pingroup name="OS_SDS" list="FMAG_TX_P0+FMAG_TX_N0+FMAG_TX_P1+FMAG_TX_N1+FMAG_TX_P2+FMAG_TX_N2+FMAG_TX_P3+FMAG_TX_N3+FMAG_TX_P4+FMAG_TX_N4+FMAG_TX_P5+FMAG_TX_N5+FMAG_TX_P6+FMAG_TX_N6+FMAG_TX_P7+FMAG_TX_N7+FMAG_TX_P8+FMAG_TX_N8+FMAG_TX_P9+FMAG_TX_N9+FMAG_TX_P10+FMAG_TX_N10+FMAG_TX_P11+FMAG_TX_N11+FMAG_TX_P12+FMAG_TX_N12+FMAG_TX_P13+FMAG_TX_N13+FMAG_TX_P14+FMAG_TX_N14+FMAG_TX_P15+FMAG_TX_N15+FMAG_TX_P16+FMAG_TX_N16+FMAG_TX_P17+FMAG_TX_N17+FMAG_TX_P18+FMAG_TX_N18+FMAG_TX_P19+FMAG_TX_N19+FMAG_TX_P20+FMAG_TX_N20+FMAG_TX_P21+FMAG_TX_N21+FMAG_TX_P22+FMAG_TX_N22+FMAG_TX_P23+FMAG_TX_N23+FMAG_TX_P24+FMAG_TX_N24+FMAG_TX_P25+FMAG_TX_N25+FMAG_TX_P26+FMAG_TX_N26+FMAG_TX_P27+FMAG_TX_N27+FMAG_TX_P28+FMAG_TX_N28+FMAG_TX_P29+FMAG_TX_N29+FMAG_TX_P30+FMAG_TX_N30+FMAG_TX_P31+FMAG_TX_N31+FMAG_TX_P32+FMAG_TX_N32+FMAG_TX_P33+FMAG_TX_N33+FMAG_TX_P34+FMAG_TX_N34+FMAG_TX_P35+FMAG_TX_N35+FMAG_TX_P36+FMAG_TX_N36+FMAG_TX_P37+FMAG_TX_N37+FMAG_TX_P38+FMAG_TX_N38+FMAG_TX_P39+FMAG_TX_N39+FMAG_TX_P40+FMAG_TX_N40+FMAG_TX_P41+FMAG_TX_N41+FMAG_TX_P42+FMAG_TX_N42+FMAG_TX_P43+FMAG_TX_N43+FMAG_TX_P44+FMAG_TX_N44+FMAG_TX_P45+FMAG_TX_N45+FMAG_TX_P46+FMAG_TX_N46+FMAG_TX_P47+FMAG_TX_N47+FMAG_RX_P0+FMAG_RX_N0+FMAG_RX_P1+FMAG_RX_N1+FMAG_RX_P2+FMAG_RX_N2+FMAG_RX_P3+FMAG_RX_N3+FMAG_RX_P4+FMAG_RX_N4+FMAG_RX_P5+FMAG_RX_N5+FMAG_RX_P6+FMAG_RX_N6+FMAG_RX_P7+FMAG_RX_N7+FMAG_RX_P8+FMAG_RX_N8+FMAG_RX_P9+FMAG_RX_N9+FMAG_RX_P10+FMAG_RX_N10+FMAG_RX_P11+FMAG_RX_N11+FMAG_RX_P12+FMAG_RX_N12+FMAG_RX_P13+FMAG_RX_N13+FMAG_RX_P14+FMAG_RX_N14+FMAG_RX_P15+FMAG_RX_N15+FMAG_RX_P16+FMAG_RX_N16+FMAG_RX_P17+FMAG_RX_N17+FMAG_RX_P18+FMAG_RX_N18+FMAG_RX_P19+FMAG_RX_N19+FMAG_RX_P20+FMAG_RX_N20+FMAG_RX_P21+FMAG_RX_N21+FMAG_RX_P22+FMAG_RX_N22+FMAG_RX_P23+FMAG_RX_N23+FMAG_RX_P24+FMAG_RX_N24+FMAG_RX_P25+FMAG_RX_N25+FMAG_RX_P26+FMAG_RX_N26+FMAG_RX_P27+FMAG_RX_N27+FMAG_RX_P28+FMAG_RX_N28+FMAG_RX_P29+FMAG_RX_N29+FMAG_RX_P30+FMAG_RX_N30+FMAG_RX_P31+FMAG_RX_N31+FMAG_RX_P32+FMAG_RX_N32+FMAG_RX_P33+FMAG_RX_N33+FMAG_RX_P34+FMAG_RX_N34+FMAG_RX_P35+FMAG_RX_N35+FMAG_RX_P36+FMAG_RX_N36+FMAG_RX_P37+FMAG_RX_N37+FMAG_RX_P38+FMAG_RX_N38+FMAG_RX_P39+FMAG_RX_N39+FMAG_RX_P40+FMAG_RX_N40+FMAG_RX_P41+FMAG_RX_N41+FMAG_RX_P42+FMAG_RX_N42+FMAG_RX_P43+FMAG_RX_N43+FMAG_RX_P44+FMAG_RX_N44+FMAG_RX_P45+FMAG_RX_N45+FMAG_RX_P46+FMAG_RX_N46+FMAG_RX_P47+FMAG_RX_N47+LMAG_TX_P0+LMAG_TX_N0+LMAG_TX_P1+LMAG_TX_N1+LMAG_TX_P2+LMAG_TX_N2+LMAG_TX_P3+LMAG_TX_N3+LMAG_TX_P4+LMAG_TX_N4+LMAG_TX_P5+LMAG_TX_N5+LMAG_TX_P6+LMAG_TX_N6+LMAG_TX_P7+LMAG_TX_N7+LMAG_TX_P8+LMAG_TX_N8+LMAG_TX_P9+LMAG_TX_N9+LMAG_TX_P10+LMAG_TX_N10+LMAG_TX_P11+LMAG_TX_N11+LMAG_TX_P12+LMAG_TX_N12+LMAG_TX_P13+LMAG_TX_N13+LMAG_TX_P14+LMAG_TX_N14+LMAG_TX_P15+LMAG_TX_N15+LMAG_TX_P16+LMAG_TX_N16+LMAG_TX_P17+LMAG_TX_N17+LMAG_TX_P18+LMAG_TX_N18+LMAG_TX_P19+LMAG_TX_N19+LMAG_TX_P20+LMAG_TX_N20+LMAG_TX_P21+LMAG_TX_N21+LMAG_TX_P22+LMAG_TX_N22+LMAG_TX_P23+LMAG_TX_N23+LMAG_TX_P24+LMAG_TX_N24+LMAG_TX_P25+LMAG_TX_N25+LMAG_TX_P26+LMAG_TX_N26+LMAG_TX_P27+LMAG_TX_N27+LMAG_TX_P28+LMAG_TX_N28+LMAG_TX_P29+LMAG_TX_N29+LMAG_TX_P30+LMAG_TX_N30+LMAG_TX_P31+LMAG_TX_N31+LMAG_TX_P32+LMAG_TX_N32+LMAG_TX_P33+LMAG_TX_N33+LMAG_TX_P34+LMAG_TX_N34+LMAG_TX_P35+LMAG_TX_N35+LMAG_TX_P36+LMAG_TX_N36+LMAG_TX_P37+LMAG_TX_N37+LMAG_TX_P38+LMAG_TX_N38+LMAG_TX_P39+LMAG_TX_N39+LMAG_TX_P40+LMAG_TX_N40+LMAG_TX_P41+LMAG_TX_N41+LMAG_TX_P42+LMAG_TX_N42+LMAG_TX_P43+LMAG_TX_N43+LMAG_TX_P44+LMAG_TX_N44+LMAG_TX_P45+LMAG_TX_N45+LMAG_TX_P46+LMAG_TX_N46+LMAG_TX_P47+LMAG_TX_N47+LMAG_RX_P0+LMAG_RX_N0+LMAG_RX_P1+LMAG_RX_N1+LMAG_RX_P2+LMAG_RX_N2+LMAG_RX_P3+LMAG_RX_N3+LMAG_RX_P4+LMAG_RX_N4+LMAG_RX_P5+LMAG_RX_N5+LMAG_RX_P6+LMAG_RX_N6+LMAG_RX_P7+LMAG_RX_N7+LMAG_RX_P8+LMAG_RX_N8+LMAG_RX_P9+LMAG_RX_N9+LMAG_RX_P10+LMAG_RX_N10+LMAG_RX_P11+LMAG_RX_N11+LMAG_RX_P12+LMAG_RX_N12+LMAG_RX_P13+LMAG_RX_N13+LMAG_RX_P14+LMAG_RX_N14+LMAG_RX_P15+LMAG_RX_N15+LMAG_RX_P16+LMAG_RX_N16+LMAG_RX_P17+LMAG_RX_N17+LMAG_RX_P18+LMAG_RX_N18+LMAG_RX_P19+LMAG_RX_N19+LMAG_RX_P20+LMAG_RX_N20+LMAG_RX_P21+LMAG_RX_N21+LMAG_RX_P22+LMAG_RX_N22+LMAG_RX_P23+LMAG_RX_N23+LMAG_RX_P24+LMAG_RX_N24+LMAG_RX_P25+LMAG_RX_N25+LMAG_RX_P26+LMAG_RX_N26+LMAG_RX_P27+LMAG_RX_N27+LMAG_RX_P28+LMAG_RX_N28+LMAG_RX_P29+LMAG_RX_N29+LMAG_RX_P30+LMAG_RX_N30+LMAG_RX_P31+LMAG_RX_N31+LMAG_RX_P32+LMAG_RX_N32+LMAG_RX_P33+LMAG_RX_N33+LMAG_RX_P34+LMAG_RX_N34+LMAG_RX_P35+LMAG_RX_N35+LMAG_RX_P36+LMAG_RX_N36+LMAG_RX_P37+LMAG_RX_N37+LMAG_RX_P38+LMAG_RX_N38+LMAG_RX_P39+LMAG_RX_N39+LMAG_RX_P40+LMAG_RX_N40+LMAG_RX_P41+LMAG_RX_N41+LMAG_RX_P42+LMAG_RX_N42+LMAG_RX_P43+LMAG_RX_N43+LMAG_RX_P44+LMAG_RX_N44+LMAG_RX_P45+LMAG_RX_N45+LMAG_RX_P46+LMAG_RX_N46+LMAG_RX_P47+LMAG_RX_N47+ILA_TX_P0+ILA_TX_N0+ILA_TX_P1+ILA_TX_N1+ILA_TX_P2+ILA_TX_N2+ILA_TX_P3+ILA_TX_N3+ILA_TX_P4+ILA_TX_N4+ILA_TX_P5+ILA_TX_N5+ILA_TX_P6+ILA_TX_N6+ILA_TX_P7+ILA_TX_N7+ILA_RX_P0+ILA_RX_N0+ILA_RX_P1+ILA_RX_N1+ILA_RX_P2+ILA_RX_N2+ILA_RX_P3+ILA_RX_N3+ILA_RX_P4+ILA_RX_N4+ILA_RX_P5+ILA_RX_N5+ILA_RX_P6+ILA_RX_N6+ILA_RX_P7+ILA_RX_N7+PIE_TX_P0+PIE_TX_N0+PIE_RX_P0+PIE_RX_N0+PCIE_TX_P0+PCIE_TX_N0+PCIE_TX_P1+PCIE_TX_N1+PCIE_RX_P0+PCIE_RX_N0+PCIE_RX_P1+PCIE_RX_N1" />
+        <pingroup name="OS_IO_CP" list="EMEM_DDR_A0+EMEM_DDR_A1+EMEM_DDR_A2+EMEM_DDR_A3+EMEM_DDR_A4+EMEM_DDR_A5+EMEM_DDR_A6+EMEM_DDR_A7+EMEM_DDR_A8+EMEM_DDR_A9+EMEM_DDR_A10+EMEM_DDR_A11+EMEM_DDR_A12+EMEM_DDR_A13+EMEM_DDR_A14+EMEM_DDR_A15+EMEM_DDR_ALERT_AC_N0+EMEM_DDR_ALERT_AC_N1+EMEM_DDR_BA0+EMEM_DDR_BA1+EMEM_DDR_BA2+EMEM_DDR_BG1+EMEM_DDR_CAS_N+EMEM_DDR_CK_N0+EMEM_DDR_CK_N1+EMEM_DDR_CK_P0+EMEM_DDR_CK_P1+EMEM_DDR_CKE+EMEM_DDR_CS_N0+EMEM_DDR_CS_N1+EMEM_DDR_DBI_N0+EMEM_DDR_DBI_N1+EMEM_DDR_DQ0+EMEM_DDR_DQ1+EMEM_DDR_DQ2+EMEM_DDR_DQ3+EMEM_DDR_DQ4+EMEM_DDR_DQ5+EMEM_DDR_DQ6+EMEM_DDR_DQ7+EMEM_DDR_DQ8+EMEM_DDR_DQ9+EMEM_DDR_DQ10+EMEM_DDR_DQ11+EMEM_DDR_DQ12+EMEM_DDR_DQ13+EMEM_DDR_DQ14+EMEM_DDR_DQ15+EMEM_DDR_DQS_N0+EMEM_DDR_DQS_N1+EMEM_DDR_DQS_P0+EMEM_DDR_DQS_P1+EMEM_DDR_ODT0+EMEM_DDR_ODT1+EMEM_DDR_RAS_N+EMEM_DDR_RST_N+EMEM_DDR_WE_N+EMEM_DDR_DBG_DTO0+EMEM_DDR_DBG_DTO1+SYS_REF_CLK_SEL+SYS_REF_CLK_BAK+SYS_RST_N+PCIE_INT_N+JTAG_TCK+JTAG_TDO+JTAG_TMS+JTAG_TRSTN+JTAG_TDI+JTAG_CE_N+JTAG_CE_OUT+TEST_IO0+TEST_IO1+TEST_IO2+TEST_IO3+TEST_IO5+TEST_IO4+TEST_IO6+TEST_IO9+TEST_IO8+TEST_IO7+TEST_IO12+TEST_IO11+TEST_IO10+TEST_IO15+TEST_IO14+TEST_IO13+TEST_IO18+TEST_IO17+TEST_IO16+TEST_IO21+TEST_IO20+TEST_IO19+TEST_IO24+TEST_IO23+TEST_IO22+TEST_IO27+TEST_IO26+TEST_IO25+TEST_IO30+TEST_IO29+TEST_IO28+TEST_IO31+TEST_IO34+TEST_IO40+TEST_IO47+TEST_IO33+TEST_IO32+TEST_IO36+TEST_IO35+TEST_IO39+TEST_IO38+TEST_IO37+TEST_IO42+TEST_IO41+TEST_IO46+TEST_IO45+TEST_IO44+TEST_IO43+TEST_IO49+TEST_IO48+TEST_IO50+CLOCK_OUT_A+CLOCK_OUT_B+CLOCK_OUT_C+CORNER_TL+CORNER_BL+CORNER_TR+CORNER_BR+LED_DATA+LED_CLOCK+OVER_TEMP+FMAG_SYN_CLK0+FMAG_SYN_CLK1+FMAG_SYN_CLK2+FMAG_NG_TSYNC_FRAME+H16_CTLE_SEL0+H16_CTLE_SEL1+H16_CTLE_SEL2+TVS0_CAL_TEST0+TVS0_CAL_TEST1+TVS0_CAL_TEST2+TVS1_CAL_TEST0+TVS1_CAL_TEST1+TVS1_CAL_TEST2+ICP_I2C_ADDR0+ICP_I2C_ADDR1+ICP_I2C_ADDR2+ICP_I2C_ADDR3+ICP_I2C_SCL+ICP_I2C_SDA+PTP_I2C_SCL+PTP_I2C_SDA+PTP_I2C_SEC+VID0+VID1+VID2+VID3+VID4+VID5+VID6+VID7+AVS_PMB_SDA+AVS_PMB_SCL+AVS_PMB_ALERT_N" />
+        <pingroup name="OS_IO_FTA" list="JTAG_TCK+JTAG_TRSTN+JTAG_TMS+JTAG_TDI+JTAG_TDO+JTAG_CE_N+JTAG_CE_OUT+ICP_I2C_SDA+ICP_I2C_SCL+ICP_I2C_ADDR0+ICP_I2C_ADDR1+ICP_I2C_ADDR2+ICP_I2C_ADDR3+PTP_I2C_SDA+PTP_I2C_SCL+PTP_I2C_SEC+SYS_REF_CLK_BAK+SYS_REF_CLK_SEL+SYS_RST_N+PCIE_INT_N+LED_CLOCK+LED_DATA+OVER_TEMP+CLOCK_OUT_A+CLOCK_OUT_B+CLOCK_OUT_C+FMAG_SYN_CLK0+FMAG_SYN_CLK1+FMAG_SYN_CLK2+FMAG_NG_TSYNC_FRAME+CORNER_BR+CORNER_BL+CORNER_TR+CORNER_TL+H16_CTLE_SEL0+H16_CTLE_SEL1+H16_CTLE_SEL2+VID0+VID1+VID2+VID3+VID4+VID5+VID6+VID7+AVS_PMB_SDA+AVS_PMB_SCL+AVS_PMB_ALERT_N+TVS0_CAL_TEST0+TVS0_CAL_TEST1+TVS0_CAL_TEST2+TVS1_CAL_TEST0+TVS1_CAL_TEST1+TVS1_CAL_TEST2+TEST_IO0+TEST_IO1+TEST_IO2+TEST_IO3+TEST_IO4+TEST_IO5+TEST_IO6+TEST_IO7+TEST_IO8+TEST_IO9+TEST_IO10+TEST_IO11+TEST_IO12+TEST_IO13+TEST_IO14+TEST_IO15+TEST_IO16+TEST_IO17+TEST_IO18+TEST_IO19+TEST_IO20+TEST_IO21+TEST_IO22+TEST_IO23+TEST_IO24+TEST_IO25+TEST_IO26+TEST_IO27+TEST_IO28+TEST_IO29+TEST_IO30+TEST_IO31+TEST_IO32+TEST_IO33+TEST_IO34+TEST_IO35+TEST_IO36+TEST_IO37+TEST_IO38+TEST_IO39+TEST_IO40+TEST_IO41+TEST_IO42+TEST_IO43+TEST_IO44+TEST_IO45+TEST_IO46+TEST_IO47+TEST_IO48+TEST_IO49+TEST_IO50+EMEM_DDR_DBG_DTO0+EMEM_DDR_DBG_DTO1" />
+        <pingroup name="gIO_1V8" list="JTAG_TCK+JTAG_TRSTN+JTAG_TMS+JTAG_TDI+JTAG_TDO+JTAG_CE_N+JTAG_CE_OUT+ICP_I2C_SDA+ICP_I2C_SCL+ICP_I2C_ADDR0+ICP_I2C_ADDR1+ICP_I2C_ADDR2+ICP_I2C_ADDR3+PTP_I2C_SDA+PTP_I2C_SCL+PTP_I2C_SEC+SYS_REF_CLK_BAK+SYS_REF_CLK_SEL+PCIE_INT_N+LED_CLOCK+LED_DATA+OVER_TEMP+CLOCK_OUT_A+CLOCK_OUT_B+CLOCK_OUT_C+FMAG_SYN_CLK0+FMAG_SYN_CLK1+FMAG_SYN_CLK2+FMAG_NG_TSYNC_FRAME+CORNER_BR+CORNER_BL+CORNER_TR+CORNER_TL+H16_CTLE_SEL0+H16_CTLE_SEL1+H16_CTLE_SEL2+VID0+VID1+VID2+VID3+VID4+VID5+VID6+VID7+AVS_PMB_SDA+AVS_PMB_SCL+AVS_PMB_ALERT_N+TVS0_CAL_TEST0+TVS0_CAL_TEST1+TVS0_CAL_TEST2+TVS1_CAL_TEST0+TVS1_CAL_TEST1+TVS1_CAL_TEST2+TEST_IO0+TEST_IO1+TEST_IO2+TEST_IO3+TEST_IO4+TEST_IO5+TEST_IO6+TEST_IO7+TEST_IO8+TEST_IO9+TEST_IO10+TEST_IO11+TEST_IO12+TEST_IO13+TEST_IO14+TEST_IO15+TEST_IO16+TEST_IO17+TEST_IO18+TEST_IO19+TEST_IO20+TEST_IO21+TEST_IO22+TEST_IO23+TEST_IO24+TEST_IO25+TEST_IO26+TEST_IO27+TEST_IO28+TEST_IO29+TEST_IO30+TEST_IO31+TEST_IO32+TEST_IO33+TEST_IO34+TEST_IO35+TEST_IO36+TEST_IO37+TEST_IO38+TEST_IO39+TEST_IO40+TEST_IO41+TEST_IO42+TEST_IO43+TEST_IO44+TEST_IO45+TEST_IO46+TEST_IO47+TEST_IO48+TEST_IO49+TEST_IO50" />
+        <pingroup name="H30_1V2_CP" list="LMAG_RX_N0+LMAG_RX_P0+LMAG_RX_N1+LMAG_RX_P1+LMAG_RX_N2+LMAG_RX_P2+LMAG_RX_N3+LMAG_RX_P3+LMAG_RX_N4+LMAG_RX_P4+LMAG_RX_N5+LMAG_RX_P5+LMAG_RX_N6+LMAG_RX_P6+LMAG_RX_N7+LMAG_RX_P7+LMAG_RX_N8+LMAG_RX_P8+LMAG_RX_N9+LMAG_RX_P9+LMAG_RX_N10+LMAG_RX_P10+LMAG_RX_N11+LMAG_RX_P11+LMAG_RX_N12+LMAG_RX_P12+LMAG_RX_N13+LMAG_RX_P13+LMAG_RX_N14+LMAG_RX_P14+LMAG_RX_N15+LMAG_RX_P15+LMAG_RX_N32+LMAG_RX_P32+LMAG_RX_N33+LMAG_RX_P33+LMAG_RX_N34+LMAG_RX_P34+LMAG_RX_N35+LMAG_RX_P35+LMAG_RX_N36+LMAG_RX_P36+LMAG_RX_N37+LMAG_RX_P37+LMAG_RX_N38+LMAG_RX_P38+LMAG_RX_N39+LMAG_RX_P39+LMAG_RX_N24+LMAG_RX_P24+LMAG_RX_N25+LMAG_RX_P25+LMAG_RX_N26+LMAG_RX_P26+LMAG_RX_N27+LMAG_RX_P27+LMAG_RX_N28+LMAG_RX_P28+LMAG_RX_N29+LMAG_RX_P29+LMAG_RX_N30+LMAG_RX_P30+LMAG_RX_N31+LMAG_RX_P31+LMAG_RX_N16+LMAG_RX_P16+LMAG_RX_N17+LMAG_RX_P17+LMAG_RX_N18+LMAG_RX_P18+LMAG_RX_N19+LMAG_RX_P19+LMAG_RX_N20+LMAG_RX_P20+LMAG_RX_N21+LMAG_RX_P21+LMAG_RX_N22+LMAG_RX_P22+LMAG_RX_N23+LMAG_RX_P23+LMAG_RX_N40+LMAG_RX_P40+LMAG_RX_N41+LMAG_RX_P41+LMAG_RX_N42+LMAG_RX_P42+LMAG_RX_N43+LMAG_RX_P43+LMAG_RX_N44+LMAG_RX_P44+LMAG_RX_N45+LMAG_RX_P45+LMAG_RX_N46+LMAG_RX_P46+LMAG_RX_N47+LMAG_RX_P47+FMAG_RX_N0+FMAG_RX_P0+FMAG_RX_N1+FMAG_RX_P1+FMAG_RX_N2+FMAG_RX_P2+FMAG_RX_N3+FMAG_RX_P3+FMAG_RX_N4+FMAG_RX_P4+FMAG_RX_N5+FMAG_RX_P5+FMAG_RX_N6+FMAG_RX_P6+FMAG_RX_N7+FMAG_RX_P7+FMAG_RX_N8+FMAG_RX_P8+FMAG_RX_N9+FMAG_RX_P9+FMAG_RX_N10+FMAG_RX_P10+FMAG_RX_N11+FMAG_RX_P11+FMAG_RX_N20+FMAG_RX_P20+FMAG_RX_N21+FMAG_RX_P21+FMAG_RX_N22+FMAG_RX_P22+FMAG_RX_N23+FMAG_RX_P23+FMAG_RX_N32+FMAG_RX_P32+FMAG_RX_N33+FMAG_RX_P33+FMAG_RX_N34+FMAG_RX_P34+FMAG_RX_N35+FMAG_RX_P35+FMAG_RX_N36+FMAG_RX_P36+FMAG_RX_N37+FMAG_RX_P37+FMAG_RX_N38+FMAG_RX_P38+FMAG_RX_N39+FMAG_RX_P39+FMAG_RX_N19+FMAG_RX_P19+FMAG_RX_N18+FMAG_RX_P18+FMAG_RX_N17+FMAG_RX_P17+FMAG_RX_N16+FMAG_RX_P16+FMAG_RX_N15+FMAG_RX_P15+FMAG_RX_N14+FMAG_RX_P14+FMAG_RX_N13+FMAG_RX_P13+FMAG_RX_N12+FMAG_RX_P12+FMAG_RX_N24+FMAG_RX_P24+FMAG_RX_N25+FMAG_RX_P25+FMAG_RX_N26+FMAG_RX_P26+FMAG_RX_N27+FMAG_RX_P27+FMAG_RX_N28+FMAG_RX_P28+FMAG_RX_N29+FMAG_RX_P29+FMAG_RX_N30+FMAG_RX_P30+FMAG_RX_N31+FMAG_RX_P31+FMAG_RX_N40+FMAG_RX_P40+FMAG_RX_N41+FMAG_RX_P41+FMAG_RX_N42+FMAG_RX_P42+FMAG_RX_N43+FMAG_RX_P43+FMAG_RX_N44+FMAG_RX_P44+FMAG_RX_N45+FMAG_RX_P45+FMAG_RX_N46+FMAG_RX_P46+FMAG_RX_N47+FMAG_RX_P47+ILA_RX_N0+ILA_RX_P0+ILA_RX_N1+ILA_RX_P1+ILA_RX_N2+ILA_RX_P2+ILA_RX_N3+ILA_RX_P3+ILA_RX_N4+ILA_RX_P4+ILA_RX_N5+ILA_RX_P5+ILA_RX_N6+ILA_RX_P6+ILA_RX_N7+ILA_RX_P7" />
+        <pingroup name="H30_1V2" list="FMAG_TX_P0+FMAG_TX_N0+FMAG_TX_P1+FMAG_TX_N1+FMAG_TX_P2+FMAG_TX_N2+FMAG_TX_P3+FMAG_TX_N3+FMAG_TX_P4+FMAG_TX_N4+FMAG_TX_P5+FMAG_TX_N5+FMAG_TX_P6+FMAG_TX_N6+FMAG_TX_P7+FMAG_TX_N7+FMAG_TX_P8+FMAG_TX_N8+FMAG_TX_P9+FMAG_TX_N9+FMAG_TX_P10+FMAG_TX_N10+FMAG_TX_P11+FMAG_TX_N11+FMAG_TX_P12+FMAG_TX_N12+FMAG_TX_P13+FMAG_TX_N13+FMAG_TX_P14+FMAG_TX_N14+FMAG_TX_P15+FMAG_TX_N15+FMAG_TX_P16+FMAG_TX_N16+FMAG_TX_P17+FMAG_TX_N17+FMAG_TX_P18+FMAG_TX_N18+FMAG_TX_P19+FMAG_TX_N19+FMAG_TX_P20+FMAG_TX_N20+FMAG_TX_P21+FMAG_TX_N21+FMAG_TX_P22+FMAG_TX_N22+FMAG_TX_P23+FMAG_TX_N23+FMAG_TX_P24+FMAG_TX_N24+FMAG_TX_P25+FMAG_TX_N25+FMAG_TX_P26+FMAG_TX_N26+FMAG_TX_P27+FMAG_TX_N27+FMAG_TX_P28+FMAG_TX_N28+FMAG_TX_P29+FMAG_TX_N29+FMAG_TX_P30+FMAG_TX_N30+FMAG_TX_P31+FMAG_TX_N31+FMAG_TX_P32+FMAG_TX_N32+FMAG_TX_P33+FMAG_TX_N33+FMAG_TX_P34+FMAG_TX_N34+FMAG_TX_P35+FMAG_TX_N35+FMAG_TX_P36+FMAG_TX_N36+FMAG_TX_P37+FMAG_TX_N37+FMAG_TX_P38+FMAG_TX_N38+FMAG_TX_P39+FMAG_TX_N39+FMAG_TX_P40+FMAG_TX_N40+FMAG_TX_P41+FMAG_TX_N41+FMAG_TX_P42+FMAG_TX_N42+FMAG_TX_P43+FMAG_TX_N43+FMAG_TX_P44+FMAG_TX_N44+FMAG_TX_P45+FMAG_TX_N45+FMAG_TX_P46+FMAG_TX_N46+FMAG_TX_P47+FMAG_TX_N47+FMAG_RX_P0+FMAG_RX_N0+FMAG_RX_P1+FMAG_RX_N1+FMAG_RX_P2+FMAG_RX_N2+FMAG_RX_P3+FMAG_RX_N3+FMAG_RX_P4+FMAG_RX_N4+FMAG_RX_P5+FMAG_RX_N5+FMAG_RX_P6+FMAG_RX_N6+FMAG_RX_P7+FMAG_RX_N7+FMAG_RX_P8+FMAG_RX_N8+FMAG_RX_P9+FMAG_RX_N9+FMAG_RX_P10+FMAG_RX_N10+FMAG_RX_P11+FMAG_RX_N11+FMAG_RX_P12+FMAG_RX_N12+FMAG_RX_P13+FMAG_RX_N13+FMAG_RX_P14+FMAG_RX_N14+FMAG_RX_P15+FMAG_RX_N15+FMAG_RX_P16+FMAG_RX_N16+FMAG_RX_P17+FMAG_RX_N17+FMAG_RX_P18+FMAG_RX_N18+FMAG_RX_P19+FMAG_RX_N19+FMAG_RX_P20+FMAG_RX_N20+FMAG_RX_P21+FMAG_RX_N21+FMAG_RX_P22+FMAG_RX_N22+FMAG_RX_P23+FMAG_RX_N23+FMAG_RX_P24+FMAG_RX_N24+FMAG_RX_P25+FMAG_RX_N25+FMAG_RX_P26+FMAG_RX_N26+FMAG_RX_P27+FMAG_RX_N27+FMAG_RX_P28+FMAG_RX_N28+FMAG_RX_P29+FMAG_RX_N29+FMAG_RX_P30+FMAG_RX_N30+FMAG_RX_P31+FMAG_RX_N31+FMAG_RX_P32+FMAG_RX_N32+FMAG_RX_P33+FMAG_RX_N33+FMAG_RX_P34+FMAG_RX_N34+FMAG_RX_P35+FMAG_RX_N35+FMAG_RX_P36+FMAG_RX_N36+FMAG_RX_P37+FMAG_RX_N37+FMAG_RX_P38+FMAG_RX_N38+FMAG_RX_P39+FMAG_RX_N39+FMAG_RX_P40+FMAG_RX_N40+FMAG_RX_P41+FMAG_RX_N41+FMAG_RX_P42+FMAG_RX_N42+FMAG_RX_P43+FMAG_RX_N43+FMAG_RX_P44+FMAG_RX_N44+FMAG_RX_P45+FMAG_RX_N45+FMAG_RX_P46+FMAG_RX_N46+FMAG_RX_P47+FMAG_RX_N47+LMAG_TX_P0+LMAG_TX_N0+LMAG_TX_P1+LMAG_TX_N1+LMAG_TX_P2+LMAG_TX_N2+LMAG_TX_P3+LMAG_TX_N3+LMAG_TX_P4+LMAG_TX_N4+LMAG_TX_P5+LMAG_TX_N5+LMAG_TX_P6+LMAG_TX_N6+LMAG_TX_P7+LMAG_TX_N7+LMAG_TX_P8+LMAG_TX_N8+LMAG_TX_P9+LMAG_TX_N9+LMAG_TX_P10+LMAG_TX_N10+LMAG_TX_P11+LMAG_TX_N11+LMAG_TX_P12+LMAG_TX_N12+LMAG_TX_P13+LMAG_TX_N13+LMAG_TX_P14+LMAG_TX_N14+LMAG_TX_P15+LMAG_TX_N15+LMAG_TX_P16+LMAG_TX_N16+LMAG_TX_P17+LMAG_TX_N17+LMAG_TX_P18+LMAG_TX_N18+LMAG_TX_P19+LMAG_TX_N19+LMAG_TX_P20+LMAG_TX_N20+LMAG_TX_P21+LMAG_TX_N21+LMAG_TX_P22+LMAG_TX_N22+LMAG_TX_P23+LMAG_TX_N23+LMAG_TX_P24+LMAG_TX_N24+LMAG_TX_P25+LMAG_TX_N25+LMAG_TX_P26+LMAG_TX_N26+LMAG_TX_P27+LMAG_TX_N27+LMAG_TX_P28+LMAG_TX_N28+LMAG_TX_P29+LMAG_TX_N29+LMAG_TX_P30+LMAG_TX_N30+LMAG_TX_P31+LMAG_TX_N31+LMAG_TX_P32+LMAG_TX_N32+LMAG_TX_P33+LMAG_TX_N33+LMAG_TX_P34+LMAG_TX_N34+LMAG_TX_P35+LMAG_TX_N35+LMAG_TX_P36+LMAG_TX_N36+LMAG_TX_P37+LMAG_TX_N37+LMAG_TX_P38+LMAG_TX_N38+LMAG_TX_P39+LMAG_TX_N39+LMAG_TX_P40+LMAG_TX_N40+LMAG_TX_P41+LMAG_TX_N41+LMAG_TX_P42+LMAG_TX_N42+LMAG_TX_P43+LMAG_TX_N43+LMAG_TX_P44+LMAG_TX_N44+LMAG_TX_P45+LMAG_TX_N45+LMAG_TX_P46+LMAG_TX_N46+LMAG_TX_P47+LMAG_TX_N47+LMAG_RX_P0+LMAG_RX_N0+LMAG_RX_P1+LMAG_RX_N1+LMAG_RX_P2+LMAG_RX_N2+LMAG_RX_P3+LMAG_RX_N3+LMAG_RX_P4+LMAG_RX_N4+LMAG_RX_P5+LMAG_RX_N5+LMAG_RX_P6+LMAG_RX_N6+LMAG_RX_P7+LMAG_RX_N7+LMAG_RX_P8+LMAG_RX_N8+LMAG_RX_P9+LMAG_RX_N9+LMAG_RX_P10+LMAG_RX_N10+LMAG_RX_P11+LMAG_RX_N11+LMAG_RX_P12+LMAG_RX_N12+LMAG_RX_P13+LMAG_RX_N13+LMAG_RX_P14+LMAG_RX_N14+LMAG_RX_P15+LMAG_RX_N15+LMAG_RX_P16+LMAG_RX_N16+LMAG_RX_P17+LMAG_RX_N17+LMAG_RX_P18+LMAG_RX_N18+LMAG_RX_P19+LMAG_RX_N19+LMAG_RX_P20+LMAG_RX_N20+LMAG_RX_P21+LMAG_RX_N21+LMAG_RX_P22+LMAG_RX_N22+LMAG_RX_P23+LMAG_RX_N23+LMAG_RX_P24+LMAG_RX_N24+LMAG_RX_P25+LMAG_RX_N25+LMAG_RX_P26+LMAG_RX_N26+LMAG_RX_P27+LMAG_RX_N27+LMAG_RX_P28+LMAG_RX_N28+LMAG_RX_P29+LMAG_RX_N29+LMAG_RX_P30+LMAG_RX_N30+LMAG_RX_P31+LMAG_RX_N31+LMAG_RX_P32+LMAG_RX_N32+LMAG_RX_P33+LMAG_RX_N33+LMAG_RX_P34+LMAG_RX_N34+LMAG_RX_P35+LMAG_RX_N35+LMAG_RX_P36+LMAG_RX_N36+LMAG_RX_P37+LMAG_RX_N37+LMAG_RX_P38+LMAG_RX_N38+LMAG_RX_P39+LMAG_RX_N39+LMAG_RX_P40+LMAG_RX_N40+LMAG_RX_P41+LMAG_RX_N41+LMAG_RX_P42+LMAG_RX_N42+LMAG_RX_P43+LMAG_RX_N43+LMAG_RX_P44+LMAG_RX_N44+LMAG_RX_P45+LMAG_RX_N45+LMAG_RX_P46+LMAG_RX_N46+LMAG_RX_P47+LMAG_RX_N47+ILA_TX_P0+ILA_TX_N0+ILA_TX_P1+ILA_TX_N1+ILA_TX_P2+ILA_TX_N2+ILA_TX_P3+ILA_TX_N3+ILA_TX_P4+ILA_TX_N4+ILA_TX_P5+ILA_TX_N5+ILA_TX_P6+ILA_TX_N6+ILA_TX_P7+ILA_TX_N7+ILA_RX_P0+ILA_RX_N0+ILA_RX_P1+ILA_RX_N1+ILA_RX_P2+ILA_RX_N2+ILA_RX_P3+ILA_RX_N3+ILA_RX_P4+ILA_RX_N4+ILA_RX_P5+ILA_RX_N5+ILA_RX_P6+ILA_RX_N6+ILA_RX_P7+ILA_RX_N7" />
+        <pingroup name="H16_1V8_CP" list="PIE_RX_P0+PIE_RX_N0+PCIE_RX_P0+PCIE_RX_N0+PCIE_RX_P1+PCIE_RX_N1" />
+        <pingroup name="H16_1V8" list="PIE_TX_P0+PIE_TX_N0+PIE_RX_P0+PIE_RX_N0+PCIE_TX_P0+PCIE_TX_N0+PCIE_TX_P1+PCIE_TX_N1+PCIE_RX_P0+PCIE_RX_N0+PCIE_RX_P1+PCIE_RX_N1" />
+        <pingroup name="gIO_0V8" list="SYS_REF_CLK_P+SYS_REF_CLK_N+FMAG_REF_CLK0_P+FMAG_REF_CLK0_N+FMAG_REF_CLK1_P+FMAG_REF_CLK1_N+LMAG_REF_CLK_P+LMAG_REF_CLK_N" />
+        <pingroup name="DDR_1V2" list="EMEM_DDR_DBI_N0+EMEM_DDR_DBI_N1+EMEM_DDR_DQ0+EMEM_DDR_DQ1+EMEM_DDR_DQ2+EMEM_DDR_DQ3+EMEM_DDR_DQ4+EMEM_DDR_DQ5+EMEM_DDR_DQ6+EMEM_DDR_DQ7+EMEM_DDR_DQ8+EMEM_DDR_DQ9+EMEM_DDR_DQ10+EMEM_DDR_DQ11+EMEM_DDR_DQ12+EMEM_DDR_DQ13+EMEM_DDR_DQ14+EMEM_DDR_DQ15+EMEM_DDR_DQS_P0+EMEM_DDR_DQS_N0+EMEM_DDR_DQS_P1+EMEM_DDR_DQS_N1+EMEM_DDR_A0+EMEM_DDR_A1+EMEM_DDR_A2+EMEM_DDR_A3+EMEM_DDR_A4+EMEM_DDR_A5+EMEM_DDR_A6+EMEM_DDR_A7+EMEM_DDR_A8+EMEM_DDR_A9+EMEM_DDR_A10+EMEM_DDR_A11+EMEM_DDR_A12+EMEM_DDR_A13+EMEM_DDR_A14+EMEM_DDR_A15+EMEM_DDR_BA0+EMEM_DDR_BA1+EMEM_DDR_BA2+EMEM_DDR_BG1+EMEM_DDR_CS_N0+EMEM_DDR_CS_N1+EMEM_DDR_RST_N+EMEM_DDR_RAS_N+EMEM_DDR_CAS_N+EMEM_DDR_WE_N+EMEM_DDR_CK_P0+EMEM_DDR_CK_N0+EMEM_DDR_CK_P1+EMEM_DDR_CK_N1+EMEM_DDR_CKE+EMEM_DDR_ODT0+EMEM_DDR_ODT1+EMEM_DDR_DBG_DTO0+EMEM_DDR_DBG_DTO1+EMEM_DDR_ALERT_AC_N0+EMEM_DDR_ALERT_AC_N1+EMEM_DDR_ZCOMP" />
+        <pingroup name="DDR_1V2_FT" list="EMEM_DDR_DBG_DTO0+EMEM_DDR_DBG_DTO1" />
+        <pingroup name="gII_DVDD_1V8_PUPD" list="ICP_I2C_SDA+ICP_I2C_SCL+ICP_I2C_ADDR0+ICP_I2C_ADDR1+ICP_I2C_ADDR2+ICP_I2C_ADDR3+PTP_I2C_SDA+PTP_I2C_SCL+PTP_I2C_SEC+FMAG_NG_TSYNC_FRAME+CORNER_BR+CORNER_BL+CORNER_TR+CORNER_TL+H16_CTLE_SEL0+H16_CTLE_SEL1+H16_CTLE_SEL2+VID0+VID1+VID2+VID3+VID4+VID5+VID6+VID7+AVS_PMB_SDA+AVS_PMB_SCL+AVS_PMB_ALERT_N+TVS0_CAL_TEST0+TVS1_CAL_TEST0+TEST_IO0+TEST_IO1+TEST_IO2+TEST_IO3+TEST_IO4+TEST_IO5+TEST_IO6+TEST_IO7+TEST_IO8+TEST_IO9+TEST_IO10+TEST_IO11+TEST_IO12+TEST_IO13+TEST_IO14+TEST_IO15+TEST_IO16+TEST_IO17+TEST_IO18+TEST_IO19+TEST_IO20+TEST_IO21+TEST_IO22+TEST_IO23+TEST_IO24+TEST_IO25+TEST_IO26+TEST_IO27+TEST_IO28+TEST_IO29+TEST_IO30+TEST_IO31+TEST_IO32+TEST_IO33+TEST_IO34+TEST_IO35+TEST_IO36+TEST_IO37+TEST_IO38+TEST_IO39+TEST_IO40+TEST_IO41+TEST_IO42+TEST_IO43+TEST_IO44+TEST_IO45+TEST_IO46+TEST_IO47+TEST_IO48+TEST_IO49+TEST_IO50+SYS_REF_CLK_SEL" />
+        <pingroup name="gII_DDR_1V2_PUPD_CP" list="EMEM_DDR_DBI_N0+EMEM_DDR_DBI_N1+EMEM_DDR_DQ0+EMEM_DDR_DQ1+EMEM_DDR_DQ2+EMEM_DDR_DQ3+EMEM_DDR_DQ4+EMEM_DDR_DQ5+EMEM_DDR_DQ6+EMEM_DDR_DQ7+EMEM_DDR_DQ8+EMEM_DDR_DQ9+EMEM_DDR_DQ10+EMEM_DDR_DQ11+EMEM_DDR_DQ12+EMEM_DDR_DQ13+EMEM_DDR_DQ14+EMEM_DDR_DQ15+EMEM_DDR_ALERT_AC_N0+EMEM_DDR_ALERT_AC_N1" />
+        <pingroup name="gII_DDR_1V2_PUPD_GRP2_CP" list="EMEM_DDR_DQS_P0+EMEM_DDR_DQS_N0+EMEM_DDR_DQS_P1+EMEM_DDR_DQS_N1" />
+        <pingroup name="DDR4_SIG" list="EMEM_DDR_DBI_N0+EMEM_DDR_DBI_N1+EMEM_DDR_DQ0+EMEM_DDR_DQ1+EMEM_DDR_DQ2+EMEM_DDR_DQ3+EMEM_DDR_DQ4+EMEM_DDR_DQ5+EMEM_DDR_DQ6+EMEM_DDR_DQ7+EMEM_DDR_DQ8+EMEM_DDR_DQ9+EMEM_DDR_DQ10+EMEM_DDR_DQ11+EMEM_DDR_DQ12+EMEM_DDR_DQ13+EMEM_DDR_DQ14+EMEM_DDR_DQ15+EMEM_DDR_A0+EMEM_DDR_A1+EMEM_DDR_A2+EMEM_DDR_A3+EMEM_DDR_A4+EMEM_DDR_A5+EMEM_DDR_A6+EMEM_DDR_A7+EMEM_DDR_A8+EMEM_DDR_A9+EMEM_DDR_A10+EMEM_DDR_A11+EMEM_DDR_A12+EMEM_DDR_A13+EMEM_DDR_A14+EMEM_DDR_A15+EMEM_DDR_BA0+EMEM_DDR_BA1+EMEM_DDR_BA2+EMEM_DDR_BG1+EMEM_DDR_CS_N0+EMEM_DDR_CS_N1+EMEM_DDR_RST_N+EMEM_DDR_RAS_N+EMEM_DDR_CAS_N+EMEM_DDR_WE_N+EMEM_DDR_CKE+EMEM_DDR_ODT0+EMEM_DDR_ODT1+EMEM_DDR_DBG_DTO0+EMEM_DDR_DBG_DTO1+EMEM_DDR_ALERT_AC_N0+EMEM_DDR_ALERT_AC_N1+EMEM_DDR_ZCOMP" />
+        <pingroup name="gII_CLK_1V8_PUPD" list="SYS_RST_N" />
+        <pingroup name="DDR4_DIFF_P" list="EMEM_DDR_DQS_P0+EMEM_DDR_DQS_P1+EMEM_DDR_CK_P0+EMEM_DDR_CK_P1" />
+        <pingroup name="gIOZ_DVDD_1V8" list="ICP_I2C_SDA+PTP_I2C_SDA+PCIE_INT_N+LED_CLOCK+LED_DATA+OVER_TEMP+CLOCK_OUT_A+CLOCK_OUT_B+CLOCK_OUT_C+FMAG_SYN_CLK0+FMAG_SYN_CLK1+FMAG_SYN_CLK2+VID0+VID1+VID2+VID3+VID4+VID5+VID6+VID7+AVS_PMB_SDA+AVS_PMB_SCL+TVS0_CAL_TEST1+TVS0_CAL_TEST2+TVS1_CAL_TEST1+TVS1_CAL_TEST2+TEST_IO0+TEST_IO1+TEST_IO2+TEST_IO3+TEST_IO4+TEST_IO5+TEST_IO6+TEST_IO7+TEST_IO8+TEST_IO9+TEST_IO10+TEST_IO11+TEST_IO12+TEST_IO13+TEST_IO14+TEST_IO15+TEST_IO16+TEST_IO17+TEST_IO18+TEST_IO19+TEST_IO20+TEST_IO21+TEST_IO22+TEST_IO23+TEST_IO24+TEST_IO25+TEST_IO26+TEST_IO27+TEST_IO28+TEST_IO29+TEST_IO30+TEST_IO31+TEST_IO32+TEST_IO33+TEST_IO34+TEST_IO35+TEST_IO36+TEST_IO37+TEST_IO38+TEST_IO39+TEST_IO40+TEST_IO41+TEST_IO42+TEST_IO43+TEST_IO44+TEST_IO45+TEST_IO46+TEST_IO47+TEST_IO48+TEST_IO49+TEST_IO50+JTAG_TDO+JTAG_CE_OUT" />
+        <pingroup name="DDR4_DIFF_N" list="EMEM_DDR_DQS_N0+EMEM_DDR_DQS_N1+EMEM_DDR_CK_N0+EMEM_DDR_CK_N1" />
+        <pingroup name="gVOHL_DVDD_1V8" list="ICP_I2C_SDA+PTP_I2C_SDA+PCIE_INT_N+LED_CLOCK+LED_DATA+OVER_TEMP+CLOCK_OUT_A+CLOCK_OUT_B+CLOCK_OUT_C+FMAG_SYN_CLK0+FMAG_SYN_CLK1+FMAG_SYN_CLK2+VID0+VID1+VID2+VID3+VID4+VID5+VID6+VID7+AVS_PMB_SDA+AVS_PMB_SCL+TVS0_CAL_TEST1+TVS0_CAL_TEST2+TVS1_CAL_TEST1+TVS1_CAL_TEST2+TEST_IO0+TEST_IO1+TEST_IO2+TEST_IO3+TEST_IO4+TEST_IO5+TEST_IO6+TEST_IO7+TEST_IO8+TEST_IO9+TEST_IO10+TEST_IO11+TEST_IO12+TEST_IO13+TEST_IO14+TEST_IO15+TEST_IO16+TEST_IO17+TEST_IO18+TEST_IO19+TEST_IO20+TEST_IO21+TEST_IO22+TEST_IO23+TEST_IO24+TEST_IO25+TEST_IO26+TEST_IO27+TEST_IO28+TEST_IO29+TEST_IO30+TEST_IO31+TEST_IO32+TEST_IO33+TEST_IO34+TEST_IO35+TEST_IO36+TEST_IO37+TEST_IO38+TEST_IO39+TEST_IO40+TEST_IO41+TEST_IO42+TEST_IO43+TEST_IO44+TEST_IO45+TEST_IO46+TEST_IO47+TEST_IO48+TEST_IO49+TEST_IO50" />
+        <pingroup name="gIOZ_DDR_1V2_CP" list="EMEM_DDR_DBI_N0+EMEM_DDR_DBI_N1+EMEM_DDR_DQ0+EMEM_DDR_DQ1+EMEM_DDR_DQ2+EMEM_DDR_DQ3+EMEM_DDR_DQ4+EMEM_DDR_DQ5+EMEM_DDR_DQ6+EMEM_DDR_DQ7+EMEM_DDR_DQ8+EMEM_DDR_DQ9+EMEM_DDR_DQ10+EMEM_DDR_DQ11+EMEM_DDR_DQ12+EMEM_DDR_DQ13+EMEM_DDR_DQ14+EMEM_DDR_DQ15+EMEM_DDR_DQS_P0+EMEM_DDR_DQS_N0+EMEM_DDR_DQS_P1+EMEM_DDR_DQS_N1+EMEM_DDR_A0+EMEM_DDR_A1+EMEM_DDR_A2+EMEM_DDR_A3+EMEM_DDR_A4+EMEM_DDR_A5+EMEM_DDR_A6+EMEM_DDR_A7+EMEM_DDR_A8+EMEM_DDR_A9+EMEM_DDR_A10+EMEM_DDR_A11+EMEM_DDR_A12+EMEM_DDR_A13+EMEM_DDR_A14+EMEM_DDR_A15+EMEM_DDR_BA0+EMEM_DDR_BA1+EMEM_DDR_BA2+EMEM_DDR_BG1+EMEM_DDR_CS_N0+EMEM_DDR_CS_N1+EMEM_DDR_RST_N+EMEM_DDR_RAS_N+EMEM_DDR_CAS_N+EMEM_DDR_WE_N+EMEM_DDR_CK_P0+EMEM_DDR_CK_N0+EMEM_DDR_CK_P1+EMEM_DDR_CK_N1+EMEM_DDR_CKE+EMEM_DDR_ODT0+EMEM_DDR_ODT1+EMEM_DDR_DBG_DTO0+EMEM_DDR_DBG_DTO1+EMEM_DDR_ALERT_AC_N0+EMEM_DDR_ALERT_AC_N1" />
+        <pingroup name="gIOZ_DDR_1V2_FTA" list="EMEM_DDR_DBG_DTO0+EMEM_DDR_DBG_DTO1" />
+        <pingroup name="gIOHL_EMEM_N_1V2" list="EMEM_DDR_DQS_N0+EMEM_DDR_DQS_N1+EMEM_DDR_CK_N0+EMEM_DDR_CK_N1" />
+        <pingroup name="gIOHL_DDR_1V2_CP" list="EMEM_DDR_DBI_N0+EMEM_DDR_DBI_N1+EMEM_DDR_DQ0+EMEM_DDR_DQ1+EMEM_DDR_DQ2+EMEM_DDR_DQ3+EMEM_DDR_DQ4+EMEM_DDR_DQ5+EMEM_DDR_DQ6+EMEM_DDR_DQ7+EMEM_DDR_DQ8+EMEM_DDR_DQ9+EMEM_DDR_DQ10+EMEM_DDR_DQ11+EMEM_DDR_DQ12+EMEM_DDR_DQ13+EMEM_DDR_DQ14+EMEM_DDR_DQ15+EMEM_DDR_DQS_P0+EMEM_DDR_DQS_P1+EMEM_DDR_A0+EMEM_DDR_A1+EMEM_DDR_A2+EMEM_DDR_A3+EMEM_DDR_A4+EMEM_DDR_A5+EMEM_DDR_A6+EMEM_DDR_A7+EMEM_DDR_A8+EMEM_DDR_A9+EMEM_DDR_A10+EMEM_DDR_A11+EMEM_DDR_A12+EMEM_DDR_A13+EMEM_DDR_A14+EMEM_DDR_A15+EMEM_DDR_BA0+EMEM_DDR_BA1+EMEM_DDR_BA2+EMEM_DDR_BG1+EMEM_DDR_CS_N0+EMEM_DDR_CS_N1+EMEM_DDR_RST_N+EMEM_DDR_RAS_N+EMEM_DDR_CAS_N+EMEM_DDR_WE_N+EMEM_DDR_CK_P0+EMEM_DDR_CK_P1+EMEM_DDR_CKE+EMEM_DDR_ODT0+EMEM_DDR_ODT1+EMEM_DDR_DBG_DTO0+EMEM_DDR_DBG_DTO1+EMEM_DDR_ALERT_AC_N0+EMEM_DDR_ALERT_AC_N1" />
+        <pingroup name="gLJC_CLK" list="SYS_REF_CLK_P+SYS_REF_CLK_N+FMAG_REF_CLK0_P+FMAG_REF_CLK0_N+FMAG_REF_CLK1_P+FMAG_REF_CLK1_N+LMAG_REF_CLK_P+LMAG_REF_CLK_N" />
+        <pingroup name="PLL_GRP1_LOCK" list="TEST_IO16+TEST_IO17+TEST_IO18+TEST_IO19+TEST_IO20+TEST_IO21+TEST_IO22" />
+        <pingroup name="PLL_GRP1_MEAS" list="TEST_IO7+TEST_IO8+TEST_IO9+TEST_IO10+TEST_IO11+TEST_IO14+TEST_IO15+TEST_IO12+TEST_IO13" />
+        <pingroup name="RCD_GRP1_MEAS" list="TEST_IO24+TEST_IO23" />
+        <pingroup name="PLL_GRP2_LOCK" list="TEST_IO21+TEST_IO18+TEST_IO22+TEST_IO16+TEST_IO17" />
+        <pingroup name="PLL_GRP2_MEAS" list="TEST_IO7+TEST_IO8+TEST_IO9+TEST_IO12+TEST_IO13" />
+        <pingroup name="PLL_GRP3_LOCK" list="TEST_IO16+TEST_IO18+TEST_IO17" />
+        <pingroup name="PLL_GRP3_MEAS" list="TEST_IO12+TEST_IO8+TEST_IO13" />
+        <pingroup name="PLL_GRP4_LOCK" list="TEST_IO18" />
+        <pingroup name="PLL_GRP4_MEAS" list="TEST_IO8" />
+        <pingroup name="PLL_PTP_MEAS" list="TEST_IO11+TEST_IO14+TEST_IO15" />
+        <pingroup name="PLL_PTP_RCD_LOCK" list="TEST_IO20" />
+        <pingroup name="RCD_PTP_MEAS" list="TEST_IO23" />
+        <pingroup name="gSDS_SRD8B_12_TX_P" list="FMAG_TX_P40+FMAG_TX_P41+FMAG_TX_P42+FMAG_TX_P43+FMAG_TX_P44+FMAG_TX_P45+FMAG_TX_P46+FMAG_TX_P47" />
+        <pingroup name="gSDS_SRD8B_12_TX_N" list="FMAG_TX_N40+FMAG_TX_N41+FMAG_TX_N42+FMAG_TX_N43+FMAG_TX_N44+FMAG_TX_N45+FMAG_TX_N46+FMAG_TX_N47" />
+        <pingroup name="gSDS_SRD8B_12_RX_P" list="FMAG_RX_P40+FMAG_RX_P41+FMAG_RX_P42+FMAG_RX_P43+FMAG_RX_P44+FMAG_RX_P45+FMAG_RX_P46+FMAG_RX_P47" />
+        <pingroup name="gSDS_SRD8B_12_RX_N" list="FMAG_RX_N40+FMAG_RX_N41+FMAG_RX_N42+FMAG_RX_N43+FMAG_RX_N44+FMAG_RX_N45+FMAG_RX_N46+FMAG_RX_N47" />
+        <pingroup name="gSDS_SRD8B_13_TX_P" list="FMAG_TX_P24+FMAG_TX_P25+FMAG_TX_P26+FMAG_TX_P27+FMAG_TX_P28+FMAG_TX_P29+FMAG_TX_P30+FMAG_TX_P31" />
+        <pingroup name="gSDS_SRD8B_13_TX_N" list="FMAG_TX_N24+FMAG_TX_N25+FMAG_TX_N26+FMAG_TX_N27+FMAG_TX_N28+FMAG_TX_N29+FMAG_TX_N30+FMAG_TX_N31" />
+        <pingroup name="gSDS_SRD8B_13_RX_P" list="FMAG_RX_P24+FMAG_RX_P25+FMAG_RX_P26+FMAG_RX_P27+FMAG_RX_P28+FMAG_RX_P29+FMAG_RX_P30+FMAG_RX_P31" />
+        <pingroup name="gSDS_SRD8B_13_RX_N" list="FMAG_RX_N24+FMAG_RX_N25+FMAG_RX_N26+FMAG_RX_N27+FMAG_RX_N28+FMAG_RX_N29+FMAG_RX_N30+FMAG_RX_N31" />
+        <pingroup name="gSDS_SRD8B_14_TX_P" list="FMAG_TX_P32+FMAG_TX_P33+FMAG_TX_P34+FMAG_TX_P35+FMAG_TX_P36+FMAG_TX_P37+FMAG_TX_P38+FMAG_TX_P39" />
+        <pingroup name="gSDS_SRD8B_14_TX_N" list="FMAG_TX_N32+FMAG_TX_N33+FMAG_TX_N34+FMAG_TX_N35+FMAG_TX_N36+FMAG_TX_N37+FMAG_TX_N38+FMAG_TX_N39" />
+        <pingroup name="gSDS_SRD8B_14_RX_P" list="FMAG_RX_P32+FMAG_RX_P33+FMAG_RX_P34+FMAG_RX_P35+FMAG_RX_P36+FMAG_RX_P37+FMAG_RX_P38+FMAG_RX_P39" />
+        <pingroup name="gSDS_SRD8B_14_RX_N" list="FMAG_RX_N32+FMAG_RX_N33+FMAG_RX_N34+FMAG_RX_N35+FMAG_RX_N36+FMAG_RX_N37+FMAG_RX_N38+FMAG_RX_N39" />
+        <pingroup name="gSDS_SRD8B_15_TX_P" list="FMAG_TX_P8+FMAG_TX_P9+FMAG_TX_P10+FMAG_TX_P11+FMAG_TX_P20+FMAG_TX_P21+FMAG_TX_P22+FMAG_TX_P23" />
+        <pingroup name="gSDS_SRD8B_15_TX_N" list="FMAG_TX_N8+FMAG_TX_N9+FMAG_TX_N10+FMAG_TX_N11+FMAG_TX_N20+FMAG_TX_N21+FMAG_TX_N22+FMAG_TX_N23" />
+        <pingroup name="gSDS_SRD8B_15_RX_P" list="FMAG_RX_P8+FMAG_RX_P9+FMAG_RX_P10+FMAG_RX_P11+FMAG_RX_P20+FMAG_RX_P21+FMAG_RX_P22+FMAG_RX_P23" />
+        <pingroup name="gSDS_SRD8B_15_RX_N" list="FMAG_RX_N8+FMAG_RX_N9+FMAG_RX_N10+FMAG_RX_N11+FMAG_RX_N20+FMAG_RX_N21+FMAG_RX_N22+FMAG_RX_N23" />
+        <pingroup name="gSDS_SRD4B_17_TX_P" list="FMAG_TX_P19+FMAG_TX_P18+FMAG_TX_P17+FMAG_TX_P16" />
+        <pingroup name="gSDS_SRD4B_17_TX_N" list="FMAG_TX_N19+FMAG_TX_N18+FMAG_TX_N17+FMAG_TX_N16" />
+        <pingroup name="gSDS_SRD4B_17_RX_P" list="FMAG_RX_P19+FMAG_RX_P18+FMAG_RX_P17+FMAG_RX_P16" />
+        <pingroup name="gSDS_SRD4B_17_RX_N" list="FMAG_RX_N19+FMAG_RX_N18+FMAG_RX_N17+FMAG_RX_N16" />
+        <pingroup name="gSDS_SRD4B_18_TX_P" list="FMAG_TX_P4+FMAG_TX_P5+FMAG_TX_P6+FMAG_TX_P7" />
+        <pingroup name="gSDS_SRD4B_18_TX_N" list="FMAG_TX_N4+FMAG_TX_N5+FMAG_TX_N6+FMAG_TX_N7" />
+        <pingroup name="gSDS_SRD4B_18_RX_P" list="FMAG_RX_P4+FMAG_RX_P5+FMAG_RX_P6+FMAG_RX_P7" />
+        <pingroup name="gSDS_SRD4B_18_RX_N" list="FMAG_RX_N4+FMAG_RX_N5+FMAG_RX_N6+FMAG_RX_N7" />
+        <pingroup name="gSDS_SRD4B_19_TX_P" list="FMAG_TX_P3+FMAG_TX_P2+FMAG_TX_P1+FMAG_TX_P0" />
+        <pingroup name="gSDS_SRD4B_19_TX_N" list="FMAG_TX_N3+FMAG_TX_N2+FMAG_TX_N1+FMAG_TX_N0" />
+        <pingroup name="gSDS_SRD4B_19_RX_P" list="FMAG_RX_P3+FMAG_RX_P2+FMAG_RX_P1+FMAG_RX_P0" />
+        <pingroup name="gSDS_SRD4B_19_RX_N" list="FMAG_RX_N3+FMAG_RX_N2+FMAG_RX_N1+FMAG_RX_N0" />
+        <pingroup name="gSDS_SRD4B_8_TX_P" list="ILA_TX_P3+ILA_TX_P2+ILA_TX_P1+ILA_TX_P0" />
+        <pingroup name="gSDS_SRD4B_8_TX_N" list="ILA_TX_N3+ILA_TX_N2+ILA_TX_N1+ILA_TX_N0" />
+        <pingroup name="gSDS_SRD4B_8_RX_P" list="ILA_RX_P3+ILA_RX_P2+ILA_RX_P1+ILA_RX_P0" />
+        <pingroup name="gSDS_SRD4B_8_RX_N" list="ILA_RX_N3+ILA_RX_N2+ILA_RX_N1+ILA_RX_N0" />
+        <pingroup name="gSDS_SRD4B_9_TX_P" list="ILA_TX_P4+ILA_TX_P5+ILA_TX_P6+ILA_TX_P7" />
+        <pingroup name="gSDS_SRD4B_9_TX_N" list="ILA_TX_N4+ILA_TX_N5+ILA_TX_N6+ILA_TX_N7" />
+        <pingroup name="gSDS_SRD4B_9_RX_P" list="ILA_RX_P4+ILA_RX_P5+ILA_RX_P6+ILA_RX_P7" />
+        <pingroup name="gSDS_SRD4B_9_RX_N" list="ILA_RX_N4+ILA_RX_N5+ILA_RX_N6+ILA_RX_N7" />
+        <pingroup name="gSDS_SRD4B_16_TX_P" list="FMAG_TX_P12+FMAG_TX_P13+FMAG_TX_P14+FMAG_TX_P15" />
+        <pingroup name="gSDS_SRD4B_16_TX_N" list="FMAG_TX_N12+FMAG_TX_N13+FMAG_TX_N14+FMAG_TX_N15" />
+        <pingroup name="gSDS_SRD4B_16_RX_P" list="FMAG_RX_P12+FMAG_RX_P13+FMAG_RX_P14+FMAG_RX_P15" />
+        <pingroup name="gSDS_SRD4B_16_RX_N" list="FMAG_RX_N12+FMAG_RX_N13+FMAG_RX_N14+FMAG_RX_N15" />
+        <pingroup name="gSDS_SRD8B_0_TX_P" list="LMAG_TX_P0+LMAG_TX_P1+LMAG_TX_P2+LMAG_TX_P3+LMAG_TX_P4+LMAG_TX_P5+LMAG_TX_P6+LMAG_TX_P7" />
+        <pingroup name="gSDS_SRD8B_0_TX_N" list="LMAG_TX_N0+LMAG_TX_N1+LMAG_TX_N2+LMAG_TX_N3+LMAG_TX_N4+LMAG_TX_N5+LMAG_TX_N6+LMAG_TX_N7" />
+        <pingroup name="gSDS_SRD8B_0_RX_P" list="LMAG_RX_P0+LMAG_RX_P1+LMAG_RX_P2+LMAG_RX_P3+LMAG_RX_P4+LMAG_RX_P5+LMAG_RX_P6+LMAG_RX_P7" />
+        <pingroup name="gSDS_SRD8B_0_RX_N" list="LMAG_RX_N0+LMAG_RX_N1+LMAG_RX_N2+LMAG_RX_N3+LMAG_RX_N4+LMAG_RX_N5+LMAG_RX_N6+LMAG_RX_N7" />
+        <pingroup name="gSDS_SRD8B_1_TX_P" list="LMAG_TX_P8+LMAG_TX_P9+LMAG_TX_P10+LMAG_TX_P11+LMAG_TX_P12+LMAG_TX_P13+LMAG_TX_P14+LMAG_TX_P15" />
+        <pingroup name="gSDS_SRD8B_1_TX_N" list="LMAG_TX_N8+LMAG_TX_N9+LMAG_TX_N10+LMAG_TX_N11+LMAG_TX_N12+LMAG_TX_N13+LMAG_TX_N14+LMAG_TX_N15" />
+        <pingroup name="gSDS_SRD8B_1_RX_P" list="LMAG_RX_P8+LMAG_RX_P9+LMAG_RX_P10+LMAG_RX_P11+LMAG_RX_P12+LMAG_RX_P13+LMAG_RX_P14+LMAG_RX_P15" />
+        <pingroup name="gSDS_SRD8B_1_RX_N" list="LMAG_RX_N8+LMAG_RX_N9+LMAG_RX_N10+LMAG_RX_N11+LMAG_RX_N12+LMAG_RX_N13+LMAG_RX_N14+LMAG_RX_N15" />
+        <pingroup name="gSDS_SRD8B_2_TX_P" list="LMAG_TX_P16+LMAG_TX_P17+LMAG_TX_P18+LMAG_TX_P19+LMAG_TX_P20+LMAG_TX_P21+LMAG_TX_P22+LMAG_TX_P23" />
+        <pingroup name="gSDS_SRD8B_2_TX_N" list="LMAG_TX_N16+LMAG_TX_N17+LMAG_TX_N18+LMAG_TX_N19+LMAG_TX_N20+LMAG_TX_N21+LMAG_TX_N22+LMAG_TX_N23" />
+        <pingroup name="gSDS_SRD8B_2_RX_P" list="LMAG_RX_P16+LMAG_RX_P17+LMAG_RX_P18+LMAG_RX_P19+LMAG_RX_P20+LMAG_RX_P21+LMAG_RX_P22+LMAG_RX_P23" />
+        <pingroup name="gSDS_SRD8B_2_RX_N" list="LMAG_RX_N16+LMAG_RX_N17+LMAG_RX_N18+LMAG_RX_N19+LMAG_RX_N20+LMAG_RX_N21+LMAG_RX_N22+LMAG_RX_N23" />
+        <pingroup name="gSDS_SRD8B_3_TX_P" list="LMAG_TX_P24+LMAG_TX_P25+LMAG_TX_P26+LMAG_TX_P27+LMAG_TX_P28+LMAG_TX_P29+LMAG_TX_P30+LMAG_TX_P31" />
+        <pingroup name="gSDS_SRD8B_3_TX_N" list="LMAG_TX_N24+LMAG_TX_N25+LMAG_TX_N26+LMAG_TX_N27+LMAG_TX_N28+LMAG_TX_N29+LMAG_TX_N30+LMAG_TX_N31" />
+        <pingroup name="gSDS_SRD8B_3_RX_P" list="LMAG_RX_P24+LMAG_RX_P25+LMAG_RX_P26+LMAG_RX_P27+LMAG_RX_P28+LMAG_RX_P29+LMAG_RX_P30+LMAG_RX_P31" />
+        <pingroup name="gSDS_SRD8B_3_RX_N" list="LMAG_RX_N24+LMAG_RX_N25+LMAG_RX_N26+LMAG_RX_N27+LMAG_RX_N28+LMAG_RX_N29+LMAG_RX_N30+LMAG_RX_N31" />
+        <pingroup name="gSDS_SRD4B_4_TX_P" list="LMAG_TX_P35+LMAG_TX_P34+LMAG_TX_P33+LMAG_TX_P32" />
+        <pingroup name="gSDS_SRD4B_4_TX_N" list="LMAG_TX_N35+LMAG_TX_N34+LMAG_TX_N33+LMAG_TX_N32" />
+        <pingroup name="gSDS_SRD4B_4_RX_P" list="LMAG_RX_P35+LMAG_RX_P34+LMAG_RX_P33+LMAG_RX_P32" />
+        <pingroup name="gSDS_SRD4B_4_RX_N" list="LMAG_RX_N35+LMAG_RX_N34+LMAG_RX_N33+LMAG_RX_N32" />
+        <pingroup name="gSDS_SRD4B_5_TX_P" list="LMAG_TX_P36+LMAG_TX_P37+LMAG_TX_P38+LMAG_TX_P39" />
+        <pingroup name="gSDS_SRD4B_5_TX_N" list="LMAG_TX_N36+LMAG_TX_N37+LMAG_TX_N38+LMAG_TX_N39" />
+        <pingroup name="gSDS_SRD4B_5_RX_P" list="LMAG_RX_P36+LMAG_RX_P37+LMAG_RX_P38+LMAG_RX_P39" />
+        <pingroup name="gSDS_SRD4B_5_RX_N" list="LMAG_RX_N36+LMAG_RX_N37+LMAG_RX_N38+LMAG_RX_N39" />
+        <pingroup name="gSDS_SRD4B_6_TX_P" list="LMAG_TX_P43+LMAG_TX_P42+LMAG_TX_P41+LMAG_TX_P40" />
+        <pingroup name="gSDS_SRD4B_6_TX_N" list="LMAG_TX_N43+LMAG_TX_N42+LMAG_TX_N41+LMAG_TX_N40" />
+        <pingroup name="gSDS_SRD4B_6_RX_P" list="LMAG_RX_P43+LMAG_RX_P42+LMAG_RX_P41+LMAG_RX_P40" />
+        <pingroup name="gSDS_SRD4B_6_RX_N" list="LMAG_RX_N43+LMAG_RX_N42+LMAG_RX_N41+LMAG_RX_N40" />
+        <pingroup name="gSDS_SRD4B_7_TX_P" list="LMAG_TX_P44+LMAG_TX_P45+LMAG_TX_P46+LMAG_TX_P47" />
+        <pingroup name="gSDS_SRD4B_7_TX_N" list="LMAG_TX_N44+LMAG_TX_N45+LMAG_TX_N46+LMAG_TX_N47" />
+        <pingroup name="gSDS_SRD4B_7_RX_P" list="LMAG_RX_P44+LMAG_RX_P45+LMAG_RX_P46+LMAG_RX_P47" />
+        <pingroup name="gSDS_SRD4B_7_RX_N" list="LMAG_RX_N44+LMAG_RX_N45+LMAG_RX_N46+LMAG_RX_N47" />
+        <pingroup name="gSDS_SRD8B_12_TX_DS0" list="FMAG_TX_P4+FMAG_TX_N40" />
+        <pingroup name="gSDS_SRD8B_12_TX_DS1" list="FMAG_TX_P4+FMAG_TX_N41" />
+        <pingroup name="gSDS_SRD8B_12_TX_DS2" list="FMAG_TX_P4+FMAG_TX_N42" />
+        <pingroup name="gSDS_SRD8B_12_TX_DS3" list="FMAG_TX_P4+FMAG_TX_N43" />
+        <pingroup name="gSDS_SRD8B_12_TX_DS4" list="FMAG_TX_P4+FMAG_TX_N44" />
+        <pingroup name="gSDS_SRD8B_12_TX_DS5" list="FMAG_TX_P4+FMAG_TX_N45" />
+        <pingroup name="gSDS_SRD8B_12_TX_DS6" list="FMAG_TX_P4+FMAG_TX_N46" />
+        <pingroup name="gSDS_SRD8B_12_TX_DS7" list="FMAG_TX_P4+FMAG_TX_N47" />
+        <pingroup name="gSDS_SRD8B_12_RX_DS0" list="FMAG_RX_P4+FMAG_RX_N40" />
+        <pingroup name="gSDS_SRD8B_12_RX_DS1" list="FMAG_RX_P4+FMAG_RX_N41" />
+        <pingroup name="gSDS_SRD8B_12_RX_DS2" list="FMAG_RX_P4+FMAG_RX_N42" />
+        <pingroup name="gSDS_SRD8B_12_RX_DS3" list="FMAG_RX_P4+FMAG_RX_N43" />
+        <pingroup name="gSDS_SRD8B_12_RX_DS4" list="FMAG_RX_P4+FMAG_RX_N44" />
+        <pingroup name="gSDS_SRD8B_12_RX_DS5" list="FMAG_RX_P4+FMAG_RX_N45" />
+        <pingroup name="gSDS_SRD8B_12_RX_DS6" list="FMAG_RX_P4+FMAG_RX_N46" />
+        <pingroup name="gSDS_SRD8B_12_RX_DS7" list="FMAG_RX_P4+FMAG_RX_N47" />
+        <pingroup name="gSDS_SRD8B_13_TX_DS0" list="FMAG_TX_P2+FMAG_TX_N24" />
+        <pingroup name="gSDS_SRD8B_13_TX_DS1" list="FMAG_TX_P2+FMAG_TX_N25" />
+        <pingroup name="gSDS_SRD8B_13_TX_DS2" list="FMAG_TX_P2+FMAG_TX_N26" />
+        <pingroup name="gSDS_SRD8B_13_TX_DS3" list="FMAG_TX_P2+FMAG_TX_N27" />
+        <pingroup name="gSDS_SRD8B_13_TX_DS4" list="FMAG_TX_P2+FMAG_TX_N28" />
+        <pingroup name="gSDS_SRD8B_13_TX_DS5" list="FMAG_TX_P2+FMAG_TX_N29" />
+        <pingroup name="gSDS_SRD8B_13_TX_DS6" list="FMAG_TX_P3+FMAG_TX_N30" />
+        <pingroup name="gSDS_SRD8B_13_TX_DS7" list="FMAG_TX_P3+FMAG_TX_N31" />
+        <pingroup name="gSDS_SRD8B_13_RX_DS0" list="FMAG_RX_P2+FMAG_RX_N24" />
+        <pingroup name="gSDS_SRD8B_13_RX_DS1" list="FMAG_RX_P2+FMAG_RX_N25" />
+        <pingroup name="gSDS_SRD8B_13_RX_DS2" list="FMAG_RX_P2+FMAG_RX_N26" />
+        <pingroup name="gSDS_SRD8B_13_RX_DS3" list="FMAG_RX_P2+FMAG_RX_N27" />
+        <pingroup name="gSDS_SRD8B_13_RX_DS4" list="FMAG_RX_P2+FMAG_RX_N28" />
+        <pingroup name="gSDS_SRD8B_13_RX_DS5" list="FMAG_RX_P2+FMAG_RX_N29" />
+        <pingroup name="gSDS_SRD8B_13_RX_DS6" list="FMAG_RX_P3+FMAG_RX_N30" />
+        <pingroup name="gSDS_SRD8B_13_RX_DS7" list="FMAG_RX_P3+FMAG_RX_N31" />
+        <pingroup name="gSDS_SRD8B_14_TX_DS0" list="FMAG_TX_P3+FMAG_TX_N32" />
+        <pingroup name="gSDS_SRD8B_14_TX_DS1" list="FMAG_TX_P3+FMAG_TX_N33" />
+        <pingroup name="gSDS_SRD8B_14_TX_DS2" list="FMAG_TX_P3+FMAG_TX_N34" />
+        <pingroup name="gSDS_SRD8B_14_TX_DS3" list="FMAG_TX_P3+FMAG_TX_N35" />
+        <pingroup name="gSDS_SRD8B_14_TX_DS4" list="FMAG_TX_P3+FMAG_TX_N36" />
+        <pingroup name="gSDS_SRD8B_14_TX_DS5" list="FMAG_TX_P3+FMAG_TX_N37" />
+        <pingroup name="gSDS_SRD8B_14_TX_DS6" list="FMAG_TX_P3+FMAG_TX_N38" />
+        <pingroup name="gSDS_SRD8B_14_TX_DS7" list="FMAG_TX_P3+FMAG_TX_N39" />
+        <pingroup name="gSDS_SRD8B_14_RX_DS0" list="FMAG_RX_P3+FMAG_RX_N32" />
+        <pingroup name="gSDS_SRD8B_14_RX_DS1" list="FMAG_RX_P3+FMAG_RX_N33" />
+        <pingroup name="gSDS_SRD8B_14_RX_DS2" list="FMAG_RX_P3+FMAG_RX_N34" />
+        <pingroup name="gSDS_SRD8B_14_RX_DS3" list="FMAG_RX_P3+FMAG_RX_N35" />
+        <pingroup name="gSDS_SRD8B_14_RX_DS4" list="FMAG_RX_P3+FMAG_RX_N36" />
+        <pingroup name="gSDS_SRD8B_14_RX_DS5" list="FMAG_RX_P3+FMAG_RX_N37" />
+        <pingroup name="gSDS_SRD8B_14_RX_DS6" list="FMAG_RX_P3+FMAG_RX_N38" />
+        <pingroup name="gSDS_SRD8B_14_RX_DS7" list="FMAG_RX_P3+FMAG_RX_N39" />
+        <pingroup name="gSDS_SRD8B_15_TX_DS0" list="FMAG_TX_P8+FMAG_TX_N8" />
+        <pingroup name="gSDS_SRD8B_15_TX_DS1" list="FMAG_TX_P9+FMAG_TX_N9" />
+        <pingroup name="gSDS_SRD8B_15_TX_DS2" list="FMAG_TX_P1+FMAG_TX_N10" />
+        <pingroup name="gSDS_SRD8B_15_TX_DS3" list="FMAG_TX_P1+FMAG_TX_N11" />
+        <pingroup name="gSDS_SRD8B_15_TX_DS4" list="FMAG_TX_P2+FMAG_TX_N20" />
+        <pingroup name="gSDS_SRD8B_15_TX_DS5" list="FMAG_TX_P2+FMAG_TX_N21" />
+        <pingroup name="gSDS_SRD8B_15_TX_DS6" list="FMAG_TX_P2+FMAG_TX_N22" />
+        <pingroup name="gSDS_SRD8B_15_TX_DS7" list="FMAG_TX_P2+FMAG_TX_N23" />
+        <pingroup name="gSDS_SRD8B_15_RX_DS0" list="FMAG_RX_P8+FMAG_RX_N8" />
+        <pingroup name="gSDS_SRD8B_15_RX_DS1" list="FMAG_RX_P9+FMAG_RX_N9" />
+        <pingroup name="gSDS_SRD8B_15_RX_DS2" list="FMAG_RX_P1+FMAG_RX_N10" />
+        <pingroup name="gSDS_SRD8B_15_RX_DS3" list="FMAG_RX_P1+FMAG_RX_N11" />
+        <pingroup name="gSDS_SRD8B_15_RX_DS4" list="FMAG_RX_P2+FMAG_RX_N20" />
+        <pingroup name="gSDS_SRD8B_15_RX_DS5" list="FMAG_RX_P2+FMAG_RX_N21" />
+        <pingroup name="gSDS_SRD8B_15_RX_DS6" list="FMAG_RX_P2+FMAG_RX_N22" />
+        <pingroup name="gSDS_SRD8B_15_RX_DS7" list="FMAG_RX_P2+FMAG_RX_N23" />
+        <pingroup name="gSDS_SRD4B_17_TX_DS0" list="FMAG_TX_P1+FMAG_TX_N19" />
+        <pingroup name="gSDS_SRD4B_17_TX_DS1" list="FMAG_TX_P1+FMAG_TX_N18" />
+        <pingroup name="gSDS_SRD4B_17_TX_DS2" list="FMAG_TX_P1+FMAG_TX_N17" />
+        <pingroup name="gSDS_SRD4B_17_TX_DS3" list="FMAG_TX_P1+FMAG_TX_N16" />
+        <pingroup name="gSDS_SRD4B_17_RX_DS0" list="FMAG_RX_P1+FMAG_RX_N19" />
+        <pingroup name="gSDS_SRD4B_17_RX_DS1" list="FMAG_RX_P1+FMAG_RX_N18" />
+        <pingroup name="gSDS_SRD4B_17_RX_DS2" list="FMAG_RX_P1+FMAG_RX_N17" />
+        <pingroup name="gSDS_SRD4B_17_RX_DS3" list="FMAG_RX_P1+FMAG_RX_N16" />
+        <pingroup name="gSDS_SRD4B_18_TX_DS0" list="FMAG_TX_P4+FMAG_TX_N4" />
+        <pingroup name="gSDS_SRD4B_18_TX_DS1" list="FMAG_TX_P5+FMAG_TX_N5" />
+        <pingroup name="gSDS_SRD4B_18_TX_DS2" list="FMAG_TX_P6+FMAG_TX_N6" />
+        <pingroup name="gSDS_SRD4B_18_TX_DS3" list="FMAG_TX_P7+FMAG_TX_N7" />
+        <pingroup name="gSDS_SRD4B_18_RX_DS0" list="FMAG_RX_P4+FMAG_RX_N4" />
+        <pingroup name="gSDS_SRD4B_18_RX_DS1" list="FMAG_RX_P5+FMAG_RX_N5" />
+        <pingroup name="gSDS_SRD4B_18_RX_DS2" list="FMAG_RX_P6+FMAG_RX_N6" />
+        <pingroup name="gSDS_SRD4B_18_RX_DS3" list="FMAG_RX_P7+FMAG_RX_N7" />
+        <pingroup name="gSDS_SRD4B_19_TX_DS0" list="FMAG_TX_P3+FMAG_TX_N3" />
+        <pingroup name="gSDS_SRD4B_19_TX_DS1" list="FMAG_TX_P2+FMAG_TX_N2" />
+        <pingroup name="gSDS_SRD4B_19_TX_DS2" list="FMAG_TX_P1+FMAG_TX_N1" />
+        <pingroup name="gSDS_SRD4B_19_TX_DS3" list="FMAG_TX_P0+FMAG_TX_N0" />
+        <pingroup name="gSDS_SRD4B_19_RX_DS0" list="FMAG_RX_P3+FMAG_RX_N3" />
+        <pingroup name="gSDS_SRD4B_19_RX_DS1" list="FMAG_RX_P2+FMAG_RX_N2" />
+        <pingroup name="gSDS_SRD4B_19_RX_DS2" list="FMAG_RX_P1+FMAG_RX_N1" />
+        <pingroup name="gSDS_SRD4B_19_RX_DS3" list="FMAG_RX_P0+FMAG_RX_N0" />
+        <pingroup name="gSDS_SRD4B_8_TX_DS0" list="ILA_TX_P3+ILA_TX_N3" />
+        <pingroup name="gSDS_SRD4B_8_TX_DS1" list="ILA_TX_P2+ILA_TX_N2" />
+        <pingroup name="gSDS_SRD4B_8_TX_DS2" list="ILA_TX_P1+ILA_TX_N1" />
+        <pingroup name="gSDS_SRD4B_8_TX_DS3" list="ILA_TX_P0+ILA_TX_N0" />
+        <pingroup name="gSDS_SRD4B_8_RX_DS0" list="ILA_RX_P3+ILA_RX_N3" />
+        <pingroup name="gSDS_SRD4B_8_RX_DS1" list="ILA_RX_P2+ILA_RX_N2" />
+        <pingroup name="gSDS_SRD4B_8_RX_DS2" list="ILA_RX_P1+ILA_RX_N1" />
+        <pingroup name="gSDS_SRD4B_8_RX_DS3" list="ILA_RX_P0+ILA_RX_N0" />
+        <pingroup name="gSDS_SRD4B_9_TX_DS0" list="ILA_TX_P4+ILA_TX_N4" />
+        <pingroup name="gSDS_SRD4B_9_TX_DS1" list="ILA_TX_P5+ILA_TX_N5" />
+        <pingroup name="gSDS_SRD4B_9_TX_DS2" list="ILA_TX_P6+ILA_TX_N6" />
+        <pingroup name="gSDS_SRD4B_9_TX_DS3" list="ILA_TX_P7+ILA_TX_N7" />
+        <pingroup name="gSDS_SRD4B_9_RX_DS0" list="ILA_RX_P4+ILA_RX_N4" />
+        <pingroup name="gSDS_SRD4B_9_RX_DS1" list="ILA_RX_P5+ILA_RX_N5" />
+        <pingroup name="gSDS_SRD4B_9_RX_DS2" list="ILA_RX_P6+ILA_RX_N6" />
+        <pingroup name="gSDS_SRD4B_9_RX_DS3" list="ILA_RX_P7+ILA_RX_N7" />
+        <pingroup name="gSDS_SRD4B_16_TX_DS0" list="FMAG_TX_P12+FMAG_TX_N12" />
+        <pingroup name="gSDS_SRD4B_16_TX_DS1" list="FMAG_TX_P13+FMAG_TX_N13" />
+        <pingroup name="gSDS_SRD4B_16_TX_DS2" list="FMAG_TX_P14+FMAG_TX_N14" />
+        <pingroup name="gSDS_SRD4B_16_TX_DS3" list="FMAG_TX_P15+FMAG_TX_N15" />
+        <pingroup name="gSDS_SRD4B_16_RX_DS0" list="FMAG_RX_P12+FMAG_RX_N12" />
+        <pingroup name="gSDS_SRD4B_16_RX_DS1" list="FMAG_RX_P13+FMAG_RX_N13" />
+        <pingroup name="gSDS_SRD4B_16_RX_DS2" list="FMAG_RX_P14+FMAG_RX_N14" />
+        <pingroup name="gSDS_SRD4B_16_RX_DS3" list="FMAG_RX_P15+FMAG_RX_N15" />
+        <pingroup name="gSDS_SRD8B_0_TX_DS0" list="LMAG_TX_P0+LMAG_TX_N0" />
+        <pingroup name="gSDS_SRD8B_0_TX_DS1" list="LMAG_TX_P1+LMAG_TX_N1" />
+        <pingroup name="gSDS_SRD8B_0_TX_DS2" list="LMAG_TX_P2+LMAG_TX_N2" />
+        <pingroup name="gSDS_SRD8B_0_TX_DS3" list="LMAG_TX_P3+LMAG_TX_N3" />
+        <pingroup name="gSDS_SRD8B_0_TX_DS4" list="LMAG_TX_P4+LMAG_TX_N4" />
+        <pingroup name="gSDS_SRD8B_0_TX_DS5" list="LMAG_TX_P5+LMAG_TX_N5" />
+        <pingroup name="gSDS_SRD8B_0_TX_DS6" list="LMAG_TX_P6+LMAG_TX_N6" />
+        <pingroup name="gSDS_SRD8B_0_TX_DS7" list="LMAG_TX_P7+LMAG_TX_N7" />
+        <pingroup name="gSDS_SRD8B_0_RX_DS0" list="LMAG_RX_P0+LMAG_RX_N0" />
+        <pingroup name="gSDS_SRD8B_0_RX_DS1" list="LMAG_RX_P1+LMAG_RX_N1" />
+        <pingroup name="gSDS_SRD8B_0_RX_DS2" list="LMAG_RX_P2+LMAG_RX_N2" />
+        <pingroup name="gSDS_SRD8B_0_RX_DS3" list="LMAG_RX_P3+LMAG_RX_N3" />
+        <pingroup name="gSDS_SRD8B_0_RX_DS4" list="LMAG_RX_P4+LMAG_RX_N4" />
+        <pingroup name="gSDS_SRD8B_0_RX_DS5" list="LMAG_RX_P5+LMAG_RX_N5" />
+        <pingroup name="gSDS_SRD8B_0_RX_DS6" list="LMAG_RX_P6+LMAG_RX_N6" />
+        <pingroup name="gSDS_SRD8B_0_RX_DS7" list="LMAG_RX_P7+LMAG_RX_N7" />
+        <pingroup name="gSDS_SRD8B_1_TX_DS0" list="LMAG_TX_P8+LMAG_TX_N8" />
+        <pingroup name="gSDS_SRD8B_1_TX_DS1" list="LMAG_TX_P9+LMAG_TX_N9" />
+        <pingroup name="gSDS_SRD8B_1_TX_DS2" list="LMAG_TX_P10+LMAG_TX_N10" />
+        <pingroup name="gSDS_SRD8B_1_TX_DS3" list="LMAG_TX_P11+LMAG_TX_N11" />
+        <pingroup name="gSDS_SRD8B_1_TX_DS4" list="LMAG_TX_P12+LMAG_TX_N12" />
+        <pingroup name="gSDS_SRD8B_1_TX_DS5" list="LMAG_TX_P13+LMAG_TX_N13" />
+        <pingroup name="gSDS_SRD8B_1_TX_DS6" list="LMAG_TX_P14+LMAG_TX_N14" />
+        <pingroup name="gSDS_SRD8B_1_TX_DS7" list="LMAG_TX_P15+LMAG_TX_N15" />
+        <pingroup name="gSDS_SRD8B_1_RX_DS0" list="LMAG_RX_P8+LMAG_RX_N8" />
+        <pingroup name="gSDS_SRD8B_1_RX_DS1" list="LMAG_RX_P9+LMAG_RX_N9" />
+        <pingroup name="gSDS_SRD8B_1_RX_DS2" list="LMAG_RX_P10+LMAG_RX_N10" />
+        <pingroup name="gSDS_SRD8B_1_RX_DS3" list="LMAG_RX_P11+LMAG_RX_N11" />
+        <pingroup name="gSDS_SRD8B_1_RX_DS4" list="LMAG_RX_P12+LMAG_RX_N12" />
+        <pingroup name="gSDS_SRD8B_1_RX_DS5" list="LMAG_RX_P13+LMAG_RX_N13" />
+        <pingroup name="gSDS_SRD8B_1_RX_DS6" list="LMAG_RX_P14+LMAG_RX_N14" />
+        <pingroup name="gSDS_SRD8B_1_RX_DS7" list="LMAG_RX_P15+LMAG_RX_N15" />
+        <pingroup name="gSDS_SRD8B_2_TX_DS0" list="LMAG_TX_P16+LMAG_TX_N16" />
+        <pingroup name="gSDS_SRD8B_2_TX_DS1" list="LMAG_TX_P17+LMAG_TX_N17" />
+        <pingroup name="gSDS_SRD8B_2_TX_DS2" list="LMAG_TX_P18+LMAG_TX_N18" />
+        <pingroup name="gSDS_SRD8B_2_TX_DS3" list="LMAG_TX_P19+LMAG_TX_N19" />
+        <pingroup name="gSDS_SRD8B_2_TX_DS4" list="LMAG_TX_P20+LMAG_TX_N20" />
+        <pingroup name="gSDS_SRD8B_2_TX_DS5" list="LMAG_TX_P21+LMAG_TX_N21" />
+        <pingroup name="gSDS_SRD8B_2_TX_DS6" list="LMAG_TX_P22+LMAG_TX_N22" />
+        <pingroup name="gSDS_SRD8B_2_TX_DS7" list="LMAG_TX_P23+LMAG_TX_N23" />
+        <pingroup name="gSDS_SRD8B_2_RX_DS0" list="LMAG_RX_P16+LMAG_RX_N16" />
+        <pingroup name="gSDS_SRD8B_2_RX_DS1" list="LMAG_RX_P17+LMAG_RX_N17" />
+        <pingroup name="gSDS_SRD8B_2_RX_DS2" list="LMAG_RX_P18+LMAG_RX_N18" />
+        <pingroup name="gSDS_SRD8B_2_RX_DS3" list="LMAG_RX_P19+LMAG_RX_N19" />
+        <pingroup name="gSDS_SRD8B_2_RX_DS4" list="LMAG_RX_P20+LMAG_RX_N20" />
+        <pingroup name="gSDS_SRD8B_2_RX_DS5" list="LMAG_RX_P21+LMAG_RX_N21" />
+        <pingroup name="gSDS_SRD8B_2_RX_DS6" list="LMAG_RX_P22+LMAG_RX_N22" />
+        <pingroup name="gSDS_SRD8B_2_RX_DS7" list="LMAG_RX_P23+LMAG_RX_N23" />
+        <pingroup name="gSDS_SRD8B_3_TX_DS0" list="LMAG_TX_P24+LMAG_TX_N24" />
+        <pingroup name="gSDS_SRD8B_3_TX_DS1" list="LMAG_TX_P25+LMAG_TX_N25" />
+        <pingroup name="gSDS_SRD8B_3_TX_DS2" list="LMAG_TX_P26+LMAG_TX_N26" />
+        <pingroup name="gSDS_SRD8B_3_TX_DS3" list="LMAG_TX_P27+LMAG_TX_N27" />
+        <pingroup name="gSDS_SRD8B_3_TX_DS4" list="LMAG_TX_P28+LMAG_TX_N28" />
+        <pingroup name="gSDS_SRD8B_3_TX_DS5" list="LMAG_TX_P29+LMAG_TX_N29" />
+        <pingroup name="gSDS_SRD8B_3_TX_DS6" list="LMAG_TX_P30+LMAG_TX_N30" />
+        <pingroup name="gSDS_SRD8B_3_TX_DS7" list="LMAG_TX_P31+LMAG_TX_N31" />
+        <pingroup name="gSDS_SRD8B_3_RX_DS0" list="LMAG_RX_P24+LMAG_RX_N24" />
+        <pingroup name="gSDS_SRD8B_3_RX_DS1" list="LMAG_RX_P25+LMAG_RX_N25" />
+        <pingroup name="gSDS_SRD8B_3_RX_DS2" list="LMAG_RX_P26+LMAG_RX_N26" />
+        <pingroup name="gSDS_SRD8B_3_RX_DS3" list="LMAG_RX_P27+LMAG_RX_N27" />
+        <pingroup name="gSDS_SRD8B_3_RX_DS4" list="LMAG_RX_P28+LMAG_RX_N28" />
+        <pingroup name="gSDS_SRD8B_3_RX_DS5" list="LMAG_RX_P29+LMAG_RX_N29" />
+        <pingroup name="gSDS_SRD8B_3_RX_DS6" list="LMAG_RX_P30+LMAG_RX_N30" />
+        <pingroup name="gSDS_SRD8B_3_RX_DS7" list="LMAG_RX_P31+LMAG_RX_N31" />
+        <pingroup name="gSDS_SRD4B_4_TX_DS0" list="LMAG_TX_P35+LMAG_TX_N35" />
+        <pingroup name="gSDS_SRD4B_4_TX_DS1" list="LMAG_TX_P34+LMAG_TX_N34" />
+        <pingroup name="gSDS_SRD4B_4_TX_DS2" list="LMAG_TX_P33+LMAG_TX_N33" />
+        <pingroup name="gSDS_SRD4B_4_TX_DS3" list="LMAG_TX_P32+LMAG_TX_N32" />
+        <pingroup name="gSDS_SRD4B_4_RX_DS0" list="LMAG_RX_P35+LMAG_RX_N35" />
+        <pingroup name="gSDS_SRD4B_4_RX_DS1" list="LMAG_RX_P34+LMAG_RX_N34" />
+        <pingroup name="gSDS_SRD4B_4_RX_DS2" list="LMAG_RX_P33+LMAG_RX_N33" />
+        <pingroup name="gSDS_SRD4B_4_RX_DS3" list="LMAG_RX_P32+LMAG_RX_N32" />
+        <pingroup name="gSDS_SRD4B_5_TX_DS0" list="LMAG_TX_P36+LMAG_TX_N36" />
+        <pingroup name="gSDS_SRD4B_5_TX_DS1" list="LMAG_TX_P37+LMAG_TX_N37" />
+        <pingroup name="gSDS_SRD4B_5_TX_DS2" list="LMAG_TX_P38+LMAG_TX_N38" />
+        <pingroup name="gSDS_SRD4B_5_TX_DS3" list="LMAG_TX_P39+LMAG_TX_N39" />
+        <pingroup name="gSDS_SRD4B_5_RX_DS0" list="LMAG_RX_P36+LMAG_RX_N36" />
+        <pingroup name="gSDS_SRD4B_5_RX_DS1" list="LMAG_RX_P37+LMAG_RX_N37" />
+        <pingroup name="gSDS_SRD4B_5_RX_DS2" list="LMAG_RX_P38+LMAG_RX_N38" />
+        <pingroup name="gSDS_SRD4B_5_RX_DS3" list="LMAG_RX_P39+LMAG_RX_N39" />
+        <pingroup name="gSDS_SRD4B_6_TX_DS0" list="LMAG_TX_P43+LMAG_TX_N43" />
+        <pingroup name="gSDS_SRD4B_6_TX_DS1" list="LMAG_TX_P42+LMAG_TX_N42" />
+        <pingroup name="gSDS_SRD4B_6_TX_DS2" list="LMAG_TX_P41+LMAG_TX_N41" />
+        <pingroup name="gSDS_SRD4B_6_TX_DS3" list="LMAG_TX_P40+LMAG_TX_N40" />
+        <pingroup name="gSDS_SRD4B_6_RX_DS0" list="LMAG_RX_P43+LMAG_RX_N43" />
+        <pingroup name="gSDS_SRD4B_6_RX_DS1" list="LMAG_RX_P42+LMAG_RX_N42" />
+        <pingroup name="gSDS_SRD4B_6_RX_DS2" list="LMAG_RX_P41+LMAG_RX_N41" />
+        <pingroup name="gSDS_SRD4B_6_RX_DS3" list="LMAG_RX_P40+LMAG_RX_N40" />
+        <pingroup name="gSDS_SRD4B_7_TX_DS0" list="LMAG_TX_P44+LMAG_TX_N44" />
+        <pingroup name="gSDS_SRD4B_7_TX_DS1" list="LMAG_TX_P45+LMAG_TX_N45" />
+        <pingroup name="gSDS_SRD4B_7_TX_DS2" list="LMAG_TX_P46+LMAG_TX_N46" />
+        <pingroup name="gSDS_SRD4B_7_TX_DS3" list="LMAG_TX_P47+LMAG_TX_N47" />
+        <pingroup name="gSDS_SRD4B_7_RX_DS0" list="LMAG_RX_P44+LMAG_RX_N44" />
+        <pingroup name="gSDS_SRD4B_7_RX_DS1" list="LMAG_RX_P45+LMAG_RX_N45" />
+        <pingroup name="gSDS_SRD4B_7_RX_DS2" list="LMAG_RX_P46+LMAG_RX_N46" />
+        <pingroup name="gSDS_SRD4B_7_RX_DS3" list="LMAG_RX_P47+LMAG_RX_N47" />
+        <pingroup name="TDR_Exclude_Pins" list="FMAG_TX_P0+FMAG_TX_N0+FMAG_TX_P1+FMAG_TX_N1+FMAG_TX_P2+FMAG_TX_N2+FMAG_TX_P3+FMAG_TX_N3+FMAG_TX_P4+FMAG_TX_N4+FMAG_TX_P5+FMAG_TX_N5+FMAG_TX_P6+FMAG_TX_N6+FMAG_TX_P7+FMAG_TX_N7+FMAG_TX_P8+FMAG_TX_N8+FMAG_TX_P9+FMAG_TX_N9+FMAG_TX_P10+FMAG_TX_N10+FMAG_TX_P11+FMAG_TX_N11+FMAG_TX_P12+FMAG_TX_N12+FMAG_TX_P13+FMAG_TX_N13+FMAG_TX_P14+FMAG_TX_N14+FMAG_TX_P15+FMAG_TX_N15+FMAG_TX_P16+FMAG_TX_N16+FMAG_TX_P17+FMAG_TX_N17+FMAG_TX_P18+FMAG_TX_N18+FMAG_TX_P19+FMAG_TX_N19+FMAG_TX_P20+FMAG_TX_N20+FMAG_TX_P21+FMAG_TX_N21+FMAG_TX_P22+FMAG_TX_N22+FMAG_TX_P23+FMAG_TX_N23+FMAG_TX_P24+FMAG_TX_N24+FMAG_TX_P25+FMAG_TX_N25+FMAG_TX_P26+FMAG_TX_N26+FMAG_TX_P27+FMAG_TX_N27+FMAG_TX_P28+FMAG_TX_N28+FMAG_TX_P29+FMAG_TX_N29+FMAG_TX_P30+FMAG_TX_N30+FMAG_TX_P31+FMAG_TX_N31+FMAG_TX_P32+FMAG_TX_N32+FMAG_TX_P33+FMAG_TX_N33+FMAG_TX_P34+FMAG_TX_N34+FMAG_TX_P35+FMAG_TX_N35+FMAG_TX_P36+FMAG_TX_N36+FMAG_TX_P37+FMAG_TX_N37+FMAG_TX_P38+FMAG_TX_N38+FMAG_TX_P39+FMAG_TX_N39+FMAG_TX_P40+FMAG_TX_N40+FMAG_TX_P41+FMAG_TX_N41+FMAG_TX_P42+FMAG_TX_N42+FMAG_TX_P43+FMAG_TX_N43+FMAG_TX_P44+FMAG_TX_N44+FMAG_TX_P45+FMAG_TX_N45+FMAG_TX_P46+FMAG_TX_N46+FMAG_TX_P47+FMAG_TX_N47+FMAG_RX_P0+FMAG_RX_N0+FMAG_RX_P1+FMAG_RX_N1+FMAG_RX_P2+FMAG_RX_N2+FMAG_RX_P3+FMAG_RX_N3+FMAG_RX_P4+FMAG_RX_N4+FMAG_RX_P5+FMAG_RX_N5+FMAG_RX_P6+FMAG_RX_N6+FMAG_RX_P7+FMAG_RX_N7+FMAG_RX_P8+FMAG_RX_N8+FMAG_RX_P9+FMAG_RX_N9+FMAG_RX_P10+FMAG_RX_N10+FMAG_RX_P11+FMAG_RX_N11+FMAG_RX_P12+FMAG_RX_N12+FMAG_RX_P13+FMAG_RX_N13+FMAG_RX_P14+FMAG_RX_N14+FMAG_RX_P15+FMAG_RX_N15+FMAG_RX_P16+FMAG_RX_N16+FMAG_RX_P17+FMAG_RX_N17+FMAG_RX_P18+FMAG_RX_N18+FMAG_RX_P19+FMAG_RX_N19+FMAG_RX_P20+FMAG_RX_N20+FMAG_RX_P21+FMAG_RX_N21+FMAG_RX_P22+FMAG_RX_N22+FMAG_RX_P23+FMAG_RX_N23+FMAG_RX_P24+FMAG_RX_N24+FMAG_RX_P25+FMAG_RX_N25+FMAG_RX_P26+FMAG_RX_N26+FMAG_RX_P27+FMAG_RX_N27+FMAG_RX_P28+FMAG_RX_N28+FMAG_RX_P29+FMAG_RX_N29+FMAG_RX_P30+FMAG_RX_N30+FMAG_RX_P31+FMAG_RX_N31+FMAG_RX_P32+FMAG_RX_N32+FMAG_RX_P33+FMAG_RX_N33+FMAG_RX_P34+FMAG_RX_N34+FMAG_RX_P35+FMAG_RX_N35+FMAG_RX_P36+FMAG_RX_N36+FMAG_RX_P37+FMAG_RX_N37+FMAG_RX_P38+FMAG_RX_N38+FMAG_RX_P39+FMAG_RX_N39+FMAG_RX_P40+FMAG_RX_N40+FMAG_RX_P41+FMAG_RX_N41+FMAG_RX_P42+FMAG_RX_N42+FMAG_RX_P43+FMAG_RX_N43+FMAG_RX_P44+FMAG_RX_N44+FMAG_RX_P45+FMAG_RX_N45+FMAG_RX_P46+FMAG_RX_N46+FMAG_RX_P47+FMAG_RX_N47+LMAG_TX_P0+LMAG_TX_N0+LMAG_TX_P1+LMAG_TX_N1+LMAG_TX_P2+LMAG_TX_N2+LMAG_TX_P3+LMAG_TX_N3+LMAG_TX_P4+LMAG_TX_N4+LMAG_TX_P5+LMAG_TX_N5+LMAG_TX_P6+LMAG_TX_N6+LMAG_TX_P7+LMAG_TX_N7+LMAG_TX_P8+LMAG_TX_N8+LMAG_TX_P9+LMAG_TX_N9+LMAG_TX_P10+LMAG_TX_N10+LMAG_TX_P11+LMAG_TX_N11+LMAG_TX_P12+LMAG_TX_N12+LMAG_TX_P13+LMAG_TX_N13+LMAG_TX_P14+LMAG_TX_N14+LMAG_TX_P15+LMAG_TX_N15+LMAG_TX_P16+LMAG_TX_N16+LMAG_TX_P17+LMAG_TX_N17+LMAG_TX_P18+LMAG_TX_N18+LMAG_TX_P19+LMAG_TX_N19+LMAG_TX_P20+LMAG_TX_N20+LMAG_TX_P21+LMAG_TX_N21+LMAG_TX_P22+LMAG_TX_N22+LMAG_TX_P23+LMAG_TX_N23+LMAG_TX_P24+LMAG_TX_N24+LMAG_TX_P25+LMAG_TX_N25+LMAG_TX_P26+LMAG_TX_N26+LMAG_TX_P27+LMAG_TX_N27+LMAG_TX_P28+LMAG_TX_N28+LMAG_TX_P29+LMAG_TX_N29+LMAG_TX_P30+LMAG_TX_N30+LMAG_TX_P31+LMAG_TX_N31+LMAG_TX_P32+LMAG_TX_N32+LMAG_TX_P33+LMAG_TX_N33+LMAG_TX_P34+LMAG_TX_N34+LMAG_TX_P35+LMAG_TX_N35+LMAG_TX_P36+LMAG_TX_N36+LMAG_TX_P37+LMAG_TX_N37+LMAG_TX_P38+LMAG_TX_N38+LMAG_TX_P39+LMAG_TX_N39+LMAG_TX_P40+LMAG_TX_N40+LMAG_TX_P41+LMAG_TX_N41+LMAG_TX_P42+LMAG_TX_N42+LMAG_TX_P43+LMAG_TX_N43+LMAG_TX_P44+LMAG_TX_N44+LMAG_TX_P45+LMAG_TX_N45+LMAG_TX_P46+LMAG_TX_N46+LMAG_TX_P47+LMAG_TX_N47+LMAG_RX_P0+LMAG_RX_N0+LMAG_RX_P1+LMAG_RX_N1+LMAG_RX_P2+LMAG_RX_N2+LMAG_RX_P3+LMAG_RX_N3+LMAG_RX_P4+LMAG_RX_N4+LMAG_RX_P5+LMAG_RX_N5+LMAG_RX_P6+LMAG_RX_N6+LMAG_RX_P7+LMAG_RX_N7+LMAG_RX_P8+LMAG_RX_N8+LMAG_RX_P9+LMAG_RX_N9+LMAG_RX_P10+LMAG_RX_N10+LMAG_RX_P11+LMAG_RX_N11+LMAG_RX_P12+LMAG_RX_N12+LMAG_RX_P13+LMAG_RX_N13+LMAG_RX_P14+LMAG_RX_N14+LMAG_RX_P15+LMAG_RX_N15+LMAG_RX_P16+LMAG_RX_N16+LMAG_RX_P17+LMAG_RX_N17+LMAG_RX_P18+LMAG_RX_N18+LMAG_RX_P19+LMAG_RX_N19+LMAG_RX_P20+LMAG_RX_N20+LMAG_RX_P21+LMAG_RX_N21+LMAG_RX_P22+LMAG_RX_N22+LMAG_RX_P23+LMAG_RX_N23+LMAG_RX_P24+LMAG_RX_N24+LMAG_RX_P25+LMAG_RX_N25+LMAG_RX_P26+LMAG_RX_N26+LMAG_RX_P27+LMAG_RX_N27+LMAG_RX_P28+LMAG_RX_N28+LMAG_RX_P29+LMAG_RX_N29+LMAG_RX_P30+LMAG_RX_N30+LMAG_RX_P31+LMAG_RX_N31+LMAG_RX_P32+LMAG_RX_N32+LMAG_RX_P33+LMAG_RX_N33+LMAG_RX_P34+LMAG_RX_N34+LMAG_RX_P35+LMAG_RX_N35+LMAG_RX_P36+LMAG_RX_N36+LMAG_RX_P37+LMAG_RX_N37+LMAG_RX_P38+LMAG_RX_N38+LMAG_RX_P39+LMAG_RX_N39+LMAG_RX_P40+LMAG_RX_N40+LMAG_RX_P41+LMAG_RX_N41+LMAG_RX_P42+LMAG_RX_N42+LMAG_RX_P43+LMAG_RX_N43+LMAG_RX_P44+LMAG_RX_N44+LMAG_RX_P45+LMAG_RX_N45+LMAG_RX_P46+LMAG_RX_N46+LMAG_RX_P47+LMAG_RX_N47+ILA_TX_P0+ILA_TX_N0+ILA_TX_P1+ILA_TX_N1+ILA_TX_P2+ILA_TX_N2+ILA_TX_P3+ILA_TX_N3+ILA_TX_P4+ILA_TX_N4+ILA_TX_P5+ILA_TX_N5+ILA_TX_P6+ILA_TX_N6+ILA_TX_P7+ILA_TX_N7+ILA_RX_P0+ILA_RX_N0+ILA_RX_P1+ILA_RX_N1+ILA_RX_P2+ILA_RX_N2+ILA_RX_P3+ILA_RX_N3+ILA_RX_P4+ILA_RX_N4+ILA_RX_P5+ILA_RX_N5+ILA_RX_P6+ILA_RX_N6+ILA_RX_P7+ILA_RX_N7+PIE_TX_P0+PIE_TX_N0+PIE_RX_P0+PIE_RX_N0+PCIE_TX_P0+PCIE_TX_N0+PCIE_TX_P1+PCIE_TX_N1+PCIE_RX_P0+PCIE_RX_N0+PCIE_RX_P1+PCIE_RX_N1+SYS_REF_CLK_P+SYS_REF_CLK_N+FMAG_REF_CLK0_P+FMAG_REF_CLK0_N+FMAG_REF_CLK1_P+FMAG_REF_CLK1_N+LMAG_REF_CLK_P+LMAG_REF_CLK_N+EMEM_DDR_ZCOMP" />
+        <pingroup name="gSDS_SRD8B_12_TX_ALL" list="FMAG_TX_P4+FMAG_TX_N40+FMAG_TX_P4+FMAG_TX_N41+FMAG_TX_P4+FMAG_TX_N42+FMAG_TX_P4+FMAG_TX_N43+FMAG_TX_P4+FMAG_TX_N44+FMAG_TX_P4+FMAG_TX_N45+FMAG_TX_P4+FMAG_TX_N46+FMAG_TX_P4+FMAG_TX_N47" />
+        <pingroup name="gSDS_SRD8B_12_RX_ALL" list="FMAG_RX_P4+FMAG_RX_N40+FMAG_RX_P4+FMAG_RX_N41+FMAG_RX_P4+FMAG_RX_N42+FMAG_RX_P4+FMAG_RX_N43+FMAG_RX_P4+FMAG_RX_N44+FMAG_RX_P4+FMAG_RX_N45+FMAG_RX_P4+FMAG_RX_N46+FMAG_RX_P4+FMAG_RX_N47" />
+        <pingroup name="gSDS_SRD8B_12_SDS" list="FMAG_TX_P4+FMAG_TX_N40+FMAG_TX_P4+FMAG_TX_N41+FMAG_TX_P4+FMAG_TX_N42+FMAG_TX_P4+FMAG_TX_N43+FMAG_TX_P4+FMAG_TX_N44+FMAG_TX_P4+FMAG_TX_N45+FMAG_TX_P4+FMAG_TX_N46+FMAG_TX_P4+FMAG_TX_N47+FMAG_RX_P4+FMAG_RX_N40+FMAG_RX_P4+FMAG_RX_N41+FMAG_RX_P4+FMAG_RX_N42+FMAG_RX_P4+FMAG_RX_N43+FMAG_RX_P4+FMAG_RX_N44+FMAG_RX_P4+FMAG_RX_N45+FMAG_RX_P4+FMAG_RX_N46+FMAG_RX_P4+FMAG_RX_N47" />
+        <pingroup name="gSDS_SRD8B_13_TX_ALL" list="FMAG_TX_P2+FMAG_TX_N24+FMAG_TX_P2+FMAG_TX_N25+FMAG_TX_P2+FMAG_TX_N26+FMAG_TX_P2+FMAG_TX_N27+FMAG_TX_P2+FMAG_TX_N28+FMAG_TX_P2+FMAG_TX_N29+FMAG_TX_P3+FMAG_TX_N30+FMAG_TX_P3+FMAG_TX_N31" />
+        <pingroup name="gSDS_SRD8B_13_RX_ALL" list="FMAG_RX_P2+FMAG_RX_N24+FMAG_RX_P2+FMAG_RX_N25+FMAG_RX_P2+FMAG_RX_N26+FMAG_RX_P2+FMAG_RX_N27+FMAG_RX_P2+FMAG_RX_N28+FMAG_RX_P2+FMAG_RX_N29+FMAG_RX_P3+FMAG_RX_N30+FMAG_RX_P3+FMAG_RX_N31" />
+        <pingroup name="gSDS_SRD8B_13_SDS" list="FMAG_TX_P2+FMAG_TX_N24+FMAG_TX_P2+FMAG_TX_N25+FMAG_TX_P2+FMAG_TX_N26+FMAG_TX_P2+FMAG_TX_N27+FMAG_TX_P2+FMAG_TX_N28+FMAG_TX_P2+FMAG_TX_N29+FMAG_TX_P3+FMAG_TX_N30+FMAG_TX_P3+FMAG_TX_N31+FMAG_TX_P2+FMAG_TX_N24+FMAG_TX_P2+FMAG_TX_N25+FMAG_TX_P2+FMAG_TX_N26+FMAG_TX_P2+FMAG_TX_N27+FMAG_TX_P2+FMAG_TX_N28+FMAG_TX_P2+FMAG_TX_N29+FMAG_TX_P3+FMAG_TX_N30+FMAG_TX_P3+FMAG_TX_N31" />
+        <pingroup name="gSDS_SRD8B_14_TX_ALL" list="FMAG_TX_P3+FMAG_TX_N32+FMAG_TX_P3+FMAG_TX_N33+FMAG_TX_P3+FMAG_TX_N34+FMAG_TX_P3+FMAG_TX_N35+FMAG_TX_P3+FMAG_TX_N36+FMAG_TX_P3+FMAG_TX_N37+FMAG_TX_P3+FMAG_TX_N38+FMAG_TX_P3+FMAG_TX_N39" />
+        <pingroup name="gSDS_SRD8B_14_RX_ALL" list="FMAG_RX_P3+FMAG_RX_N32+FMAG_RX_P3+FMAG_RX_N33+FMAG_RX_P3+FMAG_RX_N34+FMAG_RX_P3+FMAG_RX_N35+FMAG_RX_P3+FMAG_RX_N36+FMAG_RX_P3+FMAG_RX_N37+FMAG_RX_P3+FMAG_RX_N38+FMAG_RX_P3+FMAG_RX_N39" />
+        <pingroup name="gSDS_SRD8B_14_SDS" list="FMAG_TX_P3+FMAG_TX_N32+FMAG_TX_P3+FMAG_TX_N33+FMAG_TX_P3+FMAG_TX_N34+FMAG_TX_P3+FMAG_TX_N35+FMAG_TX_P3+FMAG_TX_N36+FMAG_TX_P3+FMAG_TX_N37+FMAG_TX_P3+FMAG_TX_N38+FMAG_TX_P3+FMAG_TX_N39+FMAG_RX_P3+FMAG_RX_N32+FMAG_RX_P3+FMAG_RX_N33+FMAG_RX_P3+FMAG_RX_N34+FMAG_RX_P3+FMAG_RX_N35+FMAG_RX_P3+FMAG_RX_N36+FMAG_RX_P3+FMAG_RX_N37+FMAG_RX_P3+FMAG_RX_N38+FMAG_RX_P3+FMAG_RX_N39" />
+        <pingroup name="gSDS_SRD8B_15_TX_ALL" list="FMAG_TX_P8+FMAG_TX_N8+FMAG_TX_P9+FMAG_TX_N9+FMAG_TX_P1+FMAG_TX_N10+FMAG_TX_P1+FMAG_TX_N11+FMAG_TX_P2+FMAG_TX_N20+FMAG_TX_P2+FMAG_TX_N21+FMAG_TX_P2+FMAG_TX_N22+FMAG_TX_P2+FMAG_TX_N23" />
+        <pingroup name="gSDS_SRD8B_15_RX_ALL" list="FMAG_RX_P8+FMAG_RX_N8+FMAG_RX_P9+FMAG_RX_N9+FMAG_RX_P1+FMAG_RX_N10+FMAG_RX_P1+FMAG_RX_N11+FMAG_RX_P2+FMAG_RX_N20+FMAG_RX_P2+FMAG_RX_N21+FMAG_RX_P2+FMAG_RX_N22+FMAG_RX_P2+FMAG_RX_N23" />
+        <pingroup name="gSDS_SRD8B_15_SDS" list="FMAG_TX_P8+FMAG_TX_N8+FMAG_TX_P9+FMAG_TX_N9+FMAG_TX_P1+FMAG_TX_N10+FMAG_TX_P1+FMAG_TX_N11+FMAG_TX_P2+FMAG_TX_N20+FMAG_TX_P2+FMAG_TX_N21+FMAG_TX_P2+FMAG_TX_N22+FMAG_TX_P2+FMAG_TX_N23+FMAG_RX_P8+FMAG_RX_N8+FMAG_RX_P9+FMAG_RX_N9+FMAG_RX_P1+FMAG_RX_N10+FMAG_RX_P1+FMAG_RX_N11+FMAG_RX_P2+FMAG_RX_N20+FMAG_RX_P2+FMAG_RX_N21+FMAG_RX_P2+FMAG_RX_N22+FMAG_RX_P2+FMAG_RX_N23" />
+        <pingroup name="gSDS_SRD4B_17_TX_ALL" list="FMAG_TX_P1+FMAG_TX_N19+FMAG_TX_P1+FMAG_TX_N18+FMAG_TX_P1+FMAG_TX_N17+FMAG_TX_P1+FMAG_TX_N16" />
+        <pingroup name="gSDS_SRD4B_17_RX_ALL" list="FMAG_RX_P1+FMAG_RX_N19+FMAG_RX_P1+FMAG_RX_N18+FMAG_RX_P1+FMAG_RX_N17+FMAG_RX_P1+FMAG_RX_N16" />
+        <pingroup name="gSDS_SRD4B_17_SDS" list="FMAG_TX_P1+FMAG_TX_N19+FMAG_TX_P1+FMAG_TX_N18+FMAG_TX_P1+FMAG_TX_N17+FMAG_TX_P1+FMAG_TX_N16+FMAG_RX_P1+FMAG_RX_N19+FMAG_RX_P1+FMAG_RX_N18+FMAG_RX_P1+FMAG_RX_N17+FMAG_RX_P1+FMAG_RX_N16" />
+        <pingroup name="gSDS_SRD4B_18_TX_ALL" list="FMAG_TX_P4+FMAG_TX_N4+FMAG_TX_P5+FMAG_TX_N5+FMAG_TX_P6+FMAG_TX_N6+FMAG_TX_P7+FMAG_TX_N7" />
+        <pingroup name="gSDS_SRD4B_18_RX_ALL" list="FMAG_RX_P4+FMAG_RX_N4+FMAG_RX_P5+FMAG_RX_N5+FMAG_RX_P6+FMAG_RX_N6+FMAG_RX_P7+FMAG_RX_N7" />
+        <pingroup name="gSDS_SRD4B_18_SDS" list="FMAG_TX_P4+FMAG_TX_N4+FMAG_TX_P5+FMAG_TX_N5+FMAG_TX_P6+FMAG_TX_N6+FMAG_TX_P7+FMAG_TX_N7+FMAG_RX_P4+FMAG_RX_N4+FMAG_RX_P5+FMAG_RX_N5+FMAG_RX_P6+FMAG_RX_N6+FMAG_RX_P7+FMAG_RX_N7" />
+        <pingroup name="gSDS_SRD4B_19_TX_ALL" list="FMAG_TX_P3+FMAG_TX_N3+FMAG_TX_P2+FMAG_TX_N2+FMAG_TX_P1+FMAG_TX_N1+FMAG_TX_P0+FMAG_TX_N0" />
+        <pingroup name="gSDS_SRD4B_19_RX_ALL" list="FMAG_RX_P3+FMAG_RX_N3+FMAG_RX_P2+FMAG_RX_N2+FMAG_RX_P1+FMAG_RX_N1+FMAG_RX_P0+FMAG_RX_N0" />
+        <pingroup name="gSDS_SRD4B_19_SDS" list="FMAG_TX_P3+FMAG_TX_N3+FMAG_TX_P2+FMAG_TX_N2+FMAG_TX_P1+FMAG_TX_N1+FMAG_TX_P0+FMAG_TX_N0+FMAG_RX_P3+FMAG_RX_N3+FMAG_RX_P2+FMAG_RX_N2+FMAG_RX_P1+FMAG_RX_N1+FMAG_RX_P0+FMAG_RX_N0" />
+        <pingroup name="gSDS_SRD4B_8_TX_ALL" list="ILA_TX_P3+ILA_TX_N3+ILA_TX_P2+ILA_TX_N2+ILA_TX_P1+ILA_TX_N1+ILA_TX_P0+ILA_TX_N0" />
+        <pingroup name="gSDS_SRD4B_8_RX_ALL" list="ILA_RX_P3+ILA_RX_N3+ILA_RX_P2+ILA_RX_N2+ILA_RX_P1+ILA_RX_N1+ILA_RX_P0+ILA_RX_N0" />
+        <pingroup name="gSDS_SRD4B_8_SDS" list="ILA_TX_P3+ILA_TX_N3+ILA_TX_P2+ILA_TX_N2+ILA_TX_P1+ILA_TX_N1+ILA_TX_P0+ILA_TX_N0+ILA_RX_P3+ILA_RX_N3+ILA_RX_P2+ILA_RX_N2+ILA_RX_P1+ILA_RX_N1+ILA_RX_P0+ILA_RX_N0" />
+        <pingroup name="gSDS_SRD4B_9_TX_ALL" list="ILA_TX_P4+ILA_TX_N4+ILA_TX_P5+ILA_TX_N5+ILA_TX_P6+ILA_TX_N6+ILA_TX_P7+ILA_TX_N7" />
+        <pingroup name="gSDS_SRD4B_9_RX_ALL" list="ILA_RX_P4+ILA_RX_N4+ILA_RX_P5+ILA_RX_N5+ILA_RX_P6+ILA_RX_N6+ILA_RX_P7+ILA_RX_N7" />
+        <pingroup name="gSDS_SRD4B_9_SDS" list="ILA_TX_P4+ILA_TX_N4+ILA_TX_P5+ILA_TX_N5+ILA_TX_P6+ILA_TX_N6+ILA_TX_P7+ILA_TX_N7+ILA_RX_P4+ILA_RX_N4+ILA_RX_P5+ILA_RX_N5+ILA_RX_P6+ILA_RX_N6+ILA_RX_P7+ILA_RX_N7" />
+        <pingroup name="gSDS_SRD4B_16_TX_ALL" list="FMAG_TX_P12+FMAG_TX_N12+FMAG_TX_P13+FMAG_TX_N13+FMAG_TX_P14+FMAG_TX_N14+FMAG_TX_P15+FMAG_TX_N15" />
+        <pingroup name="gSDS_SRD4B_16_RX_ALL" list="FMAG_RX_P12+FMAG_RX_N12+FMAG_RX_P13+FMAG_RX_N13+FMAG_RX_P14+FMAG_RX_N14+FMAG_RX_P15+FMAG_RX_N15" />
+        <pingroup name="gSDS_SRD4B_16_SS_SDS" list="FMAG_TX_P12+FMAG_TX_N12+FMAG_TX_P13+FMAG_TX_N13+FMAG_TX_P14+FMAG_TX_N14+FMAG_TX_P15+FMAG_TX_N15+FMAG_RX_P12+FMAG_RX_N12+FMAG_RX_P13+FMAG_RX_N13+FMAG_RX_P14+FMAG_RX_N14+FMAG_RX_P15+FMAG_RX_N15" />
+        <pingroup name="gSDS_SRD8B_0_TX_ALL" list="LMAG_TX_P0+LMAG_TX_N0+LMAG_TX_P1+LMAG_TX_N1+LMAG_TX_P2+LMAG_TX_N2+LMAG_TX_P3+LMAG_TX_N3+LMAG_TX_P4+LMAG_TX_N4+LMAG_TX_P5+LMAG_TX_N5+LMAG_TX_P6+LMAG_TX_N6+LMAG_TX_P7+LMAG_TX_N7" />
+        <pingroup name="gSDS_SRD8B_0_RX_ALL" list="LMAG_RX_P0+LMAG_RX_N0+LMAG_RX_P1+LMAG_RX_N1+LMAG_RX_P2+LMAG_RX_N2+LMAG_RX_P3+LMAG_RX_N3+LMAG_RX_P4+LMAG_RX_N4+LMAG_RX_P5+LMAG_RX_N5+LMAG_RX_P6+LMAG_RX_N6+LMAG_RX_P7+LMAG_RX_N7" />
+        <pingroup name="gSDS_SRD8B_0_SDS" list="LMAG_TX_P0+LMAG_TX_N0+LMAG_TX_P1+LMAG_TX_N1+LMAG_TX_P2+LMAG_TX_N2+LMAG_TX_P3+LMAG_TX_N3+LMAG_TX_P4+LMAG_TX_N4+LMAG_TX_P5+LMAG_TX_N5+LMAG_TX_P6+LMAG_TX_N6+LMAG_TX_P7+LMAG_TX_N7+LMAG_RX_P0+LMAG_RX_N0+LMAG_RX_P1+LMAG_RX_N1+LMAG_RX_P2+LMAG_RX_N2+LMAG_RX_P3+LMAG_RX_N3+LMAG_RX_P4+LMAG_RX_N4+LMAG_RX_P5+LMAG_RX_N5+LMAG_RX_P6+LMAG_RX_N6+LMAG_RX_P7+LMAG_RX_N7" />
+        <pingroup name="gSDS_SRD8B_1_TX_ALL" list="LMAG_TX_P8+LMAG_TX_N8+LMAG_TX_P9+LMAG_TX_N9+LMAG_TX_P10+LMAG_TX_N10+LMAG_TX_P11+LMAG_TX_N11+LMAG_TX_P12+LMAG_TX_N12+LMAG_TX_P13+LMAG_TX_N13+LMAG_TX_P14+LMAG_TX_N14+LMAG_TX_P15+LMAG_TX_N15" />
+        <pingroup name="gSDS_SRD8B_1_RX_ALL" list="LMAG_RX_P8+LMAG_RX_N8+LMAG_RX_P9+LMAG_RX_N9+LMAG_RX_P10+LMAG_RX_N10+LMAG_RX_P11+LMAG_RX_N11+LMAG_RX_P12+LMAG_RX_N12+LMAG_RX_P13+LMAG_RX_N13+LMAG_RX_P14+LMAG_RX_N14+LMAG_RX_P15+LMAG_RX_N15" />
+        <pingroup name="gSDS_SRD8B_1_SDS" list="LMAG_TX_P8+LMAG_TX_N8+LMAG_TX_P9+LMAG_TX_N9+LMAG_TX_P10+LMAG_TX_N10+LMAG_TX_P11+LMAG_TX_N11+LMAG_TX_P12+LMAG_TX_N12+LMAG_TX_P13+LMAG_TX_N13+LMAG_TX_P14+LMAG_TX_N14+LMAG_TX_P15+LMAG_TX_N15+LMAG_RX_P8+LMAG_RX_N8+LMAG_RX_P9+LMAG_RX_N9+LMAG_RX_P10+LMAG_RX_N10+LMAG_RX_P11+LMAG_RX_N11+LMAG_RX_P12+LMAG_RX_N12+LMAG_RX_P13+LMAG_RX_N13+LMAG_RX_P14+LMAG_RX_N14+LMAG_RX_P15+LMAG_RX_N15" />
+        <pingroup name="gSDS_SRD8B_2_TX_ALL" list="LMAG_TX_P16+LMAG_TX_N16+LMAG_TX_P17+LMAG_TX_N17+LMAG_TX_P18+LMAG_TX_N18+LMAG_TX_P19+LMAG_TX_N19+LMAG_TX_P20+LMAG_TX_N20+LMAG_TX_P21+LMAG_TX_N21+LMAG_TX_P22+LMAG_TX_N22+LMAG_TX_P23+LMAG_TX_N23" />
+        <pingroup name="gSDS_SRD8B_2_RX_ALL" list="LMAG_RX_P16+LMAG_RX_N16+LMAG_RX_P17+LMAG_RX_N17+LMAG_RX_P18+LMAG_RX_N18+LMAG_RX_P19+LMAG_RX_N19+LMAG_RX_P20+LMAG_RX_N20+LMAG_RX_P21+LMAG_RX_N21+LMAG_RX_P22+LMAG_RX_N22+LMAG_RX_P23+LMAG_RX_N23" />
+        <pingroup name="gSDS_SRD8B_2_SDS" list="LMAG_TX_P16+LMAG_TX_N16+LMAG_TX_P17+LMAG_TX_N17+LMAG_TX_P18+LMAG_TX_N18+LMAG_TX_P19+LMAG_TX_N19+LMAG_TX_P20+LMAG_TX_N20+LMAG_TX_P21+LMAG_TX_N21+LMAG_TX_P22+LMAG_TX_N22+LMAG_TX_P23+LMAG_TX_N23+LMAG_RX_P16+LMAG_RX_N16+LMAG_RX_P17+LMAG_RX_N17+LMAG_RX_P18+LMAG_RX_N18+LMAG_RX_P19+LMAG_RX_N19+LMAG_RX_P20+LMAG_RX_N20+LMAG_RX_P21+LMAG_RX_N21+LMAG_RX_P22+LMAG_RX_N22+LMAG_RX_P23+LMAG_RX_N23" />
+        <pingroup name="gSDS_SRD8B_3_TX_ALL" list="LMAG_TX_P24+LMAG_TX_N24+LMAG_TX_P25+LMAG_TX_N25+LMAG_TX_P26+LMAG_TX_N26+LMAG_TX_P27+LMAG_TX_N27+LMAG_TX_P28+LMAG_TX_N28+LMAG_TX_P29+LMAG_TX_N29+LMAG_TX_P30+LMAG_TX_N30+LMAG_TX_P31+LMAG_TX_N31" />
+        <pingroup name="gSDS_SRD8B_3_RX_ALL" list="LMAG_RX_P24+LMAG_RX_N24+LMAG_RX_P25+LMAG_RX_N25+LMAG_RX_P26+LMAG_RX_N26+LMAG_RX_P27+LMAG_RX_N27+LMAG_RX_P28+LMAG_RX_N28+LMAG_RX_P29+LMAG_RX_N29+LMAG_RX_P30+LMAG_RX_N30+LMAG_RX_P31+LMAG_RX_N31" />
+        <pingroup name="gSDS_SRD8B_3_SDS" list="LMAG_TX_P24+LMAG_TX_N24+LMAG_TX_P25+LMAG_TX_N25+LMAG_TX_P26+LMAG_TX_N26+LMAG_TX_P27+LMAG_TX_N27+LMAG_TX_P28+LMAG_TX_N28+LMAG_TX_P29+LMAG_TX_N29+LMAG_TX_P30+LMAG_TX_N30+LMAG_TX_P31+LMAG_TX_N31+LMAG_RX_P24+LMAG_RX_N24+LMAG_RX_P25+LMAG_RX_N25+LMAG_RX_P26+LMAG_RX_N26+LMAG_RX_P27+LMAG_RX_N27+LMAG_RX_P28+LMAG_RX_N28+LMAG_RX_P29+LMAG_RX_N29+LMAG_RX_P30+LMAG_RX_N30+LMAG_RX_P31+LMAG_RX_N31" />
+        <pingroup name="gSDS_SRD4B_4_TX_ALL" list="LMAG_TX_P35+LMAG_TX_N35+LMAG_TX_P34+LMAG_TX_N34+LMAG_TX_P33+LMAG_TX_N33+LMAG_TX_P32+LMAG_TX_N32" />
+        <pingroup name="gSDS_SRD4B_4_RX_ALL" list="LMAG_RX_P35+LMAG_RX_N35+LMAG_RX_P34+LMAG_RX_N34+LMAG_RX_P33+LMAG_RX_N33+LMAG_RX_P32+LMAG_RX_N32" />
+        <pingroup name="gSDS_SRD4B_4_SS_SDS" list="LMAG_TX_P35+LMAG_TX_N35+LMAG_TX_P34+LMAG_TX_N34+LMAG_TX_P33+LMAG_TX_N33+LMAG_TX_P32+LMAG_TX_N32+LMAG_RX_P35+LMAG_RX_N35+LMAG_RX_P34+LMAG_RX_N34+LMAG_RX_P33+LMAG_RX_N33+LMAG_RX_P32+LMAG_RX_N32" />
+        <pingroup name="gSDS_SRD4B_5_TX_ALL" list="LMAG_TX_P36+LMAG_TX_N36+LMAG_TX_P37+LMAG_TX_N37+LMAG_TX_P38+LMAG_TX_N38+LMAG_TX_P39+LMAG_TX_N39" />
+        <pingroup name="gSDS_SRD4B_5_RX_ALL" list="LMAG_RX_P36+LMAG_RX_N36+LMAG_RX_P37+LMAG_RX_N37+LMAG_RX_P38+LMAG_RX_N38+LMAG_RX_P39+LMAG_RX_N39" />
+        <pingroup name="gSDS_SRD4B_5_SDS" list="LMAG_TX_P36+LMAG_TX_N36+LMAG_TX_P37+LMAG_TX_N37+LMAG_TX_P38+LMAG_TX_N38+LMAG_TX_P39+LMAG_TX_N39+LMAG_RX_P36+LMAG_RX_N36+LMAG_RX_P37+LMAG_RX_N37+LMAG_RX_P38+LMAG_RX_N38+LMAG_RX_P39+LMAG_RX_N39" />
+        <pingroup name="gSDS_SRD4B_6_TX_ALL" list="LMAG_TX_P43+LMAG_TX_N43+LMAG_TX_P42+LMAG_TX_N42+LMAG_TX_P41+LMAG_TX_N41+LMAG_TX_P40+LMAG_TX_N40" />
+        <pingroup name="gSDS_SRD4B_6_RX_ALL" list="LMAG_RX_P43+LMAG_RX_N43+LMAG_RX_P42+LMAG_RX_N42+LMAG_RX_P41+LMAG_RX_N41+LMAG_RX_P40+LMAG_RX_N40" />
+        <pingroup name="gSDS_SRD4B_6_SDS" list="LMAG_TX_P43+LMAG_TX_N43+LMAG_TX_P42+LMAG_TX_N42+LMAG_TX_P41+LMAG_TX_N41+LMAG_TX_P40+LMAG_TX_N40+LMAG_RX_P43+LMAG_RX_N43+LMAG_RX_P42+LMAG_RX_N42+LMAG_RX_P41+LMAG_RX_N41+LMAG_RX_P40+LMAG_RX_N40" />
+        <pingroup name="gSDS_SRD4B_7_TX_ALL" list="LMAG_TX_P44+LMAG_TX_N44+LMAG_TX_P45+LMAG_TX_N45+LMAG_TX_P46+LMAG_TX_N46+LMAG_TX_P47+LMAG_TX_N47" />
+        <pingroup name="gSDS_SRD4B_7_RX_ALL" list="LMAG_RX_P44+LMAG_RX_N44+LMAG_RX_P45+LMAG_RX_N45+LMAG_RX_P46+LMAG_RX_N46+LMAG_RX_P47+LMAG_RX_N47" />
+        <pingroup name="gSDS_SRD4B_7_SDS" list="LMAG_TX_P44+LMAG_TX_N44+LMAG_TX_P45+LMAG_TX_N45+LMAG_TX_P46+LMAG_TX_N46+LMAG_TX_P47+LMAG_TX_N47+LMAG_RX_P44+LMAG_RX_N44+LMAG_RX_P45+LMAG_RX_N45+LMAG_RX_P46+LMAG_RX_N46+LMAG_RX_P47+LMAG_RX_N47" />
+        <pingroup name="gSDS_H30LR_TX_ALL" list="FMAG_TX_P4+FMAG_TX_N40+FMAG_TX_P4+FMAG_TX_N41+FMAG_TX_P4+FMAG_TX_N42+FMAG_TX_P4+FMAG_TX_N43+FMAG_TX_P4+FMAG_TX_N44+FMAG_TX_P4+FMAG_TX_N45+FMAG_TX_P4+FMAG_TX_N46+FMAG_TX_P4+FMAG_TX_N47+FMAG_TX_P2+FMAG_TX_N24+FMAG_TX_P2+FMAG_TX_N25+FMAG_TX_P2+FMAG_TX_N26+FMAG_TX_P2+FMAG_TX_N27+FMAG_TX_P2+FMAG_TX_N28+FMAG_TX_P2+FMAG_TX_N29+FMAG_TX_P3+FMAG_TX_N30+FMAG_TX_P3+FMAG_TX_N31+FMAG_TX_P3+FMAG_TX_N32+FMAG_TX_P3+FMAG_TX_N33+FMAG_TX_P3+FMAG_TX_N34+FMAG_TX_P3+FMAG_TX_N35+FMAG_TX_P3+FMAG_TX_N36+FMAG_TX_P3+FMAG_TX_N37+FMAG_TX_P3+FMAG_TX_N38+FMAG_TX_P3+FMAG_TX_N39+FMAG_TX_P8+FMAG_TX_N8+FMAG_TX_P9+FMAG_TX_N9+FMAG_TX_P1+FMAG_TX_N10+FMAG_TX_P1+FMAG_TX_N11+FMAG_TX_P2+FMAG_TX_N20+FMAG_TX_P2+FMAG_TX_N21+FMAG_TX_P2+FMAG_TX_N22+FMAG_TX_P2+FMAG_TX_N23+FMAG_TX_P1+FMAG_TX_N19+FMAG_TX_P1+FMAG_TX_N18+FMAG_TX_P1+FMAG_TX_N17+FMAG_TX_P1+FMAG_TX_N16+FMAG_TX_P4+FMAG_TX_N4+FMAG_TX_P5+FMAG_TX_N5+FMAG_TX_P6+FMAG_TX_N6+FMAG_TX_P7+FMAG_TX_N7+LMAG_TX_N10+LMAG_TX_P11+LMAG_TX_N11+LMAG_TX_P12+LMAG_TX_N12+LMAG_TX_P13+LMAG_TX_N13+LMAG_TX_P14+LMAG_TX_N14+LMAG_TX_P15+LMAG_TX_N15+LMAG_TX_P16+LMAG_TX_N16+LMAG_TX_P17+LMAG_TX_N17+LMAG_TX_P18+LMAG_TX_N18+LMAG_TX_P19+LMAG_TX_N19+LMAG_TX_P20+LMAG_TX_N20+LMAG_TX_P21+LMAG_TX_N21+LMAG_TX_P22+LMAG_TX_N22+LMAG_TX_P23+LMAG_TX_N23+LMAG_TX_P24+LMAG_TX_N24+LMAG_TX_P25+LMAG_TX_N25+LMAG_TX_P26+LMAG_TX_N26+LMAG_TX_P27+LMAG_TX_N27+LMAG_TX_P28+LMAG_TX_N28+LMAG_TX_P29+LMAG_TX_N29+LMAG_TX_P30+LMAG_TX_N30+LMAG_TX_P31+LMAG_TX_N31+LMAG_TX_P35+LMAG_TX_N35+LMAG_TX_P34+LMAG_TX_N34+LMAG_TX_P33+LMAG_TX_N33+LMAG_TX_P32+LMAG_TX_N32+LMAG_TX_P36+LMAG_TX_N36+LMAG_TX_P37+LMAG_TX_N37+LMAG_TX_P38+LMAG_TX_N38+LMAG_TX_P39+LMAG_TX_N39+LMAG_TX_P43+LMAG_TX_N43+LMAG_TX_P42+LMAG_TX_N42+LMAG_TX_P41+LMAG_TX_N41+LMAG_TX_P40+LMAG_TX_N40+LMAG_TX_P44+LMAG_TX_N44+LMAG_TX_P45+LMAG_TX_N45+LMAG_TX_P46+LMAG_TX_N46+LMAG_TX_P47+LMAG_TX_N47" />
+        <pingroup name="gSDS_H30LR_RX_ALL" list="FMAG_RX_P4+FMAG_RX_N40+FMAG_RX_P4+FMAG_RX_N41+FMAG_RX_P4+FMAG_RX_N42+FMAG_RX_P4+FMAG_RX_N43+FMAG_RX_P4+FMAG_RX_N44+FMAG_RX_P4+FMAG_RX_N45+FMAG_RX_P4+FMAG_RX_N46+FMAG_RX_P4+FMAG_RX_N47+FMAG_RX_P2+FMAG_RX_N24+FMAG_RX_P2+FMAG_RX_N25+FMAG_RX_P2+FMAG_RX_N26+FMAG_RX_P2+FMAG_RX_N27+FMAG_RX_P2+FMAG_RX_N28+FMAG_RX_P2+FMAG_RX_N29+FMAG_RX_P3+FMAG_RX_N30+FMAG_RX_P3+FMAG_RX_N31+FMAG_RX_P3+FMAG_RX_N32+FMAG_RX_P3+FMAG_RX_N33+FMAG_RX_P3+FMAG_RX_N34+FMAG_RX_P3+FMAG_RX_N35+FMAG_RX_P3+FMAG_RX_N36+FMAG_RX_P3+FMAG_RX_N37+FMAG_RX_P3+FMAG_RX_N38+FMAG_RX_P3+FMAG_RX_N39+FMAG_RX_P8+FMAG_RX_N8+FMAG_RX_P9+FMAG_RX_N9+FMAG_RX_P1+FMAG_RX_N10+FMAG_RX_P1+FMAG_RX_N11+FMAG_RX_P2+FMAG_RX_N20+FMAG_RX_P2+FMAG_RX_N21+FMAG_RX_P2+FMAG_RX_N22+FMAG_RX_P2+FMAG_RX_N23+FMAG_RX_P1+FMAG_RX_N19+FMAG_RX_P1+FMAG_RX_N18+FMAG_RX_P1+FMAG_RX_N17+FMAG_RX_P1+FMAG_RX_N16+FMAG_RX_P4+FMAG_RX_N4+FMAG_RX_P5+FMAG_RX_N5+FMAG_RX_P6+FMAG_RX_N6+FMAG_RX_P7+FMAG_RX_N7+FMAG_RX_P3+FMAG_RX_N3+FMAG_RX_P2+FMAG_RX_N2+FMAG_RX_P1+FMAG_RX_N1+FMAG_RX_P0+FMAG_RX_N0+ILA_RX_P3+ILA_RX_N3+ILA_RX_P2+ILA_RX_N2+ILA_RX_P1+ILA_RX_N1+ILA_RX_P0+ILA_RX_N0+ILA_RX_P4+ILA_RX_N4+ILA_RX_P5+ILA_RX_N5+ILA_RX_P6+ILA_RX_N6+ILA_RX_P7+ILA_RX_N7+FMAG_RX_P12+FMAG_RX_N12+FMAG_RX_P13+FMAG_RX_N13+FMAG_RX_P14+FMAG_RX_N14+FMAG_RX_P15+FMAG_RX_N15+LMAG_RX_P0+LMAG_RX_N0+LMAG_RX_P1+LMAG_RX_N1+LMAG_RX_P2+LMAG_RX_N2+LMAG_RX_P3+LMAG_RX_N3+LMAG_RX_P4+LMAG_RX_N4+LMAG_RX_P5+LMAG_RX_N5+LMAG_RX_P6+LMAG_RX_N6+LMAG_RX_P7+LMAG_RX_N7+LMAG_RX_P8+LMAG_RX_N8+LMAG_RX_P9+LMAG_RX_N9+LMAG_RX_P10+LMAG_RX_N10+LMAG_RX_P11+LMAG_RX_N11+LMAG_RX_P12+LMAG_RX_N12+LMAG_RX_P13+LMAG_RX_N13+LMAG_RX_P14+LMAG_RX_N14+LMAG_RX_P15+LMAG_RX_N15+LMAG_RX_P16+LMAG_RX_N16+LMAG_RX_P17+LMAG_RX_N17+LMAG_RX_P18+LMAG_RX_N18+LMAG_RX_P19+LMAG_RX_N19+LMAG_RX_P20+LMAG_RX_N20+LMAG_RX_P21+LMAG_RX_N21+LMAG_RX_P22+LMAG_RX_N22+LMAG_RX_P23+LMAG_RX_N23+LMAG_RX_P24+LMAG_RX_N24+LMAG_RX_P25+LMAG_RX_N25+LMAG_RX_P26+LMAG_RX_N26+LMAG_RX_P27+LMAG_RX_N27+LMAG_RX_P28+LMAG_RX_N28+LMAG_RX_P29+LMAG_RX_N29+LMAG_RX_P30+LMAG_RX_N30+LMAG_RX_P31+LMAG_RX_N31+LMAG_RX_P35+LMAG_RX_N35+LMAG_RX_P34+LMAG_RX_N34+LMAG_RX_P33+LMAG_RX_N33+LMAG_RX_P32+LMAG_RX_N32+LMAG_RX_P36+LMAG_RX_N36+LMAG_RX_P37+LMAG_RX_N37+LMAG_RX_P38+LMAG_RX_N38+LMAG_RX_P39+LMAG_RX_N39+LMAG_RX_P43+LMAG_RX_N43+LMAG_RX_P42+LMAG_RX_N42+LMAG_RX_P41+LMAG_RX_N41+LMAG_RX_P40+LMAG_RX_N40+LMAG_RX_P44+LMAG_RX_N44+LMAG_RX_P45+LMAG_RX_N45+LMAG_RX_P46+LMAG_RX_N46+LMAG_RX_P47+LMAG_RX_N47" />
+        <pingroup name="gSDS_H30LR_SDS_ALL" list="FMAG_TX_P4+FMAG_TX_N40+FMAG_TX_P4+FMAG_TX_N41+FMAG_TX_P4+FMAG_TX_N42+FMAG_TX_P4+FMAG_TX_N43+FMAG_TX_P4+FMAG_TX_N44+FMAG_TX_P4+FMAG_TX_N45+FMAG_TX_P4+FMAG_TX_N46+FMAG_TX_P4+FMAG_TX_N47+FMAG_RX_P4+FMAG_RX_N40+FMAG_RX_P4+FMAG_RX_N41+FMAG_RX_P4+FMAG_RX_N42+FMAG_RX_P4+FMAG_RX_N43+FMAG_RX_P4+FMAG_RX_N44+FMAG_RX_P4+FMAG_RX_N45+FMAG_RX_P4+FMAG_RX_N46+FMAG_RX_P4+FMAG_RX_N47+FMAG_TX_P2+FMAG_TX_N24+FMAG_TX_P2+FMAG_TX_N25+FMAG_TX_P2+FMAG_TX_N26+FMAG_TX_P2+FMAG_TX_N27+FMAG_TX_P2+FMAG_TX_N28+FMAG_TX_P2+FMAG_TX_N29+FMAG_TX_P3+FMAG_TX_N30+FMAG_TX_P3+FMAG_TX_N31+FMAG_TX_P2+FMAG_TX_N24+FMAG_TX_P2+FMAG_TX_N25+FMAG_TX_P2+FMAG_TX_N26+FMAG_TX_P2+FMAG_TX_N27+FMAG_TX_P2+FMAG_TX_N28+FMAG_TX_P2+FMAG_TX_N29+FMAG_TX_P3+FMAG_TX_N30+FMAG_TX_P3+FMAG_TX_N31+FMAG_TX_P3+FMAG_TX_N32+FMAG_TX_P3+FMAG_TX_N33+FMAG_TX_P3+FMAG_TX_N34+FMAG_TX_P3+FMAG_TX_N35+FMAG_TX_P3+FMAG_TX_N36+FMAG_TX_P3+FMAG_TX_N37+FMAG_TX_P3+FMAG_TX_N38+FMAG_TX_P3+FMAG_TX_N39+FMAG_RX_P3+FMAG_RX_N32+FMAG_RX_P3+FMAG_RX_N33+FMAG_RX_P3+FMAG_RX_N34+FMAG_RX_P3+FMAG_RX_N35+FMAG_RX_P3+FMAG_RX_N36+FMAG_RX_P3+FMAG_RX_N37+FMAG_RX_P3+FMAG_RX_N38+FMAG_RX_P3+FMAG_RX_N39+FMAG_TX_P8+FMAG_TX_N8+FMAG_TX_P9+FMAG_TX_N9+FMAG_TX_P1+FMAG_TX_N10+FMAG_TX_P1+FMAG_TX_N11+FMAG_TX_P2+FMAG_TX_N20+FMAG_TX_P2+FMAG_TX_N21+FMAG_TX_P2+FMAG_TX_N22+FMAG_TX_P2+FMAG_TX_N23+FMAG_RX_P8+FMAG_RX_N8+FMAG_RX_P9+FMAG_RX_N9+FMAG_RX_P1+FMAG_RX_N10+FMAG_RX_P1+FMAG_RX_N11+FMAG_RX_P2+FMAG_RX_N20+FMAG_RX_P2+FMAG_RX_N21+FMAG_RX_P2+FMAG_RX_N22+FMAG_RX_P2+FMAG_RX_N23+FMAG_TX_P1+FMAG_TX_N19+FMAG_TX_P1+FMAG_TX_N18+FMAG_TX_P1+FMAG_TX_N17+FMAG_TX_P1+FMAG_TX_N16+FMAG_RX_P1+FMAG_RX_N19+FMAG_RX_P1+FMAG_RX_N18+FMAG_RX_P1+FMAG_RX_N17+FMAG_RX_P1+FMAG_RX_N16+FMAG_TX_P4+FMAG_TX_N4+FMAG_TX_P5+FMAG_TX_N5+FMAG_TX_P6+FMAG_TX_N6+FMAG_TX_P7+FMAG_TX_N7+FMAG_RX_P4+FMAG_RX_N4+FMAG_RX_P5+FMAG_RX_N5+FMAG_RX_P6+FMAG_RX_N6+FMAG_RX_P7+FMAG_RX_N7+FMAG_TX_P3+FMAG_TX_N3+FMAG_TX_P2+FMAG_TX_N2+FMAG_TX_P1+FMAG_TX_N1+FMAG_TX_P0+FMAG_TX_N0+FMAG_RX_P3+FMAG_RX_N3+FMAG_RX_P2+FMAG_RX_N2+FMAG_RX_P1+FMAG_RX_N1+FMAG_RX_P0+FMAG_RX_N0+ILA_TX_P3+ILA_TX_N3+ILA_TX_P2+ILA_TX_N2+ILA_TX_P1+ILA_TX_N1+ILA_TX_P0+ILA_TX_N0+ILA_RX_P3+ILA_RX_N3+ILA_RX_P2+ILA_RX_N2+ILA_RX_P1+ILA_RX_N1+ILA_RX_P0+ILA_RX_N0+ILA_TX_P4+ILA_TX_N4+ILA_TX_P5+ILA_TX_N5+ILA_TX_P6+ILA_TX_N6+ILA_TX_P7+ILA_TX_N7+ILA_RX_P4+ILA_RX_N4+ILA_RX_P5+ILA_RX_N5+ILA_RX_P6+ILA_RX_N6+ILA_RX_P7+ILA_RX_N7+FMAG_TX_P12+FMAG_TX_N12+FMAG_TX_P13+FMAG_TX_N13+FMAG_TX_P14+FMAG_TX_N14+FMAG_TX_P15+FMAG_TX_N15+FMAG_RX_P12+FMAG_RX_N12+FMAG_RX_P13+FMAG_RX_N13+FMAG_RX_P14+FMAG_RX_N14+FMAG_RX_P15+FMAG_RX_N15+LMAG_TX_P0+LMAG_TX_N0+LMAG_TX_P1+LMAG_TX_N1+LMAG_TX_P2+LMAG_TX_N2+LMAG_TX_P3+LMAG_TX_N3+LMAG_TX_P4+LMAG_TX_N4+LMAG_TX_P5+LMAG_TX_N5+LMAG_TX_P6+LMAG_TX_N6+LMAG_TX_P7+LMAG_TX_N7+LMAG_RX_P0+LMAG_RX_N0+LMAG_RX_P1+LMAG_RX_N1+LMAG_RX_P2+LMAG_RX_N2+LMAG_RX_P3+LMAG_RX_N3+LMAG_RX_P4+LMAG_RX_N4+LMAG_RX_P5+LMAG_RX_N5+LMAG_RX_P6+LMAG_RX_N6+LMAG_RX_P7+LMAG_RX_N7+LMAG_TX_P8+LMAG_TX_N8+LMAG_TX_P9+LMAG_TX_N9+LMAG_TX_P10+LMAG_TX_N10+LMAG_TX_P11+LMAG_TX_N11+LMAG_TX_P12+LMAG_TX_N12+LMAG_TX_P13+LMAG_TX_N13+LMAG_TX_P14+LMAG_TX_N14+LMAG_TX_P15+LMAG_TX_N15+LMAG_RX_P8+LMAG_RX_N8+LMAG_RX_P9+LMAG_RX_N9+LMAG_RX_P10+LMAG_RX_N10+LMAG_RX_P11+LMAG_RX_N11+LMAG_RX_P12+LMAG_RX_N12+LMAG_RX_P13+LMAG_RX_N13+LMAG_RX_P14+LMAG_RX_N14+LMAG_RX_P15+LMAG_RX_N15+LMAG_TX_P16+LMAG_TX_N16+LMAG_TX_P17+LMAG_TX_N17+LMAG_TX_P18+LMAG_TX_N18+LMAG_TX_P19+LMAG_TX_N19+LMAG_TX_P20+LMAG_TX_N20+LMAG_TX_P21+LMAG_TX_N21+LMAG_TX_P22+LMAG_TX_N22+LMAG_TX_P23+LMAG_TX_N23+LMAG_RX_P16+LMAG_RX_N16+LMAG_RX_P17+LMAG_RX_N17+LMAG_RX_P18+LMAG_RX_N18+LMAG_RX_P19+LMAG_RX_N19+LMAG_RX_P20+LMAG_RX_N20+LMAG_RX_P21+LMAG_RX_N21+LMAG_RX_P22+LMAG_RX_N22+LMAG_RX_P23+LMAG_RX_N23+LMAG_TX_P24+LMAG_TX_N24+LMAG_TX_P25+LMAG_TX_N25+LMAG_TX_P26+LMAG_TX_N26+LMAG_TX_P27+LMAG_TX_N27+LMAG_TX_P28+LMAG_TX_N28+LMAG_TX_P29+LMAG_TX_N29+LMAG_TX_P30+LMAG_TX_N30+LMAG_TX_P31+LMAG_TX_N31+LMAG_RX_P24+LMAG_RX_N24+LMAG_RX_P25+LMAG_RX_N25+LMAG_RX_P26+LMAG_RX_N26+LMAG_RX_P27+LMAG_RX_N27+LMAG_RX_P28+LMAG_RX_N28+LMAG_RX_P29+LMAG_RX_N29+LMAG_RX_P30+LMAG_RX_N30+LMAG_RX_P31+LMAG_RX_N31+LMAG_TX_P35+LMAG_TX_N35+LMAG_TX_P34+LMAG_TX_N34+LMAG_TX_P33+LMAG_TX_N33+LMAG_TX_P32+LMAG_TX_N32+LMAG_RX_P35+LMAG_RX_N35+LMAG_RX_P34+LMAG_RX_N34+LMAG_RX_P33+LMAG_RX_N33+LMAG_RX_P32+LMAG_RX_N32+LMAG_TX_P36+LMAG_TX_N36+LMAG_TX_P37+LMAG_TX_N37+LMAG_TX_P38+LMAG_TX_N38+LMAG_TX_P39+LMAG_TX_N39+LMAG_RX_P36+LMAG_RX_N36+LMAG_RX_P37+LMAG_RX_N37+LMAG_RX_P38+LMAG_RX_N38+LMAG_RX_P39+LMAG_RX_N39+LMAG_TX_P43+LMAG_TX_N43+LMAG_TX_P42+LMAG_TX_N42+LMAG_TX_P41+LMAG_TX_N41+LMAG_TX_P40+LMAG_TX_N40+LMAG_RX_P43+LMAG_RX_N43+LMAG_RX_P42+LMAG_RX_N42+LMAG_RX_P41+LMAG_RX_N41+LMAG_RX_P40+LMAG_RX_N40+LMAG_TX_P44+LMAG_TX_N44+LMAG_TX_P45+LMAG_TX_N45+LMAG_TX_P46+LMAG_TX_N46+LMAG_TX_P47+LMAG_TX_N47+LMAG_RX_P44+LMAG_RX_N44+LMAG_RX_P45+LMAG_RX_N45+LMAG_RX_P46+LMAG_RX_N46+LMAG_RX_P47+LMAG_RX_N47" />
+        <pingroup name="gSDS_H30LR_SSMACRO_SDS" list="FMAG_TX_P12+FMAG_TX_N12+FMAG_TX_P13+FMAG_TX_N13+FMAG_TX_P14+FMAG_TX_N14+FMAG_TX_P15+FMAG_TX_N15+FMAG_RX_P12+FMAG_RX_N12+FMAG_RX_P13+FMAG_RX_N13+FMAG_RX_P14+FMAG_RX_N14+FMAG_RX_P15+FMAG_RX_N15+LMAG_TX_P35+LMAG_TX_N35+LMAG_TX_P34+LMAG_TX_N34+LMAG_TX_P33+LMAG_TX_N33+LMAG_TX_P32+LMAG_TX_N32+LMAG_RX_P35+LMAG_RX_N35+LMAG_RX_P34+LMAG_RX_N34+LMAG_RX_P33+LMAG_RX_N33+LMAG_RX_P32+LMAG_RX_N32" />
+        <pingroup name="gIO_H30LR_REFCLKPINS" list="LMAG_REF_CLK_P+LMAG_REF_CLK_N+FMAG_REF_CLK0_P+FMAG_REF_CLK0_N+FMAG_REF_CLK1_P+FMAG_REF_CLK1_N" />
+        <pingroup name="gIO_H30LR_REFCLK0PINS" list="LMAG_REF_CLK_P+LMAG_REF_CLK_N+FMAG_REF_CLK0_P+FMAG_REF_CLK0_N" />
+        <pingroup name="gIO_H30LR_REFCLK1PINS" list="FMAG_REF_CLK1_P+FMAG_REF_CLK1_N" />
+        <pingroup name="gSDS_SRD2A_10_TX_P" list="PIE_TX_P0" />
+        <pingroup name="gSDS_SRD2A_10_TX_N" list="PIE_TX_N0" />
+        <pingroup name="gSDS_SRD2A_10_RX_P" list="PIE_RX_P0" />
+        <pingroup name="gSDS_SRD2A_10_RX_N" list="PIE_RX_N0" />
+        <pingroup name="gSDS_SRD2A_11_TX_P" list="PCIE_TX_P0+PCIE_TX_P1" />
+        <pingroup name="gSDS_SRD2A_11_TX_N" list="PCIE_TX_N0+PCIE_TX_N1" />
+        <pingroup name="gSDS_SRD2A_11_RX_P" list="PCIE_RX_P0+PCIE_RX_P1" />
+        <pingroup name="gSDS_SRD2A_11_RX_N" list="PCIE_RX_N0+PCIE_RX_N1" />
+        <pingroup name="gSDS_H16LR_TX_P" list="PIE_TX_P0+PCIE_TX_P0+PCIE_TX_P1" />
+        <pingroup name="gSDS_H16LR_TX_N" list="PIE_TX_N0+PCIE_TX_N0+PCIE_TX_N1" />
+        <pingroup name="gSDS_H16LR_RX_P" list="PIE_RX_P0+PCIE_RX_P0+PCIE_RX_P1" />
+        <pingroup name="gSDS_H16LR_RX_N" list="PIE_RX_N0+PCIE_RX_N0+PCIE_RX_N1" />
+        <pingroup name="gSDS_H16LR_SDS_DC" list="PIE_TX_P0+PCIE_TX_P0+PCIE_TX_P1+PIE_TX_N0+PCIE_TX_N0+PCIE_TX_N1+PIE_RX_P0+PCIE_RX_P0+PCIE_RX_P1+PIE_RX_N0+PCIE_RX_N0+PCIE_RX_N1" />
+        <pingroup name="gSDS_SRD2A_10_TX_DS0" list="PIE_TX_P0+PIE_TX_N0" />
+        <pingroup name="gSDS_SRD2A_10_RX_DS0" list="PIE_RX_P0+PIE_RX_N0" />
+        <pingroup name="gSDS_SRD2A_11_TX_DS0" list="PCIE_TX_P0+PCIE_TX_N0" />
+        <pingroup name="gSDS_SRD2A_11_TX_DS1" list="PCIE_TX_P1+PCIE_TX_N1" />
+        <pingroup name="gSDS_SRD2A_11_RX_DS0" list="PCIE_RX_P0+PCIE_RX_N0" />
+        <pingroup name="gSDS_SRD2A_11_RX_DS1" list="PCIE_RX_P1+PCIE_RX_N1" />
+        <pingroup name="gSDS_SRD2A_10_TX_ALL" list="PIE_TX_P0+PIE_TX_N0" />
+        <pingroup name="gSDS_SRD2A_10_RX_ALL" list="PIE_RX_P0+PIE_RX_N0" />
+        <pingroup name="gSDS_SRD2A_10_SDS" list="PIE_TX_P0+PIE_TX_N0" />
+        <pingroup name="gSDS_SRD2A_11_TX_ALL" list="PCIE_TX_P0+PCIE_TX_N0+PCIE_TX_P1+PCIE_TX_N1" />
+        <pingroup name="gSDS_SRD2A_11_RX_ALL" list="PCIE_RX_P0+PCIE_RX_N0+PCIE_RX_P1+PCIE_RX_N1" />
+        <pingroup name="gSDS_SRD2A_11_SS_SDS" list="PCIE_TX_P0+PCIE_TX_N0+PCIE_TX_P1+PCIE_TX_N1+PCIE_RX_P0+PCIE_RX_N0+PCIE_RX_P1+PCIE_RX_N1" />
+        <pingroup name="gSDS_H16LR_TX_ALL" list="PIE_TX_P0+PIE_TX_N0+PCIE_TX_P0+PCIE_TX_N0+PCIE_TX_P1+PCIE_TX_N1" />
+        <pingroup name="gSDS_H16LR_RX_ALL" list="PIE_RX_P0+PIE_RX_N0+PCIE_RX_P0+PCIE_RX_N0+PCIE_RX_P1+PCIE_RX_N1" />
+        <pingroup name="gSDS_H16LR_SDS_ALL" list="PIE_TX_P0+PIE_TX_N0+PCIE_TX_P0+PCIE_TX_N0+PCIE_TX_P1+PCIE_TX_N1+PCIE_RX_P0+PCIE_RX_N0+PCIE_RX_P1+PCIE_RX_N1" />
+        <pingroup name="gSDS_H16LR_SSMACRO_SDS" list="PCIE_TX_P0+PCIE_TX_N0+PCIE_TX_P1+PCIE_TX_N1+PCIE_RX_P0+PCIE_RX_N0+PCIE_RX_P1+PCIE_RX_N1" />
+        <pingroup name="gPWR_H16LR_POWERPINS" list="AVDD18_PCIE+AVDD08_PCIE" />
+        <pingroup name="gIO_H16LR_REFCLKPINS" list="SYS_REF_CLK_P+SYS_REF_CLK_N" />
+        <pingroup name="gSDS_H30LR_PG1_TX_ALL" list="FMAG_TX_P3+FMAG_TX_N32+FMAG_TX_P3+FMAG_TX_N33+FMAG_TX_P3+FMAG_TX_N34+FMAG_TX_P3+FMAG_TX_N35+FMAG_TX_P3+FMAG_TX_N36+FMAG_TX_P3+FMAG_TX_N37+FMAG_TX_P3+FMAG_TX_N38+FMAG_TX_P3+FMAG_TX_N39+FMAG_TX_P8+FMAG_TX_N8+FMAG_TX_P9+FMAG_TX_N9+FMAG_TX_P1+FMAG_TX_N10+FMAG_TX_P1+FMAG_TX_N11+FMAG_TX_P2+FMAG_TX_N20+FMAG_TX_P2+FMAG_TX_N21+FMAG_TX_P2+FMAG_TX_N22+FMAG_TX_P2+FMAG_TX_N23+FMAG_TX_P1+FMAG_TX_N19+FMAG_TX_P1+FMAG_TX_N18+FMAG_TX_P1+FMAG_TX_N17+FMAG_TX_P1+FMAG_TX_N16+FMAG_TX_P4+FMAG_TX_N4+FMAG_TX_P5+FMAG_TX_N5+FMAG_TX_P6+FMAG_TX_N6+FMAG_TX_P7+FMAG_TX_N7+FMAG_TX_P3+FMAG_TX_N3+FMAG_TX_P2+FMAG_TX_N2+FMAG_TX_P1+FMAG_TX_N1+FMAG_TX_P0+FMAG_TX_N0+FMAG_TX_P12+FMAG_TX_N12+FMAG_TX_P13+FMAG_TX_N13+FMAG_TX_P14+FMAG_TX_N14+FMAG_TX_P15+FMAG_TX_N15+LMAG_TX_P0+LMAG_TX_N0+LMAG_TX_P1+LMAG_TX_N1+LMAG_TX_P2+LMAG_TX_N2+LMAG_TX_P3+LMAG_TX_N3+LMAG_TX_P4+LMAG_TX_N4+LMAG_TX_P5+LMAG_TX_N5+LMAG_TX_P6+LMAG_TX_N6+LMAG_TX_P7+LMAG_TX_N7+LMAG_TX_P8+LMAG_TX_N8+LMAG_TX_P9+LMAG_TX_N9+LMAG_TX_P10+LMAG_TX_N10+LMAG_TX_P11+LMAG_TX_N11+LMAG_TX_P12+LMAG_TX_N12+LMAG_TX_P13+LMAG_TX_N13+LMAG_TX_P14+LMAG_TX_N14+LMAG_TX_P15+LMAG_TX_N15+LMAG_TX_P16+LMAG_TX_N16+LMAG_TX_P17+LMAG_TX_N17+LMAG_TX_P18+LMAG_TX_N18+LMAG_TX_P19+LMAG_TX_N19+LMAG_TX_P20+LMAG_TX_N20+LMAG_TX_P21+LMAG_TX_N21+LMAG_TX_P22+LMAG_TX_N22+LMAG_TX_P23+LMAG_TX_N23+LMAG_TX_P24+LMAG_TX_N24+LMAG_TX_P25+LMAG_TX_N25+LMAG_TX_P26+LMAG_TX_N26+LMAG_TX_P27+LMAG_TX_N27+LMAG_TX_P28+LMAG_TX_N28+LMAG_TX_P29+LMAG_TX_N29+LMAG_TX_P30+LMAG_TX_N30+LMAG_TX_P31+LMAG_TX_N31+LMAG_TX_P35+LMAG_TX_N35+LMAG_TX_P34+LMAG_TX_N34+LMAG_TX_P33+LMAG_TX_N33+LMAG_TX_P32+LMAG_TX_N32+LMAG_TX_P36+LMAG_TX_N36+LMAG_TX_P37+LMAG_TX_N37+LMAG_TX_P38+LMAG_TX_N38+LMAG_TX_P39+LMAG_TX_N39" />
+        <pingroup name="gSDS_H30LR_PG1_RX_ALL" list="FMAG_RX_P3+FMAG_RX_N32+FMAG_RX_P3+FMAG_RX_N33+FMAG_RX_P3+FMAG_RX_N34+FMAG_RX_P3+FMAG_RX_N35+FMAG_RX_P3+FMAG_RX_N36+FMAG_RX_P3+FMAG_RX_N37+FMAG_RX_P3+FMAG_RX_N38+FMAG_RX_P3+FMAG_RX_N39+FMAG_RX_P8+FMAG_RX_N8+FMAG_RX_P9+FMAG_RX_N9+FMAG_RX_P1+FMAG_RX_N10+FMAG_RX_P1+FMAG_RX_N11+FMAG_RX_P2+FMAG_RX_N20+FMAG_RX_P2+FMAG_RX_N21+FMAG_RX_P2+FMAG_RX_N22+FMAG_RX_P2+FMAG_RX_N23+FMAG_RX_P1+FMAG_RX_N19+FMAG_RX_P1+FMAG_RX_N18+FMAG_RX_P1+FMAG_RX_N17+FMAG_RX_P1+FMAG_RX_N16+FMAG_RX_P4+FMAG_RX_N4+FMAG_RX_P5+FMAG_RX_N5+FMAG_RX_P6+FMAG_RX_N6+FMAG_RX_P7+FMAG_RX_N7+FMAG_RX_P3+FMAG_RX_N3+FMAG_RX_P2+FMAG_RX_N2+FMAG_RX_P1+FMAG_RX_N1+FMAG_RX_P0+FMAG_RX_N0+FMAG_RX_P12+FMAG_RX_N12+FMAG_RX_P13+FMAG_RX_N13+FMAG_RX_P14+FMAG_RX_N14+FMAG_RX_P15+FMAG_RX_N15+LMAG_RX_P0+LMAG_RX_N0+LMAG_RX_P1+LMAG_RX_N1+LMAG_RX_P2+LMAG_RX_N2+LMAG_RX_P3+LMAG_RX_N3+LMAG_RX_P4+LMAG_RX_N4+LMAG_RX_P5+LMAG_RX_N5+LMAG_RX_P6+LMAG_RX_N6+LMAG_RX_P7+LMAG_RX_N7+LMAG_RX_P8+LMAG_RX_N8+LMAG_RX_P9+LMAG_RX_N9+LMAG_RX_P10+LMAG_RX_N10+LMAG_RX_P11+LMAG_RX_N11+LMAG_RX_P12+LMAG_RX_N12+LMAG_RX_P13+LMAG_RX_N13+LMAG_RX_P14+LMAG_RX_N14+LMAG_RX_P15+LMAG_RX_N15+LMAG_RX_P16+LMAG_RX_N16+LMAG_RX_P17+LMAG_RX_N17+LMAG_RX_P18+LMAG_RX_N18+LMAG_RX_P19+LMAG_RX_N19+LMAG_RX_P20+LMAG_RX_N20+LMAG_RX_P21+LMAG_RX_N21+LMAG_RX_P22+LMAG_RX_N22+LMAG_RX_P23+LMAG_RX_N23+LMAG_RX_P24+LMAG_RX_N24+LMAG_RX_P25+LMAG_RX_N25+LMAG_RX_P26+LMAG_RX_N26+LMAG_RX_P27+LMAG_RX_N27+LMAG_RX_P28+LMAG_RX_N28+LMAG_RX_P29+LMAG_RX_N29+LMAG_RX_P30+LMAG_RX_N30+LMAG_RX_P31+LMAG_RX_N31+LMAG_RX_P35+LMAG_RX_N35+LMAG_RX_P34+LMAG_RX_N34+LMAG_RX_P33+LMAG_RX_N33+LMAG_RX_P32+LMAG_RX_N32+LMAG_RX_P36+LMAG_RX_N36+LMAG_RX_P37+LMAG_RX_N37+LMAG_RX_P38+LMAG_RX_N38+LMAG_RX_P39+LMAG_RX_N39" />
+        <pingroup name="gSDS_H30LR_PG1_SDS_ALL" list="FMAG_TX_P3+FMAG_TX_N32+FMAG_TX_P3+FMAG_TX_N33+FMAG_TX_P3+FMAG_TX_N34+FMAG_TX_P3+FMAG_TX_N35+FMAG_TX_P3+FMAG_TX_N36+FMAG_TX_P3+FMAG_TX_N37+FMAG_TX_P3+FMAG_TX_N38+FMAG_TX_P3+FMAG_TX_N39+FMAG_RX_P3+FMAG_RX_N32+FMAG_RX_P3+FMAG_RX_N33+FMAG_RX_P3+FMAG_RX_N34+FMAG_RX_P3+FMAG_RX_N35+FMAG_RX_P3+FMAG_RX_N36+FMAG_RX_P3+FMAG_RX_N37+FMAG_RX_P3+FMAG_RX_N38+FMAG_RX_P3+FMAG_RX_N39+FMAG_TX_P8+FMAG_TX_N8+FMAG_TX_P9+FMAG_TX_N9+FMAG_TX_P1+FMAG_TX_N10+FMAG_TX_P1+FMAG_TX_N11+FMAG_TX_P2+FMAG_TX_N20+FMAG_TX_P2+FMAG_TX_N21+FMAG_TX_P2+FMAG_TX_N22+FMAG_TX_P2+FMAG_TX_N23+FMAG_RX_P8+FMAG_RX_N8+FMAG_RX_P9+FMAG_RX_N9+FMAG_RX_P1+FMAG_RX_N10+FMAG_RX_P1+FMAG_RX_N11+FMAG_RX_P2+FMAG_RX_N20+FMAG_RX_P2+FMAG_RX_N21+FMAG_RX_P2+FMAG_RX_N22+FMAG_RX_P2+FMAG_RX_N23+FMAG_TX_P1+FMAG_TX_N19+FMAG_TX_P1+FMAG_TX_N18+FMAG_TX_P1+FMAG_TX_N17+FMAG_TX_P1+FMAG_TX_N16+FMAG_RX_P1+FMAG_RX_N19+FMAG_RX_P1+FMAG_RX_N18+FMAG_RX_P1+FMAG_RX_N17+FMAG_RX_P1+FMAG_RX_N16+FMAG_TX_P4+FMAG_TX_N4+FMAG_TX_P5+FMAG_TX_N5+FMAG_TX_P6+FMAG_TX_N6+FMAG_TX_P7+FMAG_TX_N7+FMAG_RX_P4+FMAG_RX_N4+FMAG_RX_P5+FMAG_RX_N5+FMAG_RX_P6+FMAG_RX_N6+FMAG_RX_P7+FMAG_RX_N7+FMAG_TX_P3+FMAG_TX_N3+FMAG_TX_P2+FMAG_TX_N2+FMAG_TX_P1+FMAG_TX_N1+FMAG_TX_P0+FMAG_TX_N0+FMAG_RX_P3+FMAG_RX_N3+FMAG_RX_P2+FMAG_RX_N2+FMAG_RX_P1+FMAG_RX_N1+FMAG_RX_P0+FMAG_RX_N0+FMAG_TX_P12+FMAG_TX_N12+FMAG_TX_P13+FMAG_TX_N13+FMAG_TX_P14+FMAG_TX_N14+FMAG_TX_P15+FMAG_TX_N15+FMAG_RX_P12+FMAG_RX_N12+FMAG_RX_P13+FMAG_RX_N13+FMAG_RX_P14+FMAG_RX_N14+FMAG_RX_P15+FMAG_RX_N15+LMAG_TX_P0+LMAG_TX_N0+LMAG_TX_P1+LMAG_TX_N1+LMAG_TX_P2+LMAG_TX_N2+LMAG_TX_P3+LMAG_TX_N3+LMAG_TX_P4+LMAG_TX_N4+LMAG_TX_P5+LMAG_TX_N5+LMAG_TX_P6+LMAG_TX_N6+LMAG_TX_P7+LMAG_TX_N7+LMAG_RX_P0+LMAG_RX_N0+LMAG_RX_P1+LMAG_RX_N1+LMAG_RX_P2+LMAG_RX_N2+LMAG_RX_P3+LMAG_RX_N3+LMAG_RX_P4+LMAG_RX_N4+LMAG_RX_P5+LMAG_RX_N5+LMAG_RX_P6+LMAG_RX_N6+LMAG_RX_P7+LMAG_RX_N7+LMAG_TX_P8+LMAG_TX_N8+LMAG_TX_P9+LMAG_TX_N9+LMAG_TX_P10+LMAG_TX_N10+LMAG_TX_P11+LMAG_TX_N11+LMAG_TX_P12+LMAG_TX_N12+LMAG_TX_P13+LMAG_TX_N13+LMAG_TX_P14+LMAG_TX_N14+LMAG_TX_P15+LMAG_TX_N15+LMAG_RX_P8+LMAG_RX_N8+LMAG_RX_P9+LMAG_RX_N9+LMAG_RX_P10+LMAG_RX_N10+LMAG_RX_P11+LMAG_RX_N11+LMAG_RX_P12+LMAG_RX_N12+LMAG_RX_P13+LMAG_RX_N13+LMAG_RX_P14+LMAG_RX_N14+LMAG_RX_P15+LMAG_RX_N15+LMAG_TX_P16+LMAG_TX_N16+LMAG_TX_P17+LMAG_TX_N17+LMAG_TX_P18+LMAG_TX_N18+LMAG_TX_P19+LMAG_TX_N19+LMAG_TX_P20+LMAG_TX_N20+LMAG_TX_P21+LMAG_TX_N21+LMAG_TX_P22+LMAG_TX_N22+LMAG_TX_P23+LMAG_TX_N23+LMAG_RX_P16+LMAG_RX_N16+LMAG_RX_P17+LMAG_RX_N17+LMAG_RX_P18+LMAG_RX_N18+LMAG_RX_P19+LMAG_RX_N19+LMAG_RX_P20+LMAG_RX_N20+LMAG_RX_P21+LMAG_RX_N21+LMAG_RX_P22+LMAG_RX_N22+LMAG_RX_P23+LMAG_RX_N23+LMAG_TX_P24+LMAG_TX_N24+LMAG_TX_P25+LMAG_TX_N25+LMAG_TX_P26+LMAG_TX_N26+LMAG_TX_P27+LMAG_TX_N27+LMAG_TX_P28+LMAG_TX_N28+LMAG_TX_P29+LMAG_TX_N29+LMAG_TX_P30+LMAG_TX_N30+LMAG_TX_P31+LMAG_TX_N31+LMAG_RX_P24+LMAG_RX_N24+LMAG_RX_P25+LMAG_RX_N25+LMAG_RX_P26+LMAG_RX_N26+LMAG_RX_P27+LMAG_RX_N27+LMAG_RX_P28+LMAG_RX_N28+LMAG_RX_P29+LMAG_RX_N29+LMAG_RX_P30+LMAG_RX_N30+LMAG_RX_P31+LMAG_RX_N31+LMAG_TX_P35+LMAG_TX_N35+LMAG_TX_P34+LMAG_TX_N34+LMAG_TX_P33+LMAG_TX_N33+LMAG_TX_P32+LMAG_TX_N32+LMAG_RX_P35+LMAG_RX_N35+LMAG_RX_P34+LMAG_RX_N34+LMAG_RX_P33+LMAG_RX_N33+LMAG_RX_P32+LMAG_RX_N32+LMAG_TX_P36+LMAG_TX_N36+LMAG_TX_P37+LMAG_TX_N37+LMAG_TX_P38+LMAG_TX_N38+LMAG_TX_P39+LMAG_TX_N39+LMAG_RX_P36+LMAG_RX_N36+LMAG_RX_P37+LMAG_RX_N37+LMAG_RX_P38+LMAG_RX_N38+LMAG_RX_P39+LMAG_RX_N39" />
+        <pingroup name="gSDS_H30LR_PG1_TX_P" list="FMAG_TX_P40+FMAG_TX_P41+FMAG_TX_P42+FMAG_TX_P43+FMAG_TX_P44+FMAG_TX_P45+FMAG_TX_P46+FMAG_TX_P47+FMAG_TX_P24+FMAG_TX_P25+FMAG_TX_P26+FMAG_TX_P27+FMAG_TX_P28+FMAG_TX_P29+FMAG_TX_P30+FMAG_TX_P31+FMAG_TX_P32+FMAG_TX_P33+FMAG_TX_P34+FMAG_TX_P35+FMAG_TX_P36+FMAG_TX_P37+FMAG_TX_P38+FMAG_TX_P39+FMAG_TX_P8+FMAG_TX_P9+FMAG_TX_P10+FMAG_TX_P11+FMAG_TX_P20+FMAG_TX_P21+FMAG_TX_P22+FMAG_TX_P23+FMAG_TX_P19+FMAG_TX_P18+FMAG_TX_P17+FMAG_TX_P16+FMAG_TX_P4+FMAG_TX_P5+FMAG_TX_P6+FMAG_TX_P7+FMAG_TX_P3+FMAG_TX_P2+FMAG_TX_P1+FMAG_TX_P0+FMAG_TX_P12+FMAG_TX_P13+FMAG_TX_P14+FMAG_TX_P15+LMAG_TX_P0+LMAG_TX_P1+LMAG_TX_P2+LMAG_TX_P3+LMAG_TX_P4+LMAG_TX_P5+LMAG_TX_P6+LMAG_TX_P7+LMAG_TX_P8+LMAG_TX_P9+LMAG_TX_P10+LMAG_TX_P11+LMAG_TX_P12+LMAG_TX_P13+LMAG_TX_P14+LMAG_TX_P15+LMAG_TX_P16+LMAG_TX_P17+LMAG_TX_P18+LMAG_TX_P19+LMAG_TX_P20+LMAG_TX_P21+LMAG_TX_P22+LMAG_TX_P23+LMAG_TX_P24+LMAG_TX_P25+LMAG_TX_P26+LMAG_TX_P27+LMAG_TX_P28+LMAG_TX_P29+LMAG_TX_P30+LMAG_TX_P31+LMAG_TX_P35+LMAG_TX_P34+LMAG_TX_P33+LMAG_TX_P32+LMAG_TX_P36+LMAG_TX_P37+LMAG_TX_P38+LMAG_TX_P39" />
+        <pingroup name="gSDS_H30LR_PG1_RX_P" list="FMAG_RX_P40+FMAG_RX_P41+FMAG_RX_P42+FMAG_RX_P43+FMAG_RX_P44+FMAG_RX_P45+FMAG_RX_P46+FMAG_RX_P47+FMAG_RX_P24+FMAG_RX_P25+FMAG_RX_P26+FMAG_RX_P27+FMAG_RX_P28+FMAG_RX_P29+FMAG_RX_P30+FMAG_RX_P31+FMAG_RX_P32+FMAG_RX_P33+FMAG_RX_P34+FMAG_RX_P35+FMAG_RX_P36+FMAG_RX_P37+FMAG_RX_P38+FMAG_RX_P39+FMAG_RX_P8+FMAG_RX_P9+FMAG_RX_P10+FMAG_RX_P11+FMAG_RX_P20+FMAG_RX_P21+FMAG_RX_P22+FMAG_RX_P23+FMAG_RX_P19+FMAG_RX_P18+FMAG_RX_P17+FMAG_RX_P16+FMAG_RX_P4+FMAG_RX_P5+FMAG_RX_P6+FMAG_RX_P7+FMAG_RX_P3+FMAG_RX_P2+FMAG_RX_P1+FMAG_RX_P0+FMAG_RX_P12+FMAG_RX_P13+FMAG_RX_P14+FMAG_RX_P15+LMAG_RX_P0+LMAG_RX_P1+LMAG_RX_P2+LMAG_RX_P3+LMAG_RX_P4+LMAG_RX_P5+LMAG_RX_P6+LMAG_RX_P7+LMAG_RX_P8+LMAG_RX_P9+LMAG_RX_P10+LMAG_RX_P11+LMAG_RX_P12+LMAG_RX_P13+LMAG_RX_P14+LMAG_RX_P15+LMAG_RX_P16+LMAG_RX_P17+LMAG_RX_P18+LMAG_RX_P19+LMAG_RX_P20+LMAG_RX_P21+LMAG_RX_P22+LMAG_RX_P23+LMAG_RX_P24+LMAG_RX_P25+LMAG_RX_P26+LMAG_RX_P27+LMAG_RX_P28+LMAG_RX_P29+LMAG_RX_P30+LMAG_RX_P31+LMAG_RX_P35+LMAG_RX_P34+LMAG_RX_P33+LMAG_RX_P32+LMAG_RX_P36+LMAG_RX_P37+LMAG_RX_P38+LMAG_RX_P39" />
+        <pingroup name="gSDS_H30LR_PG1_SSMACRO_SDS" list="FMAG_TX_P12+FMAG_TX_N12+FMAG_TX_P13+FMAG_TX_N13+FMAG_TX_P14+FMAG_TX_N14+FMAG_TX_P15+FMAG_TX_N15+FMAG_RX_P12+FMAG_RX_N12+FMAG_RX_P13+FMAG_RX_N13+FMAG_RX_P14+FMAG_RX_N14+FMAG_RX_P15+FMAG_RX_N15+LMAG_TX_P35+LMAG_TX_N35+LMAG_TX_P34+LMAG_TX_N34+LMAG_TX_P33+LMAG_TX_N33+LMAG_TX_P32+LMAG_TX_N32+LMAG_RX_P35+LMAG_RX_N35+LMAG_RX_P34+LMAG_RX_N34+LMAG_RX_P33+LMAG_RX_N33+LMAG_RX_P32+LMAG_RX_N32" />
+        <pingroup name="gSDS_H30LR_PG2_TX_ALL" list="FMAG_TX_P4+FMAG_TX_N40+FMAG_TX_P4+FMAG_TX_N41+FMAG_TX_P4+FMAG_TX_N42+FMAG_TX_P4+FMAG_TX_N43+FMAG_TX_P4+FMAG_TX_N44+FMAG_TX_P4+FMAG_TX_N45+FMAG_TX_P4+FMAG_TX_N46+FMAG_TX_P4+FMAG_TX_N47+FMAG_TX_P2+FMAG_TX_N24+FMAG_TX_P2+FMAG_TX_N25+FMAG_TX_P2+FMAG_TX_N26+FMAG_TX_P2+FMAG_TX_N27+FMAG_TX_P2+FMAG_TX_N28+FMAG_TX_P2+FMAG_TX_N29+FMAG_TX_P3+FMAG_TX_N30+FMAG_TX_P3+FMAG_TX_N31+FMAG_TX_P3+FMAG_TX_N32+FMAG_TX_P3+FMAG_TX_N33+FMAG_TX_P3+FMAG_TX_N34+FMAG_TX_P3+FMAG_TX_N35+FMAG_TX_P3+FMAG_TX_N36+FMAG_TX_P3+FMAG_TX_N37+FMAG_TX_P3+FMAG_TX_N38+FMAG_TX_P3+FMAG_TX_N39+FMAG_TX_P8+FMAG_TX_N8+FMAG_TX_P9+FMAG_TX_N9+FMAG_TX_P1+FMAG_TX_N10+FMAG_TX_P1+FMAG_TX_N11+FMAG_TX_P2+FMAG_TX_N20+FMAG_TX_P2+FMAG_TX_N21+FMAG_TX_P2+FMAG_TX_N22+FMAG_TX_P2+FMAG_TX_N23+FMAG_TX_P1+FMAG_TX_N19+FMAG_TX_P1+FMAG_TX_N18+FMAG_TX_P1+FMAG_TX_N17+FMAG_TX_P1+FMAG_TX_N16+FMAG_TX_P4+FMAG_TX_N4+FMAG_TX_P5+FMAG_TX_N5+FMAG_TX_P6+FMAG_TX_N6+FMAG_TX_P7+FMAG_TX_N7+FMAG_TX_P3+FMAG_TX_N3+FMAG_TX_P2+FMAG_TX_N2+FMAG_TX_P1+FMAG_TX_N1+FMAG_TX_P0+FMAG_TX_N0+FMAG_TX_P12+FMAG_TX_N12+FMAG_TX_P13+FMAG_TX_N13+FMAG_TX_P14+FMAG_TX_N14+FMAG_TX_P15+FMAG_TX_N15+LMAG_TX_P0+LMAG_TX_N0+LMAG_TX_P1+LMAG_TX_N1+LMAG_TX_P2+LMAG_TX_N2+LMAG_TX_P3+LMAG_TX_N3+LMAG_TX_P4+LMAG_TX_N4+LMAG_TX_P5+LMAG_TX_N5+LMAG_TX_P6+LMAG_TX_N6+LMAG_TX_P7+LMAG_TX_N7+LMAG_TX_P8+LMAG_TX_N8+LMAG_TX_P9+LMAG_TX_N9+LMAG_TX_P10+LMAG_TX_N10+LMAG_TX_P11+LMAG_TX_N11+LMAG_TX_P12+LMAG_TX_N12+LMAG_TX_P13+LMAG_TX_N13+LMAG_TX_P14+LMAG_TX_N14+LMAG_TX_P15+LMAG_TX_N15+LMAG_TX_P16+LMAG_TX_N16+LMAG_TX_P17+LMAG_TX_N17+LMAG_TX_P18+LMAG_TX_N18+LMAG_TX_P19+LMAG_TX_N19+LMAG_TX_P20+LMAG_TX_N20+LMAG_TX_P21+LMAG_TX_N21+LMAG_TX_P22+LMAG_TX_N22+LMAG_TX_P23+LMAG_TX_N23+LMAG_TX_P24+LMAG_TX_N24+LMAG_TX_P25+LMAG_TX_N25+LMAG_TX_P26+LMAG_TX_N26+LMAG_TX_P27+LMAG_TX_N27+LMAG_TX_P28+LMAG_TX_N28+LMAG_TX_P29+LMAG_TX_N29+LMAG_TX_P30+LMAG_TX_N30+LMAG_TX_P31+LMAG_TX_N31+LMAG_TX_P35+LMAG_TX_N35+LMAG_TX_P34+LMAG_TX_N34+LMAG_TX_P33+LMAG_TX_N33+LMAG_TX_P32+LMAG_TX_N32+LMAG_TX_P36+LMAG_TX_N36+LMAG_TX_P37+LMAG_TX_N37+LMAG_TX_P38+LMAG_TX_N38+LMAG_TX_P39+LMAG_TX_N39" />
+        <pingroup name="gSDS_H30LR_PG2_RX_ALL" list="FMAG_RX_P4+FMAG_RX_N40+FMAG_RX_P4+FMAG_RX_N41+FMAG_RX_P4+FMAG_RX_N42+FMAG_RX_P4+FMAG_RX_N43+FMAG_RX_P4+FMAG_RX_N44+FMAG_RX_P4+FMAG_RX_N45+FMAG_RX_P4+FMAG_RX_N46+FMAG_RX_P4+FMAG_RX_N47+FMAG_RX_P2+FMAG_RX_N24+FMAG_RX_P2+FMAG_RX_N25+FMAG_RX_P2+FMAG_RX_N26+FMAG_RX_P2+FMAG_RX_N27+FMAG_RX_P2+FMAG_RX_N28+FMAG_RX_P2+FMAG_RX_N29+FMAG_RX_P3+FMAG_RX_N30+FMAG_RX_P3+FMAG_RX_N31+FMAG_RX_P3+FMAG_RX_N32+FMAG_RX_P3+FMAG_RX_N33+FMAG_RX_P3+FMAG_RX_N34+FMAG_RX_P3+FMAG_RX_N35+FMAG_RX_P3+FMAG_RX_N36+FMAG_RX_P3+FMAG_RX_N37+FMAG_RX_P3+FMAG_RX_N38+FMAG_RX_P3+FMAG_RX_N39+FMAG_RX_P8+FMAG_RX_N8+FMAG_RX_P9+FMAG_RX_N9+FMAG_RX_P1+FMAG_RX_N10+FMAG_RX_P1+FMAG_RX_N11+FMAG_RX_P2+FMAG_RX_N20+FMAG_RX_P2+FMAG_RX_N21+FMAG_RX_P2+FMAG_RX_N22+FMAG_RX_P2+FMAG_RX_N23+FMAG_RX_P1+FMAG_RX_N19+FMAG_RX_P1+FMAG_RX_N18+FMAG_RX_P1+FMAG_RX_N17+FMAG_RX_P1+FMAG_RX_N16+FMAG_RX_P4+FMAG_RX_N4+FMAG_RX_P5+FMAG_RX_N5+FMAG_RX_P6+FMAG_RX_N6+FMAG_RX_P7+FMAG_RX_N7+FMAG_RX_P3+FMAG_RX_N3+FMAG_RX_P2+FMAG_RX_N2+FMAG_RX_P1+FMAG_RX_N1+FMAG_RX_P0+FMAG_RX_N0+FMAG_RX_P12+FMAG_RX_N12+FMAG_RX_P13+FMAG_RX_N13+FMAG_RX_P14+FMAG_RX_N14+FMAG_RX_P15+FMAG_RX_N15+LMAG_RX_P0+LMAG_RX_N0+LMAG_RX_P1+LMAG_RX_N1+LMAG_RX_P2+LMAG_RX_N2+LMAG_RX_P3+LMAG_RX_N3+LMAG_RX_P4+LMAG_RX_N4+LMAG_RX_P5+LMAG_RX_N5+LMAG_RX_P6+LMAG_RX_N6+LMAG_RX_P7+LMAG_RX_N7+LMAG_RX_P8+LMAG_RX_N8+LMAG_RX_P9+LMAG_RX_N9+LMAG_RX_P10+LMAG_RX_N10+LMAG_RX_P11+LMAG_RX_N11+LMAG_RX_P12+LMAG_RX_N12+LMAG_RX_P13+LMAG_RX_N13+LMAG_RX_P14+LMAG_RX_N14+LMAG_RX_P15+LMAG_RX_N15+LMAG_RX_P16+LMAG_RX_N16+LMAG_RX_P17+LMAG_RX_N17+LMAG_RX_P18+LMAG_RX_N18+LMAG_RX_P19+LMAG_RX_N19+LMAG_RX_P20+LMAG_RX_N20+LMAG_RX_P21+LMAG_RX_N21+LMAG_RX_P22+LMAG_RX_N22+LMAG_RX_P23+LMAG_RX_N23+LMAG_RX_P24+LMAG_RX_N24+LMAG_RX_P25+LMAG_RX_N25+LMAG_RX_P26+LMAG_RX_N26+LMAG_RX_P27+LMAG_RX_N27+LMAG_RX_P28+LMAG_RX_N28+LMAG_RX_P29+LMAG_RX_N29+LMAG_RX_P30+LMAG_RX_N30+LMAG_RX_P31+LMAG_RX_N31+LMAG_RX_P35+LMAG_RX_N35+LMAG_RX_P34+LMAG_RX_N34+LMAG_RX_P33+LMAG_RX_N33+LMAG_RX_P32+LMAG_RX_N32+LMAG_RX_P36+LMAG_RX_N36+LMAG_RX_P37+LMAG_RX_N37+LMAG_RX_P38+LMAG_RX_N38+LMAG_RX_P39+LMAG_RX_N39" />
+        <pingroup name="gSDS_H30LR_PG2_SDS_ALL" list="FMAG_TX_P4+FMAG_TX_N40+FMAG_TX_P4+FMAG_TX_N41+FMAG_TX_P4+FMAG_TX_N42+FMAG_TX_P4+FMAG_TX_N43+FMAG_TX_P4+FMAG_TX_N44+FMAG_TX_P4+FMAG_TX_N45+FMAG_TX_P4+FMAG_TX_N46+FMAG_TX_P4+FMAG_TX_N47+FMAG_TX_P2+FMAG_TX_N24+FMAG_TX_P2+FMAG_TX_N25+FMAG_TX_P2+FMAG_TX_N26+FMAG_TX_P2+FMAG_TX_N27+FMAG_TX_P2+FMAG_TX_N28+FMAG_TX_P2+FMAG_TX_N29+FMAG_TX_P3+FMAG_TX_N30+FMAG_TX_P3+FMAG_TX_N31+FMAG_TX_P3+FMAG_TX_N32+FMAG_TX_P3+FMAG_TX_N33+FMAG_TX_P3+FMAG_TX_N34+FMAG_TX_P3+FMAG_TX_N35+FMAG_TX_P3+FMAG_TX_N36+FMAG_TX_P3+FMAG_TX_N37+FMAG_TX_P3+FMAG_TX_N38+FMAG_TX_P3+FMAG_TX_N39+FMAG_TX_P8+FMAG_TX_N8+FMAG_TX_P9+FMAG_TX_N9+FMAG_TX_P1+FMAG_TX_N10+FMAG_TX_P1+FMAG_TX_N11+FMAG_TX_P2+FMAG_TX_N20+FMAG_TX_P2+FMAG_TX_N21+FMAG_TX_P2+FMAG_TX_N22+FMAG_TX_P2+FMAG_TX_N23+FMAG_TX_P1+FMAG_TX_N19+FMAG_TX_P1+FMAG_TX_N18+FMAG_TX_P1+FMAG_TX_N17+FMAG_TX_P1+FMAG_TX_N16+FMAG_TX_P4+FMAG_TX_N4+FMAG_TX_P5+FMAG_TX_N5+FMAG_TX_P6+FMAG_TX_N6+FMAG_TX_P7+FMAG_TX_N7+FMAG_TX_P3+FMAG_TX_N3+FMAG_TX_P2+FMAG_TX_N2+FMAG_TX_P1+FMAG_TX_N1+FMAG_TX_P0+FMAG_TX_N0+FMAG_TX_P12+FMAG_TX_N12+FMAG_TX_P13+FMAG_TX_N13+FMAG_TX_P14+FMAG_TX_N14+FMAG_TX_P15+FMAG_TX_N15+LMAG_TX_P0+LMAG_TX_N0+LMAG_TX_P1+LMAG_TX_N1+LMAG_TX_P2+LMAG_TX_N2+LMAG_TX_P3+LMAG_TX_N3+LMAG_TX_P4+LMAG_TX_N4+LMAG_TX_P5+LMAG_TX_N5+LMAG_TX_P6+LMAG_TX_N6+LMAG_TX_P7+LMAG_TX_N7+LMAG_TX_P8+LMAG_TX_N8+LMAG_TX_P9+LMAG_TX_N9+LMAG_TX_P10+LMAG_TX_N10+LMAG_TX_P11+LMAG_TX_N11+LMAG_TX_P12+LMAG_TX_N12+LMAG_TX_P13+LMAG_TX_N13+LMAG_TX_P14+LMAG_TX_N14+LMAG_TX_P15+LMAG_TX_N15+LMAG_TX_P16+LMAG_TX_N16+LMAG_TX_P17+LMAG_TX_N17+LMAG_TX_P18+LMAG_TX_N18+LMAG_TX_P19+LMAG_TX_N19+LMAG_TX_P20+LMAG_TX_N20+LMAG_TX_P21+LMAG_TX_N21+LMAG_TX_P22+LMAG_TX_N22+LMAG_TX_P23+LMAG_TX_N23+LMAG_TX_P24+LMAG_TX_N24+LMAG_TX_P25+LMAG_TX_N25+LMAG_TX_P26+LMAG_TX_N26+LMAG_TX_P27+LMAG_TX_N27+LMAG_TX_P28+LMAG_TX_N28+LMAG_TX_P29+LMAG_TX_N29+LMAG_TX_P30+LMAG_TX_N30+LMAG_TX_P31+LMAG_TX_N31+LMAG_TX_P35+LMAG_TX_N35+LMAG_TX_P34+LMAG_TX_N34+LMAG_TX_P33+LMAG_TX_N33+LMAG_TX_P32+LMAG_TX_N32+LMAG_TX_P36+LMAG_TX_N36+LMAG_TX_P37+LMAG_TX_N37+LMAG_TX_P38+LMAG_TX_N38+LMAG_TX_P39+LMAG_TX_N39+FMAG_RX_P4+FMAG_RX_N40+FMAG_RX_P4+FMAG_RX_N41+FMAG_RX_P4+FMAG_RX_N42+FMAG_RX_P4+FMAG_RX_N43+FMAG_RX_P4+FMAG_RX_N44+FMAG_RX_P4+FMAG_RX_N45+FMAG_RX_P4+FMAG_RX_N46+FMAG_RX_P4+FMAG_RX_N47+FMAG_RX_P2+FMAG_RX_N24+FMAG_RX_P2+FMAG_RX_N25+FMAG_RX_P2+FMAG_RX_N26+FMAG_RX_P2+FMAG_RX_N27+FMAG_RX_P2+FMAG_RX_N28+FMAG_RX_P2+FMAG_RX_N29+FMAG_RX_P3+FMAG_RX_N30+FMAG_RX_P3+FMAG_RX_N31+FMAG_RX_P3+FMAG_RX_N32+FMAG_RX_P3+FMAG_RX_N33+FMAG_RX_P3+FMAG_RX_N34+FMAG_RX_P3+FMAG_RX_N35+FMAG_RX_P3+FMAG_RX_N36+FMAG_RX_P3+FMAG_RX_N37+FMAG_RX_P3+FMAG_RX_N38+FMAG_RX_P3+FMAG_RX_N39+FMAG_RX_P8+FMAG_RX_N8+FMAG_RX_P9+FMAG_RX_N9+FMAG_RX_P1+FMAG_RX_N10+FMAG_RX_P1+FMAG_RX_N11+FMAG_RX_P2+FMAG_RX_N20+FMAG_RX_P2+FMAG_RX_N21+FMAG_RX_P2+FMAG_RX_N22+FMAG_RX_P2+FMAG_RX_N23+FMAG_RX_P1+FMAG_RX_N19+FMAG_RX_P1+FMAG_RX_N18+FMAG_RX_P1+FMAG_RX_N17+FMAG_RX_P1+FMAG_RX_N16+FMAG_RX_P4+FMAG_RX_N4+FMAG_RX_P5+FMAG_RX_N5+FMAG_RX_P6+FMAG_RX_N6+FMAG_RX_P7+FMAG_RX_N7+FMAG_RX_P3+FMAG_RX_N3+FMAG_RX_P2+FMAG_RX_N2+FMAG_RX_P1+FMAG_RX_N1+FMAG_RX_P0+FMAG_RX_N0+FMAG_RX_P12+FMAG_RX_N12+FMAG_RX_P13+FMAG_RX_N13+FMAG_RX_P14+FMAG_RX_N14+FMAG_RX_P15+FMAG_RX_N15+LMAG_RX_P0+LMAG_RX_N0+LMAG_RX_P1+LMAG_RX_N1+LMAG_RX_P2+LMAG_RX_N2+LMAG_RX_P3+LMAG_RX_N3+LMAG_RX_P4+LMAG_RX_N4+LMAG_RX_P5+LMAG_RX_N5+LMAG_RX_P6+LMAG_RX_N6+LMAG_RX_P7+LMAG_RX_N7+LMAG_RX_P8+LMAG_RX_N8+LMAG_RX_P9+LMAG_RX_N9+LMAG_RX_P10+LMAG_RX_N10+LMAG_RX_P11+LMAG_RX_N11+LMAG_RX_P12+LMAG_RX_N12+LMAG_RX_P13+LMAG_RX_N13+LMAG_RX_P14+LMAG_RX_N14+LMAG_RX_P15+LMAG_RX_N15+LMAG_RX_P16+LMAG_RX_N16+LMAG_RX_P17+LMAG_RX_N17+LMAG_RX_P18+LMAG_RX_N18+LMAG_RX_P19+LMAG_RX_N19+LMAG_RX_P20+LMAG_RX_N20+LMAG_RX_P21+LMAG_RX_N21+LMAG_RX_P22+LMAG_RX_N22+LMAG_RX_P23+LMAG_RX_N23+LMAG_RX_P24+LMAG_RX_N24+LMAG_RX_P25+LMAG_RX_N25+LMAG_RX_P26+LMAG_RX_N26+LMAG_RX_P27+LMAG_RX_N27+LMAG_RX_P28+LMAG_RX_N28+LMAG_RX_P29+LMAG_RX_N29+LMAG_RX_P30+LMAG_RX_N30+LMAG_RX_P31+LMAG_RX_N31+LMAG_RX_P35+LMAG_RX_N35+LMAG_RX_P34+LMAG_RX_N34+LMAG_RX_P33+LMAG_RX_N33+LMAG_RX_P32+LMAG_RX_N32+LMAG_RX_P36+LMAG_RX_N36+LMAG_RX_P37+LMAG_RX_N37+LMAG_RX_P38+LMAG_RX_N38+LMAG_RX_P39+LMAG_RX_N39" />
+        <pingroup name="gSDS_H30LR_PG2_TX_P" list="FMAG_TX_P40+FMAG_TX_P41+FMAG_TX_P42+FMAG_TX_P43+FMAG_TX_P44+FMAG_TX_P45+FMAG_TX_P46+FMAG_TX_P47+FMAG_TX_P24+FMAG_TX_P25+FMAG_TX_P26+FMAG_TX_P27+FMAG_TX_P28+FMAG_TX_P29+FMAG_TX_P30+FMAG_TX_P31+FMAG_TX_P32+FMAG_TX_P33+FMAG_TX_P34+FMAG_TX_P35+FMAG_TX_P36+FMAG_TX_P37+FMAG_TX_P38+FMAG_TX_P39+FMAG_TX_P8+FMAG_TX_P9+FMAG_TX_P10+FMAG_TX_P11+FMAG_TX_P20+FMAG_TX_P21+FMAG_TX_P22+FMAG_TX_P23+FMAG_TX_P19+FMAG_TX_P18+FMAG_TX_P17+FMAG_TX_P16+FMAG_TX_P4+FMAG_TX_P5+FMAG_TX_P6+FMAG_TX_P7+FMAG_TX_P3+FMAG_TX_P2+FMAG_TX_P1+FMAG_TX_P0+FMAG_TX_P12+FMAG_TX_P13+FMAG_TX_P14+FMAG_TX_P15+LMAG_TX_P0+LMAG_TX_P1+LMAG_TX_P2+LMAG_TX_P3+LMAG_TX_P4+LMAG_TX_P5+LMAG_TX_P6+LMAG_TX_P7+LMAG_TX_P8+LMAG_TX_P9+LMAG_TX_P10+LMAG_TX_P11+LMAG_TX_P12+LMAG_TX_P13+LMAG_TX_P14+LMAG_TX_P15+LMAG_TX_P16+LMAG_TX_P17+LMAG_TX_P18+LMAG_TX_P19+LMAG_TX_P20+LMAG_TX_P21+LMAG_TX_P22+LMAG_TX_P23+LMAG_TX_P24+LMAG_TX_P25+LMAG_TX_P26+LMAG_TX_P27+LMAG_TX_P28+LMAG_TX_P29+LMAG_TX_P30+LMAG_TX_P31+LMAG_TX_P35+LMAG_TX_P34+LMAG_TX_P33+LMAG_TX_P32+LMAG_TX_P36+LMAG_TX_P37+LMAG_TX_P38+LMAG_TX_P39" />
+        <pingroup name="gSDS_H30LR_PG2_RX_P" list="FMAG_RX_P40+FMAG_RX_P41+FMAG_RX_P42+FMAG_RX_P43+FMAG_RX_P44+FMAG_RX_P45+FMAG_RX_P46+FMAG_RX_P47+FMAG_RX_P24+FMAG_RX_P25+FMAG_RX_P26+FMAG_RX_P27+FMAG_RX_P28+FMAG_RX_P29+FMAG_RX_P30+FMAG_RX_P31+FMAG_RX_P32+FMAG_RX_P33+FMAG_RX_P34+FMAG_RX_P35+FMAG_RX_P36+FMAG_RX_P37+FMAG_RX_P38+FMAG_RX_P39+FMAG_RX_P8+FMAG_RX_P9+FMAG_RX_P10+FMAG_RX_P11+FMAG_RX_P20+FMAG_RX_P21+FMAG_RX_P22+FMAG_RX_P23+FMAG_RX_P19+FMAG_RX_P18+FMAG_RX_P17+FMAG_RX_P16+FMAG_RX_P4+FMAG_RX_P5+FMAG_RX_P6+FMAG_RX_P7+FMAG_RX_P3+FMAG_RX_P2+FMAG_RX_P1+FMAG_RX_P0+FMAG_RX_P12+FMAG_RX_P13+FMAG_RX_P14+FMAG_RX_P15+LMAG_RX_P0+LMAG_RX_P1+LMAG_RX_P2+LMAG_RX_P3+LMAG_RX_P4+LMAG_RX_P5+LMAG_RX_P6+LMAG_RX_P7+LMAG_RX_P8+LMAG_RX_P9+LMAG_RX_P10+LMAG_RX_P11+LMAG_RX_P12+LMAG_RX_P13+LMAG_RX_P14+LMAG_RX_P15+LMAG_RX_P16+LMAG_RX_P17+LMAG_RX_P18+LMAG_RX_P19+LMAG_RX_P20+LMAG_RX_P21+LMAG_RX_P22+LMAG_RX_P23+LMAG_RX_P24+LMAG_RX_P25+LMAG_RX_P26+LMAG_RX_P27+LMAG_RX_P28+LMAG_RX_P29+LMAG_RX_P30+LMAG_RX_P31+LMAG_RX_P35+LMAG_RX_P34+LMAG_RX_P33+LMAG_RX_P32+LMAG_RX_P36+LMAG_RX_P37+LMAG_RX_P38+LMAG_RX_P39" />
+        <pingroup name="gSDS_H30LR_PG2_SSMACRO_SDS" list="FMAG_TX_P12+FMAG_TX_N12+FMAG_TX_P13+FMAG_TX_N13+FMAG_TX_P14+FMAG_TX_N14+FMAG_TX_P15+FMAG_TX_N15+FMAG_RX_P12+FMAG_RX_N12+FMAG_RX_P13+FMAG_RX_N13+FMAG_RX_P14+FMAG_RX_N14+FMAG_RX_P15+FMAG_RX_N15+LMAG_TX_P35+LMAG_TX_N35+LMAG_TX_P34+LMAG_TX_N34+LMAG_TX_P33+LMAG_TX_N33+LMAG_TX_P32+LMAG_TX_N32+LMAG_RX_P35+LMAG_RX_N35+LMAG_RX_P34+LMAG_RX_N34+LMAG_RX_P33+LMAG_RX_N33+LMAG_RX_P32+LMAG_RX_N32" />
+        <pingroup name="gSDS_H30LR_PG1_TX_N" list="FMAG_TX_N32+FMAG_TX_N33+FMAG_TX_N34+FMAG_TX_N35+FMAG_TX_N36+FMAG_TX_N37+FMAG_TX_N38+FMAG_TX_N39+FMAG_TX_N8+FMAG_TX_N9+FMAG_TX_N10+FMAG_TX_N11+FMAG_TX_N20+FMAG_TX_N21+FMAG_TX_N22+FMAG_TX_N23+FMAG_TX_N19+FMAG_TX_N18+FMAG_TX_N17+FMAG_TX_N16+FMAG_TX_N4+FMAG_TX_N5+FMAG_TX_N6+FMAG_TX_N7+FMAG_TX_N3+FMAG_TX_N2+FMAG_TX_N1+FMAG_TX_N0+FMAG_TX_N12+FMAG_TX_N13+FMAG_TX_N14+FMAG_TX_N15+LMAG_TX_N0+LMAG_TX_N1+LMAG_TX_N2+LMAG_TX_N3+LMAG_TX_N4+LMAG_TX_N5+LMAG_TX_N6+LMAG_TX_N7+LMAG_TX_N8+LMAG_TX_N9+LMAG_TX_N10+LMAG_TX_N11+LMAG_TX_N12+LMAG_TX_N13+LMAG_TX_N14+LMAG_TX_N15+LMAG_TX_N16+LMAG_TX_N17+LMAG_TX_N18+LMAG_TX_N19+LMAG_TX_N20+LMAG_TX_N21+LMAG_TX_N22+LMAG_TX_N23+LMAG_TX_N24+LMAG_TX_N25+LMAG_TX_N26+LMAG_TX_N27+LMAG_TX_N28+LMAG_TX_N29+LMAG_TX_N30+LMAG_TX_N31+LMAG_TX_N35+LMAG_TX_N34+LMAG_TX_N33+LMAG_TX_N32+LMAG_TX_N36+LMAG_TX_N37+LMAG_TX_N38+LMAG_TX_N39" />
+        <pingroup name="gSDS_H30LR_PG1_RX_N" list="FMAG_RX_N32+FMAG_RX_N33+FMAG_RX_N34+FMAG_RX_N35+FMAG_RX_N36+FMAG_RX_N37+FMAG_RX_N38+FMAG_RX_N39+FMAG_RX_N8+FMAG_RX_N9+FMAG_RX_N10+FMAG_RX_N11+FMAG_RX_N20+FMAG_RX_N21+FMAG_RX_N22+FMAG_RX_N23+FMAG_RX_N19+FMAG_RX_N18+FMAG_RX_N17+FMAG_RX_N16+FMAG_RX_N4+FMAG_RX_N5+FMAG_RX_N6+FMAG_RX_N7+FMAG_RX_N3+FMAG_RX_N2+FMAG_RX_N1+FMAG_RX_N0+FMAG_RX_N12+FMAG_RX_N13+FMAG_RX_N14+FMAG_RX_N15+LMAG_RX_N0+LMAG_RX_N1+LMAG_RX_N2+LMAG_RX_N3+LMAG_RX_N4+LMAG_RX_N5+LMAG_RX_N6+LMAG_RX_N7+LMAG_RX_N8+LMAG_RX_N9+LMAG_RX_N10+LMAG_RX_N11+LMAG_RX_N12+LMAG_RX_N13+LMAG_RX_N14+LMAG_RX_N15+LMAG_RX_N16+LMAG_RX_N17+LMAG_RX_N18+LMAG_RX_N19+LMAG_RX_N20+LMAG_RX_N21+LMAG_RX_N22+LMAG_RX_N23+LMAG_RX_N24+LMAG_RX_N25+LMAG_RX_N26+LMAG_RX_N27+LMAG_RX_N28+LMAG_RX_N29+LMAG_RX_N30+LMAG_RX_N31+LMAG_RX_N35+LMAG_RX_N34+LMAG_RX_N33+LMAG_RX_N32+LMAG_RX_N36+LMAG_RX_N37+LMAG_RX_N38+LMAG_RX_N39" />
+        <pingroup name="gSDS_H30LR_PG2_TX_N" list="FMAG_TX_N40+FMAG_TX_N41+FMAG_TX_N42+FMAG_TX_N43+FMAG_TX_N44+FMAG_TX_N45+FMAG_TX_N46+FMAG_TX_N47+FMAG_TX_N24+FMAG_TX_N25+FMAG_TX_N26+FMAG_TX_N27+FMAG_TX_N28+FMAG_TX_N29+FMAG_TX_N30+FMAG_TX_N31+FMAG_TX_N32+FMAG_TX_N33+FMAG_TX_N34+FMAG_TX_N35+FMAG_TX_N36+FMAG_TX_N37+FMAG_TX_N38+FMAG_TX_N39+FMAG_TX_N8+FMAG_TX_N9+FMAG_TX_N10+FMAG_TX_N11+FMAG_TX_N20+FMAG_TX_N21+FMAG_TX_N22+FMAG_TX_N23+FMAG_TX_N19+FMAG_TX_N18+FMAG_TX_N17+FMAG_TX_N16+FMAG_TX_N4+FMAG_TX_N5+FMAG_TX_N6+FMAG_TX_N7+FMAG_TX_N3+FMAG_TX_N2+FMAG_TX_N1+FMAG_TX_N0+FMAG_TX_N12+FMAG_TX_N13+FMAG_TX_N14+FMAG_TX_N15+LMAG_TX_N0+LMAG_TX_N1+LMAG_TX_N2+LMAG_TX_N3+LMAG_TX_N4+LMAG_TX_N5+LMAG_TX_N6+LMAG_TX_N7+LMAG_TX_N8+LMAG_TX_N9+LMAG_TX_N10+LMAG_TX_N11+LMAG_TX_N12+LMAG_TX_N13+LMAG_TX_N14+LMAG_TX_N15+LMAG_TX_N16+LMAG_TX_N17+LMAG_TX_N18+LMAG_TX_N19+LMAG_TX_N20+LMAG_TX_N21+LMAG_TX_N22+LMAG_TX_N23+LMAG_TX_N24+LMAG_TX_N25+LMAG_TX_N26+LMAG_TX_N27+LMAG_TX_N28+LMAG_TX_N29+LMAG_TX_N30+LMAG_TX_N31+LMAG_TX_N35+LMAG_TX_N34+LMAG_TX_N33+LMAG_TX_N32+LMAG_TX_N36+LMAG_TX_N37+LMAG_TX_N38+LMAG_TX_N39" />
+        <pingroup name="gSDS_H30LR_PG2_RX_N" list="FMAG_RX_N40+FMAG_RX_N41+FMAG_RX_N42+FMAG_RX_N43+FMAG_RX_N44+FMAG_RX_N45+FMAG_RX_N46+FMAG_RX_N47+FMAG_RX_N24+FMAG_RX_N25+FMAG_RX_N26+FMAG_RX_N27+FMAG_RX_N28+FMAG_RX_N29+FMAG_RX_N30+FMAG_RX_N31+FMAG_RX_N32+FMAG_RX_N33+FMAG_RX_N34+FMAG_RX_N35+FMAG_RX_N36+FMAG_RX_N37+FMAG_RX_N38+FMAG_RX_N39+FMAG_RX_N8+FMAG_RX_N9+FMAG_RX_N10+FMAG_RX_N11+FMAG_RX_N20+FMAG_RX_N21+FMAG_RX_N22+FMAG_RX_N23+FMAG_RX_N19+FMAG_RX_N18+FMAG_RX_N17+FMAG_RX_N16+FMAG_RX_N4+FMAG_RX_N5+FMAG_RX_N6+FMAG_RX_N7+FMAG_RX_N3+FMAG_RX_N2+FMAG_RX_N1+FMAG_RX_N0+FMAG_RX_N12+FMAG_RX_N13+FMAG_RX_N14+FMAG_RX_N15+LMAG_RX_N0+LMAG_RX_N1+LMAG_RX_N2+LMAG_RX_N3+LMAG_RX_N4+LMAG_RX_N5+LMAG_RX_N6+LMAG_RX_N7+LMAG_RX_N8+LMAG_RX_N9+LMAG_RX_N10+LMAG_RX_N11+LMAG_RX_N12+LMAG_RX_N13+LMAG_RX_N14+LMAG_RX_N15+LMAG_RX_N16+LMAG_RX_N17+LMAG_RX_N18+LMAG_RX_N19+LMAG_RX_N20+LMAG_RX_N21+LMAG_RX_N22+LMAG_RX_N23+LMAG_RX_N24+LMAG_RX_N25+LMAG_RX_N26+LMAG_RX_N27+LMAG_RX_N28+LMAG_RX_N29+LMAG_RX_N30+LMAG_RX_N31+LMAG_RX_N35+LMAG_RX_N34+LMAG_RX_N33+LMAG_RX_N32+LMAG_RX_N36+LMAG_RX_N37+LMAG_RX_N38+LMAG_RX_N39" />
+        <pingroup name="Ubitgroup2_7" list="REL_CTRL1+REL_CTRL2+REL_CTRL3+REL_CTRL4+REL_CTRL5+REL_CTRL6" />
+        <pingroup name="PCM_Pins" list="PCM1_CLKIN1+PCM1_CS+PCM1_SCK+PCM1_SDAIO+PCM1_SDO+PCM1_NC_Status_LD1+PCM1_NC_Status_LD2+PCM1_CLKIN1N+PCM1_CLKIN1P" />
+        <pingroup name="PCM_Control" list="PCM1_CLKIN1+PCM1_CS+PCM1_SCK+PCM1_SDAIO+PCM1_SDO+PCM1_NC_Status_LD1+PCM1_NC_Status_LD2" />
+        <pingroup name="PCM_CLK_IN" list="PCM1_CLKIN1N+PCM1_CLKIN1P" />
+    </pingroups>
+</pinmap>

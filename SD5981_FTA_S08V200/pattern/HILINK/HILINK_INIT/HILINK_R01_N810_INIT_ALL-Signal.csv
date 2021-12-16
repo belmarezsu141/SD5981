@@ -1,0 +1,10 @@
+#,Name,FirstPinIdx,LastPinIdx,Diff,Type
+Signal,JTAG_TCK,-1,-1,0,In
+Signal,JTAG_TMS,-1,-1,0,In
+Signal,JTAG_TDI,-1,-1,0,In
+Signal,JTAG_TDO,-1,-1,0,Out
+Signal,JTAG_TRSTN,-1,-1,0,In
+Signal,JTAG_CE_N,-1,-1,0,In
+Signal,SYS_RST_N,-1,-1,0,In
+#,Name,Signals List
+Group,"patGS",JTAG_TCK,JTAG_TMS,JTAG_TDI,JTAG_TDO,JTAG_TRSTN,JTAG_CE_N,SYS_RST_N

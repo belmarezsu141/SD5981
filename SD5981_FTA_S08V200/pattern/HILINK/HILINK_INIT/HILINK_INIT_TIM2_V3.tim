@@ -1,0 +1,33 @@
+TIM 1.0;
+
+// TIM timing file converted by WGLCONVERTER Version 1.0.0.8
+// Date:          Nov 16 09:49:25 2021
+// Source WGL:    /data/delivery_pattern3/MTE/N810/S08V2/Ezcnv_S08V2_N810/convert/HILINK_INIT_TIM2_V3/1460424576185774081/workspace/output/temp/HILINK_R01_N810_INIT_ALL.wgl
+// Source TIM:    /data/delivery_pattern3/MTE/N810/S08V2/Ezcnv_S08V2_N810/convert/HILINK_INIT_TIM2_V3/pretim/HILINK_INIT_TIM2_V3.tim
+
+TimingBlock HILINK_R01_N810_INIT_ALL{
+	EdgeSets{
+		JTAG_TCK            SBL_1     SBL     PAT     {0.0*per_40, 0.375*per_40, 0.875*per_40}
+		JTAG_TMS            NR_1      NR      PAT     { , 0.1*per_40,  }
+		JTAG_TDI            NR_1      NR      PAT     { , 0.1*per_40,  }
+		JTAG_TDO            EP_1      EP      PAT     {0.0*per_40, 0.3*per_40+Roff,  }
+		JTAG_TRSTN          SBH_1     SBH     PAT     {0.0*per_40, 0.375*per_40, 0.875*per_40}
+		JTAG_CE_N           NR_1      NR      PAT     { , 0.1*per_40,  }
+		SYS_RST_N           NR_1      NR      PAT     { , 0.1*per_40,  }
+	}
+	}
+	TimingSet timeplate_1_0{
+		BaseTimingSet ;
+		TimingSetNo 0;
+		Period per_40;
+		EdgeSets{
+			JTAG_TCK            SBL_1;
+			JTAG_TMS            NR_1;
+			JTAG_TDI            NR_1;
+			JTAG_TDO            EP_1;
+			JTAG_TRSTN          SBH_1;
+			JTAG_CE_N           NR_1;
+			SYS_RST_N           NR_1;
+		}
+	}
+}

@@ -1,0 +1,118 @@
+CAP 1.0;
+
+// CAP pattern converted by STIL2CAP Version 1.0.4.0
+// Date:          Jul 29 13:38:14 2021
+// Source STIL:   D:\Task\Hi6871\Hi6871_V200\Hi6871ARFIV120_FTx4_S08_V200_Hilink\pattern\HILINK\HILINK_Template\d2s_DR2R_template_test.stil
+
+Signals {
+    JTAG_TCK        In;
+    JTAG_TMS        In;
+    JTAG_TDI        In;
+    JTAG_TDO        Out;
+    JTAG_TRSTN      In;
+}
+
+SignalGroups {
+    AllPin = JTAG_TCK+ JTAG_TDI+ JTAG_TDO+ JTAG_TMS+ JTAG_TRSTN;
+}
+
+TimingBlock {
+	timeplate_1_0        1;
+}
+
+Pattern {
+    (AllPin)
+             > timeplate_1_0    10X01; //V1 S62 cycle 0 |  LINE 0   
+             > timeplate_1_0    10X01; //V2 S63 cycle 1 |  LINE 1   
+             > timeplate_1_0    10X01; //V3 S64 cycle 2 |  LINE 2   
+             > timeplate_1_0    10X01; //V4 S65 cycle 3 |  LINE 3   
+             > timeplate_1_0    10X11; //V5 S66 cycle 4 |  LINE 4   SELECT DR2
+             > timeplate_1_0    10X01; //V6 S67 cycle 5 |  LINE 5   CAPTURE DR2
+             > timeplate_1_0    10X01; //V7 S68 cycle 6 |  LINE 6   SHIFT DR
+             > timeplate_1_0    10X01; //V8 S69 cycle 7 |  LINE 7   Add 1'b 0
+             > timeplate_1_0    10X01; //V9 S70 cycle 8 |  LINE 8   DR 0 DATA0
+             > timeplate_1_0    10X01; //V10 S71 cycle 9 |  LINE 9   DR 1 DATA1
+             > timeplate_1_0    10X01; //V11 S72 cycle 10 |  LINE 10  DR 2 DATA2
+             > timeplate_1_0    10X01; //V12 S73 cycle 11 |  LINE 11  DR 3 DATA3
+             > timeplate_1_0    10X01; //V13 S74 cycle 12 |  LINE 12  DR 4 DATA4
+             > timeplate_1_0    10X01; //V14 S75 cycle 13 |  LINE 13  DR 5 DATA5
+             > timeplate_1_0    10X01; //V15 S76 cycle 14 |  LINE 14  DR 6 DATA6
+             > timeplate_1_0    10X01; //V16 S77 cycle 15 |  LINE 15  DR 7 DATA7
+             > timeplate_1_0    10X01; //V17 S78 cycle 16 |  LINE 16  DR 8 DATA8
+             > timeplate_1_0    10X01; //V18 S79 cycle 17 |  LINE 17  DR 9 DATA9
+             > timeplate_1_0    10X01; //V19 S80 cycle 18 |  LINE 18  DR 10 DATA10
+             > timeplate_1_0    10X01; //V20 S81 cycle 19 |  LINE 19  DR 11 DATA11
+             > timeplate_1_0    10X01; //V21 S82 cycle 20 |  LINE 20  DR 12 DATA12
+             > timeplate_1_0    10X01; //V22 S83 cycle 21 |  LINE 21  DR 13 DATA13
+             > timeplate_1_0    10X01; //V23 S84 cycle 22 |  LINE 22  DR 14 DATA14
+             > timeplate_1_0    10X01; //V24 S85 cycle 23 |  LINE 23  DR 15 DATA15
+             > timeplate_1_0    10X01; //V25 S86 cycle 24 |  LINE 24  DR 16 ADDR0
+             > timeplate_1_0    10X01; //V26 S87 cycle 25 |  LINE 25  DR 17 ADDR1
+             > timeplate_1_0    10X01; //V27 S88 cycle 26 |  LINE 26  DR 18 ADDR2
+             > timeplate_1_0    10X01; //V28 S89 cycle 27 |  LINE 27  DR 19 ADDR3
+             > timeplate_1_0    10X01; //V29 S90 cycle 28 |  LINE 28  DR 20 ADDR4
+             > timeplate_1_0    10X01; //V30 S91 cycle 29 |  LINE 29  DR 21 ADDR5
+             > timeplate_1_0    10X01; //V31 S92 cycle 30 |  LINE 30  DR 22 ADDR6
+             > timeplate_1_0    10X01; //V32 S93 cycle 31 |  LINE 31  DR 23 ADDR7
+             > timeplate_1_0    10X01; //V33 S94 cycle 32 |  LINE 32  DR 24 ADDR8
+             > timeplate_1_0    10X01; //V34 S95 cycle 33 |  LINE 33  DR 25 ADDR9
+             > timeplate_1_0    10X01; //V35 S96 cycle 34 |  LINE 34  DR 26 ADDR10
+             > timeplate_1_0    10X01; //V36 S97 cycle 35 |  LINE 35  DR 27 ADDR11
+             > timeplate_1_0    10X01; //V37 S98 cycle 36 |  LINE 36  DR 28 ADDR12
+             > timeplate_1_0    10X01; //V38 S99 cycle 37 |  LINE 37  DR 29 ADDR13
+             > timeplate_1_0    10X01; //V39 S100 cycle 38 |  LINE 38  DR 30 ADDR14
+             > timeplate_1_0    10X01; //V40 S101 cycle 39 |  LINE 39  DR 31 ADDR15
+             > timeplate_1_0    10X01; //V41 S102 cycle 40 |  LINE 40  DR 32 ADDR16
+             > timeplate_1_0    10X11; //V42 S103 cycle 41 |  LINE 41  DR 33 read=0(EXIT DR)
+             > timeplate_1_0    10X11; //V43 S104 cycle 42 |  LINE 42  UPDATE DR
+             > timeplate_1_0    10X01; //V44 S105 cycle 43 |  LINE 43  
+             > timeplate_1_0    10X01; //V45 S106 cycle 44 |  LINE 44  
+             > timeplate_1_0    10X01; //V46 S107 cycle 45 |  LINE 45  
+             > timeplate_1_0    10X01; //V47 S108 cycle 46 |  LINE 46  
+             > timeplate_1_0    10X01; //V48 S109 cycle 47 |  LINE 47  
+             > timeplate_1_0    10X01; //V49 S110 cycle 48 |  LINE 48  
+             > timeplate_1_0    10X01; //V50 S111 cycle 49 |  LINE 49  
+             > timeplate_1_0    10X01; //V51 S112 cycle 50 |  LINE 50  
+             > timeplate_1_0    10X01; //V52 S113 cycle 51 |  LINE 51  
+             > timeplate_1_0    10X11; //V53 S114 cycle 52 |  LINE 52  SELECT DR2
+             > timeplate_1_0    10X01; //V54 S115 cycle 53 |  LINE 53  CAPTURE DR2
+             > timeplate_1_0    10X01; //V55 S116 cycle 54 |  LINE 54  SHIFT DR
+             > timeplate_1_0    10X01; //V56 S117 cycle 55 |  LINE 55  Add 1'b 0
+             > timeplate_1_0    10L01; //V57 S119 cycle 56 |  LINE 56  DR 0 DATA0   EXPECT
+             > timeplate_1_0    10L01; //V58 S121 cycle 57 |  LINE 57  DR 1 DATA1   EXPECT
+             > timeplate_1_0    10L01; //V59 S123 cycle 58 |  LINE 58  DR 2 DATA2   EXPECT
+             > timeplate_1_0    10L01; //V60 S125 cycle 59 |  LINE 59  DR 3 DATA3   EXPECT
+             > timeplate_1_0    10L01; //V61 S127 cycle 60 |  LINE 60  DR 4 DATA4   EXPECT
+             > timeplate_1_0    10L01; //V62 S129 cycle 61 |  LINE 61  DR 5 DATA5   EXPECT
+             > timeplate_1_0    10L01; //V63 S131 cycle 62 |  LINE 62  DR 6 DATA6   EXPECT
+             > timeplate_1_0    10L01; //V64 S133 cycle 63 |  LINE 63  DR 7 DATA7   EXPECT
+             > timeplate_1_0    10L01; //V65 S135 cycle 64 |  LINE 64  DR 8 DATA8   EXPECT
+             > timeplate_1_0    10L01; //V66 S137 cycle 65 |  LINE 65  DR 9 DATA9   EXPECT
+             > timeplate_1_0    10L01; //V67 S139 cycle 66 |  LINE 66  DR 10 DATA10 EXPECT
+             > timeplate_1_0    10L01; //V68 S141 cycle 67 |  LINE 67  DR 11 DATA11 EXPECT
+             > timeplate_1_0    10L01; //V69 S143 cycle 68 |  LINE 68  DR 12 DATA12 EXPECT
+             > timeplate_1_0    10L01; //V70 S145 cycle 69 |  LINE 69  DR 13 DATA13 EXPECT
+             > timeplate_1_0    10L01; //V71 S147 cycle 70 |  LINE 70  DR 14 DATA14 EXPECT
+             > timeplate_1_0    10L01; //V72 S149 cycle 71 |  LINE 71  DR 15 DATA15 EXPECT
+             > timeplate_1_0    10X01; //V73 S150 cycle 72 |  LINE 72  DR 16 ADDR0
+             > timeplate_1_0    10X01; //V74 S151 cycle 73 |  LINE 73  DR 17 ADDR1
+             > timeplate_1_0    10X01; //V75 S152 cycle 74 |  LINE 74  DR 18 ADDR2
+             > timeplate_1_0    10X01; //V76 S153 cycle 75 |  LINE 75  DR 19 ADDR3
+             > timeplate_1_0    10X01; //V77 S154 cycle 76 |  LINE 76  DR 20 ADDR4
+             > timeplate_1_0    10X01; //V78 S155 cycle 77 |  LINE 77  DR 21 ADDR5
+             > timeplate_1_0    10X01; //V79 S156 cycle 78 |  LINE 78  DR 22 ADDR6
+             > timeplate_1_0    10X01; //V80 S157 cycle 79 |  LINE 79  DR 23 ADDR7
+             > timeplate_1_0    10X01; //V81 S158 cycle 80 |  LINE 80  DR 24 ADDR8
+             > timeplate_1_0    10X01; //V82 S159 cycle 81 |  LINE 81  DR 25 ADDR9
+             > timeplate_1_0    10X01; //V83 S160 cycle 82 |  LINE 82  DR 26 ADDR10
+             > timeplate_1_0    10X01; //V84 S161 cycle 83 |  LINE 83  DR 27 ADDR11
+             > timeplate_1_0    10X01; //V85 S162 cycle 84 |  LINE 84  DR 28 ADDR12
+             > timeplate_1_0    10X01; //V86 S163 cycle 85 |  LINE 85  DR 29 ADDR13
+             > timeplate_1_0    10X01; //V87 S164 cycle 86 |  LINE 86  DR 30 ADDR14
+             > timeplate_1_0    10X01; //V88 S165 cycle 87 |  LINE 87  DR 31 ADDR15
+             > timeplate_1_0    10X01; //V89 S166 cycle 88 |  LINE 88  DR 32 ADDR16
+             > timeplate_1_0    10X11; //V90 S167 cycle 89 |  LINE 89  DR 33 read=0(EXIT DR)
+             > timeplate_1_0    10X11; //V91 S168 cycle 90 |  LINE 90  UPDATE DR
+  Repeat 500  > timeplate_1_0    10X01; //V92 S171 cycle 91-590 |  LINE 91  IDLE
+             > timeplate_1_0    10X01; //V93 S172 cycle 591 |  LINE 92  IDLE
+}

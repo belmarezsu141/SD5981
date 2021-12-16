@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flow name="SubFlow_OS">
+    <flowtable>
+        <row enabled="TRUE" opcode="Test" operand="POWER_OSD" test="" testnumber="">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="" hfailbin="" spassbin="" sfailbin="" result="FailStop" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="OS_PS_FTA" test="" testnumber="20000000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2000" result="FailStop" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row opcode="TestLimit" operand="OS_PS_FTA" test="DVDD08" testnumber="20000000">
+            <limit lowlimit="-0.01" highlimit="1" />
+            <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2000" result="FailStop" />
+        </row>
+        <row opcode="TestLimit" operand="OS_PS_FTA" test="AVDD12_HSS" testnumber="20000001">
+            <limit lowlimit="-0.01" highlimit="0.01" />
+            <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2000" result="FailStop" />
+        </row>
+        <row opcode="TestLimit" operand="OS_PS_FTA" test="AVDD08_HSS" testnumber="20000002">
+            <limit lowlimit="-0.01" highlimit="0.01" />
+            <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2000" result="FailStop" />
+        </row>
+        <row opcode="TestLimit" operand="OS_PS_FTA" test="VDD08_DDR" testnumber="20000003">
+            <limit lowlimit="-0.01" highlimit="0.01" />
+            <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2000" result="FailStop" />
+        </row>
+        <row opcode="TestLimit" operand="OS_PS_FTA" test="VDDIO12_DDR" testnumber="20000004">
+            <limit lowlimit="-0.01" highlimit="0.02" />
+            <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2000" result="FailStop" />
+        </row>
+        <row opcode="TestLimit" operand="OS_PS_FTA" test="AVDD18_PLL_DDR" testnumber="20000005">
+            <limit lowlimit="-0.01" highlimit="0.01" />
+            <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2000" result="FailStop" />
+        </row>
+        <row opcode="TestLimit" operand="OS_PS_FTA" test="DVDD18_IO" testnumber="20000006">
+            <limit lowlimit="-0.01" highlimit="0.01" />
+            <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2000" result="FailStop" />
+        </row>
+        <row opcode="TestLimit" operand="OS_PS_FTA" test="DVDD18_EFUSE" testnumber="20000007">
+            <limit lowlimit="-0.01" highlimit="0.01" />
+            <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2000" result="FailStop" />
+        </row>
+        <row opcode="TestLimit" operand="OS_PS_FTA" test="DVDD08_EFUSE" testnumber="20000008">
+            <limit lowlimit="-0.01" highlimit="0.01" />
+            <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2000" result="FailStop" />
+        </row>
+        <row opcode="TestLimit" operand="OS_PS_FTA" test="AVDD18_PCIE" testnumber="20000009">
+            <limit lowlimit="-0.01" highlimit="0.01" />
+            <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2000" result="FailStop" />
+        </row>
+        <row opcode="TestLimit" operand="OS_PS_FTA" test="AVDD08_PCIE" testnumber="20000010">
+            <limit lowlimit="-0.01" highlimit="0.01" />
+            <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2000" result="FailStop" />
+        </row>
+        <row opcode="TestLimit" operand="OS_PS_FTA" test="AVDD08_CPPI" testnumber="20000011">
+            <limit lowlimit="-0.01" highlimit="0.01" />
+            <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2000" result="FailStop" />
+        </row>
+        <row opcode="TestLimit" operand="OS_PS_FTA" test="AVDD18_SCPLL" testnumber="20000012">
+            <limit lowlimit="-0.01" highlimit="0.01" />
+            <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2000" result="FailStop" />
+        </row>
+        <row opcode="TestLimit" operand="OS_PS_FTA" test="AVDD08_SCPLL" testnumber="20000013">
+            <limit lowlimit="-0.01" highlimit="0.01" />
+            <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2000" result="FailStop" />
+        </row>
+        <row opcode="TestLimit" operand="OS_PS_FTA" test="AVDD18_TS_0" testnumber="20000014">
+            <limit lowlimit="-0.01" highlimit="0.01" />
+            <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2000" result="FailStop" />
+        </row>
+        <row opcode="TestLimit" operand="OS_PS_FTA" test="AVDD18_TS_1" testnumber="20000015">
+            <limit lowlimit="-0.01" highlimit="0.01" />
+            <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2000" result="FailStop" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="OS_VDD_PPMU_FTA" test="" testnumber="21000000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2100" result="FailStop" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row opcode="TestLimit" operand="OS_VDD_PPMU_FTA" test="OS_VDD_PPMU_FTA" testnumber="21000000">
+            <limit lowlimit="0" highlimit="0.9" />
+            <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2100" result="FailStop" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="OS_VSS_PPMU_FTA" test="" testnumber="23000000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2300" result="FailStop" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row opcode="TestLimit" operand="OS_VSS_PPMU_FTA" test="OS_VSS_PPMU_FTA" testnumber="23000000">
+            <limit lowlimit="-0.9" highlimit="0" />
+            <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2300" result="FailStop" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="OS_VDD_PPMU_SDS_FTA" test="" testnumber="21200000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2120" result="FailStop" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row opcode="TestLimit" operand="OS_VDD_PPMU_SDS_FTA" test="OS_VDD_PPMU_SDS_FTA" testnumber="21200000">
+            <limit lowlimit="0" highlimit="0.9" />
+            <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2120" result="FailStop" />
+        </row>
+        <row enabled="TRUE" opcode="Test" operand="OS_VSS_PPMU_SDS_FTA" test="" testnumber="23200000">
+            <limit lowlimit="" highlimit="" />
+            <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2320" result="FailStop" />
+            <action pass="" fail="" />
+            <device sense="" condition="" name="" />
+        </row>
+        <row opcode="TestLimit" operand="OS_VSS_PPMU_SDS_FTA" test="OS_VSS_PPMU_SDS_FTA" testnumber="23200000">
+            <limit lowlimit="-0.9" highlimit="0" />
+            <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2320" result="FailStop" />
+        </row>
+    </flowtable>
+    <hardbintable />
+</flow>

@@ -1,0 +1,75 @@
+/*
+ * HiLink_Common_Func.cpp
+ *
+ *  Created on: Apr 12, 2017
+ *      Author: yanfen.fang
+ */
+
+#include "TestClass.h"
+#include <UserAPI.h>
+#include <iostream>
+#include <string>
+#include <map>
+#include <synchapi.h>
+
+#define I2C_DELAY 		5
+
+using namespace std;
+using namespace std;
+using namespace PhxAPI;
+
+
+class PCM_V200_Setup_Config: public TestClass {
+public:
+
+	void init() {
+
+
+	}
+
+	void execute() {
+
+		TheInst.DCVI().Power().Apply();
+		TheInst.Digital().Level().Apply();
+		TheInst.Digital().PatEng().SetupMCFData();
+		TheInst.Digital().Timing().Apply();
+		TheInst.Digital().Pattern(). Run();
+//		TheInst.Wait(30);
+
+	 	map<uint32_t, bool> result = TheInst.Digital().PatEng().GetPassFail();
+	 	for(auto it = result.begin(); it != result.end(); it++)
+		{
+	 		cout<<"passfail :"<< it->second<<endl;
+		}
+
+//	 	map<uint32_t, vector<uint32_t>> mapFailData;
+//		mapFailData = TheInst.Digital().PatEng().GetFailCycles(0);
+//		cout<<"Fail Size : "<< mapFailData.size() << endl;
+//		if(mapFailData.size() > 0)
+//		{
+//			for(auto it = mapFailData.begin(); it != mapFailData.end(); it++)
+//			{
+//				cout<<"\n\n\nSite Number : " << it->first<<endl;
+//				cout<<"Fail Cycle Size : "<< it->second.size() << endl;
+//				cout<<"Fail Cycle :"<<endl;
+//				for(uint32_t uiI = 0U; uiI < it->second.size(); uiI++)
+//				{
+//					if(((uiI % 10U) == 0U) && (uiI > 0U))
+//					{
+//						cout<<endl;
+//					}
+//					cout<< dec << (uint32_t)it->second[uiI] <<" ";
+//				}
+//				cout<<endl;
+//			}
+//		}
+//		else
+//		{
+//			cout<<"Don't Have Fail Cycle!!!"<<endl;
+//		}
+
+	}
+};
+
+REGISTER_TESTCLASS("PCM_V200_Setup_Config", PCM_V200_Setup_Config)
+

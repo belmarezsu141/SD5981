@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<levels>
+    <levelblock name="OS_VDD" comment="">
+        <level signal="gIO_1V8" vil="0V" vih="0V" vol="0.1V" voh="0.8V" vicm="0V" vid="0V" term="Load" vt="1.5V" iol="0.0002A" ioh="0.0002A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="DDR_1V2" vil="0V" vih="0V" vol="0.05V" voh="0.8V" vicm="0V" vid="0V" term="Load" vt="1.5V" iol="0.0002A" ioh="0.0002" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="gLJC_CLK" vil="0V" vih="0.8V" vol="0.4V" voh="0.6V" vicm="0V" vid="0V" term="Load" vt="0.5V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="SYS_RST_N" vil="0V" vih="1.8V" vol="0.72V" voh="1.08V" vicm="0V" vid="0V" term="Load" vt="0.9V" iol="0.002A" ioh="0.002A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H16_1V8" vil="0V" vih="0V" vol="0.1V" voh="0.8V" vicm="0V" vid="0V" term="Term" vt="0.45V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H30_1V2" vil="0V" vih="0V" vol="0.05V" voh="0.8V" vicm="0V" vid="0V" term="Term" vt="0.425V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="VSS_DVDD12_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VDDIO12_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_VDDIO_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="DVDD_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM1_CLKIN1" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM1_CS" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM1_SCK" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM1_SDAIO" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM1_SDO" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM1_NC_Status_LD1" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM1_NC_Status_LD2" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM1_CLKIN1N" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM1_CLKIN1P" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+    </levelblock>
+    <levelblock name="OS_VSS" comment="">
+        <level signal="gIO_1V8" vil="0V" vih="0V" vol="-0.8" voh="-0.1" vicm="0V" vid="0V" term="Load" vt="-1" iol="0.0002A" ioh="0.0002A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="DDR_1V2" vil="0V" vih="0V" vol="-0.8" voh="-0.05" vicm="0V" vid="0V" term="Load" vt="-1" iol="0.0002A" ioh="0.0002" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="gLJC_CLK" vil="0V" vih="0.8V" vol="0.4V" voh="0.6V" vicm="0V" vid="0V" term="Load" vt="0.5V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="SYS_RST_N" vil="0V" vih="1.8V" vol="0.72V" voh="1.08V" vicm="0V" vid="0V" term="Load" vt="0.9V" iol="0.002A" ioh="0.002A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H16_1V8" vil="0V" vih="0V" vol="-0.8" voh="-0.1" vicm="0V" vid="0V" term="Term" vt="-0.45" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H30_1V2" vil="0V" vih="0V" vol="-0.8" voh="-0.05" vicm="0V" vid="0V" term="Term" vt="-0.425" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="VSS_DVDD12_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VDDIO12_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_VDDIO_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="DVDD_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM1_CLKIN1" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM1_CS" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM1_SCK" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM1_SDAIO" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM1_SDO" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM1_NC_Status_LD1" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM1_NC_Status_LD2" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM1_CLKIN1N" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM1_CLKIN1P" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+    </levelblock>
+    <levelblock name="VIHLR/VOHLR/DDR2V5" comment="">
+        <level signal="gIO_1V8" vil="0V" vih="1.8V" vol="0.72V" voh="1.08V" vicm="0V" vid="0V" term="Load" vt="0.9V" iol="0.002A" ioh="0.002" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="DDR_1V2" vil="0V" vih="1.2V" vol="0.48V" voh="0.72V" vicm="0V" vid="0V" term="Load" vt="0.6V" iol="0.002A" ioh="0.002" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="gLJC_CLK" vil="0V" vih="0.8V" vol="0.4V" voh="0.6V" vicm="0V" vid="0V" term="Load" vt="0.5V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="SYS_RST_N" vil="0V" vih="1.8V" vol="0.72V" voh="1.08V" vicm="0V" vid="0V" term="Load" vt="0.9V" iol="0.002A" ioh="0.002A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H16_1V8" vil="0V" vih="1.8V" vol="0.72V" voh="1.08V" vicm="0V" vid="0V" term="Load" vt="0.9V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H30_1V2" vil="0V" vih="1.2V" vol="0.48V" voh="0.72V" vicm="0V" vid="0V" term="Load" vt="0.6V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="VSS_DVDD12_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VDDIO12_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_VDDIO_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="DVDD_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM_Control" vil="0V" vih="1.8" vol="0.9" voh="0.9" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0A" ioh="0A" vcl="-1" vch="6" vhh="0" />
+        <level signal="PCM_CLK_IN" vil="0V" vih="2" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="-1" vch="6" vhh="0" />
+    </levelblock>
+    <levelblock name="VIHLR/VOHLS" comment="">
+        <level signal="gIO_1V8" vil="0" vih="1.8" vol="0.495" voh="1.485" vicm="0V" vid="0V" term="Load" vt="0.99" iol="0.002" ioh="0.002" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="DDR_1V2" vil="0" vih="1.2" vol="0.24" voh="0.96" vicm="0V" vid="0V" term="Load" vt="0.6" iol="0.002" ioh="0.002" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="gLJC_CLK" vil="0V" vih="0.8V" vol="0.4V" voh="0.6V" vicm="0V" vid="0V" term="Load" vt="0.5V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="SYS_RST_N" vil="0V" vih="1.8V" vol="0.72V" voh="1.08V" vicm="0V" vid="0V" term="Load" vt="0.9V" iol="0.002A" ioh="0.002A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H16_1V8" vil="0V" vih="1.8" vol="0.495" voh="1.485" vicm="0V" vid="0V" term="Load" vt="0.99" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H30_1V2" vil="0V" vih="1.2" vol="0.24" voh="0.96" vicm="0V" vid="0V" term="Load" vt="0.6" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="VSS_DVDD12_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VDDIO12_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_VDDIO_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="DVDD_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM_Control" vil="0V" vih="1.8" vol="0.9" voh="0.9" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="PCM_CLK_IN" vil="0V" vih="2" vol="0V" voh="0V" vicm="0V" vid="0V" term="Load" vt="0V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+    </levelblock>
+    <levelblock name="Vcoef095/VIHLS/VOHLR" comment="">
+        <level signal="gIO_1V8" vil="0.5643" vih="1.1115" vol="0.72" voh="1.08" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0.001" ioh="0.001" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="DDR_1V2" vil="0.38" vih="0.84" vol="0.48" voh="0.72" vicm="0V" vid="0V" term="Load" vt="0.6" iol="0.001" ioh="0.001" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="gLJC_CLK" vil="0V" vih="0.8V" vol="0.4V" voh="0.6V" vicm="0V" vid="0V" term="Load" vt="0.5V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="SYS_RST_N" vil="0V" vih="1.8V" vol="0.72V" voh="1.08V" vicm="0V" vid="0V" term="Load" vt="0.9V" iol="0.002A" ioh="0.002A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H16_1V8" vil="0.5643" vih="1.1115" vol="0.72" voh="1.08" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H30_1V2" vil="0.38" vih="0.84" vol="0.48" voh="0.72" vicm="0V" vid="0V" term="Load" vt="0.6" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="VSS_DVDD12_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VDDIO12_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_VDDIO_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="DVDD_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM_Control" vil="0V" vih="1.8" vol="0.9" voh="0.9" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0A" ioh="0A" vcl="-1" vch="6" vhh="0" />
+        <level signal="PCM_CLK_IN" vil="0V" vih="2" vol="0V" voh="0V" vicm="0V" vid="0V" term="Load" vt="0V" iol="0A" ioh="0A" vcl="-1" vch="6" vhh="0" />
+    </levelblock>
+    <levelblock name="Vcoef100/VIHLS/VOHLR" comment="">
+        <level signal="gIO_1V8" vil="0.594" vih="1.17" vol="0.72" voh="1.08" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0.002" ioh="0.002" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="DDR_1V2" vil="0.4" vih="0.7" vol="0.48" voh="0.72" vicm="0V" vid="0V" term="Load" vt="0.6" iol="0.002" ioh="0.002" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="gLJC_CLK" vil="0V" vih="0.8V" vol="0.4V" voh="0.6V" vicm="0V" vid="0V" term="Load" vt="0.5V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="SYS_RST_N" vil="0V" vih="1.8V" vol="0.72V" voh="1.08V" vicm="0V" vid="0V" term="Load" vt="0.9V" iol="0.002A" ioh="0.002A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H16_1V8" vil="0.594" vih="1.17" vol="0.72" voh="1.08" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H30_1V2" vil="0.4" vih="0.7" vol="0.48" voh="0.72" vicm="0V" vid="0V" term="Load" vt="0.6" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="VSS_DVDD12_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VDDIO12_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_VDDIO_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="DVDD_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM_Control" vil="0V" vih="1.8" vol="0.9" voh="0.9" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0A" ioh="0A" vcl="-1" vch="6" vhh="0" />
+        <level signal="PCM_CLK_IN" vil="0V" vih="2" vol="0V" voh="0V" vicm="0V" vid="0V" term="Load" vt="0V" iol="0A" ioh="0A" vcl="-1" vch="6" vhh="0" />
+    </levelblock>
+    <levelblock name="Vcoef105/VIHLS/VOHLR" comment="">
+        <level signal="gIO_1V8" vil="0.6237" vih="1.2285" vol="0.72" voh="1.08" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0.002" ioh="0.002" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="DDR_1V2" vil="0.38" vih="0.84" vol="0.48" voh="0.72" vicm="0V" vid="0V" term="Load" vt="0.6" iol="0.002" ioh="0.002" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="gLJC_CLK" vil="0V" vih="0.8V" vol="0.4V" voh="0.6V" vicm="0V" vid="0V" term="Load" vt="0.5V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="SYS_RST_N" vil="0V" vih="1.8V" vol="0.72V" voh="1.08V" vicm="0V" vid="0V" term="Load" vt="0.9V" iol="0.002A" ioh="0.002A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H16_1V8" vil="0.6237" vih="1.2285" vol="0.72" voh="1.08" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H30_1V2" vil="0.38" vih="0.84" vol="0.48" voh="0.72" vicm="0V" vid="0V" term="Load" vt="0.6" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="VSS_DVDD12_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VDDIO12_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_VDDIO_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="DVDD_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM_Control" vil="0V" vih="1.8" vol="0.9" voh="0.9" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="PCM_CLK_IN" vil="0V" vih="2" vol="0V" voh="0V" vicm="0V" vid="0V" term="Load" vt="0V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+    </levelblock>
+    <levelblock name="IOZHLS/VIHLR/VOHLS" comment="">
+        <level signal="gIO_1V8" vil="0" vih="1.8" vol="0.495" voh="1.485" vicm="0V" vid="0V" term="Load" vt="0.99" iol="0.008" ioh="0.008" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="DDR_1V2" vil="0" vih="1.2" vol="0.24" voh="0.96" vicm="0V" vid="0V" term="Load" vt="0.6" iol="0.008" ioh="0.008" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="gLJC_CLK" vil="0V" vih="0.8V" vol="0.4V" voh="0.6V" vicm="0V" vid="0V" term="Load" vt="0.5V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="SYS_RST_N" vil="0V" vih="1.8V" vol="0.72V" voh="1.08V" vicm="0V" vid="0V" term="Load" vt="0.9V" iol="0.002A" ioh="0.002A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H16_1V8" vil="0V" vih="1.8" vol="0.495" voh="1.485" vicm="0V" vid="0V" term="Load" vt="0.99" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H30_1V2" vil="0V" vih="1.2" vol="0.24" voh="0.96" vicm="0V" vid="0V" term="Load" vt="0.6" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="VSS_DVDD12_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VDDIO12_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_VDDIO_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="DVDD_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM_Control" vil="0V" vih="1.8" vol="0.9" voh="0.9" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0A" ioh="0A" vcl="-1" vch="6" vhh="0" />
+        <level signal="PCM_CLK_IN" vil="0V" vih="2" vol="0V" voh="0V" vicm="0V" vid="0V" term="Load" vt="0V" iol="0A" ioh="0A" vcl="-1" vch="6" vhh="0" />
+    </levelblock>
+    <levelblock name="IOZHLS/VIHLR/VOHLR" comment="">
+        <level signal="gIO_1V8" vil="0" vih="1.8" vol="0.72" voh="1.08" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0.008" ioh="0.008" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="DDR_1V2" vil="0" vih="1.2" vol="0.48" voh="0.72" vicm="0V" vid="0V" term="Load" vt="0.6" iol="0.008" ioh="0.008" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="gLJC_CLK" vil="0V" vih="0.8V" vol="0.4V" voh="0.6V" vicm="0V" vid="0V" term="Load" vt="0.5V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="SYS_RST_N" vil="0V" vih="1.8V" vol="0.72V" voh="1.08V" vicm="0V" vid="0V" term="Load" vt="0.9V" iol="0.002A" ioh="0.002A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H16_1V8" vil="0V" vih="1.8" vol="0.72" voh="1.08" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H30_1V2" vil="0V" vih="1.2" vol="0.48" voh="0.72" vicm="0V" vid="0V" term="Load" vt="0.6" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="VSS_DVDD12_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VDDIO12_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_VDDIO_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="DVDD_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM_Control" vil="0V" vih="1.8" vol="0.9" voh="0.9" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="PCM_CLK_IN" vil="0V" vih="2" vol="0V" voh="0V" vicm="0V" vid="0V" term="Load" vt="0V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+    </levelblock>
+    <levelblock name="Vcoef105/PLL/TSENSOR" comment="">
+        <level signal="gIO_1V8" vil="0" vih="1.8" vol="0.9" voh="0.9" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0.002" ioh="0.002" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="DDR_1V2" vil="0" vih="1.2" vol="0.48" voh="0.72" vicm="0V" vid="0V" term="Load" vt="0.6" iol="0.002" ioh="0.002" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="gLJC_CLK" vil="0V" vih="0.8V" vol="0.4V" voh="0.6V" vicm="0V" vid="0V" term="Load" vt="0.5V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="SYS_RST_N" vil="0V" vih="1.8V" vol="0.72V" voh="1.08V" vicm="0V" vid="0V" term="Load" vt="0.9V" iol="0.002A" ioh="0.002A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H16_1V8" vil="0V" vih="1.8" vol="0.9" voh="0.9" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H30_1V2" vil="0V" vih="1.2" vol="0.48" voh="0.72" vicm="0V" vid="0V" term="Load" vt="0.6" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="VSS_DVDD12_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VDDIO12_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_VDDIO_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="DVDD_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM_Control" vil="0V" vih="1.8" vol="0.9" voh="0.9" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="PCM_CLK_IN" vil="0V" vih="2" vol="0V" voh="0V" vicm="0V" vid="0V" term="Load" vt="0V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+    </levelblock>
+    <levelblock name="HinlinkPWRUP_H30LR/HinlinkPWRUP_H16LR/H30LR_VDDH/H30LR_VDDN/H30LR_VDDL/H16LR_VDDH/H16LR_VDDN/H16LR_VDDL" comment="">
+        <level signal="gIO_1V8" vil="0" vih="1.8" vol="0.72" voh="1.08" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0.002" ioh="0.002" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="DDR_1V2" vil="0" vih="1.2" vol="0.48" voh="0.72" vicm="0V" vid="0V" term="Load" vt="0.6" iol="0.002" ioh="0.002" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="gLJC_CLK" vil="0V" vih="0.8V" vol="0.4V" voh="0.6V" vicm="0V" vid="0V" term="Load" vt="0.5V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="SYS_RST_N" vil="0V" vih="1.8V" vol="0.72V" voh="1.08V" vicm="0V" vid="0V" term="Load" vt="0.9V" iol="0.002A" ioh="0.002A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H16_1V8" vil="0V" vih="1.8" vol="0.72" voh="1.08" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H30_1V2" vil="0V" vih="1.2" vol="0.48" voh="0.72" vicm="0V" vid="0V" term="Load" vt="0.6" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="VSS_DVDD12_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VDDIO12_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_VDDIO_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="DVDD_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM_Control" vil="0V" vih="1.8" vol="0.9" voh="0.9" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="PCM_CLK_IN" vil="0V" vih="2" vol="0V" voh="0V" vicm="0V" vid="0V" term="Load" vt="0V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+    </levelblock>
+    <levelblock name="EFUSE0/MREPAIR/Vcoef085LVLF/VIHLR/VOHLR/DVS_1P8" comment="">
+        <level signal="gIO_1V8" vil="0" vih="1.8" vol="0.72" voh="1.08" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0.002" ioh="0.002" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="DDR_1V2" vil="0" vih="1.2" vol="0.48" voh="0.72" vicm="0V" vid="0V" term="Load" vt="0.6" iol="0.002" ioh="0.002" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="gLJC_CLK" vil="0V" vih="0.8V" vol="0.4V" voh="0.6V" vicm="0V" vid="0V" term="Load" vt="0.5V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="SYS_RST_N" vil="0V" vih="1.8V" vol="0.72V" voh="1.08V" vicm="0V" vid="0V" term="Load" vt="0.9V" iol="0.002A" ioh="0.002A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H16_1V8" vil="0V" vih="1.8" vol="0.72" voh="1.08" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H30_1V2" vil="0V" vih="1.2" vol="0.48" voh="0.72" vicm="0V" vid="0V" term="Load" vt="0.6" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="VSS_DVDD12_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VDDIO12_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_VDDIO_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="DVDD_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM_Control" vil="0V" vih="1.8" vol="0.9" voh="0.9" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="PCM_CLK_IN" vil="0V" vih="2" vol="0V" voh="0V" vicm="0V" vid="0V" term="Load" vt="0V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+    </levelblock>
+    <levelblock name="VIHLR/VOHLR_IDDQ" comment="">
+        <level signal="gIO_1V8" vil="0" vih="1.8" vol="0.72" voh="1.08" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0.002" ioh="0.002" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="DDR_1V2" vil="0" vih="1.2" vol="0.48" voh="0.72" vicm="0V" vid="0V" term="Load" vt="0.6" iol="0.002" ioh="0.002" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="gLJC_CLK" vil="0V" vih="0.8V" vol="0.4V" voh="0.6V" vicm="0V" vid="0V" term="Load" vt="0.5V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="SYS_RST_N" vil="0V" vih="1.8V" vol="0.72V" voh="1.08V" vicm="0V" vid="0V" term="Load" vt="0.9V" iol="0.002A" ioh="0.002A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H16_1V8" vil="0V" vih="1.8" vol="0.72" voh="1.08" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H30_1V2" vil="0V" vih="1.2" vol="0.48" voh="0.72" vicm="0V" vid="0V" term="Load" vt="0.6" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="VSS_DVDD12_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VDDIO12_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_VDDIO_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="DVDD_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM_Control" vil="0V" vih="1.8" vol="0.9" voh="0.9" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0A" ioh="0A" vcl="-1V" vch="6" vhh="0" />
+        <level signal="PCM_CLK_IN" vil="0V" vih="2" vol="0V" voh="0V" vicm="0V" vid="0V" term="Load" vt="0V" iol="0A" ioh="0A" vcl="-1V" vch="6" vhh="0" />
+    </levelblock>
+    <levelblock name="Vcoef095/PLL/TSENSOR" comment="">
+        <level signal="gIO_1V8" vil="0" vih="1.8" vol="0.9" voh="0.9" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0.002" ioh="0.002" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="DDR_1V2" vil="0" vih="1.2" vol="0.48" voh="0.72" vicm="0V" vid="0V" term="Load" vt="0.6" iol="0.002" ioh="0.002" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="gLJC_CLK" vil="0V" vih="0.8V" vol="0.4V" voh="0.6V" vicm="0V" vid="0V" term="Load" vt="0.5V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="SYS_RST_N" vil="0V" vih="1.8V" vol="0.72V" voh="1.08V" vicm="0V" vid="0V" term="Load" vt="0.9V" iol="0.002A" ioh="0.002A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H16_1V8" vil="0V" vih="1.8" vol="0.72" voh="1.08" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H30_1V2" vil="0V" vih="1.2" vol="0.48" voh="0.72" vicm="0V" vid="0V" term="Load" vt="0.6" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="VSS_DVDD12_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VDDIO12_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_VDDIO_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="DVDD_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM_Control" vil="0V" vih="1.8" vol="0.9" voh="0.9" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="PCM_CLK_IN" vil="0V" vih="2" vol="0V" voh="0V" vicm="0V" vid="0V" term="Load" vt="0V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+    </levelblock>
+    <levelblock name="OS_PS" comment="">
+        <level signal="gIO_1V8" vil="0V" vih="0V" vol="0" voh="0" vicm="0V" vid="0V" term="Off" vt="1.5V" iol="0.0002A" ioh="0.0002A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="DDR_1V2" vil="0V" vih="0V" vol="0" voh="0" vicm="0V" vid="0V" term="Off" vt="1.5V" iol="0.0002A" ioh="0.0002" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="gLJC_CLK" vil="0V" vih="0" vol="0" voh="0" vicm="0V" vid="0V" term="Off" vt="0.5V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="SYS_RST_N" vil="0V" vih="0" vol="0" voh="0" vicm="0V" vid="0V" term="Off" vt="0.9V" iol="0.002A" ioh="0.002A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H16_1V8" vil="0V" vih="0V" vol="0.1V" voh="0.8V" vicm="0V" vid="0V" term="Off" vt="0.45V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H30_1V2" vil="0V" vih="0V" vol="0.05V" voh="0.8V" vicm="0V" vid="0V" term="Off" vt="0.425V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="VSS_DVDD12_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VDDIO12_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_VDDIO_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="DVDD_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM1_CLKIN1" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM1_CS" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM1_SCK" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM1_SDAIO" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM1_SDO" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM1_NC_Status_LD1" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM1_NC_Status_LD2" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM1_CLKIN1N" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM1_CLKIN1P" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+    </levelblock>
+    <levelblock name="Lev_HiLink_STD_VDDL" comment="">
+        <level signal="gIO_1V8" vil="0" vih="1.8" vol="0.72" voh="1.08" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0.002" ioh="0.002" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="DDR_1V2" vil="0" vih="1.2" vol="0.48" voh="0.72" vicm="0V" vid="0V" term="Load" vt="0.6" iol="0.002" ioh="0.002" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="gLJC_CLK" vil="0V" vih="0.8V" vol="0.4V" voh="0.6V" vicm="0V" vid="0V" term="Load" vt="0.5V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="SYS_RST_N" vil="0V" vih="1.8V" vol="0.72V" voh="1.08V" vicm="0V" vid="0V" term="Load" vt="0.9V" iol="0.002A" ioh="0.002A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H16_1V8" vil="0V" vih="1.8" vol="0.72" voh="1.08" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H30_1V2" vil="0V" vih="1.2" vol="0.48" voh="0.72" vicm="0V" vid="0V" term="Load" vt="0.6" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="VSS_DVDD12_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VDDIO12_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_VDDIO_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="DVDD_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM_Control" vil="0V" vih="1.8" vol="0.9" voh="0.9" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="PCM_CLK_IN" vil="0V" vih="2" vol="0V" voh="0V" vicm="0V" vid="0V" term="Load" vt="0V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+    </levelblock>
+    <levelblock name="Lev_HiLink_STD_VDDH" comment="">
+        <level signal="gIO_1V8" vil="0" vih="1.8" vol="0.72" voh="1.08" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0.002" ioh="0.002" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="DDR_1V2" vil="0" vih="1.2" vol="0.48" voh="0.72" vicm="0V" vid="0V" term="Load" vt="0.6" iol="0.002" ioh="0.002" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="gLJC_CLK" vil="0V" vih="0.8V" vol="0.4V" voh="0.6V" vicm="0V" vid="0V" term="Load" vt="0.5V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="SYS_RST_N" vil="0V" vih="1.8V" vol="0.72V" voh="1.08V" vicm="0V" vid="0V" term="Load" vt="0.9V" iol="0.002A" ioh="0.002A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H16_1V8" vil="0V" vih="1.8" vol="0.72" voh="1.08" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H30_1V2" vil="0V" vih="1.2" vol="0.48" voh="0.72" vicm="0V" vid="0V" term="Load" vt="0.6" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="VSS_DVDD12_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VDDIO12_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_VDDIO_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="DVDD_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM_Control" vil="0V" vih="1.8" vol="0.9" voh="0.9" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="PCM_CLK_IN" vil="0V" vih="2" vol="0V" voh="0V" vicm="0V" vid="0V" term="Load" vt="0V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+    </levelblock>
+    <levelblock name="Lev_HiLink_STD_VDDN" comment="">
+        <level signal="gIO_1V8" vil="0" vih="1.8" vol="0.72" voh="1.08" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0.002" ioh="0.002" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="DDR_1V2" vil="0" vih="1.2" vol="0.48" voh="0.72" vicm="0V" vid="0V" term="Load" vt="0.6" iol="0.002" ioh="0.002" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="gLJC_CLK" vil="0V" vih="0.8V" vol="0.4V" voh="0.6V" vicm="0V" vid="0V" term="Load" vt="0.5V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="SYS_RST_N" vil="0V" vih="1.8V" vol="0.72V" voh="1.08V" vicm="0V" vid="0V" term="Load" vt="0.9V" iol="0.002A" ioh="0.002A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H16_1V8" vil="0V" vih="1.8" vol="0.72" voh="1.08" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="H30_1V2" vil="0V" vih="1.2" vol="0.48" voh="0.72" vicm="0V" vid="0V" term="Load" vt="0.6" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="VSS_DVDD12_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_HVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_LVCC_H30_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VDDIO12_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="VSS_VDDIO_DDR_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="DVDD_TEST" vil="0V" vih="0V" vol="0V" voh="0V" vicm="0V" vid="0V" term="Off" vt="0V" iol="0A" ioh="0A" vcl="0V" vch="0V" vhh="0" />
+        <level signal="PCM_Control" vil="0V" vih="1.8" vol="0.9" voh="0.9" vicm="0V" vid="0V" term="Load" vt="0.9" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+        <level signal="PCM_CLK_IN" vil="0V" vih="2" vol="0V" voh="0V" vicm="0V" vid="0V" term="Load" vt="0V" iol="0A" ioh="0A" vcl="-1V" vch="6V" vhh="0" />
+    </levelblock>
+</levels>

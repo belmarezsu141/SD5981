@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Hilink30LRV101_tml/src/Common_Func/DEMO_CLASS_H16.cpp&apos; to &apos;DEMO_CLASS_H30.cpp&apos;" description="Rename resource &apos;DEMO_CLASS_H16.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Common_Func/DEMO_CLASS_H16.cpp" name="DEMO_CLASS_H30.cpp" stamp="1639647280506" updateReferences="true"/>
+</session>

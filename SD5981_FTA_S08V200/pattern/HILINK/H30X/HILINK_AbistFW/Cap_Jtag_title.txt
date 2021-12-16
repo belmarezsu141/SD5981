@@ -1,0 +1,68 @@
+CAP 1.0;
+
+Signals {
+    JTAG_TCK      In;
+    JTAG_TMS      In;
+    JTAG_TDI      In;
+    JTAG_TDO      Out;
+    JTAG_TRSTN    In;
+}
+
+SignalGroups {
+
+}
+
+TimingBlock {
+	timeplate_1_0        1;
+}
+
+Pattern {
+    (JTAG_TCK, JTAG_TDI, JTAG_TDO, JTAG_TMS, JTAG_TRSTN)
+    // d2s_JTAG__Write_0x8c_0x0
+             > timeplate_1_0    10X01; //LINE 0
+             > timeplate_1_0    10X01; //LINE 1
+             > timeplate_1_0    10X01; //LINE 2
+             > timeplate_1_0    10X11; //LINE 3
+             > timeplate_1_0    10X01; //LINE 4
+             > timeplate_1_0    10X01; //LINE 5
+             > timeplate_1_0    10X01; //LINE 6 Header End 
+             > timeplate_1_0    10X01; //LINE 7 Data 0
+             > timeplate_1_0    10X01; //LINE 8 Data 1
+             > timeplate_1_0    10X01; //LINE 9 Data 2
+             > timeplate_1_0    10X01; //LINE 10 Data 3
+             > timeplate_1_0    10X01; //LINE 11 Data 4
+             > timeplate_1_0    10X01; //LINE 12 Data 5
+             > timeplate_1_0    10X01; //LINE 13 Data 6
+             > timeplate_1_0    10X01; //LINE 14 Data 7
+             > timeplate_1_0    10X01; //LINE 15 Data 8
+             > timeplate_1_0    10X01; //LINE 16 Data 9
+             > timeplate_1_0    10X01; //LINE 17 Data 10
+             > timeplate_1_0    10X01; //LINE 18 Data 11
+             > timeplate_1_0    10X01; //LINE 19 Data 12
+             > timeplate_1_0    10X01; //LINE 20 Data 13
+             > timeplate_1_0    10X01; //LINE 21 Data 14
+             > timeplate_1_0    10X01; //LINE 22 Data 15
+             > timeplate_1_0    10X01; //LINE 23 Addr 0
+             > timeplate_1_0    10X01; //LINE 24 Addr 1
+             > timeplate_1_0    10X01; //LINE 25 Addr 2
+             > timeplate_1_0    11X01; //LINE 26 Addr 3
+             > timeplate_1_0    11X01; //LINE 27 Addr 4
+             > timeplate_1_0    10X01; //LINE 28 Addr 5
+             > timeplate_1_0    10X01; //LINE 29 Addr 6
+             > timeplate_1_0    10X01; //LINE 30 Addr 7
+             > timeplate_1_0    11X01; //LINE 31 Addr 8
+             > timeplate_1_0    10X01; //LINE 32 Addr 9
+             > timeplate_1_0    10X01; //LINE 33 Addr 10
+             > timeplate_1_0    10X01; //LINE 34 Addr 11
+             > timeplate_1_0    10X01; //LINE 35 Addr 12
+             > timeplate_1_0    10X01; //LINE 36 Addr 13
+             > timeplate_1_0    10X01; //LINE 37 Addr 14
+             > timeplate_1_0    10X01; //LINE 38 Addr 15
+             > timeplate_1_0    10X01; //LINE 39 Addr 16
+             > timeplate_1_0    11H11; //LINE 40
+             > timeplate_1_0    10X11; //LINE 41
+             > timeplate_1_0    10X01; //LINE 42
+             > timeplate_1_0    10X01; //LINE 43
+             > timeplate_1_0    10X01; //LINE 44
+             > timeplate_1_0    10X01; //LINE 45
+}
