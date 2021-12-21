@@ -4,14 +4,10 @@
         <row enabled="TRUE" opcode="Test" operand="POWER_OSD" test="" testnumber="">
             <limit lowlimit="" highlimit="" />
             <bin hpassbin="" hfailbin="" spassbin="" sfailbin="" result="FailStop" />
-            <action pass="" fail="" />
-            <device sense="" condition="" name="" />
         </row>
         <row enabled="TRUE" opcode="Test" operand="OS_PS_FTA" test="" testnumber="20000000">
             <limit lowlimit="" highlimit="" />
             <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2000" result="FailStop" />
-            <action pass="" fail="" />
-            <device sense="" condition="" name="" />
         </row>
         <row opcode="TestLimit" operand="OS_PS_FTA" test="DVDD08" testnumber="20000000">
             <limit lowlimit="-0.01" highlimit="1" />
@@ -80,8 +76,6 @@
         <row enabled="TRUE" opcode="Test" operand="OS_VDD_PPMU_FTA" test="" testnumber="21000000">
             <limit lowlimit="" highlimit="" />
             <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2100" result="FailStop" />
-            <action pass="" fail="" />
-            <device sense="" condition="" name="" />
         </row>
         <row opcode="TestLimit" operand="OS_VDD_PPMU_FTA" test="OS_VDD_PPMU_FTA" testnumber="21000000">
             <limit lowlimit="0" highlimit="0.9" />
@@ -90,8 +84,6 @@
         <row enabled="TRUE" opcode="Test" operand="OS_VSS_PPMU_FTA" test="" testnumber="23000000">
             <limit lowlimit="" highlimit="" />
             <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2300" result="FailStop" />
-            <action pass="" fail="" />
-            <device sense="" condition="" name="" />
         </row>
         <row opcode="TestLimit" operand="OS_VSS_PPMU_FTA" test="OS_VSS_PPMU_FTA" testnumber="23000000">
             <limit lowlimit="-0.9" highlimit="0" />
@@ -100,8 +92,6 @@
         <row enabled="TRUE" opcode="Test" operand="OS_VDD_PPMU_SDS_FTA" test="" testnumber="21200000">
             <limit lowlimit="" highlimit="" />
             <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2120" result="FailStop" />
-            <action pass="" fail="" />
-            <device sense="" condition="" name="" />
         </row>
         <row opcode="TestLimit" operand="OS_VDD_PPMU_SDS_FTA" test="OS_VDD_PPMU_SDS_FTA" testnumber="21200000">
             <limit lowlimit="0" highlimit="0.9" />
@@ -110,8 +100,6 @@
         <row enabled="TRUE" opcode="Test" operand="OS_VSS_PPMU_SDS_FTA" test="" testnumber="23200000">
             <limit lowlimit="" highlimit="" />
             <bin hpassbin="" hfailbin="2" spassbin="" sfailbin="2320" result="FailStop" />
-            <action pass="" fail="" />
-            <device sense="" condition="" name="" />
         </row>
         <row opcode="TestLimit" operand="OS_VSS_PPMU_SDS_FTA" test="OS_VSS_PPMU_SDS_FTA" testnumber="23200000">
             <limit lowlimit="-0.9" highlimit="0" />

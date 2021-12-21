@@ -4,8 +4,6 @@
         <row opcode="Test" operand="H30_DISCONNECT" test="" testnumber="">
             <limit lowlimit="" highlimit="" />
             <bin hpassbin="" hfailbin="" spassbin="" sfailbin="" result="Fail" />
-            <action pass="" fail="" />
-            <device sense="" condition="" name="" />
         </row>
     </flowtable>
     <hardbintable />

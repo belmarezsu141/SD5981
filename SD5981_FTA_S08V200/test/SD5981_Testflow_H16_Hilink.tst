@@ -468,7 +468,7 @@
             </propvalues>
         </testclass>
     </test>
-    <test name="H16LRV100_FWCAL_CS0H_Refclk0_156M25_10G3125_F_20_11_21_1010_101_Tx2Term_RxDC_VDDN_1" type="Test" timing="TIM_H16LR" level="HilinK_H30/H16" pattern="" power="H16LR_VDDN" comment="">
+    <test name="H16LRV100_FWCAL_CS0L_Refclk0_156M25_10G3125_F_20_11_21_1010_101_Tx2Term_RxDC_VDDN_1" type="Test" timing="TIM_H16LR" level="HilinK_H30/H16" pattern="" power="H16LR_VDDN" comment="">
         <testclass name="libHiLink16LRV100_tml.HILINK_FW_CAL">
             <propvalues>
                 <propvalue name="H16LR_MacroList" value="M10_M11" />
@@ -637,7 +637,7 @@
             </propvalues>
         </testclass>
     </test>
-    <test name="H16LRV100_FWCAL_CS0H_Refclk0_156M25_10G3125_F_20_11_21_1010_101_Tx2Term_RxDC_VDDN_2" type="Test" timing="TIM_H16LR" level="HilinK_H30/H16" pattern="" power="H16LR_VDDN" comment="">
+    <test name="H16LRV100_FWCAL_CS0L_Refclk0_156M25_10G3125_F_20_11_21_1010_101_Tx2Term_RxDC_VDDN_2" type="Test" timing="TIM_H16LR" level="HilinK_H30/H16" pattern="" power="H16LR_VDDN" comment="">
         <testclass name="libHiLink16LRV100_tml.HILINK_FW_CAL">
             <propvalues>
                 <propvalue name="H16LR_MacroList" value="0" />
@@ -1132,7 +1132,7 @@
             </propvalues>
         </testclass>
     </test>
-    <test name="H16LRV100_FWCAL_CS0H_Refclk0_156M25_10G3125_F_20_11_21_1010_101_Tx2Term_RxDC_VDDL" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDL" pattern="" power="H16LR_VDDL" comment="">
+    <test name="H16LRV100_FWCAL_CS0L_Refclk0_156M25_10G3125_F_20_11_21_1010_101_Tx2Term_RxDC_VDDL" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDL" pattern="" power="H16LR_VDDL" comment="">
         <testclass name="libHiLink16LRV100_tml.HILINK_FW_CAL">
             <propvalues>
                 <propvalue name="H16LR_MacroList" value="M10_M11" />
@@ -1162,7 +1162,7 @@
             </propvalues>
         </testclass>
     </test>
-    <test name="H16LRV100_VCOFreqcalCurve_CS0H_VDDL" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDL" pattern="" power="H16LR_VDDL" comment="">
+    <test name="H16LRV100_VCOFreqcalCurve_CS0L_VDDL" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDL" pattern="" power="H16LR_VDDL" comment="">
         <testclass name="libHiLink16LRV100_tml.VCOFreqcalCurve">
             <propvalues>
                 <propvalue name="H16LR_MacroList" value="M10_M11" />
@@ -1848,7 +1848,7 @@
             </propvalues>
         </testclass>
     </test>
-    <test name="H16LRV100_FWCAL_CS0H_Refclk0_156M25_10G3125_F_20_11_21_1010_101_Tx2Term_RxDC_VDDH" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDH" pattern="" power="H16LR_VDDH" comment="">
+    <test name="H16LRV100_FWCAL_CS0L_Refclk0_156M25_10G3125_F_20_11_21_1010_101_Tx2Term_RxDC_VDDH" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDH" pattern="" power="H16LR_VDDH" comment="">
         <testclass name="libHiLink16LRV100_tml.HILINK_FW_CAL">
             <propvalues>
                 <propvalue name="H16LR_MacroList" value="0" />
@@ -2292,6 +2292,648 @@
                 <propvalue name="Loopback_Mode" value="Bump" />
                 <propvalue name="FreqOffset_PPM" value="350" />
                 <propvalue name="Jitter_UI" value="0.25" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_FWCAL_CS0L_Refclk0_100M_5G_F_20_11_22_1615_201_Tx2Term_RxDC_VDDN" type="Test" timing="TIM_H16LR" level="HilinK_H30/H16" pattern="" power="H16LR_VDDN" comment="">
+        <testclass name="libHiLink16LRV100_tml.HILINK_FW_CAL">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="0" />
+                <propvalue name="Refclk_MHz" value="100" />
+                <propvalue name="RefclkBus" value="0" />
+                <propvalue name="CS_Number" value="0" />
+                <propvalue name="Ka" value="2" />
+                <propvalue name="Kb" value="2" />
+                <propvalue name="FBDIV_P" value="16" />
+                <propvalue name="FBDIV_S" value="15" />
+                <propvalue name="W_Div" value="1" />
+                <propvalue name="J_Div" value="20" />
+                <propvalue name="M_Div" value="1" />
+                <propvalue name="S_Div" value="1" />
+                <propvalue name="SSCGen_EN" value="0" />
+                <propvalue name="DataWidth" value="1" />
+                <propvalue name="RateMode" value="0" />
+                <propvalue name="TXDRV_RESSEL" value="2" />
+                <propvalue name="RXTERM_RESSEL" value="1" />
+                <propvalue name="TXREGDRVLVL" value="3" />
+                <propvalue name="FIR_setting" value="DEFAULT_SETTING" />
+                <propvalue name="CTLE_setting" value="DEFAULT_SETTING" />
+                <propvalue name="Couple_Mode" value="0" />
+                <propvalue name="SSCDR_EN" value="0" />
+                <propvalue name="Protocol_Mode" value="PCIE" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_ALOS_TH_PCIE_5G_ABIST_VDDN" type="Test" timing="TIM_H16LR" level="HilinK_H30/H16" pattern="" power="H16LR_VDDN" comment="">
+        <testclass name="libHiLink16LRV100_tml.AnalogLos_Detection_PCIE_Gonogo_ABIST">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="0" />
+                <propvalue name="Loopback_Mode" value="External" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_DUT_Reset_Init_10" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDL" pattern="" power="H16LR_VDDL" comment="">
+        <testclass name="libHiLink16LRV100_tml.HILINK_RESET">
+            <propvalues>
+                <propvalue name="DISCONNECT" value="NO" />
+                <propvalue name="H16LR_MacroList" value="M10_M11" />
+                <propvalue name="MultiSS_EN" value="NO" />
+                <propvalue name="InitVectorName" value="HILINK_R01_SD8105V100_INIT_Case1" />
+                <propvalue name="LoadFW_EN" value="NO" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_VCOILOLockRange_Ka2_Kb1_Refclk0_CS0L_VDDH" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDH" pattern="" power="H16LR_VDDH" comment="">
+        <testclass name="libHiLink16LRV100_tml.VCOILOLockRange">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="0" />
+                <propvalue name="RefclkBus" value="0" />
+                <propvalue name="CS_Number" value="0" />
+                <propvalue name="Ka" value="2" />
+                <propvalue name="Kb" value="1" />
+                <propvalue name="N_Min" value="28" />
+                <propvalue name="N_Max" value="41" />
+                <propvalue name="W_Div" value="1" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_VCOILOLockRange_Ka3_Kb1_Refclk0_CS0L_VDDH" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDH" pattern="" power="H16LR_VDDH" comment="">
+        <testclass name="libHiLink16LRV100_tml.VCOILOLockRange">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="0" />
+                <propvalue name="RefclkBus" value="0" />
+                <propvalue name="CS_Number" value="0" />
+                <propvalue name="Ka" value="3" />
+                <propvalue name="Kb" value="1" />
+                <propvalue name="N_Min" value="19" />
+                <propvalue name="N_Max" value="28" />
+                <propvalue name="W_Div" value="1" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_VCOILOLockRange_Ka2_Kb2_Refclk0_CS0L_VDDH" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDH" pattern="" power="H16LR_VDDH" comment="">
+        <testclass name="libHiLink16LRV100_tml.VCOILOLockRange">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="0" />
+                <propvalue name="RefclkBus" value="0" />
+                <propvalue name="CS_Number" value="0" />
+                <propvalue name="Ka" value="2" />
+                <propvalue name="Kb" value="2" />
+                <propvalue name="N_Min" value="28" />
+                <propvalue name="N_Max" value="41" />
+                <propvalue name="W_Div" value="1" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_FWCAL_CS0L_Refclk1_100M_2G5_H_40_11_22_1615_201_Tx2Term_RxDC_VDDH" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDH" pattern="" power="H16LR_VDDH" comment="">
+        <testclass name="libHiLink16LRV100_tml.HILINK_FW_CAL">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="M10_M11" />
+                <propvalue name="Refclk_MHz" value="100" />
+                <propvalue name="RefclkBus" value="1" />
+                <propvalue name="CS_Number" value="0" />
+                <propvalue name="Ka" value="2" />
+                <propvalue name="Kb" value="2" />
+                <propvalue name="FBDIV_P" value="16" />
+                <propvalue name="FBDIV_S" value="15" />
+                <propvalue name="W_Div" value="1" />
+                <propvalue name="J_Div" value="20" />
+                <propvalue name="M_Div" value="1" />
+                <propvalue name="S_Div" value="1" />
+                <propvalue name="SSCGen_EN" value="0" />
+                <propvalue name="DataWidth" value="3" />
+                <propvalue name="RateMode" value="1" />
+                <propvalue name="TXDRV_RESSEL" value="2" />
+                <propvalue name="RXTERM_RESSEL" value="1" />
+                <propvalue name="TXREGDRVLVL" value="3" />
+                <propvalue name="FIR_setting" value="DEFAULT_SETTING" />
+                <propvalue name="CTLE_setting" value="DEFAULT_SETTING" />
+                <propvalue name="Couple_Mode" value="1" />
+                <propvalue name="SSCDR_EN" value="0" />
+                <propvalue name="Protocol_Mode" value="COMMON" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_TxRxBertPrbs15_CS0L_Refclk1_100M_2G5_H_40_11_22_1615_201" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDH" pattern="" power="H16LR_VDDH" comment="">
+        <testclass name="libHiLink16LRV100_tml.TxRxBertPrbs15_ABIST">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="M10_M11" />
+                <propvalue name="Loopback_Mode" value="Bump" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_FWCAL_CS0L_Refclk1_100M_5G_F_20_11_22_1615_201_Tx2Term_RxDC_VDDH" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDH" pattern="" power="H16LR_VDDH" comment="">
+        <testclass name="libHiLink16LRV100_tml.HILINK_FW_CAL">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="M10_M11" />
+                <propvalue name="Refclk_MHz" value="100" />
+                <propvalue name="RefclkBus" value="1" />
+                <propvalue name="CS_Number" value="0" />
+                <propvalue name="Ka" value="2" />
+                <propvalue name="Kb" value="2" />
+                <propvalue name="FBDIV_P" value="16" />
+                <propvalue name="FBDIV_S" value="15" />
+                <propvalue name="W_Div" value="1" />
+                <propvalue name="J_Div" value="20" />
+                <propvalue name="M_Div" value="1" />
+                <propvalue name="S_Div" value="1" />
+                <propvalue name="SSCGen_EN" value="0" />
+                <propvalue name="DataWidth" value="1" />
+                <propvalue name="RateMode" value="0" />
+                <propvalue name="TXDRV_RESSEL" value="2" />
+                <propvalue name="RXTERM_RESSEL" value="1" />
+                <propvalue name="TXREGDRVLVL" value="3" />
+                <propvalue name="FIR_setting" value="DEFAULT_SETTING" />
+                <propvalue name="CTLE_setting" value="DEFAULT_SETTING" />
+                <propvalue name="Couple_Mode" value="1" />
+                <propvalue name="SSCDR_EN" value="0" />
+                <propvalue name="Protocol_Mode" value="COMMON" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_TxRxBertPrbs15_CS0L_Refclk1_100M_5G_F_20_11_22_1615_201" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDH" pattern="" power="H16LR_VDDH" comment="">
+        <testclass name="libHiLink16LRV100_tml.TxRxBertPrbs15_ABIST">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="M10_M11" />
+                <propvalue name="Loopback_Mode" value="Bump" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_FWCAL_CS0L_Refclk1_156M25_1G25_Q_40_11_22_109_201_Tx2Term_RxDC_VDDH" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDH" pattern="" power="H16LR_VDDH" comment="">
+        <testclass name="libHiLink16LRV100_tml.HILINK_FW_CAL">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="M10_M11" />
+                <propvalue name="Refclk_MHz" value="156.25" />
+                <propvalue name="RefclkBus" value="1" />
+                <propvalue name="CS_Number" value="0" />
+                <propvalue name="Ka" value="2" />
+                <propvalue name="Kb" value="2" />
+                <propvalue name="FBDIV_P" value="10" />
+                <propvalue name="FBDIV_S" value="9" />
+                <propvalue name="W_Div" value="1" />
+                <propvalue name="J_Div" value="20" />
+                <propvalue name="M_Div" value="1" />
+                <propvalue name="S_Div" value="1" />
+                <propvalue name="SSCGen_EN" value="0" />
+                <propvalue name="DataWidth" value="3" />
+                <propvalue name="RateMode" value="2" />
+                <propvalue name="TXDRV_RESSEL" value="2" />
+                <propvalue name="RXTERM_RESSEL" value="1" />
+                <propvalue name="TXREGDRVLVL" value="3" />
+                <propvalue name="FIR_setting" value="DEFAULT_SETTING" />
+                <propvalue name="CTLE_setting" value="DEFAULT_SETTING" />
+                <propvalue name="Couple_Mode" value="1" />
+                <propvalue name="SSCDR_EN" value="0" />
+                <propvalue name="Protocol_Mode" value="COMMON" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_TxRxBertPrbs15_CS0L_Refclk1_156M25_1G25_Q_40_11_22_109_201" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDH" pattern="" power="H16LR_VDDH" comment="">
+        <testclass name="libHiLink16LRV100_tml.TxRxBertPrbs15_ABIST">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="M10_M11" />
+                <propvalue name="Loopback_Mode" value="Bump" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_FWCAL_CS0L_Refclk1_156M25_2G5_H_40_11_22_109_201_Tx2Term_RxDC_VDDH" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDH" pattern="" power="H16LR_VDDH" comment="">
+        <testclass name="libHiLink16LRV100_tml.HILINK_FW_CAL">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="M10_M11" />
+                <propvalue name="Refclk_MHz" value="156.25" />
+                <propvalue name="RefclkBus" value="1" />
+                <propvalue name="CS_Number" value="0" />
+                <propvalue name="Ka" value="2" />
+                <propvalue name="Kb" value="2" />
+                <propvalue name="FBDIV_P" value="10" />
+                <propvalue name="FBDIV_S" value="9" />
+                <propvalue name="W_Div" value="1" />
+                <propvalue name="J_Div" value="20" />
+                <propvalue name="M_Div" value="1" />
+                <propvalue name="S_Div" value="1" />
+                <propvalue name="SSCGen_EN" value="0" />
+                <propvalue name="DataWidth" value="3" />
+                <propvalue name="RateMode" value="1" />
+                <propvalue name="TXDRV_RESSEL" value="2" />
+                <propvalue name="RXTERM_RESSEL" value="1" />
+                <propvalue name="TXREGDRVLVL" value="3" />
+                <propvalue name="FIR_setting" value="DEFAULT_SETTING" />
+                <propvalue name="CTLE_setting" value="DEFAULT_SETTING" />
+                <propvalue name="Couple_Mode" value="1" />
+                <propvalue name="SSCDR_EN" value="0" />
+                <propvalue name="Protocol_Mode" value="COMMON" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_TxRxBertPrbs15_CS0L_Refclk1_156M25_2G5_H_40_11_22_109_201" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDH" pattern="" power="H16LR_VDDH" comment="">
+        <testclass name="libHiLink16LRV100_tml.TxRxBertPrbs15_ABIST">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="M10_M11" />
+                <propvalue name="Loopback_Mode" value="Bump" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_FWCAL_CS0L_Refclk1_156M25_3G125_Q_40_11_21_1311_101_Tx2Term_RxDC_VDDH" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDH" pattern="" power="H16LR_VDDH" comment="">
+        <testclass name="libHiLink16LRV100_tml.HILINK_FW_CAL">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="M10_M11" />
+                <propvalue name="Refclk_MHz" value="156.25" />
+                <propvalue name="RefclkBus" value="1" />
+                <propvalue name="CS_Number" value="0" />
+                <propvalue name="Ka" value="2" />
+                <propvalue name="Kb" value="1" />
+                <propvalue name="FBDIV_P" value="13" />
+                <propvalue name="FBDIV_S" value="11" />
+                <propvalue name="W_Div" value="1" />
+                <propvalue name="J_Div" value="10" />
+                <propvalue name="M_Div" value="1" />
+                <propvalue name="S_Div" value="1" />
+                <propvalue name="SSCGen_EN" value="0" />
+                <propvalue name="DataWidth" value="3" />
+                <propvalue name="RateMode" value="2" />
+                <propvalue name="TXDRV_RESSEL" value="2" />
+                <propvalue name="RXTERM_RESSEL" value="1" />
+                <propvalue name="TXREGDRVLVL" value="3" />
+                <propvalue name="FIR_setting" value="DEFAULT_SETTING" />
+                <propvalue name="CTLE_setting" value="DEFAULT_SETTING" />
+                <propvalue name="Couple_Mode" value="1" />
+                <propvalue name="SSCDR_EN" value="0" />
+                <propvalue name="Protocol_Mode" value="COMMON" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_TxRxBertPrbs15_CS0L_Refclk1_156M25_3G125_Q_40_11_21_1311_101" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDH" pattern="" power="H16LR_VDDH" comment="">
+        <testclass name="libHiLink16LRV100_tml.TxRxBertPrbs15_ABIST">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="M10_M11" />
+                <propvalue name="Loopback_Mode" value="Bump" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_FWCAL_CS0L_Refclk1_156M25_5G_F_20_11_22_109_201_Tx2Term_RxDC_VDDH" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDH" pattern="" power="H16LR_VDDH" comment="">
+        <testclass name="libHiLink16LRV100_tml.HILINK_FW_CAL">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="M10_M11" />
+                <propvalue name="Refclk_MHz" value="156.25" />
+                <propvalue name="RefclkBus" value="1" />
+                <propvalue name="CS_Number" value="0" />
+                <propvalue name="Ka" value="2" />
+                <propvalue name="Kb" value="2" />
+                <propvalue name="FBDIV_P" value="10" />
+                <propvalue name="FBDIV_S" value="9" />
+                <propvalue name="W_Div" value="1" />
+                <propvalue name="J_Div" value="20" />
+                <propvalue name="M_Div" value="1" />
+                <propvalue name="S_Div" value="1" />
+                <propvalue name="SSCGen_EN" value="0" />
+                <propvalue name="DataWidth" value="1" />
+                <propvalue name="RateMode" value="0" />
+                <propvalue name="TXDRV_RESSEL" value="2" />
+                <propvalue name="RXTERM_RESSEL" value="1" />
+                <propvalue name="TXREGDRVLVL" value="3" />
+                <propvalue name="FIR_setting" value="DEFAULT_SETTING" />
+                <propvalue name="CTLE_setting" value="DEFAULT_SETTING" />
+                <propvalue name="Couple_Mode" value="1" />
+                <propvalue name="SSCDR_EN" value="0" />
+                <propvalue name="Protocol_Mode" value="COMMON" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_TxRxBertPrbs15_CS0L_Refclk1_156M25_5G_F_20_11_22_109_201" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDH" pattern="" power="H16LR_VDDH" comment="">
+        <testclass name="libHiLink16LRV100_tml.TxRxBertPrbs15_ABIST">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="M10_M11" />
+                <propvalue name="Loopback_Mode" value="Bump" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_FWCAL_CS0L_Refclk1_156M25_10G3125_F_16_11_21_1010_81_Tx2Term_RxDC_VDDH" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDH" pattern="" power="H16LR_VDDH" comment="">
+        <testclass name="libHiLink16LRV100_tml.HILINK_FW_CAL">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="M10_M11" />
+                <propvalue name="Refclk_MHz" value="156.25" />
+                <propvalue name="RefclkBus" value="1" />
+                <propvalue name="CS_Number" value="0" />
+                <propvalue name="Ka" value="2" />
+                <propvalue name="Kb" value="1" />
+                <propvalue name="FBDIV_P" value="10" />
+                <propvalue name="FBDIV_S" value="10" />
+                <propvalue name="W_Div" value="1" />
+                <propvalue name="J_Div" value="8" />
+                <propvalue name="M_Div" value="1" />
+                <propvalue name="S_Div" value="1" />
+                <propvalue name="SSCGen_EN" value="0" />
+                <propvalue name="DataWidth" value="0" />
+                <propvalue name="RateMode" value="0" />
+                <propvalue name="TXDRV_RESSEL" value="2" />
+                <propvalue name="RXTERM_RESSEL" value="1" />
+                <propvalue name="TXREGDRVLVL" value="3" />
+                <propvalue name="FIR_setting" value="DEFAULT_SETTING" />
+                <propvalue name="CTLE_setting" value="DEFAULT_SETTING" />
+                <propvalue name="Couple_Mode" value="1" />
+                <propvalue name="SSCDR_EN" value="0" />
+                <propvalue name="Protocol_Mode" value="COMMON" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_TxRxBertPrbs15_CS0L_Refclk1_156M25_10G3125_F_16_11_21_1010_81" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDH" pattern="" power="H16LR_VDDH" comment="">
+        <testclass name="libHiLink16LRV100_tml.TxRxBertPrbs15_ABIST">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="M10_M11" />
+                <propvalue name="Loopback_Mode" value="Bump" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_FWCAL_CS0L_Refclk1_100M_2G5_H_40_11_22_1615_201_Tx2Term_RxDC_VDDL" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDL" pattern="" power="H16LR_VDDL" comment="">
+        <testclass name="libHiLink16LRV100_tml.HILINK_FW_CAL">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="M10_M11" />
+                <propvalue name="Refclk_MHz" value="100" />
+                <propvalue name="RefclkBus" value="0" />
+                <propvalue name="CS_Number" value="0" />
+                <propvalue name="Ka" value="2" />
+                <propvalue name="Kb" value="2" />
+                <propvalue name="FBDIV_P" value="16" />
+                <propvalue name="FBDIV_S" value="15" />
+                <propvalue name="W_Div" value="1" />
+                <propvalue name="J_Div" value="20" />
+                <propvalue name="M_Div" value="1" />
+                <propvalue name="S_Div" value="1" />
+                <propvalue name="SSCGen_EN" value="0" />
+                <propvalue name="DataWidth" value="3" />
+                <propvalue name="RateMode" value="1" />
+                <propvalue name="TXDRV_RESSEL" value="2" />
+                <propvalue name="RXTERM_RESSEL" value="1" />
+                <propvalue name="TXREGDRVLVL" value="3" />
+                <propvalue name="FIR_setting" value="DEFAULT_SETTING" />
+                <propvalue name="CTLE_setting" value="DEFAULT_SETTING" />
+                <propvalue name="Couple_Mode" value="1" />
+                <propvalue name="SSCDR_EN" value="0" />
+                <propvalue name="Protocol_Mode" value="COMMON" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_TxRxBertPrbs15_CS0L_Refclk1_100M_2G5_H_40_11_22_1615_201" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDL" pattern="" power="H16LR_VDDL" comment="">
+        <testclass name="libHiLink16LRV100_tml.TxRxBertPrbs15_ABIST">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="M10_M11" />
+                <propvalue name="Loopback_Mode" value="Bump" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_FWCAL_CS0L_Refclk1_100M_5G_F_20_11_22_1615_201_Tx2Term_RxDC_VDDL" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDL" pattern="" power="H16LR_VDDL" comment="">
+        <testclass name="libHiLink16LRV100_tml.HILINK_FW_CAL">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="M10_M11" />
+                <propvalue name="Refclk_MHz" value="100" />
+                <propvalue name="RefclkBus" value="0" />
+                <propvalue name="CS_Number" value="0" />
+                <propvalue name="Ka" value="2" />
+                <propvalue name="Kb" value="2" />
+                <propvalue name="FBDIV_P" value="16" />
+                <propvalue name="FBDIV_S" value="15" />
+                <propvalue name="W_Div" value="1" />
+                <propvalue name="J_Div" value="20" />
+                <propvalue name="M_Div" value="1" />
+                <propvalue name="S_Div" value="1" />
+                <propvalue name="SSCGen_EN" value="0" />
+                <propvalue name="DataWidth" value="1" />
+                <propvalue name="RateMode" value="0" />
+                <propvalue name="TXDRV_RESSEL" value="2" />
+                <propvalue name="RXTERM_RESSEL" value="1" />
+                <propvalue name="TXREGDRVLVL" value="3" />
+                <propvalue name="FIR_setting" value="DEFAULT_SETTING" />
+                <propvalue name="CTLE_setting" value="DEFAULT_SETTING" />
+                <propvalue name="Couple_Mode" value="1" />
+                <propvalue name="SSCDR_EN" value="0" />
+                <propvalue name="Protocol_Mode" value="COMMON" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_TxRxBertPrbs15_CS0L_Refclk1_100M_5G_F_20_11_22_1615_201" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDL" pattern="" power="H16LR_VDDL" comment="">
+        <testclass name="libHiLink16LRV100_tml.TxRxBertPrbs15_ABIST">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="M10_M11" />
+                <propvalue name="Loopback_Mode" value="Bump" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_FWCAL_CS0L_Refclk1_156M25_1G25_Q_40_11_22_109_201_Tx2Term_RxDC_VDDL" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDL" pattern="" power="H16LR_VDDL" comment="">
+        <testclass name="libHiLink16LRV100_tml.HILINK_FW_CAL">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="M10_M11" />
+                <propvalue name="Refclk_MHz" value="156.25" />
+                <propvalue name="RefclkBus" value="0" />
+                <propvalue name="CS_Number" value="0" />
+                <propvalue name="Ka" value="2" />
+                <propvalue name="Kb" value="2" />
+                <propvalue name="FBDIV_P" value="10" />
+                <propvalue name="FBDIV_S" value="9" />
+                <propvalue name="W_Div" value="1" />
+                <propvalue name="J_Div" value="20" />
+                <propvalue name="M_Div" value="1" />
+                <propvalue name="S_Div" value="1" />
+                <propvalue name="SSCGen_EN" value="0" />
+                <propvalue name="DataWidth" value="3" />
+                <propvalue name="RateMode" value="2" />
+                <propvalue name="TXDRV_RESSEL" value="2" />
+                <propvalue name="RXTERM_RESSEL" value="1" />
+                <propvalue name="TXREGDRVLVL" value="3" />
+                <propvalue name="FIR_setting" value="DEFAULT_SETTING" />
+                <propvalue name="CTLE_setting" value="DEFAULT_SETTING" />
+                <propvalue name="Couple_Mode" value="1" />
+                <propvalue name="SSCDR_EN" value="0" />
+                <propvalue name="Protocol_Mode" value="COMMON" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_TxRxBertPrbs15_CS0L_Refclk1_156M25_1G25_Q_40_11_22_109_201" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDL" pattern="" power="H16LR_VDDL" comment="">
+        <testclass name="libHiLink16LRV100_tml.TxRxBertPrbs15_ABIST">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="M10_M11" />
+                <propvalue name="Loopback_Mode" value="Bump" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_FWCAL_CS0L_Refclk1_156M25_2G5_H_40_11_22_109_201_Tx2Term_RxDC_VDDL" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDL" pattern="" power="H16LR_VDDL" comment="">
+        <testclass name="libHiLink16LRV100_tml.HILINK_FW_CAL">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="M10_M11" />
+                <propvalue name="Refclk_MHz" value="156.25" />
+                <propvalue name="RefclkBus" value="0" />
+                <propvalue name="CS_Number" value="0" />
+                <propvalue name="Ka" value="2" />
+                <propvalue name="Kb" value="2" />
+                <propvalue name="FBDIV_P" value="10" />
+                <propvalue name="FBDIV_S" value="9" />
+                <propvalue name="W_Div" value="1" />
+                <propvalue name="J_Div" value="20" />
+                <propvalue name="M_Div" value="1" />
+                <propvalue name="S_Div" value="1" />
+                <propvalue name="SSCGen_EN" value="0" />
+                <propvalue name="DataWidth" value="3" />
+                <propvalue name="RateMode" value="1" />
+                <propvalue name="TXDRV_RESSEL" value="2" />
+                <propvalue name="RXTERM_RESSEL" value="1" />
+                <propvalue name="TXREGDRVLVL" value="3" />
+                <propvalue name="FIR_setting" value="DEFAULT_SETTING" />
+                <propvalue name="CTLE_setting" value="DEFAULT_SETTING" />
+                <propvalue name="Couple_Mode" value="1" />
+                <propvalue name="SSCDR_EN" value="0" />
+                <propvalue name="Protocol_Mode" value="COMMON" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_TxRxBertPrbs15_CS0L_Refclk1_156M25_2G5_H_40_11_22_109_201" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDL" pattern="" power="H16LR_VDDL" comment="">
+        <testclass name="libHiLink16LRV100_tml.TxRxBertPrbs15_ABIST">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="M10_M11" />
+                <propvalue name="Loopback_Mode" value="Bump" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_FWCAL_CS0L_Refclk1_156M25_3G125_Q_40_11_21_1311_101_Tx2Term_RxDC_VDDL" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDL" pattern="" power="H16LR_VDDL" comment="">
+        <testclass name="libHiLink16LRV100_tml.HILINK_FW_CAL">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="M10_M11" />
+                <propvalue name="Refclk_MHz" value="156.25" />
+                <propvalue name="RefclkBus" value="0" />
+                <propvalue name="CS_Number" value="0" />
+                <propvalue name="Ka" value="2" />
+                <propvalue name="Kb" value="1" />
+                <propvalue name="FBDIV_P" value="13" />
+                <propvalue name="FBDIV_S" value="11" />
+                <propvalue name="W_Div" value="1" />
+                <propvalue name="J_Div" value="10" />
+                <propvalue name="M_Div" value="1" />
+                <propvalue name="S_Div" value="1" />
+                <propvalue name="SSCGen_EN" value="0" />
+                <propvalue name="DataWidth" value="3" />
+                <propvalue name="RateMode" value="2" />
+                <propvalue name="TXDRV_RESSEL" value="2" />
+                <propvalue name="RXTERM_RESSEL" value="1" />
+                <propvalue name="TXREGDRVLVL" value="3" />
+                <propvalue name="FIR_setting" value="DEFAULT_SETTING" />
+                <propvalue name="CTLE_setting" value="DEFAULT_SETTING" />
+                <propvalue name="Couple_Mode" value="1" />
+                <propvalue name="SSCDR_EN" value="0" />
+                <propvalue name="Protocol_Mode" value="COMMON" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_TxRxBertPrbs15_CS0L_Refclk1_156M25_3G125_Q_40_11_21_1311_101" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDL" pattern="" power="H16LR_VDDL" comment="">
+        <testclass name="libHiLink16LRV100_tml.TxRxBertPrbs15_ABIST">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="M10_M11" />
+                <propvalue name="Loopback_Mode" value="Bump" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_FWCAL_CS0L_Refclk1_156M25_5G_F_20_11_22_109_201_Tx2Term_RxDC_VDDL" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDL" pattern="" power="H16LR_VDDL" comment="">
+        <testclass name="libHiLink16LRV100_tml.HILINK_FW_CAL">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="M10_M11" />
+                <propvalue name="Refclk_MHz" value="156.25" />
+                <propvalue name="RefclkBus" value="0" />
+                <propvalue name="CS_Number" value="0" />
+                <propvalue name="Ka" value="2" />
+                <propvalue name="Kb" value="2" />
+                <propvalue name="FBDIV_P" value="10" />
+                <propvalue name="FBDIV_S" value="9" />
+                <propvalue name="W_Div" value="1" />
+                <propvalue name="J_Div" value="20" />
+                <propvalue name="M_Div" value="1" />
+                <propvalue name="S_Div" value="1" />
+                <propvalue name="SSCGen_EN" value="0" />
+                <propvalue name="DataWidth" value="1" />
+                <propvalue name="RateMode" value="0" />
+                <propvalue name="TXDRV_RESSEL" value="2" />
+                <propvalue name="RXTERM_RESSEL" value="1" />
+                <propvalue name="TXREGDRVLVL" value="3" />
+                <propvalue name="FIR_setting" value="DEFAULT_SETTING" />
+                <propvalue name="CTLE_setting" value="DEFAULT_SETTING" />
+                <propvalue name="Couple_Mode" value="1" />
+                <propvalue name="SSCDR_EN" value="0" />
+                <propvalue name="Protocol_Mode" value="COMMON" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_TxRxBertPrbs15_CS0L_Refclk1_156M25_5G_F_20_11_22_109_201" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDL" pattern="" power="H16LR_VDDL" comment="">
+        <testclass name="libHiLink16LRV100_tml.TxRxBertPrbs15_ABIST">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="M10_M11" />
+                <propvalue name="Loopback_Mode" value="Bump" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_FWCAL_CS0L_Refclk1_156M25_10G3125_F_16_11_21_1010_81_Tx2Term_RxDC_VDDL" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDL" pattern="" power="H16LR_VDDL" comment="">
+        <testclass name="libHiLink16LRV100_tml.HILINK_FW_CAL">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="M10_M11" />
+                <propvalue name="Refclk_MHz" value="156.25" />
+                <propvalue name="RefclkBus" value="0" />
+                <propvalue name="CS_Number" value="0" />
+                <propvalue name="Ka" value="2" />
+                <propvalue name="Kb" value="1" />
+                <propvalue name="FBDIV_P" value="10" />
+                <propvalue name="FBDIV_S" value="10" />
+                <propvalue name="W_Div" value="1" />
+                <propvalue name="J_Div" value="8" />
+                <propvalue name="M_Div" value="1" />
+                <propvalue name="S_Div" value="1" />
+                <propvalue name="SSCGen_EN" value="0" />
+                <propvalue name="DataWidth" value="0" />
+                <propvalue name="RateMode" value="0" />
+                <propvalue name="TXDRV_RESSEL" value="2" />
+                <propvalue name="RXTERM_RESSEL" value="1" />
+                <propvalue name="TXREGDRVLVL" value="3" />
+                <propvalue name="FIR_setting" value="DEFAULT_SETTING" />
+                <propvalue name="CTLE_setting" value="DEFAULT_SETTING" />
+                <propvalue name="Couple_Mode" value="1" />
+                <propvalue name="SSCDR_EN" value="0" />
+                <propvalue name="Protocol_Mode" value="COMMON" />
+                <propvalue name="PrintLvl[0~15]" value="3" />
+            </propvalues>
+        </testclass>
+    </test>
+    <test name="H16LRV100_TxRxBertPrbs15_CS0L_Refclk1_156M25_10G3125_F_16_11_21_1010_81" type="Test" timing="TIM_H16LR" level="Lev_HiLink_STD_VDDL" pattern="" power="H16LR_VDDL" comment="">
+        <testclass name="libHiLink16LRV100_tml.TxRxBertPrbs15_ABIST">
+            <propvalues>
+                <propvalue name="H16LR_MacroList" value="M10_M11" />
+                <propvalue name="Loopback_Mode" value="Bump" />
                 <propvalue name="PrintLvl[0~15]" value="3" />
             </propvalues>
         </testclass>

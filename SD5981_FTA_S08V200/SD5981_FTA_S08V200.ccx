@@ -15,15 +15,15 @@
         <patternburst>5981.bst</patternburst>
         <tests>
             <test>SD5981_Testflow_H30_Hilink.tst</test>
-            <test>SD5981_Testflow_H16_Hilink.tst</test>
             <test>SD5981_DFT.tst</test>
+            <test>SD5981_Testflow_H16_Hilink.tst</test>
         </tests>
         <flows>
-            <flow>Hi598_H16_flw_V200.fl</flow>
             <flow>Hi5981_H30_flwV200.fl</flow>
             <flow>SubFlow_OS.fl</flow>
             <flow>POWER_OFF.fl</flow>
             <flow>dubug.fl</flow>
+            <flow>Hi598_H16_flw_V200.fl</flow>
         </flows>
         <proberhandler />
     </items>
